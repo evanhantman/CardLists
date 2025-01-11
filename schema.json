@@ -36,6 +36,30 @@
           "required": ["variation", "note"]
         },
         "optional": true
+      },
+      "parallels": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "of": {
+              "type": "integer",
+              "minimum": 1,
+              "optional": true
+            },
+            "notes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": ["name"]
+        },
+        "default": []
       }
     },
     "required": ["number", "name", "attributes"]
