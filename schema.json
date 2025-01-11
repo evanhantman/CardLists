@@ -1,67 +1,91 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "number": {
-        "type": "string",
-        "pattern": "^[0-9]+$"
-      },
-      "name": {
-        "type": "string"
-      },
-      "attributes": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "note": {
-        "type": "string",
-        "optional": true
-      },
-      "variations": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "variation": {
-              "type": "string"
-            },
-            "note": {
+  "type": "object",
+  "properties": {
+    "sets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
               "type": "string"
             }
           },
-          "required": ["variation", "note"]
-        },
-        "optional": true
-      },
-      "parallels": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "name": {
-              "type": "string"
-            },
-            "of": {
-              "type": "integer",
-              "minimum": 1,
-              "optional": true
-            },
-            "notes": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
+          "cards": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "number": {
+                  "type": "string",
+                  "pattern": "^[0-9]+$"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "note": {
+                  "type": "string",
+                  "optional": true
+                },
+                "variations": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "variation": {
+                        "type": "string"
+                      },
+                      "note": {
+                        "type": "string"
+                      }
+                    },
+                    "required": ["variation", "note"]
+                  },
+                  "optional": true
+                },
+                "parallels": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "of": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "optional": true
+                      },
+                      "notes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": ["name"]
+                  },
+                  "default": []
+                }
+              },
+              "required": ["number", "name", "attributes"]
             }
-          },
-          "required": ["name"]
+          }
         },
-        "default": []
+        "required": ["name", "cards"]
       }
-    },
-    "required": ["number", "name", "attributes"]
-  }
+    }
+  },
+  "required": ["sets"]
 }
