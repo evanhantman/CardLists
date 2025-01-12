@@ -89,10 +89,11 @@
                         "type": "string"
                       },
                       "note": {
-                        "type": "string"
+                        "type": "string",
+                        "optional": true
                       }
                     },
-                    "required": ["variation", "note"]
+                    "required": ["variation"]
                   },
                   "optional": true
                 },
