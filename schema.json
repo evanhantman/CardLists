@@ -2,6 +2,22 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "attribute": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": ["attribute", "note"]
+      },
+      "optional": true
+    },
     "sets": {
       "type": "array",
       "items": {
@@ -47,7 +63,7 @@
               "properties": {
                 "number": {
                   "type": "string",
-                  "pattern": "^[0-9]+$"
+                  "pattern": "^[a-zA-Z0-9]+$"
                 },
                 "name": {
                   "type": "string"
