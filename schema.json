@@ -32,6 +32,23 @@
               "type": "string"
             }
           },
+          "variations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "variation": {
+                  "type": "string"
+                },
+                "note": {
+                  "type": "string",
+                  "optional": true
+                }
+              },
+              "required": ["variation"]
+            },
+            "optional": true
+          },
           "parallels": {
             "type": "array",
             "items": {
