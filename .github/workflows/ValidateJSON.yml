@@ -1,0 +1,29 @@
+name: Validate JSON
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli
+
+      - name: Validate JSON files
+        # For each .json file in any subdirectory, run validation.
+        # If you have node_modules or other directories to exclude, adjust the glob or use the --ignore flag in Ajv.
+        run: |
+          # Validate all JSON files in the repo against the root schema.json
+          # Ajv will fail (exit code != 0) if any file does not match the schema
+          ajv validate \
+            -s ./schema.json \
+            -d "**/*.json" \
+            --all-errors \
+            --verbose
