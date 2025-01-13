@@ -25,6 +25,5 @@ jobs:
           ajv validate \
             -s ./schema.json \
             -d "baseball/**/*.json" \
-            --ignore "schema.json" \   # <--- ignore "schema.json" itself
             --all-errors \
             --verbose
