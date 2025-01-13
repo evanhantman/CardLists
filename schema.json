@@ -80,7 +80,7 @@
               "properties": {
                 "number": {
                   "type": "string",
-                  "pattern": "^[a-zA-Z0-9]+$",
+                  "pattern": "^[a-zA-Z0-9-]+$",
                   "optional": true
                 },
                 "name": {
