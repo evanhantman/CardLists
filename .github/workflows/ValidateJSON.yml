@@ -24,7 +24,6 @@ jobs:
           # Ajv will fail (exit code != 0) if any file does not match the schema
           ajv validate \
             -s ./schema.json \
-            -d "**/*.json" \
-            --ignore "schema.json" \   # <--- ignore "schema.json" itself
+            -d "baseball/**/*.json" \
             --all-errors \
             --verbose
