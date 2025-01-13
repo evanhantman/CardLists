@@ -1,6 +1,31 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
-    "attributes": [],
+    "attributes": [
+        {
+            "attribute": "RC",
+            "note": "Rookie Card"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "POD",
+            "note": "Player of the Decade"
+        },
+        {
+            "attributes": "CL",
+            "note": "Checklist"
+        },
+        {
+            "attribute": "SSS",
+            "note": "Super Star Specials"
+        },
+        {
+            "attribute": "MLP",
+            "note": "Major League Prospects"
+        }
+    ],
     "sets": [
         {
             "name": "1990 Fleer",
@@ -2908,74 +2933,65 @@
                 },
                 {
                     "number": "631",
-                    "name": "Game Savers",
+                    "name": "Game Savers (Mark Davis / Mitch Williams)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
                     "number": "632",
-                    "name": "Boston Igniters",
+                    "name": "Boston Igniters (Wade Boggs / Mike Greenwell)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
                     "number": "633",
-                    "name": "Starters & Stoppers",
+                    "name": "Starters & Stoppers (Mark Gubicza / Jeff Russell)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
                     "number": "634",
-                    "name": "Leagues Best",
+                    "name": "Leagues Best (Tony Fernandez / Cal Ripken, Jr.)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
                     "number": "635",
-                    "name": "Human Dynamos",
+                    "name": "Human Dynamos (Kirby Puckett / Bo Jackson)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
                     "number": "636",
-                    "name": "300 Strikeout Club",
+                    "name": "300 Strikeout Club (Nolan Ryan / Mike Scott)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
                     "number": "637",
-                    "name": "The Dynamic Duo",
+                    "name": "The Dynamic Duo (Will Clark / Kevin Mitchell)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
                     "number": "638",
-                    "name": "A.L. All-Stars",
+                    "name": "A.L. All-Stars (Don Mattingly / Mark McGwire)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
                     "number": "639",
-                    "name": "N.L. East Rivals",
+                    "name": "N.L. East Rivals (Howard Johnson / Ryne Sandberg)",
                     "attributes": [
-                        "SSS",
-                        "CPC"
+                        "SSS"
                     ]
                 },
                 {
