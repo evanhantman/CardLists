@@ -1,5 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
+    "name": "1987 Topps Baseball",
     "attributes": [
         {
             "attribute": "RB",
@@ -36,6 +37,7 @@
     ],
     "sets": [
         {
+            "name": "Base Set",
             "parallels": [
                 {
                     "name": "Collectors Edition (Tiffany)",
@@ -44,7 +46,6 @@
                     ]
                 }
             ],
-            "name": "1989 Topps",
             "cards": [
                 {
                     "number": "1",
