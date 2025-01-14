@@ -3,7 +3,8 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^\\S(.*\\S)?$"
     },
     "attributes": {
       "type": "array",
@@ -11,10 +12,12 @@
         "type": "object",
         "properties": {
           "attribute": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^\\S(.*\\S)?$"
           },
           "note": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^\\S(.*\\S)?$"
           }
         },
         "required": ["attribute", "note"]
@@ -26,12 +29,14 @@
         "type": "object",
         "properties": {
           "name": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^\\S(.*\\S)?$"
           },
           "notes": {
             "type": "array",
             "items": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^\\S(.*\\S)?$"
             }
           },
           "variations": {
@@ -40,10 +45,12 @@
               "type": "object",
               "properties": {
                 "variation": {
-                  "type": "string"
+                  "type": "string",
+                  "pattern": "^\\S(.*\\S)?$"
                 },
                 "note": {
-                  "type": "string"
+                  "type": "string",
+                  "pattern": "^\\S(.*\\S)?$"
                 }
               },
               "required": ["variation"]
@@ -55,7 +62,8 @@
               "type": "object",
               "properties": {
                 "name": {
-                  "type": "string"
+                  "type": "string",
+                  "pattern": "^\\S(.*\\S)?$"
                 },
                 "of": {
                   "type": "integer",
@@ -64,7 +72,8 @@
                 "notes": {
                   "type": "array",
                   "items": {
-                    "type": "string"
+                    "type": "string",
+                    "pattern": "^\\S(.*\\S)?$"
                   }
                 }
               },
@@ -81,16 +90,19 @@
                   "pattern": "^[a-zA-Z0-9-]*$"
                 },
                 "name": {
-                  "type": "string"
+                  "type": "string",
+                  "pattern": "^\\S(.*\\S)?$"
                 },
                 "attributes": {
                   "type": "array",
                   "items": {
-                    "type": "string"
+                    "type": "string",
+                    "pattern": "^\\S(.*\\S)?$"
                   }
                 },
                 "note": {
-                  "type": "string"
+                  "type": "string",
+                  "pattern": "^\\S(.*\\S)?$"
                 },
                 "variations": {
                   "type": "array",
@@ -98,10 +110,12 @@
                     "type": "object",
                     "properties": {
                       "variation": {
-                        "type": "string"
+                        "type": "string",
+                        "pattern": "^\\S(.*\\S)?$"
                       },
                       "note": {
-                        "type": "string"
+                        "type": "string",
+                        "pattern": "^\\S(.*\\S)?$"
                       }
                     },
                     "required": ["variation"]
@@ -113,7 +127,8 @@
                     "type": "object",
                     "properties": {
                       "name": {
-                        "type": "string"
+                        "type": "string",
+                        "pattern": "^\\S(.*\\S)?$"
                       },
                       "of": {
                         "type": "integer",
@@ -122,7 +137,8 @@
                       "notes": {
                         "type": "array",
                         "items": {
-                          "type": "string"
+                          "type": "string",
+                          "pattern": "^\\S(.*\\S)?$"
                         }
                       }
                     },
