@@ -34,6 +34,7 @@ class Set(BaseModel):
     cards: List[Card]
 
 class CardList(BaseModel):
+    name: str
     attributes: Optional[List[AttributeItem]]
     sets: List[Set]
 

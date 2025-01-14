@@ -52,6 +52,12 @@ namespace Loader
         public List<AttributeItem> Attributes { get; set; }
 
         /// <summary>
+        ///     Name of the Card List
+        /// </summary>
+        [JsonPropertyName("name")]
+        public string Name { get; set; }
+
+        /// <summary>
         ///     Sets of Baseball Cards that are part of this JSON File
         /// </summary>
         [JsonPropertyName("sets")]

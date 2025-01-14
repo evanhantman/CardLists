@@ -37,6 +37,7 @@ interface Set {
 }
 
 interface CardList {
+    name: string;
     attributes?: AttributeItem[];
     sets: Set[];
 }

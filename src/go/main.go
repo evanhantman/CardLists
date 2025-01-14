@@ -43,6 +43,7 @@ type Set struct {
 }
 
 type CardList struct {
+	Name       string      `json:"name"`
 	Attributes []AttributeItem `json:"attributes,omitempty"`
 	Sets       []Set           `json:"sets"`
 }
