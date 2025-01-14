@@ -2,6 +2,9 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
+    "name": {
+      "type": "string"
+    },
     "attributes": {
       "type": "array",
       "items": {
@@ -135,5 +138,5 @@
       }
     }
   },
-  "required": ["sets"]
+  "required": ["name", "sets"]
 }
