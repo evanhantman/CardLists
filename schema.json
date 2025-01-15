@@ -20,10 +20,7 @@
             "pattern": "^\\S(.*\\S)?$"
           }
         },
-        "required": [
-          "attribute",
-          "note"
-        ]
+        "required": ["attribute", "note"]
       }
     },
     "sets": {
@@ -56,13 +53,10 @@
                 },
                 "odds": {
                   "type": "string",
-                  "pattern": "^[0-9]+:[0-9]+$"
+                  "pattern": "^[0-9]+:[0-9,]+$"
                 }
               },
-              "required": [
-                "product",
-                "odds"
-              ]
+              "required": ["product", "odds"]
             }
           },
           "variations": {
@@ -79,9 +73,7 @@
                   "pattern": "^\\S(.*\\S)?$"
                 }
               },
-              "required": [
-                "variation"
-              ]
+              "required": ["variation"]
             }
           },
           "parallels": {
@@ -114,19 +106,14 @@
                       },
                       "odds": {
                         "type": "string",
-                        "pattern": "^[0-9]+:[0-9]+$"
+                        "pattern": "^[0-9]+:[0-9,]+$"
                       }
                     },
-                    "required": [
-                      "product",
-                      "odds"
-                    ]
+                    "required": ["product", "odds"]
                   }
                 }
               },
-              "required": [
-                "name"
-              ]
+              "required": ["name"]
             }
           },
           "cards": {
@@ -167,9 +154,7 @@
                         "pattern": "^\\S(.*\\S)?$"
                       }
                     },
-                    "required": [
-                      "variation"
-                    ]
+                    "required": ["variation"]
                   }
                 },
                 "parallels": {
@@ -202,37 +187,24 @@
                             },
                             "odds": {
                               "type": "string",
-                              "pattern": "^[0-9]+:[0-9]+$"
+                              "pattern": "^[0-9]+:[0-9,]+$"
                             }
                           },
-                          "required": [
-                            "product",
-                            "odds"
-                          ]
+                          "required": ["product", "odds"]
                         }
                       }
                     },
-                    "required": [
-                      "name"
-                    ]
+                    "required": ["name"]
                   }
                 }
               },
-              "required": [
-                "name"
-              ]
+              "required": ["name"]
             }
           }
         },
-        "required": [
-          "name",
-          "cards"
-        ]
+        "required": ["name", "cards"]
       }
     }
   },
-  "required": [
-    "name",
-    "sets"
-  ]
+  "required": ["name", "sets"]
 }
