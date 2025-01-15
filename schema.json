@@ -39,6 +39,22 @@
               "pattern": "^\\S(.*\\S)?$"
             }
           },
+          "insertOdds": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "product": {
+                  "type": "string"
+                },
+                "odds": {
+                  "type": "string",
+                  "pattern": "^[0-9]+:[0-9]+$"
+                }
+              },
+              "required": ["product", "odds"]
+            }
+          },
           "variations": {
             "type": "array",
             "items": {
@@ -74,6 +90,22 @@
                   "items": {
                     "type": "string",
                     "pattern": "^\\S(.*\\S)?$"
+                  }
+                },
+                "insertOdds": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "product": {
+                        "type": "string"
+                      },
+                      "odds": {
+                        "type": "string",
+                        "pattern": "^[0-9]+:[0-9]+$"
+                      }
+                    },
+                    "required": ["product", "odds"]
                   }
                 }
               },
@@ -139,6 +171,22 @@
                         "items": {
                           "type": "string",
                           "pattern": "^\\S(.*\\S)?$"
+                        }
+                      },
+                      "insertOdds": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "product": {
+                              "type": "string"
+                            },
+                            "odds": {
+                              "type": "string",
+                              "pattern": "^[0-9]+:[0-9]+$"
+                            }
+                          },
+                          "required": ["product", "odds"]
                         }
                       }
                     },
