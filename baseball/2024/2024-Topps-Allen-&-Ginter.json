@@ -14,9 +14,6 @@
     "sets": [
         {
             "name": "Base Set",
-            "notes": [
-                "Base Set includes 350 cards with SP variations (#301-350)"
-            ],
             "parallels": [
                 {
                     "name": "Mini",
@@ -3087,6 +3084,7 @@
         },
         {
             "name": "Dual Autographed Relic Books",
+            "numberedTo": 10,
             "insertOdds": [
                 {
                     "product": "Hobby Packs",
@@ -3289,6 +3287,7 @@
             "parallels": [
                 {
                     "name": "Red",
+                    "numberedTo": 10,
                     "insertOdds": [
                         {
                             "product": "Hobby Packs",
@@ -3362,25 +3361,21 @@
         },
         {
             "name": "Mini Baseball Autographs",
-            "notes": [
-                "160 cards in this set.",
-                "Insert odds: 1:99 hobby, 1:445 value, 1:373 fat packs."
-            ],
             "parallels": [
                 {
                     "name": "Blue Frame",
                     "numberedTo": 50,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:441"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:4,334"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:1,853"
                         }
                     ]
@@ -3390,15 +3385,15 @@
                     "numberedTo": 25,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:860"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:8,412"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:3,586"
                         }
                     ]
@@ -3408,7 +3403,7 @@
                     "numberedTo": 10,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:1,858"
                         }
                     ]
@@ -3416,15 +3411,15 @@
             ],
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:99"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:445"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:373"
                 }
             ],
@@ -4076,11 +4071,11 @@
             "numberedTo": 10,
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:34,219"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:156,816"
                 }
             ],
@@ -4135,15 +4130,15 @@
                     "numberedTo": 50,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:1,089"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:11,122"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:4,629"
                         }
                     ]
@@ -4153,15 +4148,15 @@
                     "numberedTo": 25,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:2,176"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:22,243"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:9,064"
                         }
                     ]
@@ -4171,7 +4166,7 @@
                     "numberedTo": 10,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:4,709"
                         }
                     ]
@@ -4179,15 +4174,15 @@
             ],
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:226"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:1,464"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:911"
                 }
             ],
@@ -4519,11 +4514,11 @@
                     "numberedTo": 10,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:171,093"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:313,632"
                         }
                     ]
@@ -4531,11 +4526,11 @@
             ],
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:67,537"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:313,632"
                 }
             ],
@@ -4671,15 +4666,15 @@
             "name": "Allen & Ginter Relics A",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:28"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:93"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:99"
                 }
             ],
@@ -4990,15 +4985,15 @@
             "name": "Allen & Ginter Relics B",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:23"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:89"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:83"
                 }
             ],
@@ -5383,18 +5378,13 @@
         },
         {
             "name": "Lineup Card Relics",
-            "notes": [
-                "80 cards in this set.",
-                "Insert odds: 1:37,741 hobby, 1:156,816 fat packs."
-            ],
-            "parallels": [],
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:37,741"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:156,816"
                 }
             ],
@@ -5725,11 +5715,11 @@
             "name": "Mini DNA Relics",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:58,327"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:313,632"
                 }
             ],
@@ -5780,15 +5770,15 @@
             "name": "Mini Framed Relics",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:134"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:1,315"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:561"
                 }
             ],
@@ -6323,15 +6313,15 @@
             "name": "50 States Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:21"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:21"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:21"
                 }
             ],
@@ -6542,15 +6532,15 @@
             "name": "2023 World Series Champion Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:7,897"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:53,451"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:22,403"
                 }
             ],
@@ -6831,15 +6821,15 @@
             "name": "Ballpark Bites Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:35"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:35"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:35"
                 }
             ],
@@ -6970,15 +6960,15 @@
             "name": "Buzzin’",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:7"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:7"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:3"
                 }
             ],
@@ -7052,15 +7042,15 @@
                     "name": "Refractors",
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:24"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:25"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:12"
                         }
                     ]
@@ -7069,83 +7059,87 @@
                     "name": "X-Fractors",
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:289"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:288"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:144"
                         }
                     ]
                 },
                 {
                     "name": "Gold Refractors",
+                    "numberedTo": 50,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:726"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:4,717"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:2,024"
                         }
                     ]
                 },
                 {
                     "name": "Orange Refractors",
+                    "numberedTo": 25,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:1,451"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:9,433"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:4,074"
                         }
                     ]
                 },
                 {
                     "name": "Red Refractors",
+                    "numberedTo": 5,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:7,271"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:53,451"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:20,909"
                         }
                     ]
                 },
                 {
                     "name": "Superfractors",
+                    "numberedTo": 5,
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:36,147"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:160,352"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:104,544"
                         }
                     ]
@@ -7153,15 +7147,15 @@
             ],
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:8"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:8"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:4"
                 }
             ],
@@ -7570,21 +7564,20 @@
         },
         {
             "name": "Chrome Mini",
-            "notes": [],
             "parallels": [
                 {
                     "name": "Orange Refractors",
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:1,451"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:9,433"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:4,074"
                         }
                     ]
@@ -7593,15 +7586,15 @@
                     "name": "Red Refractors",
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:7,271"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:53,451"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:20,909"
                         }
                     ]
@@ -7610,15 +7603,15 @@
                     "name": "Superfractors",
                     "insertOdds": [
                         {
-                            "product": "hobby",
+                            "product": "Hobby Packs",
                             "odds": "1:36,147"
                         },
                         {
-                            "product": "value",
+                            "product": "Value Packs",
                             "odds": "1:160,352"
                         },
                         {
-                            "product": "fat packs",
+                            "product": "Fat Packs",
                             "odds": "1:104,544"
                         }
                     ]
@@ -8028,10 +8021,11 @@
             ]
         },
         {
-            "name": "Cloth Mini",
+            "name": "Framed Cloth Mini",
+            "numberedTo": 10,
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:1,952"
                 }
             ],
@@ -8642,15 +8636,15 @@
             "name": "Cycle Succession",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:145"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:144"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:72"
                 }
             ],
@@ -8861,15 +8855,15 @@
             "name": "Flags of the World Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:21"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:21"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:21"
                 }
             ],
@@ -9080,15 +9074,15 @@
             "name": "Got the Itch Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:124"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:52"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:52"
                 }
             ],
@@ -9179,15 +9173,15 @@
             "name": "In Action Variations",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:145"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:144"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:72"
                 }
             ],
@@ -9398,7 +9392,7 @@
             "name": "Metal Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:6,498"
                 }
             ],
@@ -10009,15 +10003,15 @@
             "name": "N43 Boxloaders",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:20"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:20"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:20"
                 }
             ],
@@ -10108,11 +10102,11 @@
             "name": "Rookie Design Variations Mini",
             "insertOdds": [
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:8"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:4"
                 }
             ],
@@ -10203,15 +10197,15 @@
             "name": "Sister, Sister",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:5"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:5"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:3"
                 }
             ],
@@ -10302,15 +10296,15 @@
             "name": "Stained Glass Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:967"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:6,415"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:2,681"
                 }
             ],
@@ -11153,15 +11147,15 @@
             "name": "Swamp Creatures Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:35"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:35"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:35"
                 }
             ],
@@ -11292,15 +11286,15 @@
             "name": "Uniform Countdown Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:23,545"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:160,352"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:62,727"
                 }
             ],
@@ -11351,15 +11345,15 @@
             "name": "Uniform Countdown Mini",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:23,545"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:160,352"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:62,727"
                 }
             ],
@@ -11410,15 +11404,15 @@
             "name": "World’s Tallest Mountains",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:69"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:69"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:69"
                 }
             ],
@@ -11489,15 +11483,15 @@
             "name": "X-Ray’d",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:7"
                 },
                 {
-                    "product": "value",
+                    "product": "Value Packs",
                     "odds": "1:7"
                 },
                 {
-                    "product": "fat packs",
+                    "product": "Fat Packs",
                     "odds": "1:6"
                 }
             ],
@@ -11588,7 +11582,7 @@
             "name": "Rip Cards",
             "insertOdds": [
                 {
-                    "product": "hobby",
+                    "product": "Hobby Packs",
                     "odds": "1:136"
                 }
             ],
