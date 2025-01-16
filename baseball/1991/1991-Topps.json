@@ -1,0 +1,5643 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
+    "name": "1991 Topps Baseball",
+    "attributes": [
+        {
+            "attribute": "RB",
+            "note": "Record Breaker"
+        },
+        {
+            "attribute": "RC",
+            "note": "Rookie Card"
+        },
+        {
+            "attribute": "ASR",
+            "note": "All-Star Rookie"
+        },
+        {
+            "attribute": "FS",
+            "note": "Future Star"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "MGR",
+            "note": "Manager"
+        },
+        {
+            "attribute": "TL",
+            "note": "Team Leaders"
+        },
+        {
+            "attribute": "CL",
+            "note": "Checklist"
+        },
+        {
+            "attribute": "FRDP",
+            "note": "First Round Draft Pick"
+        },
+        {
+            "attribute": "AS",
+            "note": "All-Star"
+        },
+        {
+            "attribute": "LL",
+            "note": "League Leaders"
+        }
+    ],
+    "sets": [
+        {
+            "name": "Base Set",
+            "parallels": [
+                {
+                    "name": "Collector's Edition (Tiffany)",
+                    "note": "Distributed as a factory set, cards have a glossy finish and were printed on white card stock"
+                },
+                {
+                    "name": "Desert Shield",
+                    "note": "Distributed to troops during the Gulf War, cards have a gold foil stamp on the front"
+                }
+            ],
+            "cards": [
+                {
+                    "number": "1",
+                    "name": "Nolan Ryan"
+                },
+                {
+                    "number": "2",
+                    "name": "George Brett",
+                    "attributes": [
+                        "RB"
+                    ]
+                },
+                {
+                    "number": "3",
+                    "name": "Carlton Fisk",
+                    "attributes": [
+                        "RB"
+                    ]
+                },
+                {
+                    "number": "4",
+                    "name": "Kevin Maas",
+                    "attributes": [
+                        "RB"
+                    ]
+                },
+                {
+                    "number": "5",
+                    "name": "Cal Ripken",
+                    "attributes": [
+                        "RB"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "E* F* on copyright line"
+                        },
+                        {
+                            "variation": "F* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "6",
+                    "name": "Nolan Ryan",
+                    "attributes": [
+                        "RB"
+                    ]
+                },
+                {
+                    "number": "7",
+                    "name": "Ryne Sandberg",
+                    "attributes": [
+                        "RB"
+                    ]
+                },
+                {
+                    "number": "8",
+                    "name": "Bobby Thigpen",
+                    "attributes": [
+                        "RB"
+                    ]
+                },
+                {
+                    "number": "9",
+                    "name": "Darrin Fletcher",
+                    "variations": [
+                        {
+                            "variation": "No code next to copyright"
+                        },
+                        {
+                            "variation": "F* print code before copyright on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "10",
+                    "name": "Gregg Olson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "11",
+                    "name": "Roberto Kelly"
+                },
+                {
+                    "number": "12",
+                    "name": "Paul Assenmacher"
+                },
+                {
+                    "number": "13",
+                    "name": "Mariano Duncan",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back; A* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back; A*B* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "14",
+                    "name": "Dennis Lamp"
+                },
+                {
+                    "number": "15",
+                    "name": "Von Hayes"
+                },
+                {
+                    "number": "16",
+                    "name": "Mike Heath"
+                },
+                {
+                    "number": "17",
+                    "name": "Jeff Brantley"
+                },
+                {
+                    "number": "18",
+                    "name": "Nelson Liriano"
+                },
+                {
+                    "number": "19",
+                    "name": "Jeff Robinson"
+                },
+                {
+                    "number": "20",
+                    "name": "Pedro Guerrero"
+                },
+                {
+                    "number": "21",
+                    "name": "Joe Morgan",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "Incorrectly Stat: Wade Boggs 87 Hits"
+                        }
+                    ]
+                },
+                {
+                    "number": "22",
+                    "name": "Storm Davis",
+                    "variations": [
+                        {
+                            "variation": "No Topps registration mark ® on front"
+                        },
+                        {
+                            "variation": "Topps registration mark ® on top border."
+                        }
+                    ]
+                },
+                {
+                    "number": "23",
+                    "name": "Jim Gantner"
+                },
+                {
+                    "number": "24",
+                    "name": "Dave Martinez"
+                },
+                {
+                    "number": "25",
+                    "name": "Tim Belcher"
+                },
+                {
+                    "number": "26",
+                    "name": "Luis Sojo",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "27",
+                    "name": "Bobby Witt"
+                },
+                {
+                    "number": "28",
+                    "name": "Alvaro Espinoza",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "29",
+                    "name": "Bob Walk",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "30",
+                    "name": "Gregg Jefferies",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "31",
+                    "name": "Colby Ward",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "32",
+                    "name": "Mike Simms",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "33",
+                    "name": "Barry Jones"
+                },
+                {
+                    "number": "34",
+                    "name": "Atlee Hammaker"
+                },
+                {
+                    "number": "35",
+                    "name": "Greg Maddux",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "36",
+                    "name": "Donnie Hill",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "37",
+                    "name": "Tom Bolton",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "38",
+                    "name": "Scott Bradley"
+                },
+                {
+                    "number": "39",
+                    "name": "Jim Neidlinger",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "40",
+                    "name": "Kevin Mitchell"
+                },
+                {
+                    "number": "41",
+                    "name": "Ken Dayley"
+                },
+                {
+                    "number": "42",
+                    "name": "Chris Hoiles",
+                    "variations": [
+                        {
+                            "variation": "White inset border on front"
+                        },
+                        {
+                            "variation": "Dark inset border"
+                        }
+                    ]
+                },
+                {
+                    "number": "43",
+                    "name": "Roger McDowell"
+                },
+                {
+                    "number": "44",
+                    "name": "Mike Felder",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "45",
+                    "name": "Chris Sabo"
+                },
+                {
+                    "number": "46",
+                    "name": "Tim Drummond"
+                },
+                {
+                    "number": "47",
+                    "name": "Brook Jacoby",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "48",
+                    "name": "Dennis Boyd",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "Black border of end of anniversary banner missing, wrist over banner"
+                        },
+                        {
+                            "variation": "Black border of anniv. banner missing, pink flag airbrushed over wrist"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back; Black border of anniv. banner missing, pink flag airbrushed over wrist"
+                        }
+
+                    ]
+                },
+                {
+                    "number": "49",
+                    "name": "Pat Borders",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "1986 Kinston, 40 SB should be 0"
+                        }
+                    ]
+                },
+                {
+                    "number": "50",
+                    "name": "Bob Welch",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "51",
+                    "name": "Art Howe",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "52",
+                    "name": "Francisco Oliveras",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "53",
+                    "name": "Mike Sharperson",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "54",
+                    "name": "Gary Mielke",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back; A* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back; A*B* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "55",
+                    "name": "Jeffrey Leonard"
+                },
+                {
+                    "number": "56",
+                    "name": "Jeff Parrett"
+                },
+                {
+                    "number": "57",
+                    "name": "Jack Howell"
+                },
+                {
+                    "number": "58",
+                    "name": "Mel Stottlemyre"
+                },
+                {
+                    "number": "59",
+                    "name": "Eric Yelding"
+                },
+                {
+                    "number": "60",
+                    "name": "Frank Viola"
+                },
+                {
+                    "number": "61",
+                    "name": "Stan Javier"
+                },
+                {
+                    "number": "62",
+                    "name": "Lee Guetterman",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "63",
+                    "name": "Milt Thompson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back; A* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back; A*B* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "64",
+                    "name": "Tom Herr"
+                },
+                {
+                    "number": "65",
+                    "name": "Bruce Hurst"
+                },
+                {
+                    "number": "66",
+                    "name": "Terry Kennedy",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "67",
+                    "name": "Rick Honeycutt"
+                },
+                {
+                    "number": "68",
+                    "name": "Gary Sheffield"
+                },
+                {
+                    "number": "69",
+                    "name": "Steve Wilson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "70",
+                    "name": "Ellis Burks"
+                },
+                {
+                    "number": "71",
+                    "name": "Jim Acker",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "72",
+                    "name": "Junior Ortiz",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back; A* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back; A*B* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "73",
+                    "name": "Craig Worthington"
+                },
+                {
+                    "number": "74",
+                    "name": "Shane Andrews",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "75",
+                    "name": "Jack Morris"
+                },
+                {
+                    "number": "76",
+                    "name": "Jerry Browne",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back; A* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back; A*B* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "77",
+                    "name": "Drew Hall"
+                },
+                {
+                    "number": "78",
+                    "name": "Geno Petralli"
+                },
+                {
+                    "number": "79",
+                    "name": "Frank Thomas"
+                },
+                {
+                    "number": "80",
+                    "name": "Fernando Valenzuela",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "20 complete games in 1986 not italicized, tied for earned runs in 1990"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "81",
+                    "name": "Cito Gaston",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "82",
+                    "name": "Tom Glavine",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "83",
+                    "name": "Daryl Boston",
+                    "variations": [
+                        {
+                            "variation": "A* B* on copyright line"
+                        },
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "84",
+                    "name": "Bob McClure"
+                },
+                {
+                    "number": "85",
+                    "name": "Jesse Barfield",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "86",
+                    "name": "Les Lancaster",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "87",
+                    "name": "Tracy Jones",
+                    "variations": [
+                        {
+                            "variation": "E* F* print code before copyright on back"
+                        },
+                        {
+                            "variation": "F* print code before copyright on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "88",
+                    "name": "Bob Tewksbury"
+                },
+                {
+                    "number": "89",
+                    "name": "Darren Daulton"
+                },
+                {
+                    "number": "90",
+                    "name": "Danny Tartabull",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "91",
+                    "name": "Greg Colbrunn",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "92",
+                    "name": "Danny Jackson"
+                },
+                {
+                    "number": "93",
+                    "name": "Ivan Calderon"
+                },
+                {
+                    "number": "94",
+                    "name": "John Dopson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "95",
+                    "name": "Paul Molitor",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "96",
+                    "name": "Trevor Wilson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "97",
+                    "name": "Brady Anderson",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "Monthly scoreboard for SEP: 3 H, 2 RBI"
+                        }
+                    ]
+                },
+                {
+                    "number": "98",
+                    "name": "Sergio Valdez",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "99",
+                    "name": "Chris Gwynn"
+                },
+                {
+                    "number": "100",
+                    "name": "Don Mattingly",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "10 H in '90, 1310 career H, .483 career SLG, .297 career BA"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "101",
+                    "name": "Rob Ducey"
+                },
+                {
+                    "number": "102",
+                    "name": "Gene Larkin"
+                },
+                {
+                    "number": "103",
+                    "name": "Tim Costo",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "104",
+                    "name": "Don Robinson"
+                },
+                {
+                    "number": "105",
+                    "name": "Kevin McReynolds",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "106",
+                    "name": "Ed Nunez"
+                },
+                {
+                    "number": "107",
+                    "name": "Luis Polonia"
+                },
+                {
+                    "number": "108",
+                    "name": "Matt Young"
+                },
+                {
+                    "number": "109",
+                    "name": "Greg Riddoch",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "110",
+                    "name": "Tom Henke"
+                },
+                {
+                    "number": "111",
+                    "name": "Andres Thomas"
+                },
+                {
+                    "number": "112",
+                    "name": "Frank DiPino"
+                },
+                {
+                    "number": "113",
+                    "name": "Carl Everett",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "114",
+                    "name": "Lance Dickson",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "115",
+                    "name": "Hubie Brooks"
+                },
+                {
+                    "number": "116",
+                    "name": "Mark Davis"
+                },
+                {
+                    "number": "117",
+                    "name": "Dion James"
+                },
+                {
+                    "number": "118",
+                    "name": "Tom Edens",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "119",
+                    "name": "Carl Nichols"
+                },
+                {
+                    "number": "120",
+                    "name": "Joe Carter"
+                },
+                {
+                    "number": "121",
+                    "name": "Eric King"
+                },
+                {
+                    "number": "122",
+                    "name": "Paul O'Neill"
+                },
+                {
+                    "number": "123",
+                    "name": "Greg Harris",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back; A* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back; A*B* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "124",
+                    "name": "Randy Bush",
+                    "variations": [
+                        {
+                            "variation": "D* before copyright"
+                        }
+                    ]
+                },
+                {
+                    "number": "125",
+                    "name": "Steve Bedrosian"
+                },
+                {
+                    "number": "126",
+                    "name": "Bernard Gilkey"
+                },
+                {
+                    "number": "127",
+                    "name": "Joe Price"
+                },
+                {
+                    "number": "128",
+                    "name": "Travis Fryman"
+                },
+                {
+                    "number": "129",
+                    "name": "Mark Eichhorn"
+                },
+                {
+                    "number": "130",
+                    "name": "Ozzie Smith"
+                },
+                {
+                    "number": "131",
+                    "name": "Checklist 1 of 6 (Atlanta Braves / Baltimore Orioles / Boston Red Sox / California Angels / Chicago White Sox)",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "#727 Phil Bradley (Chicago AL)"
+                        }
+                    ]
+                },
+                {
+                    "number": "132",
+                    "name": "Jamie Quirk"
+                },
+                {
+                    "number": "133",
+                    "name": "Greg Briley"
+                },
+                {
+                    "number": "134",
+                    "name": "Kevin Elster",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "135",
+                    "name": "Jerome Walton"
+                },
+                {
+                    "number": "136",
+                    "name": "Dave Schmidt"
+                },
+                {
+                    "number": "137",
+                    "name": "Randy Ready"
+                },
+                {
+                    "number": "138",
+                    "name": "Jamie Moyer"
+                },
+                {
+                    "number": "139",
+                    "name": "Jeff Treadway",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "140",
+                    "name": "Fred McGriff"
+                },
+                {
+                    "number": "141",
+                    "name": "Nick Leyva",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "142",
+                    "name": "Curt Wilkerson"
+                },
+                {
+                    "number": "143",
+                    "name": "John Smiley"
+                },
+                {
+                    "number": "144",
+                    "name": "Dave Henderson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "145",
+                    "name": "Lou Whitaker",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "146",
+                    "name": "Dan Plesac"
+                },
+                {
+                    "number": "147",
+                    "name": "Carlos Baerga",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "148",
+                    "name": "Rey Palacios",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "149",
+                    "name": "Al Osuna",
+                    "attributes": [
+                        "RC",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "150",
+                    "name": "Cal Ripken"
+                },
+                {
+                    "number": "151",
+                    "name": "Tom Browning"
+                },
+                {
+                    "number": "152",
+                    "name": "Mickey Hatcher"
+                },
+                {
+                    "number": "153",
+                    "name": "Bryan Harvey",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                            
+                        }
+                    ]
+                },
+                {
+                    "number": "154",
+                    "name": "Jay Buhner"
+                },
+                {
+                    "number": "155",
+                    "name": "Dwight Evans",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "162 games in 1982 led league"
+                        },
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "156",
+                    "name": "Carlos Martinez"
+                },
+                {
+                    "number": "157",
+                    "name": "John Smoltz",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "158",
+                    "name": "Jose Uribe"
+                },
+                {
+                    "number": "159",
+                    "name": "Joe Boever"
+                },
+                {
+                    "number": "160",
+                    "name": "Vince Coleman"
+                },
+                {
+                    "number": "161",
+                    "name": "Tim Leary"
+                },
+                {
+                    "number": "162",
+                    "name": "Ozzie Canseco",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "163",
+                    "name": "Dave Johnson",
+                    "attributes": [
+                        "UER"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "164",
+                    "name": "Edgar Diaz",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "165",
+                    "name": "Sandy Alomar",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "166",
+                    "name": "Harold Baines"
+                },
+                {
+                    "number": "167",
+                    "name": "Randy Tomlin",
+                    "attributes": [
+                        "RC"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "\"Harriburg\" misspelling"
+                        }
+                    ]
+                },
+                {
+                    "number": "168",
+                    "name": "John Olerud",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "169",
+                    "name": "Luis Aquino"
+                },
+                {
+                    "number": "170",
+                    "name": "Carlton Fisk",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "171",
+                    "name": "Tony LaRussa",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "172",
+                    "name": "Pete Incaviglia"
+                },
+                {
+                    "number": "173",
+                    "name": "Jason Grimsley",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "174",
+                    "name": "Ken Caminiti"
+                },
+                {
+                    "number": "175",
+                    "name": "Jack Armstrong",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "176",
+                    "name": "John Orton"
+                },
+                {
+                    "number": "177",
+                    "name": "Reggie Harris",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "178",
+                    "name": "Dave Valle",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "179",
+                    "name": "Pete Harnisch"
+                },
+                {
+                    "number": "180",
+                    "name": "Tony Gwynn"
+                },
+                {
+                    "number": "181",
+                    "name": "Duane Ward"
+                },
+                {
+                    "number": "182",
+                    "name": "Junior Noboa"
+                },
+                {
+                    "number": "183",
+                    "name": "Clay Parker",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "184",
+                    "name": "Gary Green"
+                },
+                {
+                    "number": "185",
+                    "name": "Joe Magrane"
+                },
+                {
+                    "number": "186",
+                    "name": "Rod Booker",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "187",
+                    "name": "Greg Cadaret",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "188",
+                    "name": "Damon Berryhill",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "189",
+                    "name": "Daryl Irvine",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "190",
+                    "name": "Matt Williams",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "191",
+                    "name": "Willie Blair"
+                },
+                {
+                    "number": "192",
+                    "name": "Rob Deer",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "193",
+                    "name": "Felix Fermin",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "194",
+                    "name": "Xavier Hernandez"
+                },
+                {
+                    "number": "195",
+                    "name": "Wally Joyner",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "196",
+                    "name": "Jim Vatcher",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "197",
+                    "name": "Chris Nabholz"
+                },
+                {
+                    "number": "198",
+                    "name": "R.J. Reynolds"
+                },
+                {
+                    "number": "199",
+                    "name": "Mike Hartley",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "200",
+                    "name": "Darryl Strawberry"
+                },
+                {
+                    "number": "201",
+                    "name": "Tom Kelly",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "202",
+                    "name": "Jim Leyritz",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "203",
+                    "name": "Gene Harris"
+                },
+                {
+                    "number": "204",
+                    "name": "Herm Winningham"
+                },
+                {
+                    "number": "205",
+                    "name": "Mike Perez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "206",
+                    "name": "Carlos Quintana",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "207",
+                    "name": "Gary Wayne"
+                },
+                {
+                    "number": "208",
+                    "name": "Willie Wilson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "209",
+                    "name": "Ken Howell"
+                },
+                {
+                    "number": "210",
+                    "name": "Lance Parrish"
+                },
+                {
+                    "number": "211",
+                    "name": "Brian Barnes",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "212",
+                    "name": "Steve Finley",
+                    "attributes": [
+                        "UER"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "213",
+                    "name": "Frank Wills",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "214",
+                    "name": "Joe Girardi",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "215",
+                    "name": "Dave Smith"
+                },
+                {
+                    "number": "216",
+                    "name": "Greg Gagne",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "217",
+                    "name": "Chris Bosio",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "218",
+                    "name": "Rick Parker",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "219",
+                    "name": "Jack McDowell"
+                },
+                {
+                    "number": "220",
+                    "name": "Tim Wallach",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "221",
+                    "name": "Don Slaught"
+                },
+                {
+                    "number": "222",
+                    "name": "Brian McRae",
+                    "attributes": [
+                        "RC"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "223",
+                    "name": "Allan Anderson",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "224",
+                    "name": "Juan Gonzalez"
+                },
+                {
+                    "number": "225",
+                    "name": "Randy Johnson"
+                },
+                {
+                    "number": "226",
+                    "name": "Alfredo Griffin"
+                },
+                {
+                    "number": "227",
+                    "name": "Steve Avery",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "228",
+                    "name": "Rex Hudler"
+                },
+                {
+                    "number": "229",
+                    "name": "Rance Mulliniks"
+                },
+                {
+                    "number": "230",
+                    "name": "Sid Fernandez"
+                },
+                {
+                    "number": "231",
+                    "name": "Doug Rader",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "232",
+                    "name": "Jose DeJesus",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "233",
+                    "name": "Al Leiter",
+                    "variations": [
+                        {
+                            "variation": "E* F* on copyright line"
+                        },
+                        {
+                            "variation": "F* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "234",
+                    "name": "Scott Erickson"
+                },
+                {
+                    "number": "235",
+                    "name": "Dave Parker",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "236",
+                    "name": "Frank Tanana",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "269 strikeouts in 1975 tied for league lead"
+                        }
+                    ]
+                },
+                {
+                    "number": "237",
+                    "name": "Rick Cerone",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "238",
+                    "name": "Mike Dunne"
+                },
+                {
+                    "number": "239",
+                    "name": "Darren Lewis"
+                },
+                {
+                    "number": "240",
+                    "name": "Mike Scott",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "241",
+                    "name": "Dave Clark",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "242",
+                    "name": "Mike LaCoss",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "243",
+                    "name": "Lance Johnson"
+                },
+                {
+                    "number": "244",
+                    "name": "Mike Jeffcoat",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "245",
+                    "name": "Kal Daniels",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "246",
+                    "name": "Kevin Wickander"
+                },
+                {
+                    "number": "247",
+                    "name": "Jody Reed",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "248",
+                    "name": "Tom Gordon",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "249",
+                    "name": "Bob Melvin",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "250",
+                    "name": "Dennis Eckersley",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "251",
+                    "name": "Mark Lemke"
+                },
+                {
+                    "number": "252",
+                    "name": "Mel Rojas",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "253",
+                    "name": "Garry Templeton"
+                },
+                {
+                    "number": "254",
+                    "name": "Shawn Boskie"
+                },
+                {
+                    "number": "255",
+                    "name": "Brian Downing"
+                },
+                {
+                    "number": "256",
+                    "name": "Greg Hibbard"
+                },
+                {
+                    "number": "257",
+                    "name": "Tom O'Malley",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "258",
+                    "name": "Chris Hammond"
+                },
+                {
+                    "number": "259",
+                    "name": "Hensley Meulens"
+                },
+                {
+                    "number": "260",
+                    "name": "Harold Reynolds"
+                },
+                {
+                    "number": "261",
+                    "name": "Bud Harrelson",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "262",
+                    "name": "Tim Jones",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "263",
+                    "name": "Checklist 2 of 6 (Chicago White Sox / Chicago Cubs / Cincinnati Reds / Cleveland Indians / Detroit Tigers)",
+                    "attributes": [
+                        "CL"
+                    ]
+                },
+                {
+                    "number": "264",
+                    "name": "Dave Hollins"
+                },
+                {
+                    "number": "265",
+                    "name": "Mark Gubicza",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "266",
+                    "name": "Carmelo Castillo"
+                },
+                {
+                    "number": "267",
+                    "name": "Mark Knudson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "268",
+                    "name": "Tom Brookens",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "269",
+                    "name": "Joe Hesketh"
+                },
+                {
+                    "number": "270",
+                    "name": "Mark McGwire",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "1987 SLG is 618 (missing decimal)"
+                        },
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "271",
+                    "name": "Omar Olivares",
+                    "attributes": [
+                        "RC"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "272",
+                    "name": "Jeff King",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "273",
+                    "name": "Johnny Ray"
+                },
+                {
+                    "number": "274",
+                    "name": "Ken Williams"
+                },
+                {
+                    "number": "275",
+                    "name": "Alan Trammell"
+                },
+                {
+                    "number": "276",
+                    "name": "Bill Swift",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "277",
+                    "name": "Scott Coolbaugh"
+                },
+                {
+                    "number": "278",
+                    "name": "Alex Fernandez",
+                    "attributes": [
+                        "FRDP",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "279",
+                    "name": "Jose Gonzalez",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "Photo is of Billy Bean"
+                        }
+                    ]
+                },
+                {
+                    "number": "280",
+                    "name": "Bret Saberhagen"
+                },
+                {
+                    "number": "281",
+                    "name": "Larry Sheets"
+                },
+                {
+                    "number": "282",
+                    "name": "Don Carman",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "283",
+                    "name": "Marquis Grissom"
+                },
+                {
+                    "number": "284",
+                    "name": "Billy Spiers",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "285",
+                    "name": "Jim Abbott",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "286",
+                    "name": "Ken Oberkfell"
+                },
+                {
+                    "number": "287",
+                    "name": "Mark Grant"
+                },
+                {
+                    "number": "288",
+                    "name": "Derrick May"
+                },
+                {
+                    "number": "289",
+                    "name": "Tim Birtsas"
+                },
+                {
+                    "number": "290",
+                    "name": "Steve Sax",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "291",
+                    "name": "John Wathan",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "292",
+                    "name": "Bud Black"
+                },
+                {
+                    "number": "293",
+                    "name": "Jay Bell",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "294",
+                    "name": "Mike Moore"
+                },
+                {
+                    "number": "295",
+                    "name": "Rafael Palmeiro",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "296",
+                    "name": "Mark Williamson"
+                },
+                {
+                    "number": "297",
+                    "name": "Manny Lee",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "298",
+                    "name": "Omar Vizquel",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "299",
+                    "name": "Scott Radinsky",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "300",
+                    "name": "Kirby Puckett"
+                },
+                {
+                    "number": "301",
+                    "name": "Steve Farr"
+                },
+                {
+                    "number": "302",
+                    "name": "Tim Teufel",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "303",
+                    "name": "Mike Boddicker"
+                },
+                {
+                    "number": "304",
+                    "name": "Kevin Reimer"
+                },
+                {
+                    "number": "305",
+                    "name": "Mike Scioscia",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "306",
+                    "name": "Lonnie Smith",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "136 games in 1990, 1270 games in career"
+                        }
+                    ]
+                },
+                {
+                    "number": "307",
+                    "name": "Andy Benes",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "308",
+                    "name": "Tom Pagnozzi"
+                },
+                {
+                    "number": "309",
+                    "name": "Norm Charlton"
+                },
+                {
+                    "number": "310",
+                    "name": "Gary Carter"
+                },
+                {
+                    "number": "311",
+                    "name": "Jeff Pico"
+                },
+                {
+                    "number": "312",
+                    "name": "Charlie Hayes",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "313",
+                    "name": "Ron Robinson"
+                },
+                {
+                    "number": "314",
+                    "name": "Gary Pettis",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "315",
+                    "name": "Roberto Alomar"
+                },
+                {
+                    "number": "316",
+                    "name": "Gene Nelson"
+                },
+                {
+                    "number": "317",
+                    "name": "Mike Fitzgerald",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "318",
+                    "name": "Rick Aguilera"
+                },
+                {
+                    "number": "319",
+                    "name": "Jeff McKnight",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "320",
+                    "name": "Tony Fernandez",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "321",
+                    "name": "Bob Rodgers",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "322",
+                    "name": "Terry Shumpert",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "323",
+                    "name": "Cory Snyder"
+                },
+                {
+                    "number": "324",
+                    "name": "Ron Kittle",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "Incorrectly states \"...6 Home Runs…\" and \"Set another standard…\""
+                        },
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "325",
+                    "name": "Brett Butler"
+                },
+                {
+                    "number": "326",
+                    "name": "Ken Patterson",
+                    "variations": [
+                        {
+                            "variation": "TM on front printed at top of White Sox banner"
+                        },
+                        {
+                            "variation": "TM on front printed in middle of White Sox banner"
+                        }
+                    ]
+                },
+                {
+                    "number": "327",
+                    "name": "Ron Hassey",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "328",
+                    "name": "Walt Terrell",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "329",
+                    "name": "Dave Justice",
+                    "attributes": [
+                        "ASR",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "330",
+                    "name": "Doc Gooden"
+                },
+                {
+                    "number": "331",
+                    "name": "Eric Anthony"
+                },
+                {
+                    "number": "332",
+                    "name": "Kenny Rogers"
+                },
+                {
+                    "number": "333",
+                    "name": "Chipper Jones",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "334",
+                    "name": "Todd Benzinger"
+                },
+                {
+                    "number": "335",
+                    "name": "Mitch Williams"
+                },
+                {
+                    "number": "336",
+                    "name": "Matt Nokes",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "337",
+                    "name": "Keith Comstock",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "Cubs Logo and Design"
+                        }
+                    ]
+                },
+                {
+                    "number": "338",
+                    "name": "Luis Rivera"
+                },
+                {
+                    "number": "339",
+                    "name": "Larry Walker",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "340",
+                    "name": "Ramon Martinez"
+                },
+                {
+                    "number": "341",
+                    "name": "John Moses"
+                },
+                {
+                    "number": "342",
+                    "name": "Mickey Morandini"
+                },
+                {
+                    "number": "343",
+                    "name": "Jose Oquendo",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "344",
+                    "name": "Jeff Russell"
+                },
+                {
+                    "number": "345",
+                    "name": "Len Dykstra",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "346",
+                    "name": "Jesse Orosco"
+                },
+                {
+                    "number": "347",
+                    "name": "Greg Vaughn"
+                },
+                {
+                    "number": "348",
+                    "name": "Todd Stottlemyre"
+                },
+                {
+                    "number": "349",
+                    "name": "Dave Gallagher"
+                },
+                {
+                    "number": "350",
+                    "name": "Glenn Davis",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "351",
+                    "name": "Joe Torre",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "352",
+                    "name": "Frank White",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "353",
+                    "name": "Tony Castillo"
+                },
+                {
+                    "number": "354",
+                    "name": "Sid Bream"
+                },
+                {
+                    "number": "355",
+                    "name": "Chili Davis"
+                },
+                {
+                    "number": "356",
+                    "name": "Mike Marshall"
+                },
+                {
+                    "number": "357",
+                    "name": "Jack Savage",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "358",
+                    "name": "Mark Parent"
+                },
+                {
+                    "number": "359",
+                    "name": "Chuck Cary"
+                },
+                {
+                    "number": "360",
+                    "name": "Rock Raines",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "361",
+                    "name": "Scott Garrelts"
+                },
+                {
+                    "number": "362",
+                    "name": "Hector Villanueva",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "363",
+                    "name": "Rick Mahler"
+                },
+                {
+                    "number": "364",
+                    "name": "Dan Pasqua"
+                },
+                {
+                    "number": "365",
+                    "name": "Mike Schooler"
+                },
+                {
+                    "number": "366",
+                    "name": "Checklist 3 of 6 (Houston Astros / Kansas City Royals / Los Angeles Dodgers / Milwaukee Brewers / Minnesota Twins)",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "#19 Carl Nichols (Houston)"
+                        }
+                    ]
+                },
+                {
+                    "number": "367",
+                    "name": "Dave Walsh",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "368",
+                    "name": "Felix Jose",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "369",
+                    "name": "Steve Searcy"
+                },
+                {
+                    "number": "370",
+                    "name": "Kelly Gruber",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "371",
+                    "name": "Jeff Montgomery"
+                },
+                {
+                    "number": "372",
+                    "name": "Spike Owen",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "373",
+                    "name": "Darrin Jackson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "374",
+                    "name": "Larry Casian",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "375",
+                    "name": "Tony Pena"
+                },
+                {
+                    "number": "376",
+                    "name": "Mike Harkey"
+                },
+                {
+                    "number": "377",
+                    "name": "Rene Gonzales",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "378",
+                    "name": "Wilson Alvarez",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "1989 Port Charlotte and 1990 Birmingham stat lines missing"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "379",
+                    "name": "Randy Velarde"
+                },
+                {
+                    "number": "380",
+                    "name": "Willie McGee"
+                },
+                {
+                    "number": "381",
+                    "name": "Jim Leyland",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "382",
+                    "name": "Mackey Sasser",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "383",
+                    "name": "Pete Smith"
+                },
+                {
+                    "number": "384",
+                    "name": "Gerald Perry",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "385",
+                    "name": "Mickey Tettleton",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "386",
+                    "name": "Cecil Fielder",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "387",
+                    "name": "Julio Franco",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "388",
+                    "name": "Kelly Gruber",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "389",
+                    "name": "Alan Trammell",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "390",
+                    "name": "Jose Canseco",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "391",
+                    "name": "Rickey Henderson",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "392",
+                    "name": "Ken Griffey, Jr.",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "393",
+                    "name": "Carlton Fisk",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "394",
+                    "name": "Bob Welch",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "395",
+                    "name": "Chuck Finley",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "396",
+                    "name": "Bobby Thigpen",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "397",
+                    "name": "Eddie Murray",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "398",
+                    "name": "Ryne Sandberg",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "399",
+                    "name": "Matt Williams",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "400",
+                    "name": "Barry Larkin",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "401",
+                    "name": "Barry Bonds",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "402",
+                    "name": "Darryl Strawberry",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "403",
+                    "name": "Bobby Bonilla",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "404",
+                    "name": "Mike Scioscia",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "405",
+                    "name": "Doug Drabek",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "406",
+                    "name": "Frank Viola",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "407",
+                    "name": "John Franco",
+                    "attributes": [
+                        "AS",
+                        "LL"
+                    ]
+                },
+                {
+                    "number": "408",
+                    "name": "Ernie Riles"
+                },
+                {
+                    "number": "409",
+                    "name": "Mike Stanley",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "410",
+                    "name": "Dave Righetti"
+                },
+                {
+                    "number": "411",
+                    "name": "Lance Blankenship"
+                },
+                {
+                    "number": "412",
+                    "name": "Dave Bergman"
+                },
+                {
+                    "number": "413",
+                    "name": "Terry Mulholland",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "414",
+                    "name": "Sammy Sosa",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "415",
+                    "name": "Rick Sutcliffe",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "416",
+                    "name": "Randy Milligan"
+                },
+                {
+                    "number": "417",
+                    "name": "Bill Krueger"
+                },
+                {
+                    "number": "418",
+                    "name": "Nick Esasky",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "419",
+                    "name": "Jeff Reed"
+                },
+                {
+                    "number": "420",
+                    "name": "Bobby Thigpen",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "421",
+                    "name": "Alex Cole",
+                    "variations": [
+                        {
+                            "variation": "bDark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "422",
+                    "name": "Rick Reuschel",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "423",
+                    "name": "Rafael Ramirez"
+                },
+                {
+                    "number": "424",
+                    "name": "Calvin Schiraldi",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "425",
+                    "name": "Andy Van Slyke"
+                },
+                {
+                    "number": "426",
+                    "name": "Joe Grahe",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "427",
+                    "name": "Rick Dempsey"
+                },
+                {
+                    "number": "428",
+                    "name": "John Barfield",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "429",
+                    "name": "Stump Merrill",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "430",
+                    "name": "Gary Gaetti"
+                },
+                {
+                    "number": "431",
+                    "name": "Paul Gibson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "432",
+                    "name": "Delino DeShields",
+                    "attributes": [
+                        "ASR"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "433",
+                    "name": "Pat Tabler"
+                },
+                {
+                    "number": "434",
+                    "name": "Julio Machado"
+                },
+                {
+                    "number": "435",
+                    "name": "Kevin Maas",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "436",
+                    "name": "Scott Bankhead"
+                },
+                {
+                    "number": "437",
+                    "name": "Doug Dascenzo"
+                },
+                {
+                    "number": "438",
+                    "name": "Vicente Palacios"
+                },
+                {
+                    "number": "439",
+                    "name": "Dickie Thon"
+                },
+                {
+                    "number": "440",
+                    "name": "George Bell",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "441",
+                    "name": "Zane Smith"
+                },
+                {
+                    "number": "442",
+                    "name": "Charlie O'Brien"
+                },
+                {
+                    "number": "443",
+                    "name": "Jeff Innis"
+                },
+                {
+                    "number": "444",
+                    "name": "Glenn Braggs"
+                },
+                {
+                    "number": "445",
+                    "name": "Greg Swindell",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "446",
+                    "name": "Craig Grebeck"
+                },
+                {
+                    "number": "447",
+                    "name": "John Burkett",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "448",
+                    "name": "Craig Lefferts",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "449",
+                    "name": "Juan Berenguer"
+                },
+                {
+                    "number": "450",
+                    "name": "Wade Boggs",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "451",
+                    "name": "Neal Heaton"
+                },
+                {
+                    "number": "452",
+                    "name": "Bill Schroeder",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "453",
+                    "name": "Lenny Harris"
+                },
+                {
+                    "number": "454",
+                    "name": "Kevin Appier",
+                    "attributes": [
+                        "ASR"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "1990 Omaha stat line missing"
+                        },
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "455",
+                    "name": "Walt Weiss"
+                },
+                {
+                    "number": "456",
+                    "name": "Charlie Leibrandt"
+                },
+                {
+                    "number": "457",
+                    "name": "Todd Hundley"
+                },
+                {
+                    "number": "458",
+                    "name": "Brian Holman"
+                },
+                {
+                    "number": "459",
+                    "name": "Tom Trebelhorn",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "B* on copyright line"
+                        },
+                        {
+                            "variation": "A* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "460",
+                    "name": "Dave Stieb"
+                },
+                {
+                    "number": "461",
+                    "name": "Robin Ventura",
+                    "attributes": [
+                        "ASR"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "Left inside border is black"
+                        },
+                        {
+                            "variation": "Error",
+                            "note": "Left inside border is gray/black"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "462",
+                    "name": "Steve Frey"
+                },
+                {
+                    "number": "463",
+                    "name": "Dwight Smith",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "464",
+                    "name": "Steve Buechele"
+                },
+                {
+                    "number": "465",
+                    "name": "Ken Griffey"
+                },
+                {
+                    "number": "466",
+                    "name": "Charles Nagy"
+                },
+                {
+                    "number": "467",
+                    "name": "Dennis Cook"
+                },
+                {
+                    "number": "468",
+                    "name": "Tim Hulett",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "469",
+                    "name": "Chet Lemon",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "470",
+                    "name": "Howard Johnson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "471",
+                    "name": "Mike Lieberthal",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "472",
+                    "name": "Kirt Manwaring"
+                },
+                {
+                    "number": "473",
+                    "name": "Curt Young"
+                },
+                {
+                    "number": "474",
+                    "name": "Phil Plantier",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "475",
+                    "name": "Teddy Higuera",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "476",
+                    "name": "Glenn Wilson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "477",
+                    "name": "Mike Fetters"
+                },
+                {
+                    "number": "478",
+                    "name": "Kurt Stillwell",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "479",
+                    "name": "Bob Patterson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "480",
+                    "name": "Dave Magadan",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "481",
+                    "name": "Eddie Whitson",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "482",
+                    "name": "Tino Martinez",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "483",
+                    "name": "Mike Aldrete",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "484",
+                    "name": "Dave LaPoint"
+                },
+                {
+                    "number": "485",
+                    "name": "Terry Pendleton",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "486",
+                    "name": "Tommy Greene"
+                },
+                {
+                    "number": "487",
+                    "name": "Rafael Belliard"
+                },
+                {
+                    "number": "488",
+                    "name": "Jeff Manto"
+                },
+                {
+                    "number": "489",
+                    "name": "Bobby Valentine",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "490",
+                    "name": "Kirk Gibson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "491",
+                    "name": "Kurt Miller",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "492",
+                    "name": "Ernie Whitt"
+                },
+                {
+                    "number": "493",
+                    "name": "Jose Rijo"
+                },
+                {
+                    "number": "494",
+                    "name": "Chris James",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "495",
+                    "name": "Charlie Hough"
+                },
+                {
+                    "number": "496",
+                    "name": "Marty Barrett",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "497",
+                    "name": "Ben McDonald"
+                },
+                {
+                    "number": "498",
+                    "name": "Mark Salas"
+                },
+                {
+                    "number": "499",
+                    "name": "Melido Perez"
+                },
+                {
+                    "number": "500",
+                    "name": "Will Clark"
+                },
+                {
+                    "number": "501",
+                    "name": "Mike Bielecki"
+                },
+                {
+                    "number": "502",
+                    "name": "Carney Lansford",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "503",
+                    "name": "Roy Smith"
+                },
+                {
+                    "number": "504",
+                    "name": "Julio Valera"
+                },
+                {
+                    "number": "505",
+                    "name": "Chuck Finley",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "506",
+                    "name": "Darnell Coles"
+                },
+                {
+                    "number": "507",
+                    "name": "Steve Jeltz"
+                },
+                {
+                    "number": "508",
+                    "name": "Mike York",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "509",
+                    "name": "Glenallen Hill",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "510",
+                    "name": "John Franco"
+                },
+                {
+                    "number": "511",
+                    "name": "Steve Balboni",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "512",
+                    "name": "Jose Mesa"
+                },
+                {
+                    "number": "513",
+                    "name": "Jerald Clark",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "514",
+                    "name": "Mike Stanton"
+                },
+                {
+                    "number": "515",
+                    "name": "Alvin Davis"
+                },
+                {
+                    "number": "516",
+                    "name": "Karl Rhodes"
+                },
+                {
+                    "number": "517",
+                    "name": "Joe Oliver"
+                },
+                {
+                    "number": "518",
+                    "name": "Cris Carpenter"
+                },
+                {
+                    "number": "519",
+                    "name": "Sparky Anderson",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "520",
+                    "name": "Mark Grace"
+                },
+                {
+                    "number": "521",
+                    "name": "Joe Orsulak"
+                },
+                {
+                    "number": "522",
+                    "name": "Stan Belinda",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "523",
+                    "name": "Rodney McCray",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "524",
+                    "name": "Darrel Akerfelds",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "525",
+                    "name": "Willie Randolph"
+                },
+                {
+                    "number": "526",
+                    "name": "Moises Alou",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "37 runs in 1990 for Pirates, 41 runs in career"
+                        }
+                    ]
+                },
+                {
+                    "number": "527",
+                    "name": "Checklist 4 of 6 (Minnesota Twins / Montreal Expos / New York Yankees / New York Mets / Oakland Athletics / Philadelphia Phillies)",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "#719 Kevin McReynolds, #105 Keith Miller (New York NL)"
+                        }
+                    ]
+                },
+                {
+                    "number": "528",
+                    "name": "Denny Martinez"
+                },
+                {
+                    "number": "529",
+                    "name": "Marc Newfield",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "530",
+                    "name": "Roger Clemens"
+                },
+                {
+                    "number": "531",
+                    "name": "Dave Rohde"
+                },
+                {
+                    "number": "532",
+                    "name": "Kirk McCaskill",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "533",
+                    "name": "Oddibe McDowell"
+                },
+                {
+                    "number": "534",
+                    "name": "Mike Jackson"
+                },
+                {
+                    "number": "535",
+                    "name": "Ruben Sierra",
+                    "attributes": [
+                        "UER"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "536",
+                    "name": "Mike Witt"
+                },
+                {
+                    "number": "537",
+                    "name": "Jose Lind"
+                },
+                {
+                    "number": "538",
+                    "name": "Bip Roberts",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "539",
+                    "name": "Scott Terry"
+                },
+                {
+                    "number": "540",
+                    "name": "George Brett"
+                },
+                {
+                    "number": "541",
+                    "name": "Domingo Ramos",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "542",
+                    "name": "Rob Murphy",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "543",
+                    "name": "Junior Felix"
+                },
+                {
+                    "number": "544",
+                    "name": "Alejandro Pena",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "545",
+                    "name": "Dale Murphy"
+                },
+                {
+                    "number": "546",
+                    "name": "Jeff Ballard",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "547",
+                    "name": "Mike Pagliarulo",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "548",
+                    "name": "Jaime Navarro",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "549",
+                    "name": "John McNamara",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "550",
+                    "name": "Eric Davis"
+                },
+                {
+                    "number": "551",
+                    "name": "Bob Kipper"
+                },
+                {
+                    "number": "552",
+                    "name": "Jeff Hamilton",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "553",
+                    "name": "Joe Klink"
+                },
+                {
+                    "number": "554",
+                    "name": "Brian Harper"
+                },
+                {
+                    "number": "555",
+                    "name": "Turner Ward",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "556",
+                    "name": "Gary Ward",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "557",
+                    "name": "Wally Whitehurst"
+                },
+                {
+                    "number": "558",
+                    "name": "Otis Nixon",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "559",
+                    "name": "Adam Peterson"
+                },
+                {
+                    "number": "560",
+                    "name": "Greg Smith"
+                },
+                {
+                    "number": "561",
+                    "name": "Tim McIntosh",
+                    "attributes": [
+                        "FS"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "562",
+                    "name": "Jeff Kunkel"
+                },
+                {
+                    "number": "563",
+                    "name": "Brent Knackert",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "564",
+                    "name": "Dante Bichette",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "565",
+                    "name": "Craig Biggio",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "566",
+                    "name": "Craig Wilson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "567",
+                    "name": "Dwayne Henry"
+                },
+                {
+                    "number": "568",
+                    "name": "Ron Karkovice"
+                },
+                {
+                    "number": "569",
+                    "name": "Curt Schilling"
+                },
+                {
+                    "number": "570",
+                    "name": "Barry Bonds"
+                },
+                {
+                    "number": "571",
+                    "name": "Pat Combs",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "572",
+                    "name": "Dave Anderson"
+                },
+                {
+                    "number": "573",
+                    "name": "Rich Rodriguez",
+                    "attributes": [
+                        "RC",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "574",
+                    "name": "John Marzano",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "575",
+                    "name": "Robin Yount"
+                },
+                {
+                    "number": "576",
+                    "name": "Jeff Kaiser"
+                },
+                {
+                    "number": "577",
+                    "name": "Bill Doran"
+                },
+                {
+                    "number": "578",
+                    "name": "Dave West"
+                },
+                {
+                    "number": "579",
+                    "name": "Roger Craig",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "580",
+                    "name": "Dave Stewart",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "581",
+                    "name": "Luis Quinones"
+                },
+                {
+                    "number": "582",
+                    "name": "Marty Clary",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "583",
+                    "name": "Tony Phillips",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "584",
+                    "name": "Kevin Brown",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "585",
+                    "name": "Pete O'Brien"
+                },
+                {
+                    "number": "586",
+                    "name": "Fred Lynn"
+                },
+                {
+                    "number": "587",
+                    "name": "Jose Offerman",
+                    "attributes": [
+                        "FS",
+                        "UER"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "588",
+                    "name": "Mark Whiten",
+                    "variations": [
+                        {
+                            "variation": "Hand stops at card border"
+                        },
+                        {
+                            "variation": "Hand extends outside of left border"
+                        }
+                    ]
+                },
+                {
+                    "number": "589",
+                    "name": "Scott Ruskin"
+                },
+                {
+                    "number": "590",
+                    "name": "Eddie Murray"
+                },
+                {
+                    "number": "591",
+                    "name": "Ken Hill",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "592",
+                    "name": "B.J. Surhoff"
+                },
+                {
+                    "number": "593",
+                    "name": "Mike Walker",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "1990 Canton-Akron stat line missing"
+                        }
+                    ]
+                },
+                {
+                    "number": "594",
+                    "name": "Rich Garces",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "595",
+                    "name": "Bill Landrum",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "596",
+                    "name": "Ronnie Walden",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "597",
+                    "name": "Jerry Don Gleaton",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "598",
+                    "name": "Sam Horn",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "599",
+                    "name": "Greg Myers",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "1990 Syracuse stat line missing"
+                        }
+                    ]
+                },
+                {
+                    "number": "600",
+                    "name": "Bo Jackson"
+                },
+                {
+                    "number": "601",
+                    "name": "Bob Ojeda"
+                },
+                {
+                    "number": "602",
+                    "name": "Casey Candaele"
+                },
+                {
+                    "number": "603",
+                    "name": "Wes Chamberlain",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "Photo actually Louie Meadows"
+                        }
+                    ]
+                },
+                {
+                    "number": "604",
+                    "name": "Billy Hatcher"
+                },
+                {
+                    "number": "605",
+                    "name": "Jeff Reardon"
+                },
+                {
+                    "number": "606",
+                    "name": "Jim Gott"
+                },
+                {
+                    "number": "607",
+                    "name": "Edgar Martinez"
+                },
+                {
+                    "number": "608",
+                    "name": "Todd Burns",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "609",
+                    "name": "Jeff Torborg",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "610",
+                    "name": "Andres Galarraga",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "611",
+                    "name": "Dave Eiland"
+                },
+                {
+                    "number": "612",
+                    "name": "Steve Lyons"
+                },
+                {
+                    "number": "613",
+                    "name": "Eric Show"
+                },
+                {
+                    "number": "614",
+                    "name": "Luis Salazar"
+                },
+                {
+                    "number": "615",
+                    "name": "Bert Blyleven",
+                    "variations": [
+                        {
+                            "variation": "MAJ. LEA in smaller print under stats on back, same size font as stats"
+                        }
+                    ]
+                },
+                {
+                    "number": "616",
+                    "name": "Todd Zeile"
+                },
+                {
+                    "number": "617",
+                    "name": "Bill Wegman",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "618",
+                    "name": "Sil Campusano"
+                },
+                {
+                    "number": "619",
+                    "name": "David Wells"
+                },
+                {
+                    "number": "620",
+                    "name": "Ozzie Guillen"
+                },
+                {
+                    "number": "621",
+                    "name": "Ted Power",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "622",
+                    "name": "Jack Daugherty",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "623",
+                    "name": "Jeff Blauser"
+                },
+                {
+                    "number": "624",
+                    "name": "Tom Candiotti",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "625",
+                    "name": "Terry Steinbach"
+                },
+                {
+                    "number": "626",
+                    "name": "Gerald Young"
+                },
+                {
+                    "number": "627",
+                    "name": "Tim Layana"
+                },
+                {
+                    "number": "628",
+                    "name": "Greg Litton"
+                },
+                {
+                    "number": "629",
+                    "name": "Wes Gardner"
+                },
+                {
+                    "number": "630",
+                    "name": "Dave Winfield"
+                },
+                {
+                    "number": "631",
+                    "name": "Mike Morgan"
+                },
+                {
+                    "number": "632",
+                    "name": "Lloyd Moseby"
+                },
+                {
+                    "number": "633",
+                    "name": "Kevin Tapani"
+                },
+                {
+                    "number": "634",
+                    "name": "Henry Cotto"
+                },
+                {
+                    "number": "635",
+                    "name": "Andy Hawkins"
+                },
+                {
+                    "number": "636",
+                    "name": "Geronimo Pena"
+                },
+                {
+                    "number": "637",
+                    "name": "Bruce Ruffin"
+                },
+                {
+                    "number": "638",
+                    "name": "Mike Macfarlane"
+                },
+                {
+                    "number": "639",
+                    "name": "Frank Robinson",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "640",
+                    "name": "Andre Dawson"
+                },
+                {
+                    "number": "641",
+                    "name": "Mike Henneman"
+                },
+                {
+                    "number": "642",
+                    "name": "Hal Morris",
+                    "attributes": [
+                        "ASR"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "643",
+                    "name": "Jim Presley"
+                },
+                {
+                    "number": "644",
+                    "name": "Chuck Crim",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "645",
+                    "name": "Juan Samuel"
+                },
+                {
+                    "number": "646",
+                    "name": "Andujar Cedeno"
+                },
+                {
+                    "number": "647",
+                    "name": "Mark Portugal",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "648",
+                    "name": "Lee Stevens",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "649",
+                    "name": "Bill Sampen"
+                },
+                {
+                    "number": "650",
+                    "name": "Jack Clark",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "651",
+                    "name": "Alan Mills"
+                },
+                {
+                    "number": "652",
+                    "name": "Kevin Romine"
+                },
+                {
+                    "number": "653",
+                    "name": "Anthony Telford",
+                    "attributes": [
+                        "RC"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "654",
+                    "name": "Paul Sorrento"
+                },
+                {
+                    "number": "655",
+                    "name": "Erik Hanson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "656",
+                    "name": "Checklist 5 of 6 (Philadelphia Phillies / Pittsburgh Pirates / St. Louis Cardinals / San Diego Padres / San Francisco Giants",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "#348 V.Palacios, #381 J.Lind, #665 J.Leyland, #537 M.LaValliere"
+                        },
+                        {
+                            "variation": "Error",
+                            "note": "#433 V.Palacios (should be #438), #537 J.Lind, #381 J.Leyland, #665 M.LaValliere"
+                        }
+                    ]
+                },
+                {
+                    "number": "657",
+                    "name": "Mike Kingery"
+                },
+                {
+                    "number": "658",
+                    "name": "Scott Aldred"
+                },
+                {
+                    "number": "659",
+                    "name": "Oscar Azocar"
+                },
+                {
+                    "number": "660",
+                    "name": "Lee Smith",
+                    "attributes": [
+                        "UER"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "661",
+                    "name": "Steve Lake"
+                },
+                {
+                    "number": "662",
+                    "name": "Rob Dibble"
+                },
+                {
+                    "number": "663",
+                    "name": "Greg Brock"
+                },
+                {
+                    "number": "664",
+                    "name": "John Farrell",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "665",
+                    "name": "Mike LaValliere"
+                },
+                {
+                    "number": "666",
+                    "name": "Danny Darwin"
+                },
+                {
+                    "number": "667",
+                    "name": "Kent Anderson",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "668",
+                    "name": "Bill Long"
+                },
+                {
+                    "number": "669",
+                    "name": "Lou Piniella",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "670",
+                    "name": "Rickey Henderson"
+                },
+                {
+                    "number": "671",
+                    "name": "Andy McGaffigan",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "672",
+                    "name": "Shane Mack",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "673",
+                    "name": "Greg Olson",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "674",
+                    "name": "Kevin Gross",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "89 BB in 1988 tied for league lead"
+                        }
+                    ]
+                },
+                {
+                    "number": "675",
+                    "name": "Tom Brunansky",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "676",
+                    "name": "Scott Chiamparino",
+                    "variations": [
+                        {
+                            "variation": "E* F* on copyright line"
+                        },
+                        {
+                            "variation": "F* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "677",
+                    "name": "Billy Ripken",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "678",
+                    "name": "Mark Davidson"
+                },
+                {
+                    "number": "679",
+                    "name": "Bill Bathe"
+                },
+                {
+                    "number": "680",
+                    "name": "David Cone"
+                },
+                {
+                    "number": "681",
+                    "name": "Jeff Schaefer"
+                },
+                {
+                    "number": "682",
+                    "name": "Ray Lankford",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "683",
+                    "name": "Derek Lilliquist",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "684",
+                    "name": "Milt Cuyler"
+                },
+                {
+                    "number": "685",
+                    "name": "Doug Drabek",
+                    "variations": [
+                        {
+                            "variation": "White inset border on front"
+                        },
+                        {
+                            "variation": "Black inset border on front"
+                        }
+                    ]
+                },
+                {
+                    "number": "686",
+                    "name": "Mike Gallego",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "687",
+                    "name": "John Cerutti",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "4.46 ERA in 1990"
+                        }
+                    ]
+                },
+                {
+                    "number": "688",
+                    "name": "Rosario Rodriguez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "689",
+                    "name": "John Kruk"
+                },
+                {
+                    "number": "690",
+                    "name": "Orel Hershiser",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "691",
+                    "name": "Mike Blowers"
+                },
+                {
+                    "number": "692",
+                    "name": "Efrain Valdez",
+                    "attributes": [
+                        "RC"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "No lines of text under stats"
+                        }
+                    ]
+                },
+                {
+                    "number": "693",
+                    "name": "Francisco Cabrera"
+                },
+                {
+                    "number": "694",
+                    "name": "Randy Veres"
+                },
+                {
+                    "number": "695",
+                    "name": "Kevin Seitzer",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "696",
+                    "name": "Steve Olin",
+                    "variations": [
+                        {
+                            "variation": "E* F* on copyright line"
+                        },
+                        {
+                            "variation": "F* on copyright line"
+                        }
+                    ]
+                },
+                {
+                    "number": "697",
+                    "name": "Shawn Abner"
+                },
+                {
+                    "number": "698",
+                    "name": "Mark Guthrie",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "699",
+                    "name": "Jim Lefebvre",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "700",
+                    "name": "Jose Canseco"
+                },
+                {
+                    "number": "701",
+                    "name": "Pascual Perez"
+                },
+                {
+                    "number": "702",
+                    "name": "Tim Naehring"
+                },
+                {
+                    "number": "703",
+                    "name": "Juan Agosto"
+                },
+                {
+                    "number": "704",
+                    "name": "Devon White"
+                },
+                {
+                    "number": "705",
+                    "name": "Robby Thompson"
+                },
+                {
+                    "number": "706",
+                    "name": "Brad Arnsberg",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "68.2 IP in 1990, 144 IP and 3.25 ERA in career"
+                        }
+                    ]
+                },
+                {
+                    "number": "707",
+                    "name": "Jim Eisenreich"
+                },
+                {
+                    "number": "708",
+                    "name": "John Mitchell"
+                },
+                {
+                    "number": "709",
+                    "name": "Matt Sinatro",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "710",
+                    "name": "Kent Hrbek",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "711",
+                    "name": "Jose DeLeon"
+                },
+                {
+                    "number": "712",
+                    "name": "Ricky Jordan"
+                },
+                {
+                    "number": "713",
+                    "name": "Scott Scudder"
+                },
+                {
+                    "number": "714",
+                    "name": "Marvell Wynne"
+                },
+                {
+                    "number": "715",
+                    "name": "Tim Burke",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "716",
+                    "name": "Bob Geren",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "717",
+                    "name": "Phil Bradley",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "718",
+                    "name": "Steve Crawford",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "719",
+                    "name": "Keith Miller",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "720",
+                    "name": "Cecil Fielder"
+                },
+                {
+                    "number": "721",
+                    "name": "Mark Lee",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "722",
+                    "name": "Wally Backman",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "723",
+                    "name": "Candy Maldonado"
+                },
+                {
+                    "number": "724",
+                    "name": "David Segui",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "725",
+                    "name": "Ron Gant"
+                },
+                {
+                    "number": "726",
+                    "name": "Phil Stephenson"
+                },
+                {
+                    "number": "727",
+                    "name": "Mookie Wilson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "728",
+                    "name": "Scott Sanderson",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "729",
+                    "name": "Don Zimmer",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "730",
+                    "name": "Barry Larkin"
+                },
+                {
+                    "number": "731",
+                    "name": "Jeff Gray",
+                    "attributes": [
+                        "RC"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "732",
+                    "name": "Franklin Stubbs",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "733",
+                    "name": "Kelly Downs"
+                },
+                {
+                    "number": "734",
+                    "name": "John Russell"
+                },
+                {
+                    "number": "735",
+                    "name": "Ron Darling"
+                },
+                {
+                    "number": "736",
+                    "name": "Dick Schofield",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "737",
+                    "name": "Tim Crews"
+                },
+                {
+                    "number": "738",
+                    "name": "Mel Hall",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "739",
+                    "name": "Russ Swan"
+                },
+                {
+                    "number": "740",
+                    "name": "Ryne Sandberg"
+                },
+                {
+                    "number": "741",
+                    "name": "Jimmy Key"
+                },
+                {
+                    "number": "742",
+                    "name": "Tommy Gregg"
+                },
+                {
+                    "number": "743",
+                    "name": "Bryn Smith"
+                },
+                {
+                    "number": "744",
+                    "name": "Nelson Santovenia"
+                },
+                {
+                    "number": "745",
+                    "name": "Doug Jones"
+                },
+                {
+                    "number": "746",
+                    "name": "John Shelby",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "747",
+                    "name": "Tony Fossas"
+                },
+                {
+                    "number": "748",
+                    "name": "Al Newman"
+                },
+                {
+                    "number": "749",
+                    "name": "Greg Harris"
+                },
+                {
+                    "number": "750",
+                    "name": "Bobby Bonilla"
+                },
+                {
+                    "number": "751",
+                    "name": "Wayne Edwards"
+                },
+                {
+                    "number": "752",
+                    "name": "Kevin Bass"
+                },
+                {
+                    "number": "753",
+                    "name": "Paul Marak",
+                    "attributes": [
+                        "UER",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "754",
+                    "name": "Bill Pecota"
+                },
+                {
+                    "number": "755",
+                    "name": "Mark Langston",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "756",
+                    "name": "Jeff Huson",
+                    "attributes": [
+                        "ASR"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "757",
+                    "name": "Mark Gardner"
+                },
+                {
+                    "number": "758",
+                    "name": "Mike Devereaux",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "759",
+                    "name": "Bobby Cox",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "760",
+                    "name": "Benny Santiago"
+                },
+                {
+                    "number": "761",
+                    "name": "Larry Andersen"
+                },
+                {
+                    "number": "762",
+                    "name": "Mitch Webster"
+                },
+                {
+                    "number": "763",
+                    "name": "Dana Kiecker",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "764",
+                    "name": "Mark Carreon"
+                },
+                {
+                    "number": "765",
+                    "name": "Shawon Dunston"
+                },
+                {
+                    "number": "766",
+                    "name": "Jeff Robinson"
+                },
+                {
+                    "number": "767",
+                    "name": "Dan Wilson",
+                    "attributes": [
+                        "FRDP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "768",
+                    "name": "Donn Pall",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "769",
+                    "name": "Tim Sherrill",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "770",
+                    "name": "Jay Howell"
+                },
+                {
+                    "number": "771",
+                    "name": "Gary Redus",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "772",
+                    "name": "Kent Mercker",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "773",
+                    "name": "Tom Foley",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "774",
+                    "name": "Dennis Rasmussen",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "775",
+                    "name": "Julio Franco"
+                },
+                {
+                    "number": "776",
+                    "name": "Brent Mayne"
+                },
+                {
+                    "number": "777",
+                    "name": "John Candelaria"
+                },
+                {
+                    "number": "778",
+                    "name": "Danny Gladden"
+                },
+                {
+                    "number": "779",
+                    "name": "Carmelo Martinez"
+                },
+                {
+                    "number": "780",
+                    "name": "Randy Myers",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "15 losses in career"
+                        }
+                    ]
+                },
+                {
+                    "number": "781",
+                    "name": "Darryl Hamilton",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "782",
+                    "name": "Jim Deshaies",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "783",
+                    "name": "Joel Skinner",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "784",
+                    "name": "Willie Fraser"
+                },
+                {
+                    "number": "785",
+                    "name": "Scott Fletcher",
+                    "variations": [
+                        {
+                            "variation": "A* on copyright line"
+                        },
+                        {
+                            "variation": "A*B* on copyright line"
+                        },
+                        {
+                            "variation": "Dark Topps logo on back",
+                            "note": "Combined with other variations"
+                        }
+                    ]
+                },
+                {
+                    "number": "786",
+                    "name": "Eric Plunk"
+                },
+                {
+                    "number": "787",
+                    "name": "Checklist 6 of 6 (San Francisco Giants / Seattle Mariners / Texas Rangers / Toronto Blue Jays)",
+                    "attributes": [
+                        "CL"
+                    ]
+                },
+                {
+                    "number": "788",
+                    "name": "Bob Milacki",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "789",
+                    "name": "Tom Lasorda",
+                    "attributes": [
+                        "MGR",
+                        "TL"
+                    ]
+                },
+                {
+                    "number": "790",
+                    "name": "Ken Griffey, Jr."
+                },
+                {
+                    "number": "791",
+                    "name": "Mike Benjamin",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "792",
+                    "name": "Mike Greenwell",
+                    "variations": [
+                        {
+                            "variation": "Dark Topps logo on back"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
