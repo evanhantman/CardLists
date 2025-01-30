@@ -1,6 +1,9 @@
 # Sports Cards JSON Repository
 
-Welcome to the Sports Cards JSON Repository, your ultimate destination for exploring sports card data in a structured and open-source format. This repository features comprehensive datasets for baseball cards and aims to expand to include football, hockey, and more. Developers, collectors, and enthusiasts alike can use this resource to power their projects, applications, or analyses.
+Welcome to the Sports Cards JSON Repository, your ultimate destination for exploring sports card data in a structured and open-source format. This repository features comprehensive datasets for baseball cards and aims to expand to include football, hockey, and more. Developers, collectors, and enthusiasts alike can use this resource to power their projects such as: 
+* Integrating a Baseball Card database into your Mobile or Web Application
+* Providing datasets for a Machine Learning model
+* Using them as checklists for your own personal collection.
 
 ## Why This Repository?
 
