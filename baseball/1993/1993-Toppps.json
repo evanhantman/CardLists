@@ -1,0 +1,4231 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
+    "name": "1993 Topps Baseball",
+    "attributes": [
+        {
+            "attribute": "DPK",
+            "note": "Draft Pick"
+        },
+        {
+            "attribute": "RC",
+            "note": "Rookie Card"
+        },
+        {
+            "attribute": "ASR",
+            "note": "All-Star Rookie"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "FS",
+            "note": "Future Stars"
+        },
+        {
+            "attribute": "TP",
+            "note": "Top Prospects"
+        },
+        {
+            "attribute": "MGR",
+            "note": "Manager"
+        },
+        {
+            "attribute": "CA",
+            "note": "Coming Attractions"
+        },
+        {
+            "attribute": "CL",
+            "note": "Checklist card"
+        }
+    ],
+    "sets": [
+        {
+            "name": "Series 1",
+            "parallels": [
+                {
+                    "name": "Gold",
+                    "insertOdds": [
+                        {
+                            "product": "Hobby Pack",
+                            "odds": "1:1"
+                        },
+                        {
+                            "product": "Retail Pack",
+                            "odds": "1:1"
+                        },
+                        {
+                            "product": "Jumbo Pack",
+                            "odds": "5:1"
+                        }
+                    ],
+                    "notes": [
+                        "#1-396 were issued in Series One",
+                        "#397-825 were issued in Series Two"
+                    ]
+                },
+                {
+                    "name": "Innaugural Marlins",
+                    "notes": [
+                        "Distributed as a factory set at Joe Robbie Stadium and through FMI",
+                        "Cards have a Marlins logo in gold foil stamping on the front."
+                    ]
+                },
+                {
+                    "name": "Innaugural Rockies",
+                    "notes": [
+                        "Distributed as a factory set at Mile High Stadium and through FMI",
+                        "Cards have a Rockies logo in gold foil stamping on the front."
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "1",
+                    "name": "Robin Yount"
+                },
+                {
+                    "number": "2",
+                    "name": "Barry Bonds"
+                },
+                {
+                    "number": "3",
+                    "name": "Ryne Sandberg"
+                },
+                {
+                    "number": "4",
+                    "name": "Roger Clemens"
+                },
+                {
+                    "number": "5",
+                    "name": "Tony Gwynn"
+                },
+                {
+                    "number": "6",
+                    "name": "Jeff Tackett"
+                },
+                {
+                    "number": "7",
+                    "name": "Pete Incaviglia"
+                },
+                {
+                    "number": "8",
+                    "name": "Mark Wohlers"
+                },
+                {
+                    "number": "9",
+                    "name": "Kent Hrbek"
+                },
+                {
+                    "number": "10",
+                    "name": "Will Clark"
+                },
+                {
+                    "number": "11",
+                    "name": "Eric Karros",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "12",
+                    "name": "Lee Smith"
+                },
+                {
+                    "number": "13",
+                    "name": "Esteban Beltre"
+                },
+                {
+                    "number": "14",
+                    "name": "Greg Briley"
+                },
+                {
+                    "number": "15",
+                    "name": "Marquis Grissom"
+                },
+                {
+                    "number": "16",
+                    "name": "Dan Plesac"
+                },
+                {
+                    "number": "17",
+                    "name": "Dave Hollins"
+                },
+                {
+                    "number": "18",
+                    "name": "Terry Steinbach"
+                },
+                {
+                    "number": "19",
+                    "name": "Ed Nunez"
+                },
+                {
+                    "number": "20",
+                    "name": "Tim Salmon"
+                },
+                {
+                    "number": "21",
+                    "name": "Luis Salazar"
+                },
+                {
+                    "number": "22",
+                    "name": "Jim Eisenreich"
+                },
+                {
+                    "number": "23",
+                    "name": "Todd Stottlemyre"
+                },
+                {
+                    "number": "24",
+                    "name": "Tim Naehring"
+                },
+                {
+                    "number": "25",
+                    "name": "John Franco"
+                },
+                {
+                    "number": "26",
+                    "name": "Skeeter Barnes"
+                },
+                {
+                    "number": "27",
+                    "name": "Carlos Garcia"
+                },
+                {
+                    "number": "28",
+                    "name": "Joe Orsulak"
+                },
+                {
+                    "number": "29",
+                    "name": "Dwayne Henry"
+                },
+                {
+                    "number": "30",
+                    "name": "Fred McGriff"
+                },
+                {
+                    "number": "31",
+                    "name": "Derek Lilliquist"
+                },
+                {
+                    "number": "32",
+                    "name": "Don Mattingly"
+                },
+                {
+                    "number": "33",
+                    "name": "B.J. Wallace",
+                    "attributes": [
+                        "DPK"
+                    ]
+                },
+                {
+                    "number": "34",
+                    "name": "Juan Gonzalez"
+                },
+                {
+                    "number": "35",
+                    "name": "John Smoltz",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "36",
+                    "name": "Scott Servais"
+                },
+                {
+                    "number": "37",
+                    "name": "Lenny Webster"
+                },
+                {
+                    "number": "38",
+                    "name": "Chris James"
+                },
+                {
+                    "number": "39",
+                    "name": "Roger McDowell"
+                },
+                {
+                    "number": "40",
+                    "name": "Ozzie Smith"
+                },
+                {
+                    "number": "41",
+                    "name": "Alex Fernandez"
+                },
+                {
+                    "number": "42",
+                    "name": "Spike Owen"
+                },
+                {
+                    "number": "43",
+                    "name": "Ruben Amaro"
+                },
+                {
+                    "number": "44",
+                    "name": "Kevin Seitzer"
+                },
+                {
+                    "number": "45",
+                    "name": "Dave Fleming",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "46",
+                    "name": "Eric Fox",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "47",
+                    "name": "Bob Scanlan"
+                },
+                {
+                    "number": "48",
+                    "name": "Bert Blyleven"
+                },
+                {
+                    "number": "49",
+                    "name": "Brian McRae"
+                },
+                {
+                    "number": "50",
+                    "name": "Roberto Alomar"
+                },
+                {
+                    "number": "51",
+                    "name": "Mo Vaughn"
+                },
+                {
+                    "number": "52",
+                    "name": "Bobby Bonilla"
+                },
+                {
+                    "number": "53",
+                    "name": "Frank Tanana"
+                },
+                {
+                    "number": "54",
+                    "name": "Mike LaValliere"
+                },
+                {
+                    "number": "55",
+                    "name": "Mark McLemore"
+                },
+                {
+                    "number": "56",
+                    "name": "Chad Mottola",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "57",
+                    "name": "Norm Charlton"
+                },
+                {
+                    "number": "58",
+                    "name": "Jose Melendez"
+                },
+                {
+                    "number": "59",
+                    "name": "Carlos Martinez"
+                },
+                {
+                    "number": "60",
+                    "name": "Roberto Kelly"
+                },
+                {
+                    "number": "61",
+                    "name": "Gene Larkin"
+                },
+                {
+                    "number": "62",
+                    "name": "Rafael Belliard"
+                },
+                {
+                    "number": "63",
+                    "name": "Al Osuna"
+                },
+                {
+                    "number": "64",
+                    "name": "Scott Chiamparino"
+                },
+                {
+                    "number": "65",
+                    "name": "Brett Butler"
+                },
+                {
+                    "number": "66",
+                    "name": "John Burkett"
+                },
+                {
+                    "number": "67",
+                    "name": "Felix Jose"
+                },
+                {
+                    "number": "68",
+                    "name": "Omar Vizquel"
+                },
+                {
+                    "number": "69",
+                    "name": "John Vander Wal"
+                },
+                {
+                    "number": "70",
+                    "name": "Roberto Hernandez"
+                },
+                {
+                    "number": "71",
+                    "name": "Ricky Bones"
+                },
+                {
+                    "number": "72",
+                    "name": "Jeff Grotewold"
+                },
+                {
+                    "number": "73",
+                    "name": "Mike Moore"
+                },
+                {
+                    "number": "74",
+                    "name": "Steve Buechele"
+                },
+                {
+                    "number": "75",
+                    "name": "Juan Guzman"
+                },
+                {
+                    "number": "76",
+                    "name": "Kevin Appier"
+                },
+                {
+                    "number": "77",
+                    "name": "Junior Felix"
+                },
+                {
+                    "number": "78",
+                    "name": "Greg Harris"
+                },
+                {
+                    "number": "79",
+                    "name": "Dick Schofield"
+                },
+                {
+                    "number": "80",
+                    "name": "Cecil Fielder"
+                },
+                {
+                    "number": "81",
+                    "name": "Lloyd McClendon"
+                },
+                {
+                    "number": "82",
+                    "name": "David Segui"
+                },
+                {
+                    "number": "83",
+                    "name": "Reggie Sanders",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "84",
+                    "name": "Kurt Stillwell"
+                },
+                {
+                    "number": "85",
+                    "name": "Sandy Alomar"
+                },
+                {
+                    "number": "86",
+                    "name": "John Habyan"
+                },
+                {
+                    "number": "87",
+                    "name": "Kevin Reimer"
+                },
+                {
+                    "number": "88",
+                    "name": "Mike Stanton"
+                },
+                {
+                    "number": "89",
+                    "name": "Eric Anthony"
+                },
+                {
+                    "number": "90",
+                    "name": "Scott Erickson"
+                },
+                {
+                    "number": "91",
+                    "name": "Craig Colbert"
+                },
+                {
+                    "number": "92",
+                    "name": "Tom Pagnozzi"
+                },
+                {
+                    "number": "93",
+                    "name": "Pedro Astacio"
+                },
+                {
+                    "number": "94",
+                    "name": "Lance Johnson"
+                },
+                {
+                    "number": "95",
+                    "name": "Larry Walker"
+                },
+                {
+                    "number": "96",
+                    "name": "Russ Swan",
+                    "variations": [
+                        {
+                            "variation": "Error",
+                            "note": "\"Complete Major League Pitching Record\" double printed on back"
+                        }
+                    ]
+                },
+                {
+                    "number": "97",
+                    "name": "Scott Fletcher"
+                },
+                {
+                    "number": "98",
+                    "name": "Derek Jeter",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "99",
+                    "name": "Mike Williams"
+                },
+                {
+                    "number": "100",
+                    "name": "Mark McGwire"
+                },
+                {
+                    "number": "101",
+                    "name": "Jim Bullinger"
+                },
+                {
+                    "number": "102",
+                    "name": "Brian Hunter"
+                },
+                {
+                    "number": "103",
+                    "name": "Jody Reed"
+                },
+                {
+                    "number": "104",
+                    "name": "Mike Butcher"
+                },
+                {
+                    "number": "105",
+                    "name": "Gregg Jefferies"
+                },
+                {
+                    "number": "106",
+                    "name": "Howard Johnson"
+                },
+                {
+                    "number": "107",
+                    "name": "John Kiely"
+                },
+                {
+                    "number": "108",
+                    "name": "Jose Lind"
+                },
+                {
+                    "number": "109",
+                    "name": "Sam Horn"
+                },
+                {
+                    "number": "110",
+                    "name": "Barry Larkin"
+                },
+                {
+                    "number": "111",
+                    "name": "Bruce Hurst"
+                },
+                {
+                    "number": "112",
+                    "name": "Brian Barnes"
+                },
+                {
+                    "number": "113",
+                    "name": "Thomas Howard"
+                },
+                {
+                    "number": "114",
+                    "name": "Mel Hall"
+                },
+                {
+                    "number": "115",
+                    "name": "Robby Thompson"
+                },
+                {
+                    "number": "116",
+                    "name": "Mark Lemke"
+                },
+                {
+                    "number": "117",
+                    "name": "Eddie Taubensee"
+                },
+                {
+                    "number": "118",
+                    "name": "David Hulse",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "119",
+                    "name": "Pedro Munoz"
+                },
+                {
+                    "number": "120",
+                    "name": "Ramon Martinez"
+                },
+                {
+                    "number": "121",
+                    "name": "Todd Worrell"
+                },
+                {
+                    "number": "122",
+                    "name": "Joey Cora"
+                },
+                {
+                    "number": "123",
+                    "name": "Moises Alou",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "124",
+                    "name": "Franklin Stubbs"
+                },
+                {
+                    "number": "125",
+                    "name": "Pete O'Brien"
+                },
+                {
+                    "number": "126",
+                    "name": "Bob Ayrault",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "127",
+                    "name": "Carney Lansford"
+                },
+                {
+                    "number": "128",
+                    "name": "Kal Daniels"
+                },
+                {
+                    "number": "129",
+                    "name": "Joe Grahe"
+                },
+                {
+                    "number": "130",
+                    "name": "Jeff Montgomery"
+                },
+                {
+                    "number": "131",
+                    "name": "Dave Winfield"
+                },
+                {
+                    "number": "132",
+                    "name": "Preston Wilson",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "133",
+                    "name": "Steve Wilson"
+                },
+                {
+                    "number": "134",
+                    "name": "Lee Guetterman"
+                },
+                {
+                    "number": "135",
+                    "name": "Mickey Tettleton"
+                },
+                {
+                    "number": "136",
+                    "name": "Jeff King"
+                },
+                {
+                    "number": "137",
+                    "name": "Alan Mills"
+                },
+                {
+                    "number": "138",
+                    "name": "Joe Oliver"
+                },
+                {
+                    "number": "139",
+                    "name": "Gary Gaetti"
+                },
+                {
+                    "number": "140",
+                    "name": "Gary Sheffield"
+                },
+                {
+                    "number": "141",
+                    "name": "Dennis Cook"
+                },
+                {
+                    "number": "142",
+                    "name": "Charlie Hayes"
+                },
+                {
+                    "number": "143",
+                    "name": "Jeff Huson"
+                },
+                {
+                    "number": "144",
+                    "name": "Kent Mercker"
+                },
+                {
+                    "number": "145",
+                    "name": "Eric Young",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "146",
+                    "name": "Scott Leius"
+                },
+                {
+                    "number": "147",
+                    "name": "Bryan Hickerson"
+                },
+                {
+                    "number": "148",
+                    "name": "Steve Finley"
+                },
+                {
+                    "number": "149",
+                    "name": "Rheal Cormier"
+                },
+                {
+                    "number": "150",
+                    "name": "Frank Thomas",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "151",
+                    "name": "Archi Cianfrocco"
+                },
+                {
+                    "number": "152",
+                    "name": "Rich DeLucia"
+                },
+                {
+                    "number": "153",
+                    "name": "Greg Vaughn"
+                },
+                {
+                    "number": "154",
+                    "name": "Wes Chamberlain"
+                },
+                {
+                    "number": "155",
+                    "name": "Dennis Eckersley"
+                },
+                {
+                    "number": "156",
+                    "name": "Sammy Sosa",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "157",
+                    "name": "Gary DiSarcina"
+                },
+                {
+                    "number": "158",
+                    "name": "Kevin Koslofski",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "159",
+                    "name": "Doug Linton"
+                },
+                {
+                    "number": "160",
+                    "name": "Lou Whitaker"
+                },
+                {
+                    "number": "161",
+                    "name": "Chad McConnell",
+                    "attributes": [
+                        "DPK"
+                    ]
+                },
+                {
+                    "number": "162",
+                    "name": "Joe Hesketh"
+                },
+                {
+                    "number": "163",
+                    "name": "Tim Wakefield"
+                },
+                {
+                    "number": "164",
+                    "name": "Leo Gomez"
+                },
+                {
+                    "number": "165",
+                    "name": "Jose Rijo"
+                },
+                {
+                    "number": "166",
+                    "name": "Tim Scott"
+                },
+                {
+                    "number": "167",
+                    "name": "Steve Olin"
+                },
+                {
+                    "number": "168",
+                    "name": "Kevin Maas"
+                },
+                {
+                    "number": "169",
+                    "name": "Kenny Rogers"
+                },
+                {
+                    "number": "170",
+                    "name": "David Justice"
+                },
+                {
+                    "number": "171",
+                    "name": "Doug Jones"
+                },
+                {
+                    "number": "172",
+                    "name": "Jeff Reboulet",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "173",
+                    "name": "Andres Galarraga"
+                },
+                {
+                    "number": "174",
+                    "name": "Randy Velarde"
+                },
+                {
+                    "number": "175",
+                    "name": "Kirk McCaskill"
+                },
+                {
+                    "number": "176",
+                    "name": "Darren Lewis"
+                },
+                {
+                    "number": "177",
+                    "name": "Lenny Harris"
+                },
+                {
+                    "number": "178",
+                    "name": "Jeff Fassero"
+                },
+                {
+                    "number": "179",
+                    "name": "Ken Griffey, Jr."
+                },
+                {
+                    "number": "180",
+                    "name": "Darren Daulton"
+                },
+                {
+                    "number": "181",
+                    "name": "John Jaha"
+                },
+                {
+                    "number": "182",
+                    "name": "Ron Darling"
+                },
+                {
+                    "number": "183",
+                    "name": "Greg Maddux"
+                },
+                {
+                    "number": "184",
+                    "name": "Damion Easley"
+                },
+                {
+                    "number": "185",
+                    "name": "Jack Morris"
+                },
+                {
+                    "number": "186",
+                    "name": "Mike Magnante"
+                },
+                {
+                    "number": "187",
+                    "name": "John Dopson"
+                },
+                {
+                    "number": "188",
+                    "name": "Sid Fernandez"
+                },
+                {
+                    "number": "189",
+                    "name": "Tony Phillips"
+                },
+                {
+                    "number": "190",
+                    "name": "Doug Drabek"
+                },
+                {
+                    "number": "191",
+                    "name": "Sean Lowe",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "192",
+                    "name": "Bob Milacki"
+                },
+                {
+                    "number": "193",
+                    "name": "Steve Foster"
+                },
+                {
+                    "number": "194",
+                    "name": "Jerald Clark"
+                },
+                {
+                    "number": "195",
+                    "name": "Pete Harnisch"
+                },
+                {
+                    "number": "196",
+                    "name": "Pat Kelly"
+                },
+                {
+                    "number": "197",
+                    "name": "Jeff Frye",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "198",
+                    "name": "Alejandro Pena"
+                },
+                {
+                    "number": "199",
+                    "name": "Junior Ortiz"
+                },
+                {
+                    "number": "200",
+                    "name": "Kirby Puckett"
+                },
+                {
+                    "number": "201",
+                    "name": "Jose Uribe"
+                },
+                {
+                    "number": "202",
+                    "name": "Mike Scioscia"
+                },
+                {
+                    "number": "203",
+                    "name": "Bernard Gilkey"
+                },
+                {
+                    "number": "204",
+                    "name": "Dan Pasqua"
+                },
+                {
+                    "number": "205",
+                    "name": "Gary Carter"
+                },
+                {
+                    "number": "206",
+                    "name": "Henry Cotto"
+                },
+                {
+                    "number": "207",
+                    "name": "Paul Molitor"
+                },
+                {
+                    "number": "208",
+                    "name": "Mike Hartley"
+                },
+                {
+                    "number": "209",
+                    "name": "Jeff Parrett"
+                },
+                {
+                    "number": "210",
+                    "name": "Mark Langston"
+                },
+                {
+                    "number": "211",
+                    "name": "Doug Dascenzo"
+                },
+                {
+                    "number": "212",
+                    "name": "Rick Reed"
+                },
+                {
+                    "number": "213",
+                    "name": "Candy Maldonado"
+                },
+                {
+                    "number": "214",
+                    "name": "Danny Darwin"
+                },
+                {
+                    "number": "215",
+                    "name": "Pat Howell",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "216",
+                    "name": "Mark Leiter"
+                },
+                {
+                    "number": "217",
+                    "name": "Kevin Mitchell"
+                },
+                {
+                    "number": "218",
+                    "name": "Ben McDonald"
+                },
+                {
+                    "number": "219",
+                    "name": "Bip Roberts"
+                },
+                {
+                    "number": "220",
+                    "name": "Benny Santiago"
+                },
+                {
+                    "number": "221",
+                    "name": "Carlos Baerga"
+                },
+                {
+                    "number": "222",
+                    "name": "Bernie Williams"
+                },
+                {
+                    "number": "223",
+                    "name": "Roger Pavlik",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "224",
+                    "name": "Sid Bream"
+                },
+                {
+                    "number": "225",
+                    "name": "Matt Williams"
+                },
+                {
+                    "number": "226",
+                    "name": "Willie Banks"
+                },
+                {
+                    "number": "227",
+                    "name": "Jeff Bagwell"
+                },
+                {
+                    "number": "228",
+                    "name": "Tom Goodwin"
+                },
+                {
+                    "number": "229",
+                    "name": "Mike Perez"
+                },
+                {
+                    "number": "230",
+                    "name": "Carlton Fisk"
+                },
+                {
+                    "number": "231",
+                    "name": "John Wetteland"
+                },
+                {
+                    "number": "232",
+                    "name": "Tino Martinez"
+                },
+                {
+                    "number": "233",
+                    "name": "Rick Greene",
+                    "attributes": [
+                        "DPK"
+                    ]
+                },
+                {
+                    "number": "234",
+                    "name": "Tim McIntosh"
+                },
+                {
+                    "number": "235",
+                    "name": "Mitch Williams"
+                },
+                {
+                    "number": "236",
+                    "name": "Kevin Campbell"
+                },
+                {
+                    "number": "237",
+                    "name": "Jose Vizcaino"
+                },
+                {
+                    "number": "238",
+                    "name": "Chris Donnels"
+                },
+                {
+                    "number": "239",
+                    "name": "Mike Boddicker"
+                },
+                {
+                    "number": "240",
+                    "name": "John Olerud"
+                },
+                {
+                    "number": "241",
+                    "name": "Mike Gardiner"
+                },
+                {
+                    "number": "242",
+                    "name": "Charlie O'Brien"
+                },
+                {
+                    "number": "243",
+                    "name": "Rob Deer"
+                },
+                {
+                    "number": "244",
+                    "name": "Denny Neagle"
+                },
+                {
+                    "number": "245",
+                    "name": "Chris Sabo"
+                },
+                {
+                    "number": "246",
+                    "name": "Gregg Olson"
+                },
+                {
+                    "number": "247",
+                    "name": "Frank Seminara"
+                },
+                {
+                    "number": "248",
+                    "name": "Scott Scudder"
+                },
+                {
+                    "number": "249",
+                    "name": "Tim Burke"
+                },
+                {
+                    "number": "250",
+                    "name": "Chuck Knoblauch"
+                },
+                {
+                    "number": "251",
+                    "name": "Mike Bielecki"
+                },
+                {
+                    "number": "252",
+                    "name": "Xavier Hernandez"
+                },
+                {
+                    "number": "253",
+                    "name": "Jose Guzman"
+                },
+                {
+                    "number": "254",
+                    "name": "Cory Snyder"
+                },
+                {
+                    "number": "255",
+                    "name": "Orel Hershiser"
+                },
+                {
+                    "number": "256",
+                    "name": "Wil Cordero"
+                },
+                {
+                    "number": "257",
+                    "name": "Luis Alicea"
+                },
+                {
+                    "number": "258",
+                    "name": "Mike Schooler"
+                },
+                {
+                    "number": "259",
+                    "name": "Craig Grebeck"
+                },
+                {
+                    "number": "260",
+                    "name": "Duane Ward"
+                },
+                {
+                    "number": "261",
+                    "name": "Bill Wegman"
+                },
+                {
+                    "number": "262",
+                    "name": "Mickey Morandini"
+                },
+                {
+                    "number": "263",
+                    "name": "Vince Horsman"
+                },
+                {
+                    "number": "264",
+                    "name": "Paul Sorrento"
+                },
+                {
+                    "number": "265",
+                    "name": "Andre Dawson"
+                },
+                {
+                    "number": "266",
+                    "name": "Rene Gonzales"
+                },
+                {
+                    "number": "267",
+                    "name": "Keith Miller"
+                },
+                {
+                    "number": "268",
+                    "name": "Derek Bell"
+                },
+                {
+                    "number": "269",
+                    "name": "Todd Steverson",
+                    "attributes": [
+                        "RC",
+                        "DPK"
+                    ]
+                },
+                {
+                    "number": "270",
+                    "name": "Frank Viola"
+                },
+                {
+                    "number": "271",
+                    "name": "Wally Whitehurst"
+                },
+                {
+                    "number": "272",
+                    "name": "Kurt Knudsen",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "273",
+                    "name": "Dan Walters",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "274",
+                    "name": "Rick Sutcliffe"
+                },
+                {
+                    "number": "275",
+                    "name": "Andy Van Slyke"
+                },
+                {
+                    "number": "276",
+                    "name": "Paul O'Neill"
+                },
+                {
+                    "number": "277",
+                    "name": "Mark Whiten"
+                },
+                {
+                    "number": "278",
+                    "name": "Chris Nabholz"
+                },
+                {
+                    "number": "279",
+                    "name": "Todd Burns"
+                },
+                {
+                    "number": "280",
+                    "name": "Tom Glavine"
+                },
+                {
+                    "number": "281",
+                    "name": "Butch Henry"
+                },
+                {
+                    "number": "282",
+                    "name": "Shane Mack"
+                },
+                {
+                    "number": "283",
+                    "name": "Mike Jackson"
+                },
+                {
+                    "number": "284",
+                    "name": "Henry Rodriguez"
+                },
+                {
+                    "number": "285",
+                    "name": "Bob Tewksbury"
+                },
+                {
+                    "number": "286",
+                    "name": "Ron Karkovice"
+                },
+                {
+                    "number": "287",
+                    "name": "Mike Gallego"
+                },
+                {
+                    "number": "288",
+                    "name": "Dave Cochrane"
+                },
+                {
+                    "number": "289",
+                    "name": "Jesse Orosco"
+                },
+                {
+                    "number": "290",
+                    "name": "Dave Stewart"
+                },
+                {
+                    "number": "291",
+                    "name": "Tommy Greene"
+                },
+                {
+                    "number": "292",
+                    "name": "Rey Sanchez"
+                },
+                {
+                    "number": "293",
+                    "name": "Rob Ducey"
+                },
+                {
+                    "number": "294",
+                    "name": "Brent Mayne"
+                },
+                {
+                    "number": "295",
+                    "name": "Dave Stieb"
+                },
+                {
+                    "number": "296",
+                    "name": "Luis Rivera"
+                },
+                {
+                    "number": "297",
+                    "name": "Jeff Innis"
+                },
+                {
+                    "number": "298",
+                    "name": "Scott Livingstone",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "299",
+                    "name": "Bob Patterson"
+                },
+                {
+                    "number": "300",
+                    "name": "Cal Ripken"
+                },
+                {
+                    "number": "301",
+                    "name": "Cesar Hernandez"
+                },
+                {
+                    "number": "302",
+                    "name": "Randy Myers"
+                },
+                {
+                    "number": "303",
+                    "name": "Brook Jacoby"
+                },
+                {
+                    "number": "304",
+                    "name": "Melido Perez"
+                },
+                {
+                    "number": "305",
+                    "name": "Rafael Palmeiro"
+                },
+                {
+                    "number": "306",
+                    "name": "Damon Berryhill"
+                },
+                {
+                    "number": "307",
+                    "name": "Dan Serafini",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "308",
+                    "name": "Darryl Kile"
+                },
+                {
+                    "number": "309",
+                    "name": "J.T. Bruett"
+                },
+                {
+                    "number": "310",
+                    "name": "Dave Righetti"
+                },
+                {
+                    "number": "311",
+                    "name": "Jay Howell"
+                },
+                {
+                    "number": "312",
+                    "name": "Geronimo Pena"
+                },
+                {
+                    "number": "313",
+                    "name": "Greg Hibbard"
+                },
+                {
+                    "number": "314",
+                    "name": "Mark Gardner"
+                },
+                {
+                    "number": "315",
+                    "name": "Edgar Martinez"
+                },
+                {
+                    "number": "316",
+                    "name": "Dave Nilsson"
+                },
+                {
+                    "number": "317",
+                    "name": "Kyle Abbott"
+                },
+                {
+                    "number": "318",
+                    "name": "Willie Wilson"
+                },
+                {
+                    "number": "319",
+                    "name": "Paul Assenmacher"
+                },
+                {
+                    "number": "320",
+                    "name": "Tim Fortugno",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "321",
+                    "name": "Rusty Meacham"
+                },
+                {
+                    "number": "322",
+                    "name": "Pat Borders"
+                },
+                {
+                    "number": "323",
+                    "name": "Mike Greenwell"
+                },
+                {
+                    "number": "324",
+                    "name": "Willie Randolph"
+                },
+                {
+                    "number": "325",
+                    "name": "Bill Gullickson"
+                },
+                {
+                    "number": "326",
+                    "name": "Gary Varsho"
+                },
+                {
+                    "number": "327",
+                    "name": "Tim Hulett"
+                },
+                {
+                    "number": "328",
+                    "name": "Scott Ruskin"
+                },
+                {
+                    "number": "329",
+                    "name": "Mike Maddux"
+                },
+                {
+                    "number": "330",
+                    "name": "Danny Tartabull"
+                },
+                {
+                    "number": "331",
+                    "name": "Kenny Lofton",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "332",
+                    "name": "Geno Petralli"
+                },
+                {
+                    "number": "333",
+                    "name": "Otis Nixon"
+                },
+                {
+                    "number": "334",
+                    "name": "Jason Kendall",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "335",
+                    "name": "Mark Portugal"
+                },
+                {
+                    "number": "336",
+                    "name": "Mike Pagliarulo"
+                },
+                {
+                    "number": "337",
+                    "name": "Kirt Manwaring"
+                },
+                {
+                    "number": "338",
+                    "name": "Bob Ojeda"
+                },
+                {
+                    "number": "339",
+                    "name": "Mark Clark"
+                },
+                {
+                    "number": "340",
+                    "name": "John Kruk"
+                },
+                {
+                    "number": "341",
+                    "name": "Mel Rojas"
+                },
+                {
+                    "number": "342",
+                    "name": "Erik Hanson"
+                },
+                {
+                    "number": "343",
+                    "name": "Doug Henry"
+                },
+                {
+                    "number": "344",
+                    "name": "Jack McDowell"
+                },
+                {
+                    "number": "345",
+                    "name": "Harold Baines"
+                },
+                {
+                    "number": "346",
+                    "name": "Chuck McElroy"
+                },
+                {
+                    "number": "347",
+                    "name": "Luis Sojo"
+                },
+                {
+                    "number": "348",
+                    "name": "Andy Stankiewicz"
+                },
+                {
+                    "number": "349",
+                    "name": "Hipolito Pichardo"
+                },
+                {
+                    "number": "350",
+                    "name": "Joe Carter"
+                },
+                {
+                    "number": "351",
+                    "name": "Ellis Burks"
+                },
+                {
+                    "number": "352",
+                    "name": "Pete Schourek"
+                },
+                {
+                    "number": "353",
+                    "name": "Buddy Groom",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "354",
+                    "name": "Jay Bell"
+                },
+                {
+                    "number": "355",
+                    "name": "Brady Anderson"
+                },
+                {
+                    "number": "356",
+                    "name": "Freddie Benavides"
+                },
+                {
+                    "number": "357",
+                    "name": "Phil Stephenson"
+                },
+                {
+                    "number": "358",
+                    "name": "Kevin Wickander"
+                },
+                {
+                    "number": "359",
+                    "name": "Mike Stanley"
+                },
+                {
+                    "number": "360",
+                    "name": "Ivan Rodriguez"
+                },
+                {
+                    "number": "361",
+                    "name": "Scott Bankhead"
+                },
+                {
+                    "number": "362",
+                    "name": "Luis Gonzalez"
+                },
+                {
+                    "number": "363",
+                    "name": "John Smiley"
+                },
+                {
+                    "number": "364",
+                    "name": "Trevor Wilson"
+                },
+                {
+                    "number": "365",
+                    "name": "Tom Candiotti"
+                },
+                {
+                    "number": "366",
+                    "name": "Craig Wilson"
+                },
+                {
+                    "number": "367",
+                    "name": "Steve Sax"
+                },
+                {
+                    "number": "368",
+                    "name": "Delino DeShields"
+                },
+                {
+                    "number": "369",
+                    "name": "Jaime Navarro"
+                },
+                {
+                    "number": "370",
+                    "name": "Dave Valle"
+                },
+                {
+                    "number": "371",
+                    "name": "Mariano Duncan"
+                },
+                {
+                    "number": "372",
+                    "name": "Rod Nichols"
+                },
+                {
+                    "number": "373",
+                    "name": "Mike Morgan"
+                },
+                {
+                    "number": "374",
+                    "name": "Julio Valera"
+                },
+                {
+                    "number": "375",
+                    "name": "Wally Joyner"
+                },
+                {
+                    "number": "376",
+                    "name": "Tom Henke"
+                },
+                {
+                    "number": "377",
+                    "name": "Herm Winningham"
+                },
+                {
+                    "number": "378",
+                    "name": "Orlando Merced"
+                },
+                {
+                    "number": "379",
+                    "name": "Mike Munoz"
+                },
+                {
+                    "number": "380",
+                    "name": "Todd Hundley",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "381",
+                    "name": "Mike Flanagan"
+                },
+                {
+                    "number": "382",
+                    "name": "Tim Belcher"
+                },
+                {
+                    "number": "383",
+                    "name": "Jerry Browne"
+                },
+                {
+                    "number": "384",
+                    "name": "Mike Benjamin"
+                },
+                {
+                    "number": "385",
+                    "name": "Jim Leyritz"
+                },
+                {
+                    "number": "386",
+                    "name": "Ray Lankford"
+                },
+                {
+                    "number": "387",
+                    "name": "Devon White"
+                },
+                {
+                    "number": "388",
+                    "name": "Jeremy Hernandez"
+                },
+                {
+                    "number": "389",
+                    "name": "Brian Harper"
+                },
+                {
+                    "number": "390",
+                    "name": "Wade Boggs"
+                },
+                {
+                    "number": "391",
+                    "name": "Derrick May"
+                },
+                {
+                    "number": "392",
+                    "name": "Travis Fryman"
+                },
+                {
+                    "number": "393",
+                    "name": "Ron Gant"
+                },
+                {
+                    "number": "394",
+                    "name": "Checklist 1",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "note": "1-132"
+                },
+                {
+                    "number": "395",
+                    "name": "Checklist 2",
+                    "attributes": [
+                        "CL",
+                        "UER"
+                    ],
+                    "note": "133-264"
+                },
+                {
+                    "number": "396",
+                    "name": "Checklist 3",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "note": "265-396"
+                }
+            ]
+        },
+        {
+            "name": "Series 2",
+            "parallels": [
+                {
+                    "name": "Gold",
+                    "insertOdds": [
+                        {
+                            "product": "Hobby Pack",
+                            "odds": "1:1"
+                        },
+                        {
+                            "product": "Retail Pack",
+                            "odds": "1:1"
+                        },
+                        {
+                            "product": "Jumbo Pack",
+                            "odds": "5:1"
+                        }
+                    ],
+                    "notes": [
+                        "#1-396 were issued in Series One",
+                        "#397-825 were issued in Series Two"
+                    ]
+                },
+                {
+                    "name": "Innaugural Marlins",
+                    "notes": [
+                        "Distributed as a factory set at Joe Robbie Stadium and through FMI",
+                        "Cards have a Marlins logo in gold foil stamping on the front."
+                    ]
+                },
+                {
+                    "name": "Innaugural Rockies",
+                    "notes": [
+                        "Distributed as a factory set at Mile High Stadium and through FMI",
+                        "Cards have a Rockies logo in gold foil stamping on the front."
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "397",
+                    "name": "George Brett"
+                },
+                {
+                    "number": "398",
+                    "name": "Bobby Witt"
+                },
+                {
+                    "number": "399",
+                    "name": "Daryl Boston"
+                },
+                {
+                    "number": "400",
+                    "name": "Bo Jackson"
+                },
+                {
+                    "number": "401",
+                    "name": "Fred McGriff / Frank Thomas",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "402",
+                    "name": "Ryne Sandberg / Carlos Baerga",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "403",
+                    "name": "Gary Sheffield / Edgar Martinez",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "404",
+                    "name": "Barry Larkin / Travis Fryman",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "405",
+                    "name": "Andy Van Slyke / Ken Griffey Jr.",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "406",
+                    "name": "Larry Walker / Kirby Puckett",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "407",
+                    "name": "Barry Bonds / Joe Carter",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "408",
+                    "name": "Darren Daulton / Brian Harper",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "409",
+                    "name": "Greg Maddux / Roger Clemens",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "410",
+                    "name": "Tom Glavine / Dave Fleming",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "411",
+                    "name": "Lee Smith / Dennis Eckersley",
+                    "attributes": [
+                        "AS"
+                    ]
+                },
+                {
+                    "number": "412",
+                    "name": "Jamie McAndrew"
+                },
+                {
+                    "number": "413",
+                    "name": "Pete Smith"
+                },
+                {
+                    "number": "414",
+                    "name": "Juan Guerrero"
+                },
+                {
+                    "number": "415",
+                    "name": "Todd Frohwirth"
+                },
+                {
+                    "number": "416",
+                    "name": "Randy Tomlin"
+                },
+                {
+                    "number": "417",
+                    "name": "B.J. Surhoff"
+                },
+                {
+                    "number": "418",
+                    "name": "Jim Gott"
+                },
+                {
+                    "number": "419",
+                    "name": "Mark Thompson",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "420",
+                    "name": "Kevin Tapani"
+                },
+                {
+                    "number": "421",
+                    "name": "Curt Schilling"
+                },
+                {
+                    "number": "422",
+                    "name": "J.T. Snow",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "423",
+                    "name": "Ryan Klesko / Ivan Cruz / Bubba Smith / Larry Sutton",
+                    "attributes": [
+                        "TP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "424",
+                    "name": "John Valentin"
+                },
+                {
+                    "number": "425",
+                    "name": "Joe Girardi"
+                },
+                {
+                    "number": "426",
+                    "name": "Nigel Wilson"
+                },
+                {
+                    "number": "427",
+                    "name": "Bob MacDonald"
+                },
+                {
+                    "number": "428",
+                    "name": "Todd Zeile"
+                },
+                {
+                    "number": "429",
+                    "name": "Milt Cuyler"
+                },
+                {
+                    "number": "430",
+                    "name": "Eddie Murray"
+                },
+                {
+                    "number": "431",
+                    "name": "Rich Amaral"
+                },
+                {
+                    "number": "432",
+                    "name": "Pete Young",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "433",
+                    "name": "Roger Bailey / Tom Schmidt",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "434",
+                    "name": "Jack Armstrong"
+                },
+                {
+                    "number": "435",
+                    "name": "Willie McGee"
+                },
+                {
+                    "number": "436",
+                    "name": "Greg Harris"
+                },
+                {
+                    "number": "437",
+                    "name": "Chris Hammond"
+                },
+                {
+                    "number": "438",
+                    "name": "Ritchie Moody",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "439",
+                    "name": "Bryan Harvey"
+                },
+                {
+                    "number": "440",
+                    "name": "Ruben Sierra"
+                },
+                {
+                    "number": "441",
+                    "name": "Don Lemon / Todd Pridy",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "442",
+                    "name": "Kevin McReynolds"
+                },
+                {
+                    "number": "443",
+                    "name": "Terry Leach"
+                },
+                {
+                    "number": "444",
+                    "name": "David Nied"
+                },
+                {
+                    "number": "445",
+                    "name": "Dale Murphy"
+                },
+                {
+                    "number": "446",
+                    "name": "Luis Mercedes"
+                },
+                {
+                    "number": "447",
+                    "name": "Keith Shepherd",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "448",
+                    "name": "Ken Caminiti"
+                },
+                {
+                    "number": "449",
+                    "name": "James Austin"
+                },
+                {
+                    "number": "450",
+                    "name": "Darryl Strawberry"
+                },
+                {
+                    "number": "451",
+                    "name": "Ramon Caraballo / Jon Shave / Brent Gates / Quinton McCracken",
+                    "attributes": [
+                        "TP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "452",
+                    "name": "Bob Wickman"
+                },
+                {
+                    "number": "453",
+                    "name": "Victor Cole"
+                },
+                {
+                    "number": "454",
+                    "name": "John Johnstone",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "455",
+                    "name": "Chili Davis"
+                },
+                {
+                    "number": "456",
+                    "name": "Scott Taylor"
+                },
+                {
+                    "number": "457",
+                    "name": "Tracy Woodson"
+                },
+                {
+                    "number": "458",
+                    "name": "David Wells"
+                },
+                {
+                    "number": "459",
+                    "name": "Derek Wallace",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "460",
+                    "name": "Randy Johnson"
+                },
+                {
+                    "number": "461",
+                    "name": "Steve Reed",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "462",
+                    "name": "Felix Fermin"
+                },
+                {
+                    "number": "463",
+                    "name": "Scott Aldred"
+                },
+                {
+                    "number": "464",
+                    "name": "Greg Colbrunn"
+                },
+                {
+                    "number": "465",
+                    "name": "Tony Fernandez"
+                },
+                {
+                    "number": "466",
+                    "name": "Mike Felder"
+                },
+                {
+                    "number": "467",
+                    "name": "Lee Stevens"
+                },
+                {
+                    "number": "468",
+                    "name": "Matt Whiteside",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "469",
+                    "name": "Dave Hansen"
+                },
+                {
+                    "number": "470",
+                    "name": "Rob Dibble"
+                },
+                {
+                    "number": "471",
+                    "name": "Dave Gallagher"
+                },
+                {
+                    "number": "472",
+                    "name": "Chris Gwynn"
+                },
+                {
+                    "number": "473",
+                    "name": "Dave Henderson"
+                },
+                {
+                    "number": "474",
+                    "name": "Ozzie Guillen"
+                },
+                {
+                    "number": "475",
+                    "name": "Jeff Reardon"
+                },
+                {
+                    "number": "476",
+                    "name": "Mark Voisard / Will Scalzitti",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "477",
+                    "name": "Jimmy Jones"
+                },
+                {
+                    "number": "478",
+                    "name": "Greg Cadaret"
+                },
+                {
+                    "number": "479",
+                    "name": "Todd Pratt",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "480",
+                    "name": "Pat Listach",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "481",
+                    "name": "Ryan Luzinski",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "482",
+                    "name": "Darren Reed"
+                },
+                {
+                    "number": "483",
+                    "name": "Brian Griffiths",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "484",
+                    "name": "John Wehner"
+                },
+                {
+                    "number": "485",
+                    "name": "Glenn Davis"
+                },
+                {
+                    "number": "486",
+                    "name": "Eric Wedge",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "487",
+                    "name": "Jessie Hollins"
+                },
+                {
+                    "number": "488",
+                    "name": "Manuel Lee"
+                },
+                {
+                    "number": "489",
+                    "name": "Scott Fredrickson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "490",
+                    "name": "Omar Olivares"
+                },
+                {
+                    "number": "491",
+                    "name": "Shawn Hare"
+                },
+                {
+                    "number": "492",
+                    "name": "Tom Lampkin"
+                },
+                {
+                    "number": "493",
+                    "name": "Jeff Nelson"
+                },
+                {
+                    "number": "494",
+                    "name": "Kevin Young / Adell Davenport / Eduardo Perez / Lou Lucca",
+                    "attributes": [
+                        "TP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "495",
+                    "name": "Ken Hill"
+                },
+                {
+                    "number": "496",
+                    "name": "Reggie Jefferson"
+                },
+                {
+                    "number": "497",
+                    "name": "Matt Petersen / Willie Brown",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "498",
+                    "name": "Bud Black"
+                },
+                {
+                    "number": "499",
+                    "name": "Chuck Crim"
+                },
+                {
+                    "number": "500",
+                    "name": "Jose Canseco"
+                },
+                {
+                    "number": "501",
+                    "name": "Johnny Oates / Bobby Cox",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "502",
+                    "name": "Butch Hobson / Jim Lefebvre",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "503",
+                    "name": "Buck Rodgers / Tony Perez",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "504",
+                    "name": "Gene Lamont / Don Baylor",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "505",
+                    "name": "Mike Hargrove / Rene Lachemann",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "506",
+                    "name": "Sparky Anderson / Art Howe",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "507",
+                    "name": "Hal McRae / Tom Lasorda",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "508",
+                    "name": "Phil Garner / Felipe Alou",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "509",
+                    "name": "Tom Kelly / Jeff Torborg",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "510",
+                    "name": "Buck Showalter / Jim Fregosi",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "511",
+                    "name": "Tony LaRussa / Jim Leyland",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "512",
+                    "name": "Lou Piniella / Joe Torre",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "513",
+                    "name": "Kevin Kennedy / Jim Riggleman",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "514",
+                    "name": "Cito Gaston / Dusty Baker",
+                    "attributes": [
+                        "MGR"
+                    ]
+                },
+                {
+                    "number": "515",
+                    "name": "Greg Swindell"
+                },
+                {
+                    "number": "516",
+                    "name": "Alex Arias"
+                },
+                {
+                    "number": "517",
+                    "name": "Bill Pecota"
+                },
+                {
+                    "number": "518",
+                    "name": "Benji Grigsby",
+                    "attributes": [
+                        "DPK",
+                        "RC",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "519",
+                    "name": "David Howard"
+                },
+                {
+                    "number": "520",
+                    "name": "Charlie Hough"
+                },
+                {
+                    "number": "521",
+                    "name": "Kevin Flora"
+                },
+                {
+                    "number": "522",
+                    "name": "Shane Reynolds"
+                },
+                {
+                    "number": "523",
+                    "name": "Doug Bochtler",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "524",
+                    "name": "Chris Hoiles"
+                },
+                {
+                    "number": "525",
+                    "name": "Scott Sanderson"
+                },
+                {
+                    "number": "526",
+                    "name": "Mike Sharperson"
+                },
+                {
+                    "number": "527",
+                    "name": "Mike Fetters"
+                },
+                {
+                    "number": "528",
+                    "name": "Paul Quantrill"
+                },
+                {
+                    "number": "529",
+                    "name": "Dave Silvestri / Chipper Jones / Benji Gil / Jeff Patzke",
+                    "attributes": [
+                        "TP"
+                    ]
+                },
+                {
+                    "number": "530",
+                    "name": "Sterling Hitchcock",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "531",
+                    "name": "Joe Millette"
+                },
+                {
+                    "number": "532",
+                    "name": "Tom Brunansky"
+                },
+                {
+                    "number": "533",
+                    "name": "Frank Castillo"
+                },
+                {
+                    "number": "534",
+                    "name": "Randy Knorr"
+                },
+                {
+                    "number": "535",
+                    "name": "Jose Oquendo"
+                },
+                {
+                    "number": "536",
+                    "name": "Dave Haas"
+                },
+                {
+                    "number": "537",
+                    "name": "Jason Hutchins / Ryan Turner",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "538",
+                    "name": "Jimmy Baron",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "539",
+                    "name": "Kerry Woodson"
+                },
+                {
+                    "number": "540",
+                    "name": "Ivan Calderon"
+                },
+                {
+                    "number": "541",
+                    "name": "Denis Boucher"
+                },
+                {
+                    "number": "542",
+                    "name": "Royce Clayton"
+                },
+                {
+                    "number": "543",
+                    "name": "Reggie Williams",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "544",
+                    "name": "Steve Decker"
+                },
+                {
+                    "number": "545",
+                    "name": "Dean Palmer"
+                },
+                {
+                    "number": "546",
+                    "name": "Hal Morris"
+                },
+                {
+                    "number": "547",
+                    "name": "Ryan Thompson"
+                },
+                {
+                    "number": "548",
+                    "name": "Lance Blankenship"
+                },
+                {
+                    "number": "549",
+                    "name": "Hensley Meulens"
+                },
+                {
+                    "number": "550",
+                    "name": "Scott Radinsky"
+                },
+                {
+                    "number": "551",
+                    "name": "Eric Young"
+                },
+                {
+                    "number": "552",
+                    "name": "Jeff Blauser"
+                },
+                {
+                    "number": "553",
+                    "name": "Andujar Cedeno"
+                },
+                {
+                    "number": "554",
+                    "name": "Arthur Rhodes"
+                },
+                {
+                    "number": "555",
+                    "name": "Terry Mulholland"
+                },
+                {
+                    "number": "556",
+                    "name": "Darryl Hamilton"
+                },
+                {
+                    "number": "557",
+                    "name": "Pedro Martinez"
+                },
+                {
+                    "number": "558",
+                    "name": "Ryan Whitman / Mark Skeels",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "559",
+                    "name": "Jamie Arnold",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "560",
+                    "name": "Zane Smith"
+                },
+                {
+                    "number": "561",
+                    "name": "Matt Nokes"
+                },
+                {
+                    "number": "562",
+                    "name": "Bob Zupcic"
+                },
+                {
+                    "number": "563",
+                    "name": "Shawn Boskie"
+                },
+                {
+                    "number": "564",
+                    "name": "Mike Timlin"
+                },
+                {
+                    "number": "565",
+                    "name": "Jerald Clark"
+                },
+                {
+                    "number": "566",
+                    "name": "Rod Brewer"
+                },
+                {
+                    "number": "567",
+                    "name": "Mark Carreon"
+                },
+                {
+                    "number": "568",
+                    "name": "Andy Benes"
+                },
+                {
+                    "number": "569",
+                    "name": "Shawn Barton",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "570",
+                    "name": "Tim Wallach"
+                },
+                {
+                    "number": "571",
+                    "name": "Dave Mlicki"
+                },
+                {
+                    "number": "572",
+                    "name": "Trevor Hoffman"
+                },
+                {
+                    "number": "573",
+                    "name": "John Patterson"
+                },
+                {
+                    "number": "574",
+                    "name": "DeShawn Warren",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "575",
+                    "name": "Monty Fariss"
+                },
+                {
+                    "number": "576",
+                    "name": "Darrell Sherman / Damon Buford / Cliff Floyd / Michael Moore",
+                    "attributes": [
+                        "TP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "577",
+                    "name": "Tim Costo"
+                },
+                {
+                    "number": "578",
+                    "name": "Dave Magadan"
+                },
+                {
+                    "number": "579",
+                    "name": "Neil Garret / Jason Bates",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "580",
+                    "name": "Walt Weiss"
+                },
+                {
+                    "number": "581",
+                    "name": "Chris Haney"
+                },
+                {
+                    "number": "582",
+                    "name": "Shawn Abner"
+                },
+                {
+                    "number": "583",
+                    "name": "Marvin Freeman"
+                },
+                {
+                    "number": "584",
+                    "name": "Casey Candaele"
+                },
+                {
+                    "number": "585",
+                    "name": "Ricky Jordan"
+                },
+                {
+                    "number": "586",
+                    "name": "Jeff Tabaka",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "587",
+                    "name": "Manny Alexander"
+                },
+                {
+                    "number": "588",
+                    "name": "Mike Trombley"
+                },
+                {
+                    "number": "589",
+                    "name": "Carlos Hernandez"
+                },
+                {
+                    "number": "590",
+                    "name": "Cal Eldred",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "591",
+                    "name": "Alex Cole"
+                },
+                {
+                    "number": "592",
+                    "name": "Phil Plantier"
+                },
+                {
+                    "number": "593",
+                    "name": "Brett Merriman",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "594",
+                    "name": "Jerry Nielsen",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "595",
+                    "name": "Shawon Dunston"
+                },
+                {
+                    "number": "596",
+                    "name": "Jimmy Key"
+                },
+                {
+                    "number": "597",
+                    "name": "Gerald Perry"
+                },
+                {
+                    "number": "598",
+                    "name": "Rico Brogna"
+                },
+                {
+                    "number": "599",
+                    "name": "Clemente Nunez / Daniel Robinson",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "600",
+                    "name": "Bret Saberhagen"
+                },
+                {
+                    "number": "601",
+                    "name": "Craig Shipley"
+                },
+                {
+                    "number": "602",
+                    "name": "Henry Mercedes"
+                },
+                {
+                    "number": "603",
+                    "name": "Jim Thome"
+                },
+                {
+                    "number": "604",
+                    "name": "Rod Beck"
+                },
+                {
+                    "number": "605",
+                    "name": "Chuck Finley"
+                },
+                {
+                    "number": "606",
+                    "name": "J. Owens",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "607",
+                    "name": "Dan Smith"
+                },
+                {
+                    "number": "608",
+                    "name": "Bill Doran"
+                },
+                {
+                    "number": "609",
+                    "name": "Lance Parrish"
+                },
+                {
+                    "number": "610",
+                    "name": "Denny Martinez"
+                },
+                {
+                    "number": "611",
+                    "name": "Tom Gordon"
+                },
+                {
+                    "number": "612",
+                    "name": "Byron Mathews",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "613",
+                    "name": "Joel Adamson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "614",
+                    "name": "Brian Williams"
+                },
+                {
+                    "number": "615",
+                    "name": "Steve Avery",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "616",
+                    "name": "Matt Mieske / Tracy Sanders / Midre Cummings / Ryan Freeburg",
+                    "attributes": [
+                        "TP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "617",
+                    "name": "Craig Lefferts"
+                },
+                {
+                    "number": "618",
+                    "name": "Tony Pena"
+                },
+                {
+                    "number": "619",
+                    "name": "Billy Spiers"
+                },
+                {
+                    "number": "620",
+                    "name": "Todd Benzinger"
+                },
+                {
+                    "number": "621",
+                    "name": "Mike Kotarski / Greg Boyd",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "622",
+                    "name": "Ben Rivera"
+                },
+                {
+                    "number": "623",
+                    "name": "Al Martin",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "624",
+                    "name": "Sam Militello",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "625",
+                    "name": "Rick Aguilera"
+                },
+                {
+                    "number": "626",
+                    "name": "Danny Gladden"
+                },
+                {
+                    "number": "627",
+                    "name": "Andres Berumen",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "628",
+                    "name": "Kelly Gruber"
+                },
+                {
+                    "number": "629",
+                    "name": "Cris Carpenter"
+                },
+                {
+                    "number": "630",
+                    "name": "Mark Grace"
+                },
+                {
+                    "number": "631",
+                    "name": "Jeff Brantley"
+                },
+                {
+                    "number": "632",
+                    "name": "Chris Widger",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "633",
+                    "name": "\"Three Russians\" (Rudy Razjigaev / Eugneyi Puchkov / Ilya Bogatyrev)",
+                    "attributes": [
+                        "RC",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "634",
+                    "name": "Mo Sanford"
+                },
+                {
+                    "number": "635",
+                    "name": "Albert Belle"
+                },
+                {
+                    "number": "636",
+                    "name": "Tim Teufel"
+                },
+                {
+                    "number": "637",
+                    "name": "Greg Myers"
+                },
+                {
+                    "number": "638",
+                    "name": "Brian Bohanon"
+                },
+                {
+                    "number": "639",
+                    "name": "Mike Bordick"
+                },
+                {
+                    "number": "640",
+                    "name": "Doc Gooden"
+                },
+                {
+                    "number": "641",
+                    "name": "Pat Leahy / Gavin Baugh",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "642",
+                    "name": "Milt Hill"
+                },
+                {
+                    "number": "643",
+                    "name": "Luis Aquino"
+                },
+                {
+                    "number": "644",
+                    "name": "Dante Bichette"
+                },
+                {
+                    "number": "645",
+                    "name": "Bobby Thigpen"
+                },
+                {
+                    "number": "646",
+                    "name": "Rich Scheid",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "647",
+                    "name": "Brian Sackinsky",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "648",
+                    "name": "Ryan Hawblitzel"
+                },
+                {
+                    "number": "649",
+                    "name": "Tom Marsh",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "650",
+                    "name": "Terry Pendleton"
+                },
+                {
+                    "number": "651",
+                    "name": "Rafael Bournigal",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "652",
+                    "name": "Dave West"
+                },
+                {
+                    "number": "653",
+                    "name": "Steve Hosey"
+                },
+                {
+                    "number": "654",
+                    "name": "Gerald Williams"
+                },
+                {
+                    "number": "655",
+                    "name": "Scott Cooper"
+                },
+                {
+                    "number": "656",
+                    "name": "Gary Scott"
+                },
+                {
+                    "number": "657",
+                    "name": "Mike Harkey"
+                },
+                {
+                    "number": "658",
+                    "name": "Jeromy Burnitz / Melvin Nieves / Rich Becker / Shon Walker",
+                    "attributes": [
+                        "TP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "659",
+                    "name": "Ed Sprague"
+                },
+                {
+                    "number": "660",
+                    "name": "Alan Trammell"
+                },
+                {
+                    "number": "661",
+                    "name": "Garvin Alston / Michael Case",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "662",
+                    "name": "Donovan Osborne"
+                },
+                {
+                    "number": "663",
+                    "name": "Jeff Gardner"
+                },
+                {
+                    "number": "664",
+                    "name": "Calvin Jones"
+                },
+                {
+                    "number": "665",
+                    "name": "Darrin Fletcher"
+                },
+                {
+                    "number": "666",
+                    "name": "Glenallen Hill"
+                },
+                {
+                    "number": "667",
+                    "name": "Jim Rosenbohm",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "668",
+                    "name": "Scott Lewis"
+                },
+                {
+                    "number": "669",
+                    "name": "Kip Yaughn",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "670",
+                    "name": "Julio Franco"
+                },
+                {
+                    "number": "671",
+                    "name": "Dave Martinez"
+                },
+                {
+                    "number": "672",
+                    "name": "Kevin Bass"
+                },
+                {
+                    "number": "673",
+                    "name": "Todd Van Poppel"
+                },
+                {
+                    "number": "674",
+                    "name": "Mark Gubicza"
+                },
+                {
+                    "number": "675",
+                    "name": "Tim Raines"
+                },
+                {
+                    "number": "676",
+                    "name": "Rudy Seanez"
+                },
+                {
+                    "number": "677",
+                    "name": "Charlie Leibrandt"
+                },
+                {
+                    "number": "678",
+                    "name": "Randy Milligan"
+                },
+                {
+                    "number": "679",
+                    "name": "Kim Batiste"
+                },
+                {
+                    "number": "680",
+                    "name": "Craig Biggio"
+                },
+                {
+                    "number": "681",
+                    "name": "Darren Holmes"
+                },
+                {
+                    "number": "682",
+                    "name": "John Candelaria"
+                },
+                {
+                    "number": "683",
+                    "name": "Jerry Stafford / Eddie Christian",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "684",
+                    "name": "Pat Mahomes"
+                },
+                {
+                    "number": "685",
+                    "name": "Bob Walk"
+                },
+                {
+                    "number": "686",
+                    "name": "Russ Springer"
+                },
+                {
+                    "number": "687",
+                    "name": "Tony Sheffield",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "688",
+                    "name": "Dwight Smith"
+                },
+                {
+                    "number": "689",
+                    "name": "Eddie Zosky"
+                },
+                {
+                    "number": "690",
+                    "name": "Bien Figueroa",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "691",
+                    "name": "Jim Tatum",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "692",
+                    "name": "Chad Kreuter"
+                },
+                {
+                    "number": "693",
+                    "name": "Rich Rodriguez"
+                },
+                {
+                    "number": "694",
+                    "name": "Shane Turner"
+                },
+                {
+                    "number": "695",
+                    "name": "Kent Bottenfield"
+                },
+                {
+                    "number": "696",
+                    "name": "Jose Mesa"
+                },
+                {
+                    "number": "697",
+                    "name": "Darrell Whitmore",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "698",
+                    "name": "Ted Wood"
+                },
+                {
+                    "number": "699",
+                    "name": "Chad Curtis"
+                },
+                {
+                    "number": "700",
+                    "name": "Nolan Ryan"
+                },
+                {
+                    "number": "701",
+                    "name": "Mike Piazza / Brook Fordyce / Carlos Delgado / Donnie Leshnock",
+                    "attributes": [
+                        "TP"
+                    ]
+                },
+                {
+                    "number": "702",
+                    "name": "Tim Pugh",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "703",
+                    "name": "Jeff Kent",
+                    "attributes": [
+                        "ASR"
+                    ]
+                },
+                {
+                    "number": "704",
+                    "name": "Jon Goodrich / Danny Figueroa",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "705",
+                    "name": "Bob Welch"
+                },
+                {
+                    "number": "706",
+                    "name": "Sherard Clinkscales",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "707",
+                    "name": "Donn Pall"
+                },
+                {
+                    "number": "708",
+                    "name": "Greg Olson"
+                },
+                {
+                    "number": "709",
+                    "name": "Jeff Juden"
+                },
+                {
+                    "number": "710",
+                    "name": "Mike Mussina"
+                },
+                {
+                    "number": "711",
+                    "name": "Scott Chiamparino"
+                },
+                {
+                    "number": "712",
+                    "name": "Stan Javier"
+                },
+                {
+                    "number": "713",
+                    "name": "John Doherty"
+                },
+                {
+                    "number": "714",
+                    "name": "Kevin Gross"
+                },
+                {
+                    "number": "715",
+                    "name": "Greg Gagne"
+                },
+                {
+                    "number": "716",
+                    "name": "Steve Cooke"
+                },
+                {
+                    "number": "717",
+                    "name": "Steve Farr"
+                },
+                {
+                    "number": "718",
+                    "name": "Jay Buhner"
+                },
+                {
+                    "number": "719",
+                    "name": "Butch Henry"
+                },
+                {
+                    "number": "720",
+                    "name": "David Cone"
+                },
+                {
+                    "number": "721",
+                    "name": "Rick Wilkins"
+                },
+                {
+                    "number": "722",
+                    "name": "Chuck Carr"
+                },
+                {
+                    "number": "723",
+                    "name": "Kenny Felder",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "724",
+                    "name": "Guillermo Velasquez"
+                },
+                {
+                    "number": "725",
+                    "name": "Billy Hatcher"
+                },
+                {
+                    "number": "726",
+                    "name": "Mike Veneziale / Ken Kendrena",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "727",
+                    "name": "Jonathan Hurst"
+                },
+                {
+                    "number": "728",
+                    "name": "Steve Frey"
+                },
+                {
+                    "number": "729",
+                    "name": "Mark Leonard"
+                },
+                {
+                    "number": "730",
+                    "name": "Charles Nagy"
+                },
+                {
+                    "number": "731",
+                    "name": "Donald Harris"
+                },
+                {
+                    "number": "732",
+                    "name": "Travis Buckley",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "733",
+                    "name": "Tom Browning"
+                },
+                {
+                    "number": "734",
+                    "name": "Anthony Young"
+                },
+                {
+                    "number": "735",
+                    "name": "Steve Shifflett",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "736",
+                    "name": "Jeff Russell"
+                },
+                {
+                    "number": "737",
+                    "name": "Wilson Alvarez"
+                },
+                {
+                    "number": "738",
+                    "name": "Lance Painter",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "739",
+                    "name": "Dave Weathers"
+                },
+                {
+                    "number": "740",
+                    "name": "Len Dykstra"
+                },
+                {
+                    "number": "741",
+                    "name": "Mike Devereaux"
+                },
+                {
+                    "number": "742",
+                    "name": "Rene Arocha / Alan Embree / Brien Taylor / Tim Crabtree",
+                    "attributes": [
+                        "TP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "743",
+                    "name": "Dave Landaker",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "744",
+                    "name": "Chris George"
+                },
+                {
+                    "number": "745",
+                    "name": "Eric Davis"
+                },
+                {
+                    "number": "746",
+                    "name": "Mark Strittmatter / Lamarr Rogers",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "747",
+                    "name": "Carl Willis"
+                },
+                {
+                    "number": "748",
+                    "name": "Stan Belinda"
+                },
+                {
+                    "number": "749",
+                    "name": "Scott Kamieniecki"
+                },
+                {
+                    "number": "750",
+                    "name": "Rickey Henderson"
+                },
+                {
+                    "number": "751",
+                    "name": "Eric Hillman"
+                },
+                {
+                    "number": "752",
+                    "name": "Pat Hentgen"
+                },
+                {
+                    "number": "753",
+                    "name": "Jim Corsi"
+                },
+                {
+                    "number": "754",
+                    "name": "Brian Jordan"
+                },
+                {
+                    "number": "755",
+                    "name": "Bill Swift"
+                },
+                {
+                    "number": "756",
+                    "name": "Mike Henneman"
+                },
+                {
+                    "number": "757",
+                    "name": "Harold Reynolds"
+                },
+                {
+                    "number": "758",
+                    "name": "Sean Berry"
+                },
+                {
+                    "number": "759",
+                    "name": "Charlie Hayes"
+                },
+                {
+                    "number": "760",
+                    "name": "Luis Polonia"
+                },
+                {
+                    "number": "761",
+                    "name": "Darrin Jackson"
+                },
+                {
+                    "number": "762",
+                    "name": "Mark Lewis"
+                },
+                {
+                    "number": "763",
+                    "name": "Rob Maurer"
+                },
+                {
+                    "number": "764",
+                    "name": "Willie Greene"
+                },
+                {
+                    "number": "765",
+                    "name": "Vince Coleman"
+                },
+                {
+                    "number": "766",
+                    "name": "Todd Revenig"
+                },
+                {
+                    "number": "767",
+                    "name": "Rich Ireland",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "768",
+                    "name": "Mike Macfarlane"
+                },
+                {
+                    "number": "769",
+                    "name": "Francisco Cabrera"
+                },
+                {
+                    "number": "770",
+                    "name": "Robin Ventura"
+                },
+                {
+                    "number": "771",
+                    "name": "Kevin Ritz"
+                },
+                {
+                    "number": "772",
+                    "name": "Chito Martinez"
+                },
+                {
+                    "number": "773",
+                    "name": "Cliff Brantley"
+                },
+                {
+                    "number": "774",
+                    "name": "Curtis Leskanic",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "775",
+                    "name": "Chris Bosio"
+                },
+                {
+                    "number": "776",
+                    "name": "Jose Offerman"
+                },
+                {
+                    "number": "777",
+                    "name": "Mark Guthrie"
+                },
+                {
+                    "number": "778",
+                    "name": "Don Slaught"
+                },
+                {
+                    "number": "779",
+                    "name": "Rich Monteleone"
+                },
+                {
+                    "number": "780",
+                    "name": "Jim Abbott"
+                },
+                {
+                    "number": "781",
+                    "name": "Jack Clark"
+                },
+                {
+                    "number": "782",
+                    "name": "Reynol Mendoza / Dan Roman",
+                    "attributes": [
+                        "FS",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "783",
+                    "name": "Heathcliff Slocumb"
+                },
+                {
+                    "number": "784",
+                    "name": "Jeff Branson"
+                },
+                {
+                    "number": "785",
+                    "name": "Kevin Brown"
+                },
+                {
+                    "number": "786",
+                    "name": "Mike Christopher / Ken Ryan / Aaron Taylor / Gus Gandarillas",
+                    "attributes": [
+                        "TP",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "787",
+                    "name": "Mike Matthews",
+                    "attributes": [
+                        "DPK",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "788",
+                    "name": "Mackey Sasser"
+                },
+                {
+                    "number": "789",
+                    "name": "Jeff Conine",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "790",
+                    "name": "George Bell"
+                },
+                {
+                    "number": "791",
+                    "name": "Pat Rapp",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "792",
+                    "name": "Joe Boever"
+                },
+                {
+                    "number": "793",
+                    "name": "Jim Poole"
+                },
+                {
+                    "number": "794",
+                    "name": "Andy Ashby"
+                },
+                {
+                    "number": "795",
+                    "name": "Deion Sanders"
+                },
+                {
+                    "number": "796",
+                    "name": "Scott Brosius"
+                },
+                {
+                    "number": "797",
+                    "name": "Brad Pennington",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "798",
+                    "name": "Greg Blosser",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "799",
+                    "name": "Jim Edmonds",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "800",
+                    "name": "Shawn Jeter",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "801",
+                    "name": "Jesse Levis",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "802",
+                    "name": "Phil Clark",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "803",
+                    "name": "Eddie Pierce",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "804",
+                    "name": "Jose Valentin",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "805",
+                    "name": "Terry Jorgensen",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "806",
+                    "name": "Mark Hutton",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "807",
+                    "name": "Troy Neel",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "808",
+                    "name": "Bret Boone",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "809",
+                    "name": "Cris Colon",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "810",
+                    "name": "Domingo Martinez",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "811",
+                    "name": "Javy Lopez",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "812",
+                    "name": "Matt Walbeck",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "813",
+                    "name": "Dan Wilson",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "814",
+                    "name": "Scooter Tucker",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "815",
+                    "name": "Billy Ashley",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "816",
+                    "name": "Tim Laker",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "817",
+                    "name": "Bobby Jones",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "818",
+                    "name": "Brad Brink",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "819",
+                    "name": "William Pennyfeather",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "820",
+                    "name": "Stan Royer",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "821",
+                    "name": "Doug Brocail",
+                    "attributes": [
+                        "CA",
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "822",
+                    "name": "Kevin Rogers",
+                    "attributes": [
+                        "CA"
+                    ]
+                },
+                {
+                    "number": "823",
+                    "name": "Checklist 4",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "note": "397-540"
+                },
+                {
+                    "number": "824",
+                    "name": "Checklist 5",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "note": "541-691"
+                },
+                {
+                    "number": "825",
+                    "name": "Checklist 6",
+                    "attributes": [
+                        "CL"
+                    ],
+                    "note": "692-825"
+                }
+            ]
+        },
+        {
+            "name": "Black Gold",
+            "insertOdds": [
+                {
+                    "product": "Hobby Pack",
+                    "odds": "1:72"
+                },
+                {
+                    "product": "Retail Pack",
+                    "odds": "1:72"
+                },
+                {
+                    "product": "Jumbo Pack",
+                    "odds": "1:18"
+                },
+                {
+                    "product": "Rack Pack",
+                    "odds": "1:24"
+                }
+            ],
+            "notes": [
+                "#1-22 were issued in Series One",
+                "#23-44 were issued in Series Two"
+            ],
+            "cards": [
+                {
+                    "number": "1",
+                    "name": "Barry Bonds"
+                },
+                {
+                    "number": "2",
+                    "name": "Will Clark"
+                },
+                {
+                    "number": "3",
+                    "name": "Darren Daulton"
+                },
+                {
+                    "number": "4",
+                    "name": "Andre Dawson"
+                },
+                {
+                    "number": "5",
+                    "name": "Delino DeShields"
+                },
+                {
+                    "number": "6",
+                    "name": "Tom Glavine"
+                },
+                {
+                    "number": "7",
+                    "name": "Marquis Grissom"
+                },
+                {
+                    "number": "8",
+                    "name": "Tony Gwynn"
+                },
+                {
+                    "number": "9",
+                    "name": "Eric Karros"
+                },
+                {
+                    "number": "10",
+                    "name": "Ray Lankford"
+                },
+                {
+                    "number": "11",
+                    "name": "Barry Larkin"
+                },
+                {
+                    "number": "12",
+                    "name": "Greg Maddux"
+                },
+                {
+                    "number": "13",
+                    "name": "Fred McGriff"
+                },
+                {
+                    "number": "14",
+                    "name": "Joe Oliver"
+                },
+                {
+                    "number": "15",
+                    "name": "Terry Pendleton"
+                },
+                {
+                    "number": "16",
+                    "name": "Bip Roberts"
+                },
+                {
+                    "number": "17",
+                    "name": "Ryne Sandberg"
+                },
+                {
+                    "number": "18",
+                    "name": "Gary Sheffield"
+                },
+                {
+                    "number": "19",
+                    "name": "Lee Smith"
+                },
+                {
+                    "number": "20",
+                    "name": "Ozzie Smith"
+                },
+                {
+                    "number": "21",
+                    "name": "Andy Van Slyke"
+                },
+                {
+                    "number": "22",
+                    "name": "Larry Walker"
+                },
+                {
+                    "number": "23",
+                    "name": "Roberto Alomar"
+                },
+                {
+                    "number": "24",
+                    "name": "Brady Anderson"
+                },
+                {
+                    "number": "25",
+                    "name": "Carlos Baerga"
+                },
+                {
+                    "number": "26",
+                    "name": "Joe Carter"
+                },
+                {
+                    "number": "27",
+                    "name": "Roger Clemens"
+                },
+                {
+                    "number": "28",
+                    "name": "Mike Devereaux"
+                },
+                {
+                    "number": "29",
+                    "name": "Dennis Eckersley"
+                },
+                {
+                    "number": "30",
+                    "name": "Cecil Fielder"
+                },
+                {
+                    "number": "31",
+                    "name": "Travis Fryman"
+                },
+                {
+                    "number": "32",
+                    "name": "Juan Gonzalez"
+                },
+                {
+                    "number": "33",
+                    "name": "Ken Griffey Jr."
+                },
+                {
+                    "number": "34",
+                    "name": "Brian Harper"
+                },
+                {
+                    "number": "35",
+                    "name": "Pat Listach"
+                },
+                {
+                    "number": "36",
+                    "name": "Kenny Lofton"
+                },
+                {
+                    "number": "37",
+                    "name": "Edgar Martinez"
+                },
+                {
+                    "number": "38",
+                    "name": "Jack McDowell"
+                },
+                {
+                    "number": "39",
+                    "name": "Mark McGwire"
+                },
+                {
+                    "number": "40",
+                    "name": "Kirby Puckett"
+                },
+                {
+                    "number": "41",
+                    "name": "Mickey Tettleton"
+                },
+                {
+                    "number": "42",
+                    "name": "Frank Thomas"
+                },
+                {
+                    "number": "43",
+                    "name": "Robin Ventura"
+                },
+                {
+                    "number": "44",
+                    "name": "Dave Winfield"
+                }
+            ]
+        }
+    ]
+}
