@@ -3,7 +3,7 @@
 Welcome to the Sports Cards JSON Repository, your ultimate destination for exploring sports card data in a structured and open-source format. This repository features comprehensive datasets for baseball cards and aims to expand to include football, hockey, and more. Developers, collectors, and enthusiasts alike can use this resource to power their projects such as: 
 * Integrating a Baseball Card database into your Mobile or Web Application
 * Providing datasets for a Machine Learning model
-* Using them as checklists for your own personal collection.
+* Using them as checklists for your own personal collection
 
 ## Why This Repository?
 
@@ -32,6 +32,7 @@ The repository is organized by sports and card sets. Each set is represented by 
     {
       "name": "Factory Set",
       "notes": ["Complete set included"],
+      "numberedTo": 1000,
       "variations": [
         {
           "variation": "Reverse Back",
@@ -41,7 +42,7 @@ The repository is organized by sports and card sets. Each set is represented by 
       "parallels": [
         {
           "name": "Gold Edition",
-          "of": 1000,
+          "numberedTo": 1000,
           "notes": ["Limited edition release"]
         }
       ],
@@ -60,7 +61,7 @@ The repository is organized by sports and card sets. Each set is represented by 
           "parallels": [
             {
               "name": "Gold Edition",
-              "of": 1000,
+              "numberedTo": 1000,
               "notes": ["Serial numbered"]
             }
           ]
@@ -73,12 +74,15 @@ The repository is organized by sports and card sets. Each set is represented by 
 
 Key fields include:
 
-- **name**: The card set name.
-- **attributes**: General properties such as "Rookie Card."
+- **name**: The name of the card list or set.
+- **attributes**: General properties (e.g., "Rookie Card") with additional notes.
+- **notes**: Optional notes that provide extra context at the card list or set level.
 - **sets**: Detailed information about specific card sets.
-- **variations**: Differences within a set, such as error cards or unique backs.
-- **parallels**: Limited edition versions with unique numbering or designs.
-- **cards**: Individual cards with their attributes and notes.
+  - **numberedTo**: (Optional) The maximum number for cards in the set.
+  - **insertOdds**: (Optional) An array of objects specifying insert odds.
+  - **variations**: Differences within a set, such as misprints or unique designs.
+  - **parallels**: Limited edition versions with unique numbering or designs.
+- **cards**: Individual cards with their attributes, variations, and parallels.
 
 ## Language Examples
 
@@ -90,6 +94,7 @@ The `src` folder contains example code for loading and processing the JSON files
 | **Python**     | `src/python/main.py`    |
 | **Go**         | `src/go/main.go`        |
 | **TypeScript** | `src/ts/index.ts`       |
+| **Rust**       | `src/rust/main.rs`      |
 
 These examples demonstrate how to parse JSON data and work with it effectively, making it easier to build applications or tools for collectors and developers.
 
@@ -103,7 +108,7 @@ We welcome contributions to expand and enhance this repository. To contribute:
 
 1. Fork this repository.
 2. Add or update a card set in JSON format.
-3. Ensure your JSON complies with the `schema.json` file.
+3. Ensure your JSON complies with the provided JSON schema.
 4. Submit a pull request with a description of your changes.
 
 All pull requests are validated using ajv-cli to ensure JSON files meet schema requirements. Validation must pass for the request to be merged.
@@ -118,4 +123,3 @@ Guidelines for contributors:
 For questions or suggestions, feel free to open an issue or reach out through GitHub.
 
 By supporting this project, you’re contributing to a comprehensive resource for sports card data enthusiasts, developers, and collectors alike.
-
