@@ -4,7 +4,7 @@
     "attributes": [
         {
             "attribute": "DK",
-            "note": "Diamond King"
+            "note": "Diamond Kings"
         },
         {
             "attribute": "RR",
@@ -27,8 +27,12 @@
         {
             "name": "Base Set",
             "variations": [
-                { "variation": "\"© 1987 LEAF, INC.\" on back"},
-                { "variation": "\"© 1987 LEAF, INC\" on back"}
+                {
+                    "variation": "\"© 1987 LEAF, INC.\" on back"
+                },
+                {
+                    "variation": "\"© 1987 LEAF, INC\" on back"
+                }
             ],
             "cards": [
                 {
@@ -3126,10 +3130,10 @@
         },
         {
             "name": "Bonus MVP's",
-            "notes":[
+            "notes": [
                 "Inserted in wax, rack, and blister packs"
             ],
-            "cards":[
+            "cards": [
                 {
                     "number": "BC-1",
                     "name": "Cal Ripken"
