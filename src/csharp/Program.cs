@@ -1,4 +1,8 @@
-﻿using System.Text.Json;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Loader
 {
@@ -40,163 +44,217 @@ namespace Loader
         }
     }
 
-    ///<summary>
-    ///     A Card List used to store Baseball Card information
-    ///</summary>
+    /// <summary>
+    /// Represents the root JSON object.
+    /// </summary>
     public class CardList
     {
         /// <summary>
-        ///     Attributes that will be used on the Baseball Cards that are part of this JSON File
-        /// </summary>
-        [JsonPropertyName("attributes")]
-        public List<AttributeItem> Attributes { get; set; }
-
-        /// <summary>
-        ///     Name of the Card List
+        /// Name of the card list.
         /// </summary>
         [JsonPropertyName("name")]
         public string Name { get; set; }
 
         /// <summary>
-        ///     Sets of Baseball Cards that are part of this JSON File
+        /// Optional notes about the card list.
+        /// </summary>
+        [JsonPropertyName("notes")]
+        public List<string> Notes { get; set; }
+
+        /// <summary>
+        /// Optional attributes that apply to the card list.
+        /// </summary>
+        [JsonPropertyName("attributes")]
+        public List<AttributeItem> Attributes { get; set; }
+
+        /// <summary>
+        /// List of card sets.
         /// </summary>
         [JsonPropertyName("sets")]
         public List<Set> Sets { get; set; }
     }
 
     /// <summary>
-    ///     Defines an attribute that can be used on a Baseball Card (such as Rookie Card, Autograph, etc.)
+    /// Defines an attribute that can be used on a card.
     /// </summary>
     public class AttributeItem
     {
         /// <summary>
-        ///     String used to define the attribute (usually an abbreviation such as "RC" for Rookie Card, etc.)
+        /// The attribute (e.g., "RC" for Rookie Card).
         /// </summary>
         [JsonPropertyName("attribute")]
         public string Attribute { get; set; }
 
         /// <summary>
-        ///     Notes or additional information about the attribute
+        /// Additional note about the attribute.
         /// </summary>
         [JsonPropertyName("note")]
         public string Note { get; set; }
     }
 
     /// <summary>
-    ///     Defines a set of Baseball Cards
+    /// Defines a set of cards.
     /// </summary>
     public class Set
     {
         /// <summary>
-        ///     Name of the set
+        /// Name of the set.
         /// </summary>
         [JsonPropertyName("name")]
         public string Name { get; set; }
 
         /// <summary>
-        ///     Notes or additional information about the set
+        /// Optional notes about the set.
         /// </summary>
         [JsonPropertyName("notes")]
         public List<string> Notes { get; set; }
 
         /// <summary>
-        ///     Variations that apply to the entire set (misprinting that affect all cards in the set, etc.)
+        /// Optional number that the cards in this set are numbered to.
+        /// </summary>
+        [JsonPropertyName("numberedTo")]
+        public int? NumberedTo { get; set; }
+
+        /// <summary>
+        /// Optional list of insert odds for the set.
+        /// </summary>
+        [JsonPropertyName("insertOdds")]
+        public List<InsertOdd> InsertOdds { get; set; }
+
+        /// <summary>
+        /// Variations that apply to the entire set.
         /// </summary>
         [JsonPropertyName("variations")]
         public List<Variation> Variations { get; set; }
 
         /// <summary>
-        ///     Parallel versions of the set (such as a Gold parallel, etc.)
+        /// Parallel versions of the set.
         /// </summary>
         [JsonPropertyName("parallels")]
         public List<Parallel> Parallels { get; set; }
 
         /// <summary>
-        ///     List of Baseball Cards that are part of this set
+        /// List of cards in this set.
         /// </summary>
         [JsonPropertyName("cards")]
         public List<Card> Cards { get; set; }
     }
 
     /// <summary>
-    ///     Variation of a set/card (such as a misprint, error, etc.)
+    /// Represents a variation, applicable either to a set or an individual card.
     /// </summary>
     public class Variation
     {
         /// <summary>
-        ///    Name/Title of the variation
+        /// Name/title of the variation.
         /// </summary>
         [JsonPropertyName("variation")]
-        public string VariationName { get; set; }
+        public string Variation { get; set; }
 
         /// <summary>
-        ///     Notes or additional information about the variation
+        /// Optional note about the variation.
         /// </summary>
         [JsonPropertyName("note")]
         public string Note { get; set; }
+
+        /// <summary>
+        /// Optional list of insert odds specific to this variation.
+        /// </summary>
+        [JsonPropertyName("insertOdds")]
+        public List<InsertOdd> InsertOdds { get; set; }
+
+        /// <summary>
+        /// Optional parallels that apply to this variation.
+        /// </summary>
+        [JsonPropertyName("parallels")]
+        public List<Parallel> Parallels { get; set; }
     }
 
     /// <summary>
-    ///     Parallel Set of a set/card (such as a Gold parallel, etc.)
+    /// Represents a parallel version of a set or card.
     /// </summary>
     public class Parallel
     {
         /// <summary>
-        ///     Name/Title of the Parallel
+        /// Name/title of the parallel.
         /// </summary>
         [JsonPropertyName("name")]
         public string Name { get; set; }
 
         /// <summary>
-        ///     Number of cards in the parallel set (if limited printing run)
+        /// Optional number indicating how many cards are in this parallel.
         /// </summary>
-        [JsonPropertyName("of")]
-        public int? Of { get; set; }
+        [JsonPropertyName("numberedTo")]
+        public int? NumberedTo { get; set; }
 
         /// <summary>
-        ///     Notes or additional information about the parallel set
+        /// Optional notes about the parallel.
         /// </summary>
         [JsonPropertyName("notes")]
         public List<string> Notes { get; set; }
+
+        /// <summary>
+        /// Optional list of insert odds for the parallel.
+        /// </summary>
+        [JsonPropertyName("insertOdds")]
+        public List<InsertOdd> InsertOdds { get; set; }
     }
 
     /// <summary>
-    ///     Represents a Baseball Card
+    /// Represents insert odds information.
+    /// </summary>
+    public class InsertOdd
+    {
+        /// <summary>
+        /// The product associated with the insert.
+        /// </summary>
+        [JsonPropertyName("product")]
+        public string Product { get; set; }
+
+        /// <summary>
+        /// The odds value, formatted as "number:number,number,..."
+        /// </summary>
+        [JsonPropertyName("odds")]
+        public string Odds { get; set; }
+    }
+
+    /// <summary>
+    /// Represents an individual card.
     /// </summary>
     public class Card
     {
         /// <summary>
-        ///     Number of the card (if any)
+        /// Optional card number.
         /// </summary>
         [JsonPropertyName("number")]
         public string Number { get; set; }
 
         /// <summary>
-        ///     Name of the player or subject of the card
+        /// Name of the card.
         /// </summary>
         [JsonPropertyName("name")]
         public string Name { get; set; }
 
         /// <summary>
-        ///     Any additional attributes that apply to this card (such as Rookie Card, Autograph, etc.)
+        /// Optional list of attributes for the card.
         /// </summary>
         [JsonPropertyName("attributes")]
         public List<string> Attributes { get; set; }
 
         /// <summary>
-        ///     Notes or additional information about the card
+        /// Optional note about the card.
         /// </summary>
         [JsonPropertyName("note")]
         public string Note { get; set; }
 
         /// <summary>
-        ///     Variations that apply to this card (misprinting that affect this card, etc.)
+        /// Variations specific to this card.
         /// </summary>
         [JsonPropertyName("variations")]
         public List<Variation> Variations { get; set; }
 
         /// <summary>
-        ///     Parallel versions of this card (such as a Gold parallel, etc.) that apply to just this card (not the entire set)
+        /// Parallel versions of this card.
         /// </summary>
         [JsonPropertyName("parallels")]
         public List<Parallel> Parallels { get; set; }

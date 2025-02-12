@@ -3,41 +3,53 @@ from pathlib import Path
 from typing import List, Optional
 from pydantic import BaseModel, ValidationError
 
-# Class definitions based on the schema
+# Model definitions based on the new JSON schema
 
 class AttributeItem(BaseModel):
     attribute: str
     note: str
 
+class InsertOdd(BaseModel):
+    product: str
+    odds: str
+
 class Variation(BaseModel):
     variation: str
-    note: Optional[str]
+    note: Optional[str] = None
+    insertOdds: Optional[List[InsertOdd]] = None
+    parallels: Optional[List["Parallel"]] = None  # Forward reference
 
 class Parallel(BaseModel):
     name: str
-    of: Optional[int]
-    notes: List[str]
+    numberedTo: Optional[int] = None  # Renamed from "of" to "numberedTo"
+    notes: Optional[List[str]] = None
+    insertOdds: Optional[List[InsertOdd]] = None
 
 class Card(BaseModel):
-    number: Optional[str]
+    number: Optional[str] = None
     name: str
-    attributes: Optional[List[str]]
-    note: Optional[str]
-    variations: Optional[List[Variation]]
-    parallels: Optional[List[Parallel]]
+    attributes: Optional[List[str]] = None
+    note: Optional[str] = None
+    variations: Optional[List[Variation]] = None
+    parallels: Optional[List[Parallel]] = None
 
 class Set(BaseModel):
     name: str
-    notes: List[str]
-    variations: Optional[List[Variation]]
-    parallels: Optional[List[Parallel]]
+    notes: Optional[List[str]] = None
+    numberedTo: Optional[int] = None
+    insertOdds: Optional[List[InsertOdd]] = None
+    variations: Optional[List[Variation]] = None
+    parallels: Optional[List[Parallel]] = None
     cards: List[Card]
 
 class CardList(BaseModel):
     name: str
-    attributes: Optional[List[AttributeItem]]
+    notes: Optional[List[str]] = None
+    attributes: Optional[List[AttributeItem]] = None
     sets: List[Set]
 
+# Resolve forward references in Variation (for the Parallel type)
+Variation.update_forward_refs()
 
 def main(file_path: str):
     try:
@@ -59,7 +71,6 @@ def main(file_path: str):
     except ValidationError as e:
         print("Error: JSON validation failed.")
         print(e.json())
-
 
 if __name__ == "__main__":
     import sys

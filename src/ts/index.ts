@@ -1,22 +1,30 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-// Interfaces based on the schema
+// Interfaces based on the updated JSON schema
 
 interface AttributeItem {
     attribute: string;
     note: string;
 }
 
+interface InsertOdd {
+    product: string;
+    odds: string; // Should match the pattern /^[0-9]+:[0-9,]+$/
+}
+
 interface Variation {
     variation: string;
     note?: string;
+    insertOdds?: InsertOdd[];
+    parallels?: Parallel[];
 }
 
 interface Parallel {
     name: string;
-    of?: number;
-    notes: string[];
+    numberedTo?: number;  // Renamed from "of" to "numberedTo"
+    notes?: string[];
+    insertOdds?: InsertOdd[];
 }
 
 interface Card {
@@ -30,7 +38,9 @@ interface Card {
 
 interface Set {
     name: string;
-    notes: string[];
+    notes?: string[];
+    numberedTo?: number;
+    insertOdds?: InsertOdd[];
     variations?: Variation[];
     parallels?: Parallel[];
     cards: Card[];
@@ -38,6 +48,7 @@ interface Set {
 
 interface CardList {
     name: string;
+    notes?: string[];
     attributes?: AttributeItem[];
     sets: Set[];
 }
@@ -53,7 +64,7 @@ function loadJsonFile(filePath: string): CardList | null {
         console.log(JSON.stringify(data, null, 4));
 
         return data;
-    } catch (error) {
+    } catch (error: any) {
         console.error("Error loading or parsing JSON:", error.message);
         return null;
     }
