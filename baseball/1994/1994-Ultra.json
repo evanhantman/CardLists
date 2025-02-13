@@ -1,7 +1,28 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
     "name": "1994 Ultra Baseball",
-    "attributes": [],
+    "attributes": [
+        {
+            "attribute": "ROO",
+            "note": "Rookie"
+        },
+        {
+            "attribute": "RC",
+            "note": "Rookie Card"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "EXCH",
+            "note": "Exchange Card"
+        },
+        {
+            "attribute": "CL",
+            "note": "Checklist"
+        }
+    ],
     "sets": [
         {
             "name": "Series 1",
@@ -3344,7 +3365,7 @@
                     "odds": "1:10"
                 }
             ],
-            "notes":[
+            "notes": [
                 "#1-10 inserted into Series 1 packs",
                 "#11-20 inserted into Series 2 packs",
                 "#M1-M2 distributed via Series 1 wrapper mail-in redemption offer",
@@ -3352,7 +3373,7 @@
             ],
             "parallels": [
                 {
-                    "name" : "Phillies Finest Autographs",
+                    "name": "Phillies Finest Autographs",
                     "notes": [
                         "Randomly issued in Packs",
                         "Reported Print run of 1,000 total Autographs per player"
@@ -3765,7 +3786,7 @@
             "name": "Ultra Firemen",
             "insertOdds": [
                 {
-                    "product": "Series 1 Foil Pack", 
+                    "product": "Series 1 Foil Pack",
                     "odds": "1:11"
                 }
             ],
