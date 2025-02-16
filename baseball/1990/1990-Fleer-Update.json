@@ -1,0 +1,733 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
+    "name": "1990 Fleer Update Baseball",
+    "attributes": [
+        {
+            "attribute": "RC",
+            "note": "Rookie Card"
+        },
+        {
+            "attribute": "XRC",
+            "note": "Extended Rookie Card"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "COMM",
+            "note": "Commemorative Card"
+        },
+        {
+            "attribute": "CL",
+            "note": "Checklist"
+        }
+    ],
+    "sets": [
+        {
+            "name": "Base Set",
+            "cards": [
+                {
+                    "number": "U-1",
+                    "name": "Steve Avery"
+                },
+                {
+                    "number": "U-2",
+                    "name": "Francisco Cabrera",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "U-3",
+                    "name": "Nick Esasky"
+                },
+                {
+                    "number": "U-4",
+                    "name": "Jim Kremers",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-5",
+                    "name": "Greg Olson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-6",
+                    "name": "Jim Presley"
+                },
+                {
+                    "number": "U-7",
+                    "name": "Shawn Boskie",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-8",
+                    "name": "Joe Kraemer",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-9",
+                    "name": "Luis Salazar"
+                },
+                {
+                    "number": "U-10",
+                    "name": "Hector Villanueva",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-11",
+                    "name": "Glenn Braggs"
+                },
+                {
+                    "number": "U-12",
+                    "name": "Mariano Duncan"
+                },
+                {
+                    "number": "U-13",
+                    "name": "Billy Hatcher"
+                },
+                {
+                    "number": "U-14",
+                    "name": "Tim Layana",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-15",
+                    "name": "Hal Morris"
+                },
+                {
+                    "number": "U-16",
+                    "name": "Javier Ortiz",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-17",
+                    "name": "Dave Rohde",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-18",
+                    "name": "Eric Yelding",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-19",
+                    "name": "Hubie Brooks"
+                },
+                {
+                    "number": "U-20",
+                    "name": "Kal Daniels"
+                },
+                {
+                    "number": "U-21",
+                    "name": "Dave Hansen",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-22",
+                    "name": "Mike Hartley"
+                },
+                {
+                    "number": "U-23",
+                    "name": "Stan Javier"
+                },
+                {
+                    "number": "U-24",
+                    "name": "Jose Offerman",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-25",
+                    "name": "Juan Samuel"
+                },
+                {
+                    "number": "U-26",
+                    "name": "Dennis Boyd"
+                },
+                {
+                    "number": "U-27",
+                    "name": "Delino DeShields"
+                },
+                {
+                    "number": "U-28",
+                    "name": "Steve Frey"
+                },
+                {
+                    "number": "U-29",
+                    "name": "Mark Gardner"
+                },
+                {
+                    "number": "U-30",
+                    "name": "Chris Nabholz",
+                    "attributes": [
+                        "XRC"
+                    ]
+                },
+                {
+                    "number": "U-31",
+                    "name": "Bill Sampen",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-32",
+                    "name": "Dave Schmidt"
+                },
+                {
+                    "number": "U-33",
+                    "name": "Daryl Boston"
+                },
+                {
+                    "number": "U-34",
+                    "name": "Chuck Carr",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-35",
+                    "name": "John Franco"
+                },
+                {
+                    "number": "U-36",
+                    "name": "Todd Hundley",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-37",
+                    "name": "Julio Machado",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-38",
+                    "name": "Alejandro Pena"
+                },
+                {
+                    "number": "U-39",
+                    "name": "Darren Reed",
+                    "attributes": [
+                        "XRC"
+                    ]
+                },
+                {
+                    "number": "U-40",
+                    "name": "Tim Crews"
+                },
+                {
+                    "number": "U-41",
+                    "name": "Darrel Akerfelds"
+                },
+                {
+                    "number": "U-42",
+                    "name": "Jose DeJesus"
+                },
+                {
+                    "number": "U-43",
+                    "name": "Dave Hollins",
+                    "attributes": [
+                        "RC",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "U-44",
+                    "name": "Carmelo Martinez"
+                },
+                {
+                    "number": "U-45",
+                    "name": "Brad Moore"
+                },
+                {
+                    "number": "U-46",
+                    "name": "Dale Murphy"
+                },
+                {
+                    "number": "U-47",
+                    "name": "Wally Backman"
+                },
+                {
+                    "number": "U-48",
+                    "name": "Stan Belinda",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-49",
+                    "name": "Bob Patterson",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "U-50",
+                    "name": "Ted Power"
+                },
+                {
+                    "number": "U-51",
+                    "name": "Don Slaught"
+                },
+                {
+                    "number": "U-52",
+                    "name": "Geronimo Pena",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-53",
+                    "name": "Lee Smith"
+                },
+                {
+                    "number": "U-54",
+                    "name": "John Tudor"
+                },
+                {
+                    "number": "U-55",
+                    "name": "Joe Carter"
+                },
+                {
+                    "number": "U-56",
+                    "name": "Tom Howard"
+                },
+                {
+                    "number": "U-57",
+                    "name": "Craig Lefferts"
+                },
+                {
+                    "number": "U-58",
+                    "name": "Rafael Valdez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-59",
+                    "name": "Dave Anderson"
+                },
+                {
+                    "number": "U-60",
+                    "name": "Kevin Bass"
+                },
+                {
+                    "number": "U-61",
+                    "name": "John Burkett"
+                },
+                {
+                    "number": "U-62",
+                    "name": "Gary Carter"
+                },
+                {
+                    "number": "U-63",
+                    "name": "Rick Parker",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-64",
+                    "name": "Trevor Wilson"
+                },
+                {
+                    "number": "U-65",
+                    "name": "Chris Hoiles",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-66",
+                    "name": "Tim Hulett"
+                },
+                {
+                    "number": "U-67",
+                    "name": "Dave Johnson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-68",
+                    "name": "Curt Schilling"
+                },
+                {
+                    "number": "U-69",
+                    "name": "David Segui",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-70",
+                    "name": "Tom Brunansky"
+                },
+                {
+                    "number": "U-71",
+                    "name": "Greg Harris"
+                },
+                {
+                    "number": "U-72",
+                    "name": "Dana Kiecker",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-73",
+                    "name": "Tim Naehring",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-74",
+                    "name": "Tony Pena"
+                },
+                {
+                    "number": "U-75",
+                    "name": "Jeff Reardon"
+                },
+                {
+                    "number": "U-76",
+                    "name": "Jerry Reed"
+                },
+                {
+                    "number": "U-77",
+                    "name": "Mark Eichhorn"
+                },
+                {
+                    "number": "U-78",
+                    "name": "Mark Langston"
+                },
+                {
+                    "number": "U-79",
+                    "name": "John Orton"
+                },
+                {
+                    "number": "U-80",
+                    "name": "Pete O'Brien"
+                },
+                {
+                    "number": "U-81",
+                    "name": "Dave Winfield"
+                },
+                {
+                    "number": "U-82",
+                    "name": "Cliff Young",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-83",
+                    "name": "Wayne Edwards",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-84",
+                    "name": "Alex Fernandez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-85",
+                    "name": "Craig Grebeck",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-86",
+                    "name": "Scott Radinsky",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-87",
+                    "name": "Frank Thomas",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-88",
+                    "name": "Beau Allred",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-89",
+                    "name": "Sandy Alomar, Jr."
+                },
+                {
+                    "number": "U-90",
+                    "name": "Carlos Baerga",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-91",
+                    "name": "Kevin Bearse",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-92",
+                    "name": "Chris James"
+                },
+                {
+                    "number": "U-93",
+                    "name": "Candy Maldonado"
+                },
+                {
+                    "number": "U-94",
+                    "name": "Jeff Manto"
+                },
+                {
+                    "number": "U-95",
+                    "name": "Cecil Fielder"
+                },
+                {
+                    "number": "U-96",
+                    "name": "Travis Fryman",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-97",
+                    "name": "Lloyd Moseby"
+                },
+                {
+                    "number": "U-98",
+                    "name": "Edwin Nunez"
+                },
+                {
+                    "number": "U-99",
+                    "name": "Tony Phillips"
+                },
+                {
+                    "number": "U-100",
+                    "name": "Larry Sheets"
+                },
+                {
+                    "number": "U-101",
+                    "name": "Mark Davis"
+                },
+                {
+                    "number": "U-102",
+                    "name": "Storm Davis"
+                },
+                {
+                    "number": "U-103",
+                    "name": "Gerald Perry"
+                },
+                {
+                    "number": "U-104",
+                    "name": "Terry Shumpert",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-105",
+                    "name": "Edgar Diaz",
+                    "attributes": [
+                        "RC",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "U-106",
+                    "name": "Dave Parker"
+                },
+                {
+                    "number": "U-107",
+                    "name": "Tim Drummond",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-108",
+                    "name": "Junior Ortiz"
+                },
+                {
+                    "number": "U-109",
+                    "name": "Park Pittman",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-110",
+                    "name": "Kevin Tapani",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-111",
+                    "name": "Oscar Azocar",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-112",
+                    "name": "Jim Leyritz",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-113",
+                    "name": "Kevin Maas"
+                },
+                {
+                    "number": "U-114",
+                    "name": "Alan Mills",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-115",
+                    "name": "Matt Nokes"
+                },
+                {
+                    "number": "U-116",
+                    "name": "Pascual Perez"
+                },
+                {
+                    "number": "U-117",
+                    "name": "Ozzie Canseco"
+                },
+                {
+                    "number": "U-118",
+                    "name": "Scott Sanderson"
+                },
+                {
+                    "number": "U-119",
+                    "name": "Tino Martinez"
+                },
+                {
+                    "number": "U-120",
+                    "name": "Steve Foster",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-121",
+                    "name": "Matt Young"
+                },
+                {
+                    "number": "U-122",
+                    "name": "Brian Bohanon",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-123",
+                    "name": "Jeff Huson"
+                },
+                {
+                    "number": "U-124",
+                    "name": "Ramon Manon",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-125",
+                    "name": "Gary Mielke",
+                    "attributes": [
+                        "RC",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "U-126",
+                    "name": "Willie Blair",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-127",
+                    "name": "Glenallen Hill"
+                },
+                {
+                    "number": "U-128",
+                    "name": "John Olerud",
+                    "attributes": [
+                        "RC",
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "U-129",
+                    "name": "Luis Sojo",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-130",
+                    "name": "Mark Whiten",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "U-131",
+                    "name": "Nolan Ryan",
+                    "attributes": [
+                        "COMM"
+                    ]
+                },
+                {
+                    "number": "U-132",
+                    "name": "Dave West"
+                }
+            ]
+        }
+    ]
+}
