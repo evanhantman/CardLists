@@ -1,6 +1,7 @@
 name: Build Parquet Dataset and Update Badges
 
-on:
+on:  
+  workflow_dispatch:
   push:
     branches:
       - main
