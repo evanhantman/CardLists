@@ -39,3 +39,9 @@ jobs:
           message: "Update badges [skip ci]"
           add: "badge/"
           github_token: ${{ secrets.GH_PAT }}
+
+      - name: Upload dataset artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: parquet-dataset.zip
+          path: ./output/dataset.parquet
