@@ -1,0 +1,3344 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
+    "name": "1995 Bowman Baseball",
+    "attributes": [
+        {
+            "attribute": "MLM",
+            "note": "Major League MVP's"
+        },
+        {
+            "attribute": "FI",
+            "note": "1st Impressions"
+        },
+        {
+            "attribute": "PP",
+            "note": "Prime Prospect"
+        },
+        {
+            "attribute": "FOIL",
+            "note": "Foil Card"
+        },
+        {
+            "attribute": "CL",
+            "note": "Checklist"
+        },
+        {
+            "attribute": "RC",
+            "note": "Rookie Card"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        }
+    ],
+    "sets": [
+        {
+            "name": "Base Set",
+            "cards": [
+                {
+                    "number": "1",
+                    "name": "Billy Wagner"
+                },
+                {
+                    "number": "2",
+                    "name": "Chris Widger"
+                },
+                {
+                    "number": "3",
+                    "name": "Brent Bowers"
+                },
+                {
+                    "number": "4",
+                    "name": "Bob Abreu",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "5",
+                    "name": "Lou Collier",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "6",
+                    "name": "Juan Acevedo",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "7",
+                    "name": "Jason Kelley",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "8",
+                    "name": "Brian Sackinsky"
+                },
+                {
+                    "number": "9",
+                    "name": "Scott Christman"
+                },
+                {
+                    "number": "10",
+                    "name": "Damon Hollins"
+                },
+                {
+                    "number": "11",
+                    "name": "Willis Otanez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "12",
+                    "name": "Jason Ryan",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "13",
+                    "name": "Jason Giambi"
+                },
+                {
+                    "number": "14",
+                    "name": "Andy Taulbee",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "15",
+                    "name": "Mark Thompson"
+                },
+                {
+                    "number": "16",
+                    "name": "Hugo Pivaral",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "17",
+                    "name": "Brien Taylor"
+                },
+                {
+                    "number": "18",
+                    "name": "Antonio Osuna"
+                },
+                {
+                    "number": "19",
+                    "name": "Edgardo Alfonzo"
+                },
+                {
+                    "number": "20",
+                    "name": "Carl Everett"
+                },
+                {
+                    "number": "21",
+                    "name": "Matt Drews"
+                },
+                {
+                    "number": "22",
+                    "name": "Bartolo Colon",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "23",
+                    "name": "Andruw Jones",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "24",
+                    "name": "Robert Person",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "25",
+                    "name": "Derrek Lee"
+                },
+                {
+                    "number": "26",
+                    "name": "John Ambrose",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "27",
+                    "name": "Eric Knowles",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "28",
+                    "name": "Chris Roberts"
+                },
+                {
+                    "number": "29",
+                    "name": "Don Wengert"
+                },
+                {
+                    "number": "30",
+                    "name": "Marcus Jensen",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "31",
+                    "name": "Brian Barber"
+                },
+                {
+                    "number": "32",
+                    "name": "Kevin Brown"
+                },
+                {
+                    "number": "33",
+                    "name": "Benji Gil"
+                },
+                {
+                    "number": "34",
+                    "name": "Mike Hubbard"
+                },
+                {
+                    "number": "35",
+                    "name": "Bart Evans",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "36",
+                    "name": "Enrique Wilson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "37",
+                    "name": "Brian Buchanan",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "38",
+                    "name": "Ken Ray",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "39",
+                    "name": "Micah Franklin",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "40",
+                    "name": "Ricky Otero",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "41",
+                    "name": "Jason Kendall"
+                },
+                {
+                    "number": "42",
+                    "name": "Jimmy Hurst"
+                },
+                {
+                    "number": "43",
+                    "name": "Jerry Wolak",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "44",
+                    "name": "Jayson Peterson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "45",
+                    "name": "Allen Battle",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "46",
+                    "name": "Scott Stahoviak"
+                },
+                {
+                    "number": "47",
+                    "name": "Steve Schrenk",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "48",
+                    "name": "Travis Miller",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "49",
+                    "name": "Eddie Rios",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "50",
+                    "name": "Mike Hampton",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "51",
+                    "name": "Chad Frontera",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "52",
+                    "name": "Tom Evans"
+                },
+                {
+                    "number": "53",
+                    "name": "C.J. Nitkowski"
+                },
+                {
+                    "number": "54",
+                    "name": "Clay Caruthers",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "55",
+                    "name": "Shannon Stewart"
+                },
+                {
+                    "number": "56",
+                    "name": "Jorge Posada"
+                },
+                {
+                    "number": "57",
+                    "name": "Aaron Holbert"
+                },
+                {
+                    "number": "58",
+                    "name": "Harry Berrios",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "59",
+                    "name": "Steve Rodriguez"
+                },
+                {
+                    "number": "60",
+                    "name": "Shane Andrews"
+                },
+                {
+                    "number": "61",
+                    "name": "Will Cunnane",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "62",
+                    "name": "Richard Hidalgo"
+                },
+                {
+                    "number": "63",
+                    "name": "Bill Selby"
+                },
+                {
+                    "number": "64",
+                    "name": "Jay Cranford",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "65",
+                    "name": "Jeff Suppan"
+                },
+                {
+                    "number": "66",
+                    "name": "Curtis Goodwin"
+                },
+                {
+                    "number": "67",
+                    "name": "John Thomson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "68",
+                    "name": "Justin Thompson"
+                },
+                {
+                    "number": "69",
+                    "name": "Troy Percival"
+                },
+                {
+                    "number": "70",
+                    "name": "Matt Wagner",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "71",
+                    "name": "Terry Bradshaw"
+                },
+                {
+                    "number": "72",
+                    "name": "Greg Hansell"
+                },
+                {
+                    "number": "73",
+                    "name": "John Burke"
+                },
+                {
+                    "number": "74",
+                    "name": "Jeff D'Amico"
+                },
+                {
+                    "number": "75",
+                    "name": "Ernie Young",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "76",
+                    "name": "Jason Bates"
+                },
+                {
+                    "number": "77",
+                    "name": "Chris Stynes"
+                },
+                {
+                    "number": "78",
+                    "name": "Cade Gaspar",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "79",
+                    "name": "Melvin Nieves"
+                },
+                {
+                    "number": "80",
+                    "name": "Rick Gorecki"
+                },
+                {
+                    "number": "81",
+                    "name": "Felix Rodriguez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "82",
+                    "name": "Ryan Hancock"
+                },
+                {
+                    "number": "83",
+                    "name": "Chris Carpenter",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "84",
+                    "name": "Ray McDavid"
+                },
+                {
+                    "number": "85",
+                    "name": "Chris Wimmer"
+                },
+                {
+                    "number": "86",
+                    "name": "Doug Glanville"
+                },
+                {
+                    "number": "87",
+                    "name": "DeShawn Warren"
+                },
+                {
+                    "number": "88",
+                    "name": "Damian Moss",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "89",
+                    "name": "Rafael Orellano",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "90",
+                    "name": "Vladimir Guerrero",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "91",
+                    "name": "Raul Casanova",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "92",
+                    "name": "Karim Garcia",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "93",
+                    "name": "Bryce Florie"
+                },
+                {
+                    "number": "94",
+                    "name": "Kevin Orie"
+                },
+                {
+                    "number": "95",
+                    "name": "Ryan Nye",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "96",
+                    "name": "Matt Sachse",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "97",
+                    "name": "Ivan Arteaga",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "98",
+                    "name": "Glenn Murray"
+                },
+                {
+                    "number": "99",
+                    "name": "Stacy Hollins",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "100",
+                    "name": "Jim Pittsley"
+                },
+                {
+                    "number": "101",
+                    "name": "Craig Mattson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "102",
+                    "name": "Neifi Perez"
+                },
+                {
+                    "number": "103",
+                    "name": "Keith Williams"
+                },
+                {
+                    "number": "104",
+                    "name": "Roger Cedeno"
+                },
+                {
+                    "number": "105",
+                    "name": "Tony Terry",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "106",
+                    "name": "Jose Malave"
+                },
+                {
+                    "number": "107",
+                    "name": "Joe Rosselli"
+                },
+                {
+                    "number": "108",
+                    "name": "Kevin Jordan"
+                },
+                {
+                    "number": "109",
+                    "name": "Sid Roberson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "110",
+                    "name": "Alan Embree"
+                },
+                {
+                    "number": "111",
+                    "name": "Terrell Wade"
+                },
+                {
+                    "number": "112",
+                    "name": "Bob Wolcott"
+                },
+                {
+                    "number": "113",
+                    "name": "Carlos Perez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "114",
+                    "name": "Mike Bovee",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "115",
+                    "name": "Tommy Davis",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "116",
+                    "name": "Jeremey Kendall",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "117",
+                    "name": "Rich Aude"
+                },
+                {
+                    "number": "118",
+                    "name": "Rick Huisman"
+                },
+                {
+                    "number": "119",
+                    "name": "Tim Belk"
+                },
+                {
+                    "number": "120",
+                    "name": "Edgar Renteria"
+                },
+                {
+                    "number": "121",
+                    "name": "Calvin Maduro",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "122",
+                    "name": "Jerry Martin",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "123",
+                    "name": "Ramon Fermin",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "124",
+                    "name": "Kimera Bartee",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "125",
+                    "name": "Mark Farris"
+                },
+                {
+                    "number": "126",
+                    "name": "Frank Rodriguez"
+                },
+                {
+                    "number": "127",
+                    "name": "Bobby Higginson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "128",
+                    "name": "Bret Wagner"
+                },
+                {
+                    "number": "129",
+                    "name": "Edwin Diaz",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "130",
+                    "name": "Jimmy Haynes"
+                },
+                {
+                    "number": "131",
+                    "name": "Chris Weinke",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "132",
+                    "name": "Damian Jackson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "133",
+                    "name": "Felix Martinez"
+                },
+                {
+                    "number": "134",
+                    "name": "Edwin Hurtado",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "135",
+                    "name": "Matt Raleigh",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "136",
+                    "name": "Paul Wilson"
+                },
+                {
+                    "number": "137",
+                    "name": "Ron Villone"
+                },
+                {
+                    "number": "138",
+                    "name": "Eric Stuckenschneider",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "139",
+                    "name": "Tate Seefried"
+                },
+                {
+                    "number": "140",
+                    "name": "Rey Ordonez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "141",
+                    "name": "Eddie Pearson"
+                },
+                {
+                    "number": "142",
+                    "name": "Kevin Gallaher"
+                },
+                {
+                    "number": "143",
+                    "name": "Torii Hunter"
+                },
+                {
+                    "number": "144",
+                    "name": "Daron Kirkreit"
+                },
+                {
+                    "number": "145",
+                    "name": "Craig Wilson"
+                },
+                {
+                    "number": "146",
+                    "name": "Ugueth Urbina"
+                },
+                {
+                    "number": "147",
+                    "name": "Chris Snopek"
+                },
+                {
+                    "number": "148",
+                    "name": "Kym Ashworth"
+                },
+                {
+                    "number": "149",
+                    "name": "Wayne Gomes"
+                },
+                {
+                    "number": "150",
+                    "name": "Mark Loretta"
+                },
+                {
+                    "number": "151",
+                    "name": "Ramon Morel",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "152",
+                    "name": "Trot Nixon"
+                },
+                {
+                    "number": "153",
+                    "name": "Desi Relaford"
+                },
+                {
+                    "number": "154",
+                    "name": "Scott Sullivan"
+                },
+                {
+                    "number": "155",
+                    "name": "Marc Barcelo"
+                },
+                {
+                    "number": "156",
+                    "name": "Willie Adams"
+                },
+                {
+                    "number": "157",
+                    "name": "Derrick Gibson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "158",
+                    "name": "Brian Meadows",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "159",
+                    "name": "Julian Tavarez"
+                },
+                {
+                    "number": "160",
+                    "name": "Bryan Rekar"
+                },
+                {
+                    "number": "161",
+                    "name": "Steve Gibralter"
+                },
+                {
+                    "number": "162",
+                    "name": "Esteban Loaiza"
+                },
+                {
+                    "number": "163",
+                    "name": "John Wasdin"
+                },
+                {
+                    "number": "164",
+                    "name": "Kirk Presley"
+                },
+                {
+                    "number": "165",
+                    "name": "Mariano Rivera"
+                },
+                {
+                    "number": "166",
+                    "name": "Andy Larkin"
+                },
+                {
+                    "number": "167",
+                    "name": "Sean Whiteside",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "168",
+                    "name": "Matt Apana",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "169",
+                    "name": "Shawn Senior",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "170",
+                    "name": "Scott Gentile"
+                },
+                {
+                    "number": "171",
+                    "name": "Quilvio Veras"
+                },
+                {
+                    "number": "172",
+                    "name": "Elieser Marrero",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "173",
+                    "name": "Mendy Lopez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "174",
+                    "name": "Homer Bush"
+                },
+                {
+                    "number": "175",
+                    "name": "Brian Stephenson",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "176",
+                    "name": "Jon Nunnally"
+                },
+                {
+                    "number": "177",
+                    "name": "Jose Herrera"
+                },
+                {
+                    "number": "178",
+                    "name": "Corey Avrard",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "179",
+                    "name": "David Bell"
+                },
+                {
+                    "number": "180",
+                    "name": "Jason Isringhausen"
+                },
+                {
+                    "number": "181",
+                    "name": "Jamey Wright"
+                },
+                {
+                    "number": "182",
+                    "name": "Lonell Roberts",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "183",
+                    "name": "Marty Cordova"
+                },
+                {
+                    "number": "184",
+                    "name": "Amaury Telemaco"
+                },
+                {
+                    "number": "185",
+                    "name": "John Mabry"
+                },
+                {
+                    "number": "186",
+                    "name": "Andrew Vessel",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "187",
+                    "name": "Jim Cole",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "188",
+                    "name": "Marquis Riley"
+                },
+                {
+                    "number": "189",
+                    "name": "Todd Dunn"
+                },
+                {
+                    "number": "190",
+                    "name": "John Carter"
+                },
+                {
+                    "number": "191",
+                    "name": "Donnie Sadler",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "192",
+                    "name": "Mike Bell"
+                },
+                {
+                    "number": "193",
+                    "name": "Chris Cumberland",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "194",
+                    "name": "Jason Schmidt"
+                },
+                {
+                    "number": "195",
+                    "name": "Matt Brunson"
+                },
+                {
+                    "number": "196",
+                    "name": "James Baldwin"
+                },
+                {
+                    "number": "197",
+                    "name": "Bill Simas",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "198",
+                    "name": "Gus Gandarillas"
+                },
+                {
+                    "number": "199",
+                    "name": "Mac Suzuki"
+                },
+                {
+                    "number": "200",
+                    "name": "Rick Holifield",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "201",
+                    "name": "Fernando Lunar",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "202",
+                    "name": "Kevin Jarvis"
+                },
+                {
+                    "number": "203",
+                    "name": "Everett Stull"
+                },
+                {
+                    "number": "204",
+                    "name": "Steve Wojciechowski"
+                },
+                {
+                    "number": "205",
+                    "name": "Shawn Estes"
+                },
+                {
+                    "number": "206",
+                    "name": "Jermaine Dye"
+                },
+                {
+                    "number": "207",
+                    "name": "Marc Kroon"
+                },
+                {
+                    "number": "208",
+                    "name": "Pete Munro",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "209",
+                    "name": "Pat Watkins"
+                },
+                {
+                    "number": "210",
+                    "name": "Matt Smith"
+                },
+                {
+                    "number": "211",
+                    "name": "Joe Vitiello"
+                },
+                {
+                    "number": "212",
+                    "name": "Gerald Witasick Jr."
+                },
+                {
+                    "number": "213",
+                    "name": "Freddy Garcia",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "214",
+                    "name": "Glenn Dishman",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "215",
+                    "name": "Jay Canizaro",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "216",
+                    "name": "Angel Martinez"
+                },
+                {
+                    "number": "217",
+                    "name": "Yamil Benitez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "218",
+                    "name": "Fausto Macey",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "219",
+                    "name": "Eric Owens"
+                },
+                {
+                    "number": "220",
+                    "name": "Checklist: 1-220",
+                    "attributes": [
+                        "CL"
+                    ]
+                },
+                {
+                    "number": "221",
+                    "name": "Dwayne Hosey",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "222",
+                    "name": "Brad Woodall",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "223",
+                    "name": "Billy Ashley",
+                    "attributes": [
+                        "MLM",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "224",
+                    "name": "Mark Grudzielanek",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "225",
+                    "name": "Mark Johnson",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "226",
+                    "name": "Tim Unroe",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "227",
+                    "name": "Todd Greene",
+                    "attributes": [
+                        "MLM",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "228",
+                    "name": "Larry Sutton",
+                    "attributes": [
+                        "MLM",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "229",
+                    "name": "Derek Jeter",
+                    "attributes": [
+                        "MLM",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "230",
+                    "name": "Sal Fasano",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "231",
+                    "name": "Ruben Rivera",
+                    "attributes": [
+                        "MLM",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "232",
+                    "name": "Chris Truby",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "233",
+                    "name": "John Donati",
+                    "attributes": [
+                        "MLM",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "234",
+                    "name": "Decomba Conner",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "235",
+                    "name": "Sergio Nunez",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "236",
+                    "name": "Ray Brown",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "237",
+                    "name": "Juan Melo",
+                    "attributes": [
+                        "MLM",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "238",
+                    "name": "Hideo Nomo",
+                    "attributes": [
+                        "FI",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "239",
+                    "name": "Jaime Bluma",
+                    "attributes": [
+                        "FI",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "240",
+                    "name": "Jay Payton",
+                    "attributes": [
+                        "FI",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "241",
+                    "name": "Paul Konerko",
+                    "attributes": [
+                        "FI",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "242",
+                    "name": "Scott Elarton",
+                    "attributes": [
+                        "FI",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "243",
+                    "name": "Jeff Abbott",
+                    "attributes": [
+                        "FI",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "244",
+                    "name": "Jim Brower",
+                    "attributes": [
+                        "FI",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "245",
+                    "name": "Geoff Blum",
+                    "attributes": [
+                        "FI",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "246",
+                    "name": "Aaron Boone",
+                    "attributes": [
+                        "FI",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "247",
+                    "name": "J.R. Phillips",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "248",
+                    "name": "Alex Ochoa",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "249",
+                    "name": "Nomar Garciaparra",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "250",
+                    "name": "Garret Anderson",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "251",
+                    "name": "Ray Durham",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "252",
+                    "name": "Paul Shuey",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "253",
+                    "name": "Tony Clark",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "254",
+                    "name": "Johnny Damon",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "255",
+                    "name": "Duane Singleton",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "256",
+                    "name": "LaTroy Hawkins",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "257",
+                    "name": "Andy Pettitte",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "258",
+                    "name": "Ben Grieve",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "259",
+                    "name": "Marc Newfield",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "260",
+                    "name": "Terrell Lowery",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "261",
+                    "name": "Shawn Green",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "262",
+                    "name": "Chipper Jones",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "263",
+                    "name": "Brooks Kieschnick",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "264",
+                    "name": "Calvin Reese",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "265",
+                    "name": "Doug Million",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "266",
+                    "name": "Marc Valdes",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "267",
+                    "name": "Brian Hunter",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "268",
+                    "name": "Todd Hollandsworth",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "269",
+                    "name": "Rod Henderson",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "270",
+                    "name": "Bill Pulsipher",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "271",
+                    "name": "Scott Rolen",
+                    "attributes": [
+                        "PP",
+                        "FOIL",
+                        "RC"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "272",
+                    "name": "Trey Beamon",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "273",
+                    "name": "Alan Benes",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "274",
+                    "name": "Dustin Hermanson",
+                    "attributes": [
+                        "PP",
+                        "FOIL"
+                    ],
+                    "parallels": [
+                        {
+                            "name": "Gold Foil",
+                            "insertOdds": [
+                                {
+                                    "product": "Hobby Pack",
+                                    "odds": "1:6"
+                                },
+                                {
+                                    "product": "Jumbo Odds",
+                                    "odds": "1:4"
+                                },
+                                {
+                                    "product": "Rack Odds",
+                                    "odds": "2:4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "number": "275",
+                    "name": "Ricky Bottalico"
+                },
+                {
+                    "number": "276",
+                    "name": "Albert Belle"
+                },
+                {
+                    "number": "277",
+                    "name": "Deion Sanders"
+                },
+                {
+                    "number": "278",
+                    "name": "Matt Williams"
+                },
+                {
+                    "number": "279",
+                    "name": "Jeff Bagwell"
+                },
+                {
+                    "number": "280",
+                    "name": "Kirby Puckett"
+                },
+                {
+                    "number": "281",
+                    "name": "Dave Hollins"
+                },
+                {
+                    "number": "282",
+                    "name": "Don Mattingly"
+                },
+                {
+                    "number": "283",
+                    "name": "Joey Hamilton"
+                },
+                {
+                    "number": "284",
+                    "name": "Bobby Bonilla"
+                },
+                {
+                    "number": "285",
+                    "name": "Moises Alou"
+                },
+                {
+                    "number": "286",
+                    "name": "Tom Glavine"
+                },
+                {
+                    "number": "287",
+                    "name": "Brett Butler"
+                },
+                {
+                    "number": "288",
+                    "name": "Chris Hoiles"
+                },
+                {
+                    "number": "289",
+                    "name": "Kenny Rogers"
+                },
+                {
+                    "number": "290",
+                    "name": "Larry Walker"
+                },
+                {
+                    "number": "291",
+                    "name": "Tim Raines"
+                },
+                {
+                    "number": "292",
+                    "name": "Kevin Appier"
+                },
+                {
+                    "number": "293",
+                    "name": "Roger Clemens"
+                },
+                {
+                    "number": "294",
+                    "name": "Chuck Carr"
+                },
+                {
+                    "number": "294b",
+                    "name": "Cliff Floyd",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "295",
+                    "name": "Randy Myers"
+                },
+                {
+                    "number": "296",
+                    "name": "Dave Nilsson"
+                },
+                {
+                    "number": "297",
+                    "name": "Joe Carter"
+                },
+                {
+                    "number": "298",
+                    "name": "Chuck Finley"
+                },
+                {
+                    "number": "299",
+                    "name": "Ray Lankford"
+                },
+                {
+                    "number": "300",
+                    "name": "Roberto Kelly"
+                },
+                {
+                    "number": "301",
+                    "name": "Jon Lieber"
+                },
+                {
+                    "number": "302",
+                    "name": "Travis Fryman"
+                },
+                {
+                    "number": "303",
+                    "name": "Mark McGwire"
+                },
+                {
+                    "number": "304",
+                    "name": "Tony Gwynn"
+                },
+                {
+                    "number": "305",
+                    "name": "Kenny Lofton"
+                },
+                {
+                    "number": "306",
+                    "name": "Mark Whiten"
+                },
+                {
+                    "number": "307",
+                    "name": "Doug Drabek"
+                },
+                {
+                    "number": "308",
+                    "name": "Terry Steinbach"
+                },
+                {
+                    "number": "309",
+                    "name": "Ryan Klesko"
+                },
+                {
+                    "number": "310",
+                    "name": "Mike Piazza"
+                },
+                {
+                    "number": "311",
+                    "name": "Ben McDonald"
+                },
+                {
+                    "number": "312",
+                    "name": "Reggie Sanders"
+                },
+                {
+                    "number": "313",
+                    "name": "Alex Fernandez"
+                },
+                {
+                    "number": "314",
+                    "name": "Aaron Sele"
+                },
+                {
+                    "number": "315",
+                    "name": "Gregg Jefferies"
+                },
+                {
+                    "number": "316",
+                    "name": "Rickey Henderson"
+                },
+                {
+                    "number": "317",
+                    "name": "Brian Anderson"
+                },
+                {
+                    "number": "318",
+                    "name": "Jose Valentin"
+                },
+                {
+                    "number": "319",
+                    "name": "Rod Beck"
+                },
+                {
+                    "number": "320",
+                    "name": "Marquis Grissom"
+                },
+                {
+                    "number": "321",
+                    "name": "Ken Griffey Jr."
+                },
+                {
+                    "number": "322",
+                    "name": "Bret Saberhagen"
+                },
+                {
+                    "number": "323",
+                    "name": "Juan Gonzalez"
+                },
+                {
+                    "number": "324",
+                    "name": "Paul Molitor"
+                },
+                {
+                    "number": "325",
+                    "name": "Gary Sheffield"
+                },
+                {
+                    "number": "326",
+                    "name": "Darren Daulton"
+                },
+                {
+                    "number": "327",
+                    "name": "Bill Swift"
+                },
+                {
+                    "number": "328",
+                    "name": "Brian McRae"
+                },
+                {
+                    "number": "329",
+                    "name": "Robin Ventura"
+                },
+                {
+                    "number": "330",
+                    "name": "Lee Smith"
+                },
+                {
+                    "number": "331",
+                    "name": "Fred McGriff"
+                },
+                {
+                    "number": "332",
+                    "name": "Delino DeShields"
+                },
+                {
+                    "number": "333",
+                    "name": "Edgar Martinez"
+                },
+                {
+                    "number": "334",
+                    "name": "Mike Mussina"
+                },
+                {
+                    "number": "335",
+                    "name": "Orlando Merced"
+                },
+                {
+                    "number": "336",
+                    "name": "Carlos Baerga"
+                },
+                {
+                    "number": "337",
+                    "name": "Wil Cordero"
+                },
+                {
+                    "number": "338",
+                    "name": "Tom Pagnozzi"
+                },
+                {
+                    "number": "339",
+                    "name": "Pat Hentgen"
+                },
+                {
+                    "number": "340",
+                    "name": "Chad Curtis"
+                },
+                {
+                    "number": "341",
+                    "name": "Darren Lewis"
+                },
+                {
+                    "number": "342",
+                    "name": "Jeff Kent"
+                },
+                {
+                    "number": "343",
+                    "name": "Bip Roberts"
+                },
+                {
+                    "number": "344",
+                    "name": "Ivan Rodriguez"
+                },
+                {
+                    "number": "345",
+                    "name": "Jeff Montgomery"
+                },
+                {
+                    "number": "346",
+                    "name": "Hal Morris"
+                },
+                {
+                    "number": "347",
+                    "name": "Danny Tartabull"
+                },
+                {
+                    "number": "348",
+                    "name": "Raul Mondesi"
+                },
+                {
+                    "number": "349",
+                    "name": "Ken Hill"
+                },
+                {
+                    "number": "350",
+                    "name": "Pedro Martinez"
+                },
+                {
+                    "number": "351",
+                    "name": "Frank Thomas"
+                },
+                {
+                    "number": "352",
+                    "name": "Manny Ramirez"
+                },
+                {
+                    "number": "353",
+                    "name": "Tim Salmon"
+                },
+                {
+                    "number": "354",
+                    "name": "William Van Landingham"
+                },
+                {
+                    "number": "355",
+                    "name": "Andres Galarraga"
+                },
+                {
+                    "number": "356",
+                    "name": "Paul O'Neill"
+                },
+                {
+                    "number": "357",
+                    "name": "Brady Anderson"
+                },
+                {
+                    "number": "358",
+                    "name": "Ramon Martinez"
+                },
+                {
+                    "number": "359",
+                    "name": "John Olerud"
+                },
+                {
+                    "number": "360",
+                    "name": "Ruben Sierra"
+                },
+                {
+                    "number": "361",
+                    "name": "Cal Eldred"
+                },
+                {
+                    "number": "362",
+                    "name": "Jay Buhner"
+                },
+                {
+                    "number": "363",
+                    "name": "Jay Bell"
+                },
+                {
+                    "number": "364",
+                    "name": "Wally Joyner"
+                },
+                {
+                    "number": "365",
+                    "name": "Chuck Knoblauch"
+                },
+                {
+                    "number": "366",
+                    "name": "Lenny Dykstra"
+                },
+                {
+                    "number": "367",
+                    "name": "John Wetteland"
+                },
+                {
+                    "number": "368",
+                    "name": "Roberto Alomar"
+                },
+                {
+                    "number": "369",
+                    "name": "Craig Biggio"
+                },
+                {
+                    "number": "370",
+                    "name": "Ozzie Smith"
+                },
+                {
+                    "number": "371",
+                    "name": "Terry Pendleton"
+                },
+                {
+                    "number": "372",
+                    "name": "Sammy Sosa",
+                    "attributes": [
+                        "UER"
+                    ]
+                },
+                {
+                    "number": "373",
+                    "name": "Carlos Garcia"
+                },
+                {
+                    "number": "374",
+                    "name": "Jose Rijo"
+                },
+                {
+                    "number": "375",
+                    "name": "Chris Gomez"
+                },
+                {
+                    "number": "376",
+                    "name": "Barry Bonds"
+                },
+                {
+                    "number": "377",
+                    "name": "Steve Avery"
+                },
+                {
+                    "number": "378",
+                    "name": "Rick Wilkins"
+                },
+                {
+                    "number": "379",
+                    "name": "Pete Harnisch"
+                },
+                {
+                    "number": "380",
+                    "name": "Dean Palmer"
+                },
+                {
+                    "number": "381",
+                    "name": "Bob Hamelin"
+                },
+                {
+                    "number": "382",
+                    "name": "Jason Bere"
+                },
+                {
+                    "number": "383",
+                    "name": "Jimmy Key"
+                },
+                {
+                    "number": "384",
+                    "name": "Dante Bichette"
+                },
+                {
+                    "number": "385",
+                    "name": "Rafael Palmeiro"
+                },
+                {
+                    "number": "386",
+                    "name": "David Justice"
+                },
+                {
+                    "number": "387",
+                    "name": "Chili Davis"
+                },
+                {
+                    "number": "388",
+                    "name": "Mike Greenwell"
+                },
+                {
+                    "number": "389",
+                    "name": "Todd Zeile"
+                },
+                {
+                    "number": "390",
+                    "name": "Jeff Conine"
+                },
+                {
+                    "number": "391",
+                    "name": "Rick Aguilera"
+                },
+                {
+                    "number": "392",
+                    "name": "Eddie Murray"
+                },
+                {
+                    "number": "393",
+                    "name": "Mike Stanley"
+                },
+                {
+                    "number": "395",
+                    "name": "Randy Johnson"
+                },
+                {
+                    "number": "396",
+                    "name": "David Nied"
+                },
+                {
+                    "number": "397",
+                    "name": "Devon White"
+                },
+                {
+                    "number": "398",
+                    "name": "Royce Clayton"
+                },
+                {
+                    "number": "399",
+                    "name": "Andy Benes"
+                },
+                {
+                    "number": "400",
+                    "name": "John Hudek"
+                },
+                {
+                    "number": "401",
+                    "name": "Bobby Jones"
+                },
+                {
+                    "number": "402",
+                    "name": "Eric Karros"
+                },
+                {
+                    "number": "403",
+                    "name": "Will Clark"
+                },
+                {
+                    "number": "404",
+                    "name": "Mark Langston"
+                },
+                {
+                    "number": "405",
+                    "name": "Kevin Brown"
+                },
+                {
+                    "number": "406",
+                    "name": "Greg Maddux"
+                },
+                {
+                    "number": "407",
+                    "name": "David Cone"
+                },
+                {
+                    "number": "408",
+                    "name": "Wade Boggs"
+                },
+                {
+                    "number": "409",
+                    "name": "Steve Trachsel"
+                },
+                {
+                    "number": "410",
+                    "name": "Greg Vaughn"
+                },
+                {
+                    "number": "411",
+                    "name": "Mo Vaughn"
+                },
+                {
+                    "number": "412",
+                    "name": "Wilson Alvarez"
+                },
+                {
+                    "number": "413",
+                    "name": "Cal Ripken"
+                },
+                {
+                    "number": "414",
+                    "name": "Rico Brogna"
+                },
+                {
+                    "number": "415",
+                    "name": "Barry Larkin"
+                },
+                {
+                    "number": "416",
+                    "name": "Cecil Fielder"
+                },
+                {
+                    "number": "417",
+                    "name": "Jose Canseco"
+                },
+                {
+                    "number": "418",
+                    "name": "Jack McDowell"
+                },
+                {
+                    "number": "419",
+                    "name": "Mike Lieberthal"
+                },
+                {
+                    "number": "420",
+                    "name": "Andrew Lorraine"
+                },
+                {
+                    "number": "421",
+                    "name": "Rich Becker"
+                },
+                {
+                    "number": "422",
+                    "name": "Tony Phillips"
+                },
+                {
+                    "number": "423",
+                    "name": "Scott Ruffcorn"
+                },
+                {
+                    "number": "424",
+                    "name": "Jeff Granger"
+                },
+                {
+                    "number": "425",
+                    "name": "Greg Pirkl"
+                },
+                {
+                    "number": "426",
+                    "name": "Dennis Eckersley"
+                },
+                {
+                    "number": "427",
+                    "name": "Jose Lima"
+                },
+                {
+                    "number": "428",
+                    "name": "Russ Davis"
+                },
+                {
+                    "number": "429",
+                    "name": "Armando Benitez",
+                    "attributes": [
+                        "RC"
+                    ]
+                },
+                {
+                    "number": "430",
+                    "name": "Alex Gonzalez"
+                },
+                {
+                    "number": "431",
+                    "name": "Carlos Delgado"
+                },
+                {
+                    "number": "432",
+                    "name": "Chan Ho Park"
+                },
+                {
+                    "number": "433",
+                    "name": "Mickey Tettleton"
+                },
+                {
+                    "number": "434",
+                    "name": "Dave Winfield"
+                },
+                {
+                    "number": "435",
+                    "name": "John Burkett"
+                },
+                {
+                    "number": "436",
+                    "name": "Orlando Miller"
+                },
+                {
+                    "number": "437",
+                    "name": "Rondell White"
+                },
+                {
+                    "number": "438",
+                    "name": "Jose Oliva"
+                },
+                {
+                    "number": "439",
+                    "name": "Checklist: 221-439",
+                    "attributes": [
+                        "CL"
+                    ]
+                }
+            ]
+        }
+    ]
+}
