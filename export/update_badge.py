@@ -10,7 +10,7 @@ with open("card_counts.json", "r", encoding="utf-8") as f:
 target_sports = ["baseball", "football", "basketball", "hockey"]
 
 # Ensure the badge output directory exists
-os.makedirs("badge", exist_ok=True)
+os.makedirs(".github/badge", exist_ok=True)
 
 # Template for the SVG badge
 def generate_badge_svg(sport, count):
@@ -39,7 +39,7 @@ def generate_badge_svg(sport, count):
 for sport in target_sports:
     count = counts.get(sport, 0)
     svg_content = generate_badge_svg(sport, count)
-    badge_path = os.path.join("badge", f"{sport}.svg")
+    badge_path = os.path.join("./github/badge", f"{sport}.svg")
     with open(badge_path, "w", encoding="utf-8") as svg_file:
         svg_file.write(svg_content)
     print(f"Badge for {sport} updated with count: {count}")

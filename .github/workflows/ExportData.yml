@@ -37,7 +37,7 @@ jobs:
           author_name: github-actions
           author_email: github-actions@github.com
           message: "Update badges [skip ci]"
-          add: "badge/"
+          add: ".github/badge/"
           github_token: ${{ secrets.GH_PAT }}
 
       - name: Upload dataset artifact
