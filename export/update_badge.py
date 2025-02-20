@@ -39,7 +39,7 @@ def generate_badge_svg(sport, count):
 for sport in target_sports:
     count = counts.get(sport, 0)
     svg_content = generate_badge_svg(sport, count)
-    badge_path = os.path.join("./github/badge", f"{sport}.svg")
+    badge_path = os.path.join(".github/badge", f"{sport}.svg")
     with open(badge_path, "w", encoding="utf-8") as svg_file:
         svg_file.write(svg_content)
     print(f"Badge for {sport} updated with count: {count}")
