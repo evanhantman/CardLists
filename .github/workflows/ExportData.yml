@@ -29,14 +29,14 @@ jobs:
         run: python export/build_parquet.py
 
       - name: Update card count badges
-        run: python export/update_badge.py
+        run: python .github/badge/update_badge.py
 
       - name: Commit badge updates
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "Update badges [skip ci]"
+          message: "Update Card Count Badges"
           add: ".github/badge/"
           github_token: ${{ secrets.GH_PAT }}
 
