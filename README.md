@@ -1,8 +1,9 @@
 # Sports Cards JSON Repository
-[![Baseball Cards](.github/badge/baseball.svg)](.github/badge/baseball.svg)[![Football Cards](.github/badge/football.svg)](.github/badge/football.svg)[![Basketball Cards](.github/badge/basketball.svg)](.github/badge/basketball.svg)[![Hockey Cards](.github/badge/hockey.svg)](badge/hockey.svg)
+[![Baseball Cards](.github/badge/baseball.svg)](.github/badge/baseball.svg) [![Football Cards](.github/badge/football.svg)](.github/badge/football.svg) [![Basketball Cards](.github/badge/basketball.svg)](.github/badge/basketball.svg) [![Hockey Cards](.github/badge/hockey.svg)](badge/hockey.svg)
 
 Welcome to the Sports Cards JSON Repository, your ultimate destination for exploring sports card data in a structured and open-source format. This repository features comprehensive datasets for baseball cards and aims to expand to include football, hockey, and more. Developers, collectors, and enthusiasts alike can use this resource to power their projects such as: 
-* Integrating a Baseball Card database into your Mobile or Web Application
+* Integrating a Baseball Card database into your Web Application
+* Enabling your Mobile App to search through Baseball, Footballl, Basketball, or Hockey cards
 * Providing datasets for a Machine Learning model
 * Using them as checklists for your own personal collection
 
