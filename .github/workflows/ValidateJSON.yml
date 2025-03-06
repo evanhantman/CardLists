@@ -20,7 +20,7 @@ jobs:
         run: |
           ajv validate \
             -s ./schema.json \
-            -d "baseball/**/*.json" \
+            -d "categories/baseball/**/*.json" \
             --all-errors \
             --verbose
 
@@ -28,7 +28,7 @@ jobs:
         run: |
           ajv validate \
             -s ./schema.json \
-            -d "football/**/*.json" \
+            -d "categories/football/**/*.json" \
             --all-errors \
             --verbose
 
@@ -36,7 +36,7 @@ jobs:
         run: |
           ajv validate \
             -s ./schema.json \
-            -d "basketball/**/*.json" \
+            -d "categories/basketball/**/*.json" \
             --all-errors \
             --verbose
 
@@ -44,6 +44,6 @@ jobs:
         run: |
           ajv validate \
             -s ./schema.json \
-            -d "hockey/**/*.json" \
+            -d "categories/hockey/**/*.json" \
             --all-errors \
             --verbose

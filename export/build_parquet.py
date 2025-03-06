@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 import pandas as pd
 
-def flatten_card_data(sport, year, release, json_data):
+def flatten_card_data(category, year, release, json_data):
     """
     Given the metadata and loaded JSON data,
     iterate over each set and each card to create flat records.
@@ -14,7 +14,7 @@ def flatten_card_data(sport, year, release, json_data):
         set_name = card_set.get("name", "")
         for card in card_set.get("cards", []):
             record = {
-                "sport": sport,
+                "category": category,
                 "year": year,
                 "release": release,
                 "source": source,
@@ -30,12 +30,13 @@ def flatten_card_data(sport, year, release, json_data):
 def main():
     # Since this script is in the 'export' folder, the repository root is one level up.
     base_dir = Path(__file__).parent.parent
+    categories_dir = base_dir / "categories"
     all_records = []
 
-    # Assume the directory structure is: <repo_root>/<Sport>/<Year>/*.json
-    for sport_dir in base_dir.iterdir():
-        if sport_dir.is_dir():
-            for year_dir in sport_dir.iterdir():
+    # Now the directory structure is: <repo_root>/categories/<category>/<year>/*.json
+    for category_dir in categories_dir.iterdir():
+        if category_dir.is_dir():
+            for year_dir in category_dir.iterdir():
                 if year_dir.is_dir():
                     for json_file in year_dir.glob("*.json"):
                         # Extract release info from filename (e.g., "1990-Topps.json" -> "Topps")
@@ -44,7 +45,7 @@ def main():
                         try:
                             with json_file.open("r", encoding="utf-8") as f:
                                 data = json.load(f)
-                            records = flatten_card_data(sport_dir.name, year_dir.name, release, data)
+                            records = flatten_card_data(category_dir.name, year_dir.name, release, data)
                             all_records.extend(records)
                         except Exception as e:
                             print(f"Error processing {json_file}: {e}")
@@ -58,13 +59,13 @@ def main():
         df.to_parquet(parquet_path, index=False)
         print(f"Dataset written to {parquet_path}")
 
-        # Calculate card counts for the four specified sports
-        target_sports = ["baseball", "football", "basketball", "hockey"]
-        counts = {sport: 0 for sport in target_sports}
+        # Calculate card counts for the four specified categories
+        target_categories = ["baseball", "football", "basketball", "hockey"]
+        counts = {cat: 0 for cat in target_categories}
         for record in all_records:
-            sport_lower = record.get("sport", "").lower()
-            if sport_lower in counts:
-                counts[sport_lower] += 1
+            cat_lower = record.get("category", "").lower()
+            if cat_lower in counts:
+                counts[cat_lower] += 1
 
         # Write the counts to a JSON file at the repository root
         card_counts_file = base_dir / "card_counts.json"
