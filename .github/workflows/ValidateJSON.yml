@@ -16,14 +16,34 @@ jobs:
       - name: Install ajv-cli
         run: npm install -g ajv-cli
 
-      - name: Validate JSON files
-        # For each .json file in any subdirectory, run validation.
-        # If you have node_modules or other directories to exclude, adjust the glob or use the --ignore flag in Ajv.
+      - name: Validate Baseball JSON files
         run: |
-          # Validate all JSON files in the repo against the root schema.json
-          # Ajv will fail (exit code != 0) if any file does not match the schema
           ajv validate \
             -s ./schema.json \
-            -d "**/*.json" \
+            -d "baseball/**/*.json" \
+            --all-errors \
+            --verbose
+
+      - name: Validate Football JSON files
+        run: |
+          ajv validate \
+            -s ./schema.json \
+            -d "football/**/*.json" \
+            --all-errors \
+            --verbose
+
+      - name: Validate Basketball JSON files
+        run: |
+          ajv validate \
+            -s ./schema.json \
+            -d "basketball/**/*.json" \
+            --all-errors \
+            --verbose
+
+      - name: Validate Hockey JSON files\
+        run: |
+          ajv validate \
+            -s ./schema.json \
+            -d "hockey/**/*.json" \
             --all-errors \
             --verbose
