@@ -6,14 +6,16 @@ def flatten_card_data(category, year, release, json_data):
     """
     Given the metadata and loaded JSON data,
     iterate over each set and each card to create flat records.
+    Always include a base record for the card, then add records for each parallel if present.
     """
     records = []
-    source = json_data.get("name", "")  # Top-level name field
+    source = json_data.get("name", "")
 
     for card_set in json_data.get("sets", []):
         set_name = card_set.get("name", "")
         for card in card_set.get("cards", []):
-            record = {
+            # Create the base record for the card.
+            base_record = {
                 "category": category,
                 "year": year,
                 "release": release,
@@ -22,9 +24,17 @@ def flatten_card_data(category, year, release, json_data):
                 "card_number": card.get("number", ""),
                 "card_name": card.get("name", ""),
                 "attributes": card.get("attributes", []),
-                "note": card.get("note", "")
+                "note": card.get("note", ""),
+                "parallel": ""
             }
-            records.append(record)
+            records.append(base_record)
+
+            # Enumerate over parallels if they exist.
+            for parallel in card.get("parallels", []):
+                # Copy the base record and update the parallel field.
+                parallel_record = base_record.copy()
+                parallel_record["parallel"] = parallel.get("name", "")
+                records.append(parallel_record)
     return records
 
 def main():
@@ -33,7 +43,7 @@ def main():
     categories_dir = base_dir / "categories"
     all_records = []
 
-    # Now the directory structure is: <repo_root>/categories/<category>/<year>/*.json
+    # Directory structure: <repo_root>/categories/<category>/<year>/*.json
     for category_dir in categories_dir.iterdir():
         if category_dir.is_dir():
             for year_dir in category_dir.iterdir():
