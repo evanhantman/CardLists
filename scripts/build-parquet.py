@@ -4,17 +4,19 @@ import pandas as pd
 
 def flatten_card_data(category, year, release, json_data):
     """
-    Given the metadata and loaded JSON data,
-    iterate over each set and each card to create flat records.
-    Always include a base record for the card, then add records for each parallel if present.
+    Iterate over each set and each card to create flat records.
+    For every card, a base record is always created.
+    Then, if parallels exist at the card or set level, additional records are created.
     """
     records = []
     source = json_data.get("name", "")
 
     for card_set in json_data.get("sets", []):
         set_name = card_set.get("name", "")
+        # Get set-level parallels (if any)
+        set_parallels = card_set.get("parallels", [])
         for card in card_set.get("cards", []):
-            # Create the base record for the card.
+            # Base record for the card
             base_record = {
                 "category": category,
                 "year": year,
@@ -29,9 +31,9 @@ def flatten_card_data(category, year, release, json_data):
             }
             records.append(base_record)
 
-            # Enumerate over parallels if they exist.
-            for parallel in card.get("parallels", []):
-                # Copy the base record and update the parallel field.
+            # Combine card-level and set-level parallels
+            all_parallels = card.get("parallels", []) + set_parallels
+            for parallel in all_parallels:
                 parallel_record = base_record.copy()
                 parallel_record["parallel"] = parallel.get("name", "")
                 records.append(parallel_record)
