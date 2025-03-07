@@ -1,11 +1,15 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
-    "version": "1.0",
+    "version": "1.1",
     "name": "1994 Topps Baseball",
     "attributes": [
         {
             "attribute": "HL",
             "note": "Highlight"
+        },
+        {
+            "attribute": "AS",
+            "note": "All-Star"
         },
         {
             "attribute": "RC",

@@ -1,11 +1,19 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
-    "version": "1.0",
+    "version": "1.1",
     "name": "1990 Topps Baseball",
     "attributes": [
         {
             "attribute": "5000K",
             "note": "5000k Strikeouts"
+        },
+        {
+            "attribute": "AS",
+            "note": "All-Star"
+        },
+        {
+            "attribute": "LL",
+            "note": "League Leaders"
         },
         {
             "attribute": "UER",

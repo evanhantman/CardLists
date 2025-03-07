@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
-    "version": "1.0",
+    "version": "1.1",
     "name": "1982 Topps Baseball",
     "attributes": [
         {
@@ -10,6 +10,10 @@
         {
             "attribute": "IA",
             "note": "In Action"
+        },
+        {
+            "attribute": "AS",
+            "note": "All-Star"
         },
         {
             "attribute": "FS",

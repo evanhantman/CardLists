@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
-    "version": "1.0",
+    "version": "1.1",
     "name": "1988 Score Baseball",
     "attributes": [
         {
@@ -22,6 +22,10 @@
         {
             "attribute": "HL",
             "note": "Highlight"
+        },
+        {
+            "attribute": "TRIB",
+            "note": "Tribute Card"
         }
     ],
     "sets": [
