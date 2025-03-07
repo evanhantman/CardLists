@@ -72,11 +72,12 @@ def main():
         print(f"Dataset written to {parquet_path}")
 
         # Calculate card counts for the four specified categories
+        # Only count base records (non-parallel cards)
         target_categories = ["baseball", "football", "basketball", "hockey"]
         counts = {cat: 0 for cat in target_categories}
         for record in all_records:
             cat_lower = record.get("category", "").lower()
-            if cat_lower in counts:
+            if cat_lower in counts and record.get("parallel", "") == "":
                 counts[cat_lower] += 1
 
         # Write the counts to a JSON file at the repository root
