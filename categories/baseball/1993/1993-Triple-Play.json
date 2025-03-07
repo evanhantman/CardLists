@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schema.json",
-    "version": "1.0",
+    "version": "1.1",
     "name": "1993 Triple Play Baseball",
     "attributes": [
         {
@@ -729,15 +729,6 @@
                     "uniqueId": "8527a2ef-19a2-47bb-8193-0804df086ba6"
                 },
                 {
-                    "number": "129b",
-                    "name": "Joe Robbie Stadium",
-                    "attributes": [
-                        "STAD",
-                        "ERR"
-                    ],
-                    "uniqueId": "c6b2643c-4093-4e02-8554-b0cf7e8c76e0"
-                },
-                {
                     "number": "130",
                     "name": "Gregg Jefferies",
                     "uniqueId": "5214c79d-d45d-43c9-9775-3a350b896789"
@@ -1427,10 +1418,10 @@
                     "variations": [
                         {
                             "variation": "Error",
-                            "note": "Card #129 on Back"
+                            "note" : "#129 on back, should be #259"
                         }
                     ],
-                    "uniqueId": "2076453c-dfe9-42fc-a0dc-e9836b1f3a48"
+                    "uniqueId": "c6b2643c-4093-4e02-8554-b0cf7e8c76e0"
                 },
                 {
                     "number": "260",
