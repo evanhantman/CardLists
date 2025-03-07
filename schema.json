@@ -42,6 +42,10 @@
       "items": {
         "type": "object",
         "properties": {
+          "uniqueId": {
+            "type": "string",
+            "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          },
           "name": {
             "type": "string",
             "pattern": "^\\S(.*\\S)?$"
@@ -145,6 +149,10 @@
             "items": {
               "type": "object",
               "properties": {
+                "uniqueId": {
+                  "type": "string",
+                  "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+                },
                 "number": {
                   "type": "string",
                   "pattern": "^[a-zA-Z0-9 .-]*$"
@@ -313,12 +321,14 @@
                 }
               },
               "required": [
+                "uniqueId",
                 "name"
               ]
             }
           }
         },
         "required": [
+          "uniqueId",
           "name",
           "cards"
         ]

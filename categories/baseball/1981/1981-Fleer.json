@@ -9,19 +9,23 @@
             "cards": [
                 {
                     "number": "1",
-                    "name": "Pete Rose"
+                    "name": "Pete Rose",
+                    "uniqueId": "53d4c136-40bd-43fd-ab0d-ac3fa83f8ecf"
                 },
                 {
                     "number": "2",
-                    "name": "Larry Bowa"
+                    "name": "Larry Bowa",
+                    "uniqueId": "6318f3b3-0a2e-47eb-bb9c-04ecee95afdb"
                 },
                 {
                     "number": "3",
-                    "name": "Manny Trillo"
+                    "name": "Manny Trillo",
+                    "uniqueId": "b9314c5e-1dda-4526-beff-8678a7d24c17"
                 },
                 {
                     "number": "4",
-                    "name": "Bob Boone"
+                    "name": "Bob Boone",
+                    "uniqueId": "2e8fc991-7d3c-4b83-bc41-3e6bbdf2156b"
                 },
                 {
                     "number": "5",
@@ -31,7 +35,8 @@
                             "variation": "Error",
                             "note": "Incorrect Card Front, Non-MVP"
                         }
-                    ]
+                    ],
+                    "uniqueId": "7a220c6e-6d92-41f2-8617-0da98564d728"
                 },
                 {
                     "number": "6",
@@ -45,7 +50,8 @@
                             "variation": "Error",
                             "note": "1966 Year printed as 1066"
                         }
-                    ]
+                    ],
+                    "uniqueId": "800381d0-1495-4bb2-97f3-3a62c630bcd4"
                 },
                 {
                     "number": "7",
@@ -55,80 +61,97 @@
                             "variation": "Error",
                             "note": "Incorrect Card Front, Non-Game Saver"
                         }
-                    ]
+                    ],
+                    "uniqueId": "64f87a19-5f29-483c-9f55-442386bcc265"
                 },
                 {
                     "number": "8",
-                    "name": "Larry Christenson"
+                    "name": "Larry Christenson",
+                    "uniqueId": "5e4c1d00-0794-4697-9dfa-41c1ea6508ae"
                 },
                 {
                     "number": "9",
-                    "name": "Bake McBride"
+                    "name": "Bake McBride",
+                    "uniqueId": "1bd5e41f-ee6b-41c2-aa98-137625e290c5"
                 },
                 {
                     "number": "10",
-                    "name": "Greg Luzinski"
+                    "name": "Greg Luzinski",
+                    "uniqueId": "4e24c69c-1a63-4b08-8a94-3c8d91a48507"
                 },
                 {
                     "number": "11",
-                    "name": "Ron Reed"
+                    "name": "Ron Reed",
+                    "uniqueId": "0c1951cf-66a0-4fbf-8640-4d143cd954ed"
                 },
                 {
                     "number": "12",
-                    "name": "Dickie Noles"
+                    "name": "Dickie Noles",
+                    "uniqueId": "c7106a6a-82fd-4861-b16e-87495f2dbc5b"
                 },
                 {
                     "number": "13",
                     "name": "Keith Moreland",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "84b50790-b34f-44cb-b881-9933fc60d91c"
                 },
                 {
                     "number": "14",
                     "name": "Bob Walk",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "ffc5ef0d-ce22-4d04-8380-4e5536b815cb"
                 },
                 {
                     "number": "15",
-                    "name": "Lonnie Smith"
+                    "name": "Lonnie Smith",
+                    "uniqueId": "c02881b2-b49f-45bf-a414-7eac9f96a7e2"
                 },
                 {
                     "number": "16",
-                    "name": "Dick Ruthven"
+                    "name": "Dick Ruthven",
+                    "uniqueId": "3dbd9934-00a1-4c4e-a184-46c47140271c"
                 },
                 {
                     "number": "17",
-                    "name": "Sparky Lyle"
+                    "name": "Sparky Lyle",
+                    "uniqueId": "fa1eddc1-125e-4100-a62b-5d4dbb7a7fe9"
                 },
                 {
                     "number": "18",
-                    "name": "Greg Gross"
+                    "name": "Greg Gross",
+                    "uniqueId": "b92ce10a-7e42-4730-91aa-955583a69582"
                 },
                 {
                     "number": "19",
-                    "name": "Garry Maddox"
+                    "name": "Garry Maddox",
+                    "uniqueId": "dbfc055a-7295-47be-b1a5-300ca1ecd817"
                 },
                 {
                     "number": "20",
-                    "name": "Nino Espinosa"
+                    "name": "Nino Espinosa",
+                    "uniqueId": "a93b8610-961e-42f8-bce1-86e0953b6abe"
                 },
                 {
                     "number": "21",
                     "name": "George Vukovich",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "f40d8336-8696-4a20-9619-4dbc6b288082"
                 },
                 {
                     "number": "22",
-                    "name": "John Vukovich"
+                    "name": "John Vukovich",
+                    "uniqueId": "b45a2400-d33f-4ae6-bc51-4cc7c328b5b5"
                 },
                 {
                     "number": "23",
-                    "name": "Ramon Aviles"
+                    "name": "Ramon Aviles",
+                    "uniqueId": "e158a239-4a5a-49c1-b9d1-03692178cdd1"
                 },
                 {
                     "number": "24",
@@ -138,19 +161,23 @@
                             "variation": "Error",
                             "note": "Name spelled \"Ken\" on Back"
                         }
-                    ]
+                    ],
+                    "uniqueId": "1b5773b4-fe04-43d1-8d39-a7b19914be8c"
                 },
                 {
                     "number": "25",
-                    "name": "Randy Lerch"
+                    "name": "Randy Lerch",
+                    "uniqueId": "1fb43a2e-d65b-4657-a72c-5511d4ec1d1b"
                 },
                 {
                     "number": "26",
-                    "name": "Del Unser"
+                    "name": "Del Unser",
+                    "uniqueId": "6434b1d0-d612-441b-a5ea-7b9954b5947c"
                 },
                 {
                     "number": "27",
-                    "name": "Tim McCarver"
+                    "name": "Tim McCarver",
+                    "uniqueId": "dfc3ed40-afb8-4a11-9a66-105e2940f6ec"
                 },
                 {
                     "number": "28",
@@ -162,7 +189,8 @@
                         {
                             "variation": ".390 Average on Front"
                         }
-                    ]
+                    ],
+                    "uniqueId": "ca229634-9c92-403d-87b1-cf56f95288c4"
                 },
                 {
                     "number": "29",
@@ -174,15 +202,18 @@
                         {
                             "variation": "Most Hits-Most Runs on front"
                         }
-                    ]
+                    ],
+                    "uniqueId": "942fd8d1-2123-46f7-b58e-43700a7b58d4"
                 },
                 {
                     "number": "30",
-                    "name": "Paul Splittorff"
+                    "name": "Paul Splittorff",
+                    "uniqueId": "e3ac6cb8-8567-4772-baae-291cd8bfacdb"
                 },
                 {
                     "number": "31",
-                    "name": "Dan Quisenberry"
+                    "name": "Dan Quisenberry",
+                    "uniqueId": "c260811b-50d2-4c66-a23c-db9a8ba9e6f2"
                 },
                 {
                     "number": "32",
@@ -192,39 +223,48 @@
                             "variation": "Error",
                             "note": "Incorrect Front - Missing Most Hits-Most Runs"
                         }
-                    ]
+                    ],
+                    "uniqueId": "84f5dc0f-0140-44b3-a1db-1a943c8dc561"
                 },
                 {
                     "number": "33",
-                    "name": "Steve Busby"
+                    "name": "Steve Busby",
+                    "uniqueId": "4fa0d17f-1fd7-4a80-9b1e-8c8ca497f5de"
                 },
                 {
                     "number": "34",
-                    "name": "U.L. Washington"
+                    "name": "U.L. Washington",
+                    "uniqueId": "48345667-63c4-4f9d-bd39-44a22edc7575"
                 },
                 {
                     "number": "35",
-                    "name": "Dave Chalk"
+                    "name": "Dave Chalk",
+                    "uniqueId": "6df43311-d558-4bb9-827c-c4aa7fbaf5e5"
                 },
                 {
                     "number": "36",
-                    "name": "Darrell Porter"
+                    "name": "Darrell Porter",
+                    "uniqueId": "91f5180b-e78a-471b-b70a-4f122c963ce5"
                 },
                 {
                     "number": "37",
-                    "name": "Marty Pattin"
+                    "name": "Marty Pattin",
+                    "uniqueId": "d06328aa-94ab-4e56-ae1d-f8d30f1a69b1"
                 },
                 {
                     "number": "38",
-                    "name": "Larry Gura"
+                    "name": "Larry Gura",
+                    "uniqueId": "47df5293-ba9e-4c65-acba-876c269c9a8e"
                 },
                 {
                     "number": "39",
-                    "name": "Renie Martin"
+                    "name": "Renie Martin",
+                    "uniqueId": "3a5a3753-5ce9-4579-925a-5606d674135c"
                 },
                 {
                     "number": "40",
-                    "name": "Rich Gale"
+                    "name": "Rich Gale",
+                    "uniqueId": "4dd59f54-1988-4480-84ef-90d66a5c3ecf"
                 },
                 {
                     "number": "41",
@@ -236,167 +276,205 @@
                         {
                             "variation": "Light Blue Royals on Front"
                         }
-                    ]
+                    ],
+                    "uniqueId": "516ea33f-daf8-4339-90ab-3378f9c68db1"
                 },
                 {
                     "number": "42",
-                    "name": "Dennis Leonard"
+                    "name": "Dennis Leonard",
+                    "uniqueId": "ebabfc44-3841-4b4b-ba55-137eb0cf58ca"
                 },
                 {
                     "number": "43",
-                    "name": "Willie Aikens"
+                    "name": "Willie Aikens",
+                    "uniqueId": "7fb39619-0f1c-4ad6-828d-6cfffafeb975"
                 },
                 {
                     "number": "44",
-                    "name": "Frank White"
+                    "name": "Frank White",
+                    "uniqueId": "d3ba7849-2d19-49aa-932d-1b8eb059e307"
                 },
                 {
                     "number": "45",
-                    "name": "Clint Hurdle"
+                    "name": "Clint Hurdle",
+                    "uniqueId": "7227c9b3-dd17-48b2-890b-533feeec1b65"
                 },
                 {
                     "number": "46",
-                    "name": "John Wathan"
+                    "name": "John Wathan",
+                    "uniqueId": "6bcc7228-a71c-4e0f-ae1e-8ce35ed2715f"
                 },
                 {
                     "number": "47",
-                    "name": "Pete LaCock"
+                    "name": "Pete LaCock",
+                    "uniqueId": "b8310bd1-f8a4-47f7-a661-648fed773683"
                 },
                 {
                     "number": "48",
-                    "name": "Rance Mulliniks"
+                    "name": "Rance Mulliniks",
+                    "uniqueId": "2b71410f-fef7-4bc1-b429-54fc7c3a5ac1"
                 },
                 {
                     "number": "49",
                     "name": "Jeff Twitty",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "35bb29e9-bc98-4454-810e-1dfb2759c15a"
                 },
                 {
                     "number": "50",
-                    "name": "Jamie Quirk"
+                    "name": "Jamie Quirk",
+                    "uniqueId": "772bfaf3-13ee-4a99-b92b-fa93cd82f48e"
                 },
                 {
                     "number": "51",
-                    "name": "Art Howe"
+                    "name": "Art Howe",
+                    "uniqueId": "53c26ef9-ad84-4323-b00e-8fae73aa4eb1"
                 },
                 {
                     "number": "52",
-                    "name": "Ken Forsch"
+                    "name": "Ken Forsch",
+                    "uniqueId": "94bf85c2-ab93-4c6d-ad37-f92acd9b7ea8"
                 },
                 {
                     "number": "53",
-                    "name": "Vern Ruhle"
+                    "name": "Vern Ruhle",
+                    "uniqueId": "5051c409-2b96-4ff3-a2f9-ee650c4b29bd"
                 },
                 {
                     "number": "54",
-                    "name": "Joe Niekro"
+                    "name": "Joe Niekro",
+                    "uniqueId": "456a29b7-0d7b-4183-96f7-c6119b365531"
                 },
                 {
                     "number": "55",
-                    "name": "Frank LaCorte"
+                    "name": "Frank LaCorte",
+                    "uniqueId": "284d1b4d-76f4-46bc-8e3a-df2ec82725a7"
                 },
                 {
                     "number": "56",
-                    "name": "J.R. Richard"
+                    "name": "J.R. Richard",
+                    "uniqueId": "c8c8f1c0-e09d-41bd-a958-256f9804b94f"
                 },
                 {
                     "number": "57",
-                    "name": "Nolan Ryan"
+                    "name": "Nolan Ryan",
+                    "uniqueId": "cc8efcef-8cb8-480b-ad0a-90bd3ebe66e9"
                 },
                 {
                     "number": "58",
-                    "name": "Enos Cabell"
+                    "name": "Enos Cabell",
+                    "uniqueId": "30c73cbb-082e-4e0b-a988-ec1f1ca6b2b9"
                 },
                 {
                     "number": "59",
-                    "name": "Cesar Cedeno"
+                    "name": "Cesar Cedeno",
+                    "uniqueId": "423d4552-72e9-4cf7-a37a-b8025c0b2af8"
                 },
                 {
                     "number": "60",
-                    "name": "Jose Cruz"
+                    "name": "Jose Cruz",
+                    "uniqueId": "f4a57f41-2e56-4280-98cb-18bfce04969e"
                 },
                 {
                     "number": "61",
                     "name": "Bill Virdon",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "aa28655e-ed8d-4d6a-81d2-0e472d7180dc"
                 },
                 {
                     "number": "62",
-                    "name": "Terry Puhl"
+                    "name": "Terry Puhl",
+                    "uniqueId": "864ecb9d-2a69-47a0-8a57-bb1ca5270293"
                 },
                 {
                     "number": "63",
-                    "name": "Joaquin Andujar"
+                    "name": "Joaquin Andujar",
+                    "uniqueId": "f1213cd7-56ca-4e27-9fe2-060dfb0aecd3"
                 },
                 {
                     "number": "64",
-                    "name": "Alan Ashby"
+                    "name": "Alan Ashby",
+                    "uniqueId": "d9da1d13-8473-4fc7-8921-2758193705a4"
                 },
                 {
                     "number": "65",
-                    "name": "Joe Sambito"
+                    "name": "Joe Sambito",
+                    "uniqueId": "d0de65c1-0504-4c33-9298-7995cc637bed"
                 },
                 {
                     "number": "66",
-                    "name": "Denny Walling"
+                    "name": "Denny Walling",
+                    "uniqueId": "5b6e79d1-fc90-4acc-a734-1e37c9b30d78"
                 },
                 {
                     "number": "67",
-                    "name": "Jeff Leonard"
+                    "name": "Jeff Leonard",
+                    "uniqueId": "f548a4ef-3e06-4eb5-8624-58c31f0f22fd"
                 },
                 {
                     "number": "68",
-                    "name": "Luis Pujols"
+                    "name": "Luis Pujols",
+                    "uniqueId": "735cba07-47b9-41fb-bded-ea599b4df368"
                 },
                 {
                     "number": "69",
-                    "name": "Bruce Bochy"
+                    "name": "Bruce Bochy",
+                    "uniqueId": "d448d88c-9444-464a-a06a-9a0ca5540176"
                 },
                 {
                     "number": "70",
-                    "name": "Rafael Landestoy"
+                    "name": "Rafael Landestoy",
+                    "uniqueId": "09384842-66ea-4203-ae51-62b8fcb80cc4"
                 },
                 {
                     "number": "71",
                     "name": "Dave Smith",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "2bdad3a6-5903-43b0-a37c-ed280dc5ccbd"
                 },
                 {
                     "number": "72",
                     "name": "Danny Heep",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "c11c040f-d031-41f8-af55-29fa02c8b68f"
                 },
                 {
                     "number": "73",
-                    "name": "Julio Gonzalez"
+                    "name": "Julio Gonzalez",
+                    "uniqueId": "729b1cd6-213f-4e64-a7e3-9113e8cb76fa"
                 },
                 {
                     "number": "74",
-                    "name": "Craig Reynolds"
+                    "name": "Craig Reynolds",
+                    "uniqueId": "277417eb-95e0-407b-9c95-c6d6fe8798d4"
                 },
                 {
                     "number": "75",
-                    "name": "Gary Woods"
+                    "name": "Gary Woods",
+                    "uniqueId": "08ec9c8f-15da-472e-90a8-c46d7d7cebd2"
                 },
                 {
                     "number": "76",
-                    "name": "Dave Bergman"
+                    "name": "Dave Bergman",
+                    "uniqueId": "4320c934-98ff-4307-88b4-eb8e4b98b5f3"
                 },
                 {
                     "number": "77",
-                    "name": "Randy Niemann"
+                    "name": "Randy Niemann",
+                    "uniqueId": "9e0ebfee-dd85-46b7-bcb3-8fe85d15beae"
                 },
                 {
                     "number": "78",
-                    "name": "Joe Morgan"
+                    "name": "Joe Morgan",
+                    "uniqueId": "4314262e-031c-4f72-a850-0697fd178878"
                 },
                 {
                     "number": "79",
@@ -408,38 +486,46 @@
                         {
                             "variation": "Mr. Baseball"
                         }
-                    ]
+                    ],
+                    "uniqueId": "e2fbc771-bcea-4d36-a5af-99afed29ae63"
                 },
                 {
                     "number": "80",
-                    "name": "Bucky Dent"
+                    "name": "Bucky Dent",
+                    "uniqueId": "dacc83e7-f31b-4e63-9fbd-b4a992588739"
                 },
                 {
                     "number": "81",
-                    "name": "Tommy John"
+                    "name": "Tommy John",
+                    "uniqueId": "3d917156-433a-4eef-a39b-88908c72ace4"
                 },
                 {
                     "number": "82",
-                    "name": "Luis Tiant"
+                    "name": "Luis Tiant",
+                    "uniqueId": "1e0fe643-9f5b-4227-b097-8f3d4bb6e916"
                 },
                 {
                     "number": "83",
-                    "name": "Rick Cerone"
+                    "name": "Rick Cerone",
+                    "uniqueId": "dde9d4dc-170a-4c6c-8617-9f0fad1a6555"
                 },
                 {
                     "number": "84",
                     "name": "Dick Howser",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "4767c67b-b8e0-47dd-b5ff-f29be51a508b"
                 },
                 {
                     "number": "85",
-                    "name": "Lou Piniella"
+                    "name": "Lou Piniella",
+                    "uniqueId": "ccb6ba43-e1a2-4adc-b35a-7ac963ca796d"
                 },
                 {
                     "number": "86",
-                    "name": "Ron Davis"
+                    "name": "Ron Davis",
+                    "uniqueId": "c585989e-f7c4-4b8a-8eac-94ea4dd2c1b6"
                 },
                 {
                     "number": "87",
@@ -449,153 +535,186 @@
                             "variation": "Error",
                             "note": "Name as \"Craig\" on front"
                         }
-                    ]
+                    ],
+                    "uniqueId": "859c49e6-76b7-465b-9d48-2a845ca54457"
                 },
                 {
                     "number": "88",
-                    "name": "Ron Guidry"
+                    "name": "Ron Guidry",
+                    "uniqueId": "5343df7c-5e7e-4b77-948e-ba2eda0ddafa"
                 },
                 {
                     "number": "89",
-                    "name": "Rich Gossage"
+                    "name": "Rich Gossage",
+                    "uniqueId": "3d477473-b808-496c-a37f-6563ae4e3536"
                 },
                 {
                     "number": "90",
-                    "name": "Rudy May"
+                    "name": "Rudy May",
+                    "uniqueId": "ce684373-86e4-4e48-bcbe-ab6b685b9257"
                 },
                 {
                     "number": "91",
-                    "name": "Gaylord Perry"
+                    "name": "Gaylord Perry",
+                    "uniqueId": "656c8761-eb0c-4edf-9d30-31b13763bbd4"
                 },
                 {
                     "number": "92",
-                    "name": "Eric Soderholm"
+                    "name": "Eric Soderholm",
+                    "uniqueId": "d467a307-9ab7-48a8-b6b4-e2c4b57ef0b7"
                 },
                 {
                     "number": "93",
-                    "name": "Bob Watson"
+                    "name": "Bob Watson",
+                    "uniqueId": "2554607c-bbaf-465e-884e-3dc3b35fa631"
                 },
                 {
                     "number": "94",
-                    "name": "Bobby Murcer"
+                    "name": "Bobby Murcer",
+                    "uniqueId": "19d18604-cd5f-4d6e-a9e3-09d30ad5dfd4"
                 },
                 {
                     "number": "95",
-                    "name": "Bobby Brown"
+                    "name": "Bobby Brown",
+                    "uniqueId": "23e74eaf-07b5-4979-9556-f57979a01d56"
                 },
                 {
                     "number": "96",
-                    "name": "Jim Spencer"
+                    "name": "Jim Spencer",
+                    "uniqueId": "34158932-5d50-461c-a598-f8322fc8f092"
                 },
                 {
                     "number": "97",
-                    "name": "Tom Underwood"
+                    "name": "Tom Underwood",
+                    "uniqueId": "503158d5-c183-46c0-bd67-5f7811182b28"
                 },
                 {
                     "number": "98",
-                    "name": "Oscar Gamble"
+                    "name": "Oscar Gamble",
+                    "uniqueId": "b0a31e34-73f1-4cc4-9ab3-26374049e5f7"
                 },
                 {
                     "number": "99",
-                    "name": "Johnny Oates"
+                    "name": "Johnny Oates",
+                    "uniqueId": "55f52b25-3b70-4286-94a2-9dd9d43ddea9"
                 },
                 {
                     "number": "100",
-                    "name": "Fred Stanley"
+                    "name": "Fred Stanley",
+                    "uniqueId": "ca07fc17-8019-4658-af6c-5b92f029d5cb"
                 },
                 {
                     "number": "101",
-                    "name": "Ruppert Jones"
+                    "name": "Ruppert Jones",
+                    "uniqueId": "1cc49022-59e2-49d5-96da-781686b9e791"
                 },
                 {
                     "number": "102",
                     "name": "Dennis Werth",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "f7867702-683e-475f-9a32-64ef542c9ecb"
                 },
                 {
                     "number": "103",
                     "name": "Joe Lefebvre",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "cf9d35f2-0e2c-4d74-8304-85abc3d3ca2b"
                 },
                 {
                     "number": "104",
-                    "name": "Brian Doyle"
+                    "name": "Brian Doyle",
+                    "uniqueId": "737d95b7-b7c6-43e8-8c50-4b717ae01502"
                 },
                 {
                     "number": "105",
-                    "name": "Aurelio Rodriguez"
+                    "name": "Aurelio Rodriguez",
+                    "uniqueId": "7d9bcda0-e838-4d47-96af-256a21a18d4a"
                 },
                 {
                     "number": "106",
-                    "name": "Doug Bird"
+                    "name": "Doug Bird",
+                    "uniqueId": "3f2aa3f7-9619-4cc9-9c31-4097e0f85fa0"
                 },
                 {
                     "number": "107",
                     "name": "Mike Griffin",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "b1e8b0a9-71ea-49ba-889c-5be92ed54d97"
                 },
                 {
                     "number": "108",
                     "name": "Tim Lollar",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "8d042ff2-a42f-49e1-8ca7-fd2ded74fa17"
                 },
                 {
                     "number": "109",
-                    "name": "Willie Randolph"
+                    "name": "Willie Randolph",
+                    "uniqueId": "02666d47-c1b3-4f92-a3b1-1aaf38be7f05"
                 },
                 {
                     "number": "110",
-                    "name": "Steve Garvey"
+                    "name": "Steve Garvey",
+                    "uniqueId": "92b7f9ca-1f1e-4110-8f95-3be1b3bbba97"
                 },
                 {
                     "number": "111",
-                    "name": "Reggie Smith"
+                    "name": "Reggie Smith",
+                    "uniqueId": "0ca9bd21-e59f-4e38-b843-c2952c7216f8"
                 },
                 {
                     "number": "112",
-                    "name": "Don Sutton"
+                    "name": "Don Sutton",
+                    "uniqueId": "e21c0ca1-71bb-476b-aa52-d40ca73e8692"
                 },
                 {
                     "number": "113",
-                    "name": "Burt Hooton"
+                    "name": "Burt Hooton",
+                    "uniqueId": "23df775c-f94c-4827-a3f8-bf8758d24248"
                 },
                 {
                     "number": "114",
                     "name": "Davey Lopes",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "eb4853ef-cf85-4f2b-b636-7d81c51816fc"
                 },
                 {
                     "number": "115",
-                    "name": "Dusty Baker"
+                    "name": "Dusty Baker",
+                    "uniqueId": "751b9b08-d8b7-4c74-ab76-5b7989f9e161"
                 },
                 {
                     "number": "116",
                     "name": "Tom Lasorda",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "d163985a-aa2b-427c-adb9-71b92b36679d"
                 },
                 {
                     "number": "117",
-                    "name": "Bill Russell"
+                    "name": "Bill Russell",
+                    "uniqueId": "156c7c1f-1660-4de9-b721-a86aae55b888"
                 },
                 {
                     "number": "118",
-                    "name": "Jerry Reuss"
+                    "name": "Jerry Reuss",
+                    "uniqueId": "f61ed202-5a20-4da9-bf9a-d0b5f1606148"
                 },
                 {
                     "number": "119",
-                    "name": "Terry Forster"
+                    "name": "Terry Forster",
+                    "uniqueId": "a84b93ca-9b0b-42e6-b9ec-3e4528ef5408"
                 },
                 {
                     "number": "120",
@@ -605,92 +724,112 @@
                             "variation": "Error",
                             "note": "\"Bob\" on the Back"
                         }
-                    ]
+                    ],
+                    "uniqueId": "8bed7ff2-95d7-4ccf-a9f1-749391057f93"
                 },
                 {
                     "number": "121",
-                    "name": "Don Stanhouse"
+                    "name": "Don Stanhouse",
+                    "uniqueId": "ef3f015e-3f55-4214-b4ea-a80a0b319c67"
                 },
                 {
                     "number": "122",
-                    "name": "Rick Monday"
+                    "name": "Rick Monday",
+                    "uniqueId": "1f262c99-8538-447d-bdf1-09a772b4300e"
                 },
                 {
                     "number": "123",
-                    "name": "Derrel Thomas"
+                    "name": "Derrel Thomas",
+                    "uniqueId": "4c2a3cf9-c9eb-42f5-8d23-d0a9cdf8cbf9"
                 },
                 {
                     "number": "124",
-                    "name": "Joe Ferguson"
+                    "name": "Joe Ferguson",
+                    "uniqueId": "39e74287-80c3-4c85-a9fe-00adfb6eae5d"
                 },
                 {
                     "number": "125",
-                    "name": "Rick Sutcliffe"
+                    "name": "Rick Sutcliffe",
+                    "uniqueId": "a9d3e814-cf16-4e63-8a82-9a4cff522613"
                 },
                 {
                     "number": "126",
-                    "name": "Ron Cey"
+                    "name": "Ron Cey",
+                    "uniqueId": "b85a97da-29f4-4f32-942c-6e20c17d271a"
                 },
                 {
                     "number": "127",
-                    "name": "Dave Goltz"
+                    "name": "Dave Goltz",
+                    "uniqueId": "233b2d5d-3dab-4e97-9088-b4cc62fe3e13"
                 },
                 {
                     "number": "128",
-                    "name": "Jay Johnstone"
+                    "name": "Jay Johnstone",
+                    "uniqueId": "02242373-8327-47a6-b066-a58b70a57f16"
                 },
                 {
                     "number": "129",
-                    "name": "Steve Yeager"
+                    "name": "Steve Yeager",
+                    "uniqueId": "d429fce4-6857-4398-9137-f116df7d6f7c"
                 },
                 {
                     "number": "130",
                     "name": "Gary Weiss",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "c3c29048-15c4-46aa-8c52-4a21850e41be"
                 },
                 {
                     "number": "131",
                     "name": "Mike Scioscia",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "9f78f62c-d203-454e-9716-da1638b8c8c7"
                 },
                 {
                     "number": "132",
-                    "name": "Vic Davalillo"
+                    "name": "Vic Davalillo",
+                    "uniqueId": "7af30cd4-fc09-4094-94d5-2924ab354d61"
                 },
                 {
                     "number": "133",
-                    "name": "Doug Rau"
+                    "name": "Doug Rau",
+                    "uniqueId": "92e9c7a6-2d0c-4bba-b6cd-d407c5103118"
                 },
                 {
                     "number": "134",
-                    "name": "Pepe Frias"
+                    "name": "Pepe Frias",
+                    "uniqueId": "3b42fdeb-654c-4603-89f4-e7512c73c33a"
                 },
                 {
                     "number": "135",
-                    "name": "Mickey Hatcher"
+                    "name": "Mickey Hatcher",
+                    "uniqueId": "b394a813-dc3e-444c-a2c6-0f687344c59e"
                 },
                 {
                     "number": "136",
                     "name": "Steve Howe",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "ad015f75-b3e9-4906-b725-d7048669fb0b"
                 },
                 {
                     "number": "137",
-                    "name": "Robert Castillo"
+                    "name": "Robert Castillo",
+                    "uniqueId": "0aeede3f-ebd1-48db-a7ae-05c0c67c8f57"
                 },
                 {
                     "number": "138",
-                    "name": "Gary Thomasson"
+                    "name": "Gary Thomasson",
+                    "uniqueId": "da782031-8ce2-442d-b615-52366b405177"
                 },
                 {
                     "number": "139",
-                    "name": "Rudy Law"
+                    "name": "Rudy Law",
+                    "uniqueId": "f025dd44-9e9b-4362-b77b-9699d6cc7e77"
                 },
                 {
                     "number": "140",
@@ -698,328 +837,404 @@
                     "attributes": [
                         "RC",
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "2ea54b59-5735-4b4e-958c-82edcfd1830f"
                 },
                 {
                     "number": "141",
-                    "name": "Manny Mota"
+                    "name": "Manny Mota",
+                    "uniqueId": "527d34c7-01a8-416e-ad75-ee3312956048"
                 },
                 {
                     "number": "142",
-                    "name": "Gary Carter"
+                    "name": "Gary Carter",
+                    "uniqueId": "7f776c2a-0787-4be1-be36-2d3944c2ba5a"
                 },
                 {
                     "number": "143",
-                    "name": "Steve Rogers"
+                    "name": "Steve Rogers",
+                    "uniqueId": "2f0715b3-cad4-479a-adf7-16e1e560f251"
                 },
                 {
                     "number": "144",
-                    "name": "Warren Cromartie"
+                    "name": "Warren Cromartie",
+                    "uniqueId": "261deeae-b127-4fa8-a340-ff5d299fbf1f"
                 },
                 {
                     "number": "145",
-                    "name": "Andre Dawson"
+                    "name": "Andre Dawson",
+                    "uniqueId": "c3ed53a9-18b5-4364-ae82-5fa6e445043c"
                 },
                 {
                     "number": "146",
-                    "name": "Larry Parrish"
+                    "name": "Larry Parrish",
+                    "uniqueId": "3e353e8d-3e33-497e-8611-30137682972f"
                 },
                 {
                     "number": "147",
-                    "name": "Rowland Office"
+                    "name": "Rowland Office",
+                    "uniqueId": "806c42b5-15e9-4573-9af7-e6f6d908e065"
                 },
                 {
                     "number": "148",
-                    "name": "Ellis Valentine"
+                    "name": "Ellis Valentine",
+                    "uniqueId": "3a703d79-6940-4008-b5c4-eda20fcc4766"
                 },
                 {
                     "number": "149",
                     "name": "Dick Williams",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "c0987ee9-63f9-4302-8490-7e4c0d8e64c1"
                 },
                 {
                     "number": "150",
                     "name": "Bill Gullickson",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "b92145d1-ac47-4ecf-8971-d96e8bfd929b"
                 },
                 {
                     "number": "151",
-                    "name": "Elias Sosa"
+                    "name": "Elias Sosa",
+                    "uniqueId": "c809f020-db93-4502-a12e-4aa1ad7b623e"
                 },
                 {
                     "number": "152",
-                    "name": "John Tamargo"
+                    "name": "John Tamargo",
+                    "uniqueId": "e137af22-23f6-47a7-a5a1-179bc4daf709"
                 },
                 {
                     "number": "153",
-                    "name": "Chris Speier"
+                    "name": "Chris Speier",
+                    "uniqueId": "53462979-2d80-4e01-a75e-012ea523fed4"
                 },
                 {
                     "number": "154",
-                    "name": "Ron LeFlore"
+                    "name": "Ron LeFlore",
+                    "uniqueId": "e6083b98-c07d-4fd0-8853-b33a1881f578"
                 },
                 {
                     "number": "155",
-                    "name": "Rodney Scott"
+                    "name": "Rodney Scott",
+                    "uniqueId": "35672c44-bf78-43c7-9bda-8a7cd4f2a53b"
                 },
                 {
                     "number": "156",
-                    "name": "Stan Bahnsen"
+                    "name": "Stan Bahnsen",
+                    "uniqueId": "842545f2-1e41-4207-a722-56731da924fb"
                 },
                 {
                     "number": "157",
-                    "name": "Bill Lee"
+                    "name": "Bill Lee",
+                    "uniqueId": "cd588b3c-a5fc-4bbb-ae04-c6effc07434f"
                 },
                 {
                     "number": "158",
-                    "name": "Fred Norman"
+                    "name": "Fred Norman",
+                    "uniqueId": "42c4ddfc-3776-4c43-ab66-d635e1cf01dc"
                 },
                 {
                     "number": "159",
-                    "name": "Woodie Fryman"
+                    "name": "Woodie Fryman",
+                    "uniqueId": "b2e2763d-37d3-43ab-bee7-8e3fbe45e050"
                 },
                 {
                     "number": "160",
-                    "name": "Dave Palmer"
+                    "name": "Dave Palmer",
+                    "uniqueId": "af4a877b-35b8-49ad-8798-34357973ac03"
                 },
                 {
                     "number": "161",
-                    "name": "Jerry White"
+                    "name": "Jerry White",
+                    "uniqueId": "0be5ddf6-66d8-4fa3-b546-f3d1d86edcdb"
                 },
                 {
                     "number": "162",
                     "name": "Roberto Ramos",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "5df95219-4931-4155-9e7d-73000db4cc16"
                 },
                 {
                     "number": "163",
-                    "name": "John D'Acquisto"
+                    "name": "John D'Acquisto",
+                    "uniqueId": "1e77763c-35ac-4183-bf99-260f44fb83f2"
                 },
                 {
                     "number": "164",
-                    "name": "Tommy Hutton"
+                    "name": "Tommy Hutton",
+                    "uniqueId": "8533cdf8-52be-40bc-b1c4-11035a630c18"
                 },
                 {
                     "number": "165",
                     "name": "Charlie Lea",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "53bda522-dcbf-4830-b519-8742c656d51d"
                 },
                 {
                     "number": "166",
-                    "name": "Scott Sanderson"
+                    "name": "Scott Sanderson",
+                    "uniqueId": "e074a5c3-35ca-4488-8c7b-1c880e55bb5e"
                 },
                 {
                     "number": "167",
-                    "name": "Ken Macha"
+                    "name": "Ken Macha",
+                    "uniqueId": "03f4efa2-7e15-4324-a346-589b9aad697f"
                 },
                 {
                     "number": "168",
-                    "name": "Tony Bernazard"
+                    "name": "Tony Bernazard",
+                    "uniqueId": "5f2c377d-e4cd-4aa0-b963-869e194237e5"
                 },
                 {
                     "number": "169",
-                    "name": "Jim Palmer"
+                    "name": "Jim Palmer",
+                    "uniqueId": "180488d0-bfa5-449b-8095-9fadf79cdde5"
                 },
                 {
                     "number": "170",
-                    "name": "Steve Stone"
+                    "name": "Steve Stone",
+                    "uniqueId": "54a3b087-bf77-4de3-a5fb-e2e5b35219e8"
                 },
                 {
                     "number": "171",
-                    "name": "Mike Flanagan"
+                    "name": "Mike Flanagan",
+                    "uniqueId": "4ecd87a4-85ca-4268-bc60-10694900e567"
                 },
                 {
                     "number": "172",
-                    "name": "Al Bumbry"
+                    "name": "Al Bumbry",
+                    "uniqueId": "a9905f08-1993-4a85-8f97-cab22c24fb7c"
                 },
                 {
                     "number": "173",
-                    "name": "Doug DeCinces"
+                    "name": "Doug DeCinces",
+                    "uniqueId": "2541834b-104a-4225-a182-ae70a177daa8"
                 },
                 {
                     "number": "174",
-                    "name": "Scott McGregor"
+                    "name": "Scott McGregor",
+                    "uniqueId": "325bd841-4708-4482-96ea-4c35dd253710"
                 },
                 {
                     "number": "175",
-                    "name": "Mark Belanger"
+                    "name": "Mark Belanger",
+                    "uniqueId": "93b4bf38-c919-41b4-94b5-7d234bc9b9af"
                 },
                 {
                     "number": "176",
-                    "name": "Tim Stoddard"
+                    "name": "Tim Stoddard",
+                    "uniqueId": "a7959707-d58c-4dea-a851-b2a19344c600"
                 },
                 {
                     "number": "177",
-                    "name": "Rick Dempsey"
+                    "name": "Rick Dempsey",
+                    "uniqueId": "8fa0b57c-4b12-4212-a669-f97a132ae9e1"
                 },
                 {
                     "number": "178",
                     "name": "Earl Weaver",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "e0308cc8-46b5-4f4c-aacc-954546fc19db"
                 },
                 {
                     "number": "179",
-                    "name": "Tippy Martinez"
+                    "name": "Tippy Martinez",
+                    "uniqueId": "b2d67402-de68-4ea2-b88a-c03f6e64eb8f"
                 },
                 {
                     "number": "180",
-                    "name": "Dennis Martinez"
+                    "name": "Dennis Martinez",
+                    "uniqueId": "d4902298-e8ff-45bd-b9c3-6a158c18c3c2"
                 },
                 {
                     "number": "181",
-                    "name": "Sammy Stewart"
+                    "name": "Sammy Stewart",
+                    "uniqueId": "9646d329-033b-4e9e-a8f9-f82eb3b362a8"
                 },
                 {
                     "number": "182",
-                    "name": "Rich Dauer"
+                    "name": "Rich Dauer",
+                    "uniqueId": "1dda7ba8-b60a-40c3-84fd-c1377e5607ab"
                 },
                 {
                     "number": "183",
-                    "name": "Lee May"
+                    "name": "Lee May",
+                    "uniqueId": "06c8abee-cd4f-4fb3-ad26-460cb8e16644"
                 },
                 {
                     "number": "184",
-                    "name": "Eddie Murray"
+                    "name": "Eddie Murray",
+                    "uniqueId": "fbd46b52-ce6a-4a64-bdb8-ec10cde74116"
                 },
                 {
                     "number": "185",
-                    "name": "Benny Ayala"
+                    "name": "Benny Ayala",
+                    "uniqueId": "6fde5700-f51f-4d18-95dc-279853926eec"
                 },
                 {
                     "number": "186",
-                    "name": "John Lowenstein"
+                    "name": "John Lowenstein",
+                    "uniqueId": "dfea0018-c078-457c-90ad-9c828d5b82bc"
                 },
                 {
                     "number": "187",
-                    "name": "Gary Roenicke"
+                    "name": "Gary Roenicke",
+                    "uniqueId": "f9972124-130a-463f-a493-4ca707908225"
                 },
                 {
                     "number": "188",
-                    "name": "Ken Singleton"
+                    "name": "Ken Singleton",
+                    "uniqueId": "d13cd19f-e745-4ba9-83e7-09cb8936629b"
                 },
                 {
                     "number": "189",
-                    "name": "Dan Graham"
+                    "name": "Dan Graham",
+                    "uniqueId": "e2aec6dd-881a-4990-8cae-4599a748f75a"
                 },
                 {
                     "number": "190",
-                    "name": "Terry Crowley"
+                    "name": "Terry Crowley",
+                    "uniqueId": "016e4399-f615-47df-ac56-7f12b0e169c4"
                 },
                 {
                     "number": "191",
-                    "name": "Kiko Garcia"
+                    "name": "Kiko Garcia",
+                    "uniqueId": "911ae4ad-63f7-4689-99eb-20ab2c1c8f9c"
                 },
                 {
                     "number": "192",
-                    "name": "Dave Ford"
+                    "name": "Dave Ford",
+                    "uniqueId": "35e8f4e3-6d70-4926-9d62-ad2b20202248"
                 },
                 {
                     "number": "193",
-                    "name": "Mark Corey"
+                    "name": "Mark Corey",
+                    "uniqueId": "694a9526-d89b-46ba-9f83-13a8da90be7f"
                 },
                 {
                     "number": "194",
-                    "name": "Lenn Sakata"
+                    "name": "Lenn Sakata",
+                    "uniqueId": "73a45f1e-6bb1-4fb3-b354-9665c7091b36"
                 },
                 {
                     "number": "195",
-                    "name": "Doug DeCinces"
+                    "name": "Doug DeCinces",
+                    "uniqueId": "77dcbf3e-98a8-4646-903c-78bf45d811c3"
                 },
                 {
                     "number": "196",
-                    "name": "Johnny Bench"
+                    "name": "Johnny Bench",
+                    "uniqueId": "4544dabb-53f6-4d41-b9ba-6a1374adce47"
                 },
                 {
                     "number": "197",
-                    "name": "Dave Concepcion"
+                    "name": "Dave Concepcion",
+                    "uniqueId": "2b53e0d1-8e98-4ca5-8e07-c423af0d0ce0"
                 },
                 {
                     "number": "198",
-                    "name": "Ray Knight"
+                    "name": "Ray Knight",
+                    "uniqueId": "fae97189-7bb8-4428-999d-d4ec9689c10b"
                 },
                 {
                     "number": "199",
-                    "name": "Ken Griffey"
+                    "name": "Ken Griffey",
+                    "uniqueId": "21377225-a16e-453e-91d6-c4b587ec7f10"
                 },
                 {
                     "number": "200",
-                    "name": "Tom Seaver"
+                    "name": "Tom Seaver",
+                    "uniqueId": "5f36b2f2-5e8d-476c-86ac-61a946d36993"
                 },
                 {
                     "number": "201",
-                    "name": "Dave Collins"
+                    "name": "Dave Collins",
+                    "uniqueId": "e815e84f-c251-4da1-a456-a276bb4915e1"
                 },
                 {
                     "number": "202",
-                    "name": "George Foster"
+                    "name": "George Foster",
+                    "uniqueId": "3e9d22c4-5ab1-4a3f-8d5d-8b6ddee033d2"
                 },
                 {
                     "number": "203",
-                    "name": "Junior Kennedy"
+                    "name": "Junior Kennedy",
+                    "uniqueId": "5bcc7f5e-52b2-4ae2-9e88-6d178f46104b"
                 },
                 {
                     "number": "204",
-                    "name": "Frank Pastore"
+                    "name": "Frank Pastore",
+                    "uniqueId": "88cce8ef-5d72-4f03-bb79-e5c8982cec1a"
                 },
                 {
                     "number": "205",
-                    "name": "Dan Driessen"
+                    "name": "Dan Driessen",
+                    "uniqueId": "83863e1b-ec1e-4f30-9ea4-ade52c45668e"
                 },
                 {
                     "number": "206",
-                    "name": "Hector Cruz"
+                    "name": "Hector Cruz",
+                    "uniqueId": "36eef226-fc36-41e3-be51-88421ab0f3de"
                 },
                 {
                     "number": "207",
-                    "name": "Paul Moskau"
+                    "name": "Paul Moskau",
+                    "uniqueId": "93e0c23d-12a8-494a-ae96-049bbf129a28"
                 },
                 {
                     "number": "208",
                     "name": "Charlie Leibrandt",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "0d939d56-cff6-4d9d-8e81-7d7099474f63"
                 },
                 {
                     "number": "209",
-                    "name": "Harry Spilman"
+                    "name": "Harry Spilman",
+                    "uniqueId": "f5d20473-5867-468c-9cc5-3124fdda63e1"
                 },
                 {
                     "number": "210",
                     "name": "Joe Price",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "edd99dfe-092b-4b98-aea8-6809c3e90a3e"
                 },
                 {
                     "number": "211",
-                    "name": "Tom Hume"
+                    "name": "Tom Hume",
+                    "uniqueId": "98ccd2aa-bd48-42c5-af4b-57f5ccd01f50"
                 },
                 {
                     "number": "212",
-                    "name": "Joe Nolan"
+                    "name": "Joe Nolan",
+                    "uniqueId": "26ee40ea-6e22-46df-8ba1-31324bb832e0"
                 },
                 {
                     "number": "213",
-                    "name": "Doug Bair"
+                    "name": "Doug Bair",
+                    "uniqueId": "65fcc1b9-22fd-4b57-b55f-1e9a6810d2cc"
                 },
                 {
                     "number": "214",
-                    "name": "Mario Soto"
+                    "name": "Mario Soto",
+                    "uniqueId": "685c812b-6512-47f8-aba4-6439ab9db232"
                 },
                 {
                     "number": "215",
-                    "name": "Bill Bonham"
+                    "name": "Bill Bonham",
+                    "uniqueId": "7976bd6d-6bb2-4595-bef0-0014c7d3b94e"
                 },
                 {
                     "number": "216",
@@ -1029,653 +1244,799 @@
                             "variation": "Error",
                             "note": "\"Slugger\" on front"
                         }
-                    ]
+                    ],
+                    "uniqueId": "8a59288a-c7cd-46b0-afed-50bb123dd4a1"
                 },
                 {
                     "number": "217",
                     "name": "Paul Householder",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "a15675e6-0938-4d70-aeb7-00540b711649"
                 },
                 {
                     "number": "218",
-                    "name": "Ron Oester"
+                    "name": "Ron Oester",
+                    "uniqueId": "bd481b96-294f-4d9d-8c03-7cb7e150a3bb"
                 },
                 {
                     "number": "219",
-                    "name": "Sam Mejias"
+                    "name": "Sam Mejias",
+                    "uniqueId": "ed00ba96-9e5c-4383-a433-be6b94f6039f"
                 },
                 {
                     "number": "220",
                     "name": "Sheldon Burnside",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "78f2b471-1ce6-4e80-b0c5-cc3ae1d8b500"
                 },
                 {
                     "number": "221",
-                    "name": "Carl Yastrzemski"
+                    "name": "Carl Yastrzemski",
+                    "uniqueId": "a200a9a8-5799-4be4-b22f-16bcb7a5c18a"
                 },
                 {
                     "number": "222",
-                    "name": "Jim Rice"
+                    "name": "Jim Rice",
+                    "uniqueId": "57b388aa-8453-441c-92ba-f802f6ea7155"
                 },
                 {
                     "number": "223",
-                    "name": "Fred Lynn"
+                    "name": "Fred Lynn",
+                    "uniqueId": "4e8deca6-3083-428a-946e-cebb0bb83edb"
                 },
                 {
                     "number": "224",
-                    "name": "Carlton Fisk"
+                    "name": "Carlton Fisk",
+                    "uniqueId": "1d0319a0-4801-460f-a474-e6fd7d30c2d8"
                 },
                 {
                     "number": "225",
-                    "name": "Rick Burleson"
+                    "name": "Rick Burleson",
+                    "uniqueId": "5ce04f97-8161-4170-b2fa-37dd4b7f22eb"
                 },
                 {
                     "number": "226",
-                    "name": "Dennis Eckersley"
+                    "name": "Dennis Eckersley",
+                    "uniqueId": "d864b393-321a-45f0-a4e5-e0d8ced25e04"
                 },
                 {
                     "number": "227",
-                    "name": "Butch Hobson"
+                    "name": "Butch Hobson",
+                    "uniqueId": "bd2bc8e6-92d6-47a5-89e7-f5c0faddccab"
                 },
                 {
                     "number": "228",
-                    "name": "Tom Burgmeier"
+                    "name": "Tom Burgmeier",
+                    "uniqueId": "db16acb8-a363-4077-b7c3-3b929ca939a1"
                 },
                 {
                     "number": "229",
-                    "name": "Garry Hancock"
+                    "name": "Garry Hancock",
+                    "uniqueId": "0d18014b-488d-4943-bb31-68355df55d30"
                 },
                 {
                     "number": "230",
                     "name": "Don Zimmer",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "bbf619f7-4e12-4c36-8844-02832172a2d4"
                 },
                 {
                     "number": "231",
-                    "name": "Steve Renko"
+                    "name": "Steve Renko",
+                    "uniqueId": "66995462-0033-40fe-bb4e-e271c2083dbd"
                 },
                 {
                     "number": "232",
-                    "name": "Dwight Evans"
+                    "name": "Dwight Evans",
+                    "uniqueId": "f3c0b37d-c95c-4876-b0ed-d0870f794f65"
                 },
                 {
                     "number": "233",
-                    "name": "Mike Torrez"
+                    "name": "Mike Torrez",
+                    "uniqueId": "e8757072-0000-4822-9dcd-9a3a307f86e9"
                 },
                 {
                     "number": "234",
-                    "name": "Bob Stanley"
+                    "name": "Bob Stanley",
+                    "uniqueId": "c740a474-34d8-4795-810b-9e18ee258df0"
                 },
                 {
                     "number": "235",
-                    "name": "Jim Dwyer"
+                    "name": "Jim Dwyer",
+                    "uniqueId": "2d21cdd8-0a45-4a09-8816-62dd1f278cf0"
                 },
                 {
                     "number": "236",
                     "name": "Dave Stapleton",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "48445588-70cd-499b-ab95-58ac7db34f04"
                 },
                 {
                     "number": "237",
                     "name": "Glenn Hoffman",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "ed5e5345-fc07-4a69-8f1e-5a90525914f2"
                 },
                 {
                     "number": "238",
-                    "name": "Jerry Remy"
+                    "name": "Jerry Remy",
+                    "uniqueId": "8cb9a5fc-3f99-4411-bbf7-6ce2a8440b2e"
                 },
                 {
                     "number": "239",
-                    "name": "Dick Drago"
+                    "name": "Dick Drago",
+                    "uniqueId": "8521e717-a9f4-4f78-9ee2-a01ed0036502"
                 },
                 {
                     "number": "240",
-                    "name": "Bill Campbell"
+                    "name": "Bill Campbell",
+                    "uniqueId": "3524b5ed-dfe0-46bf-a07e-29aeb0085a18"
                 },
                 {
                     "number": "241",
-                    "name": "Tony Perez"
+                    "name": "Tony Perez",
+                    "uniqueId": "e339198d-d89e-4e0f-8dc5-54fb57c7db1b"
                 },
                 {
                     "number": "242",
-                    "name": "Phil Niekro"
+                    "name": "Phil Niekro",
+                    "uniqueId": "1835399f-86d8-4877-868c-5292a24730b8"
                 },
                 {
                     "number": "243",
-                    "name": "Dale Murphy"
+                    "name": "Dale Murphy",
+                    "uniqueId": "ad5d3010-f671-45ce-b0ba-7d5fd62c897e"
                 },
                 {
                     "number": "244",
-                    "name": "Bob Horner"
+                    "name": "Bob Horner",
+                    "uniqueId": "f58a930e-70b3-475c-b476-24dd379e775c"
                 },
                 {
                     "number": "245",
-                    "name": "Jeff Burroughs"
+                    "name": "Jeff Burroughs",
+                    "uniqueId": "f0ecbee6-a1a4-4e4e-9735-a73d702f7a2c"
                 },
                 {
                     "number": "246",
-                    "name": "Rick Camp"
+                    "name": "Rick Camp",
+                    "uniqueId": "b4e4ec34-b2cd-4115-a9b6-a6a2ee1e0089"
                 },
                 {
                     "number": "247",
                     "name": "Bob Cox",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "26095ed7-4233-4010-ab4d-dcac32b6da09"
                 },
                 {
                     "number": "248",
-                    "name": "Bruce Benedict"
+                    "name": "Bruce Benedict",
+                    "uniqueId": "f52c8acf-450b-4f13-9c7e-018cc2815491"
                 },
                 {
                     "number": "249",
-                    "name": "Gene Garber"
+                    "name": "Gene Garber",
+                    "uniqueId": "a5de916b-9c2f-4997-a043-1e0f21c0a5f0"
                 },
                 {
                     "number": "250",
-                    "name": "Jerry Royster"
+                    "name": "Jerry Royster",
+                    "uniqueId": "19baab9f-153f-4d1c-bb8b-6060f556bd03"
                 },
                 {
                     "number": "251",
-                    "name": "Gary Matthews"
+                    "name": "Gary Matthews",
+                    "uniqueId": "f14f02aa-b7c3-400c-aa3a-bba8d28fff3a"
                 },
                 {
                     "number": "252",
-                    "name": "Chris Chambliss"
+                    "name": "Chris Chambliss",
+                    "uniqueId": "b41fba7a-de2e-4fd9-8acf-6d47ca30dd02"
                 },
                 {
                     "number": "253",
-                    "name": "Luis Gomez"
+                    "name": "Luis Gomez",
+                    "uniqueId": "06113dee-4d67-4b1f-b0f5-08df307c54eb"
                 },
                 {
                     "number": "254",
-                    "name": "Bill Nahorodny"
+                    "name": "Bill Nahorodny",
+                    "uniqueId": "0adcd495-38c9-4fe7-8656-31ff5c819de5"
                 },
                 {
                     "number": "255",
-                    "name": "Doyle Alexander"
+                    "name": "Doyle Alexander",
+                    "uniqueId": "9a9eec61-1c48-4b0d-9c71-21b29a640e76"
                 },
                 {
                     "number": "256",
-                    "name": "Brian Asselstine"
+                    "name": "Brian Asselstine",
+                    "uniqueId": "c7dcddb2-ac7e-4b6e-aa3a-13e94dd171aa"
                 },
                 {
                     "number": "257",
-                    "name": "Biff Pocoroba"
+                    "name": "Biff Pocoroba",
+                    "uniqueId": "06ca7dfb-4ae5-4d59-8810-3bb81ba04365"
                 },
                 {
                     "number": "258",
-                    "name": "Mike Lum"
+                    "name": "Mike Lum",
+                    "uniqueId": "2155c601-15e9-4872-9d02-c040d9c671a7"
                 },
                 {
                     "number": "259",
-                    "name": "Charlie Spikes"
+                    "name": "Charlie Spikes",
+                    "uniqueId": "5c483359-6a2d-4319-bfa0-170c9df7948f"
                 },
                 {
                     "number": "260",
-                    "name": "Glenn Hubbard"
+                    "name": "Glenn Hubbard",
+                    "uniqueId": "43c0edf4-0706-4477-8a73-0dbbcfc45572"
                 },
                 {
                     "number": "261",
-                    "name": "Tommy Boggs"
+                    "name": "Tommy Boggs",
+                    "uniqueId": "174abce0-cb8d-4b45-a5e6-2b9f67abd868"
                 },
                 {
                     "number": "262",
                     "name": "Al Hrabosky",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "a4f7fe9f-4f66-4c0c-8b48-401cd698e08e"
                 },
                 {
                     "number": "263",
-                    "name": "Rick Matula"
+                    "name": "Rick Matula",
+                    "uniqueId": "c2b9dac3-fab3-473d-b184-08aabe18c604"
                 },
                 {
                     "number": "264",
-                    "name": "Preston Hanna"
+                    "name": "Preston Hanna",
+                    "uniqueId": "524d6e18-55a7-4a84-afeb-e7c0e14c2255"
                 },
                 {
                     "number": "265",
-                    "name": "Larry Bradford"
+                    "name": "Larry Bradford",
+                    "uniqueId": "eef1e8d5-10cf-44ae-9a53-f6ec57fd240a"
                 },
                 {
                     "number": "266",
                     "name": "Rafael Ramirez",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "6ff2420a-4c87-4f8f-9adc-c0bab4a08c6e"
                 },
                 {
                     "number": "267",
-                    "name": "Larry McWilliams"
+                    "name": "Larry McWilliams",
+                    "uniqueId": "d5483376-6c81-4286-9519-b268e297c3fc"
                 },
                 {
                     "number": "268",
-                    "name": "Rod Carew"
+                    "name": "Rod Carew",
+                    "uniqueId": "1e5483f1-6f80-49f1-9559-063c94deca2d"
                 },
                 {
                     "number": "269",
-                    "name": "Bobby Grich"
+                    "name": "Bobby Grich",
+                    "uniqueId": "bbf735bc-16ed-4024-8084-715824f6f09b"
                 },
                 {
                     "number": "270",
-                    "name": "Carney Lansford"
+                    "name": "Carney Lansford",
+                    "uniqueId": "16117f89-feb5-4369-8d84-c72f7c115f81"
                 },
                 {
                     "number": "271",
-                    "name": "Don Baylor"
+                    "name": "Don Baylor",
+                    "uniqueId": "768e6563-4815-4d00-b878-97674dc36d38"
                 },
                 {
                     "number": "272",
-                    "name": "Joe Rudi"
+                    "name": "Joe Rudi",
+                    "uniqueId": "cf605e25-f337-4481-aced-090a3f9b3f1f"
                 },
                 {
                     "number": "273",
-                    "name": "Dan Ford"
+                    "name": "Dan Ford",
+                    "uniqueId": "0aaf607e-7367-47d2-88ef-6fe1b44148fa"
                 },
                 {
                     "number": "274",
                     "name": "Jim Fregosi",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "d04b30ff-2f3b-425c-97a4-fb94ccd81ae2"
                 },
                 {
                     "number": "275",
-                    "name": "Dave Frost"
+                    "name": "Dave Frost",
+                    "uniqueId": "25b41d26-2bbf-4d13-ac5b-4961f85951ae"
                 },
                 {
                     "number": "276",
-                    "name": "Frank Tanana"
+                    "name": "Frank Tanana",
+                    "uniqueId": "03192b9d-b3bd-40fe-9518-557d9164307f"
                 },
                 {
                     "number": "277",
-                    "name": "Dickie Thon"
+                    "name": "Dickie Thon",
+                    "uniqueId": "aa02de74-9abb-443e-9dc7-0a0deb19af5f"
                 },
                 {
                     "number": "278",
-                    "name": "Jason Thompson"
+                    "name": "Jason Thompson",
+                    "uniqueId": "7dc591d4-e57f-4191-9f29-62b6bd6a5435"
                 },
                 {
                     "number": "279",
-                    "name": "Rick Miller"
+                    "name": "Rick Miller",
+                    "uniqueId": "73346c87-1864-4a58-9e3c-0495b213fe71"
                 },
                 {
                     "number": "280",
-                    "name": "Bert Campaneris"
+                    "name": "Bert Campaneris",
+                    "uniqueId": "fdab4ecf-280e-4e10-a218-26a0b8494e60"
                 },
                 {
                     "number": "281",
-                    "name": "Tom Donohue"
+                    "name": "Tom Donohue",
+                    "uniqueId": "7b696f59-a1d7-4768-ad7a-3bb4de2eef6e"
                 },
                 {
                     "number": "282",
-                    "name": "Brian Downing"
+                    "name": "Brian Downing",
+                    "uniqueId": "7dadc287-f648-4134-8847-e1282116ae6d"
                 },
                 {
                     "number": "283",
-                    "name": "Fred Patek"
+                    "name": "Fred Patek",
+                    "uniqueId": "88d22f9e-f3cc-4144-b565-bc0ab512f362"
                 },
                 {
                     "number": "284",
-                    "name": "Bruce Kison"
+                    "name": "Bruce Kison",
+                    "uniqueId": "9c86e035-39a4-47e5-b646-43f1d34e6d19"
                 },
                 {
                     "number": "285",
-                    "name": "Dave LaRoche"
+                    "name": "Dave LaRoche",
+                    "uniqueId": "0d542be8-365e-43a6-a251-cb376af86fd0"
                 },
                 {
                     "number": "286",
-                    "name": "Don Aase"
+                    "name": "Don Aase",
+                    "uniqueId": "6a7836c2-c9ad-435f-98a4-5d7659701119"
                 },
                 {
                     "number": "287",
-                    "name": "Jim Barr"
+                    "name": "Jim Barr",
+                    "uniqueId": "62d27083-c3bd-4af2-9150-acc353fe0ab8"
                 },
                 {
                     "number": "288",
                     "name": "Alfredo Martinez",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "aefc7d25-a5ef-4f63-af6e-37595bf39e12"
                 },
                 {
                     "number": "289",
-                    "name": "Larry Harlow"
+                    "name": "Larry Harlow",
+                    "uniqueId": "41589285-7fcf-45ac-99b6-c68b66752387"
                 },
                 {
                     "number": "290",
-                    "name": "Andy Hassler"
+                    "name": "Andy Hassler",
+                    "uniqueId": "c3bfb694-ae04-42fe-ba48-b78634d79128"
                 },
                 {
                     "number": "291",
-                    "name": "Dave Kingman"
+                    "name": "Dave Kingman",
+                    "uniqueId": "c848b018-911b-4685-bbdc-6035e5b124ff"
                 },
                 {
                     "number": "292",
-                    "name": "Bill Buckner"
+                    "name": "Bill Buckner",
+                    "uniqueId": "f1ea9065-7dda-491e-a4d2-4eafcdcccb63"
                 },
                 {
                     "number": "293",
-                    "name": "Rick Reuschel"
+                    "name": "Rick Reuschel",
+                    "uniqueId": "e09161f6-5cb1-424d-9d26-e54974527dc0"
                 },
                 {
                     "number": "294",
-                    "name": "Bruce Sutter"
+                    "name": "Bruce Sutter",
+                    "uniqueId": "793f3331-854e-478c-ba41-8c912d4fc9c8"
                 },
                 {
                     "number": "295",
-                    "name": "Jerry Martin"
+                    "name": "Jerry Martin",
+                    "uniqueId": "2559994f-b72b-4231-930b-ea714e609b17"
                 },
                 {
                     "number": "296",
-                    "name": "Scot Thompson"
+                    "name": "Scot Thompson",
+                    "uniqueId": "9e094d93-aaa9-4b54-a325-14797acb4188"
                 },
                 {
                     "number": "297",
-                    "name": "Ivan DeJesus"
+                    "name": "Ivan DeJesus",
+                    "uniqueId": "ba8bbcaf-e6e5-4469-ac33-a372d62c5cb5"
                 },
                 {
                     "number": "298",
-                    "name": "Steve Dillard"
+                    "name": "Steve Dillard",
+                    "uniqueId": "35cd9f01-b67b-425f-9b8b-ad2e4d6eab55"
                 },
                 {
                     "number": "299",
-                    "name": "Dick Tidrow"
+                    "name": "Dick Tidrow",
+                    "uniqueId": "8926de5d-ddfe-43bc-8215-63c989602677"
                 },
                 {
                     "number": "300",
                     "name": "Randy Martz",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "9216e116-80b8-4987-babd-dbf751766422"
                 },
                 {
                     "number": "301",
-                    "name": "Lenny Randle"
+                    "name": "Lenny Randle",
+                    "uniqueId": "8e7daa03-c62c-474d-894e-5a14a31d9160"
                 },
                 {
                     "number": "302",
-                    "name": "Lynn McGlothen"
+                    "name": "Lynn McGlothen",
+                    "uniqueId": "b28ce04f-779d-4a8f-9c4a-988fffbdfaf5"
                 },
                 {
                     "number": "303",
-                    "name": "Cliff Johnson"
+                    "name": "Cliff Johnson",
+                    "uniqueId": "b451e7cd-dcbf-484e-81b7-cf9ef9530a5f"
                 },
                 {
                     "number": "304",
-                    "name": "Tim Blackwell"
+                    "name": "Tim Blackwell",
+                    "uniqueId": "15c442b0-2567-4f93-9bc1-a149765f5100"
                 },
                 {
                     "number": "305",
-                    "name": "Dennis Lamp"
+                    "name": "Dennis Lamp",
+                    "uniqueId": "5fbe764f-0695-4b6b-91df-9b479b69346b"
                 },
                 {
                     "number": "306",
-                    "name": "Bill Caudill"
+                    "name": "Bill Caudill",
+                    "uniqueId": "75554539-54d1-41dd-8348-2d38ee1b8515"
                 },
                 {
                     "number": "307",
                     "name": "Carlos Lezcano",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "8ba60d92-4965-48b0-8548-6a7bd8241cea"
                 },
                 {
                     "number": "308",
                     "name": "Jim Tracy",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "9235e40b-7efe-44c1-82ac-4016f5163f1c"
                 },
                 {
                     "number": "309",
                     "name": "Doug Capilla",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "3c39a5cf-c9b8-4968-bf45-90622f60cc38"
                 },
                 {
                     "number": "310",
-                    "name": "Willie Hernandez"
+                    "name": "Willie Hernandez",
+                    "uniqueId": "e2fa5989-eecf-4f96-bcf2-ed9dbc52d0bd"
                 },
                 {
                     "number": "311",
-                    "name": "Mike Vail"
+                    "name": "Mike Vail",
+                    "uniqueId": "e9179860-cb26-49ff-83f2-ffb495c36cfa"
                 },
                 {
                     "number": "312",
-                    "name": "Mike Krukow"
+                    "name": "Mike Krukow",
+                    "uniqueId": "15b34d85-b684-43d4-aa7b-ddd0f6094aa9"
                 },
                 {
                     "number": "313",
-                    "name": "Barry Foote"
+                    "name": "Barry Foote",
+                    "uniqueId": "3c5d3840-4e81-4faa-89f5-c78d1d256e3c"
                 },
                 {
                     "number": "314",
-                    "name": "Larry Biittner"
+                    "name": "Larry Biittner",
+                    "uniqueId": "bf856f3a-a98b-410d-8859-48a32e464351"
                 },
                 {
                     "number": "315",
-                    "name": "Mike Tyson"
+                    "name": "Mike Tyson",
+                    "uniqueId": "0c3ee095-2f58-4984-9cf5-fae6e9865a93"
                 },
                 {
                     "number": "316",
-                    "name": "Lee Mazzilli"
+                    "name": "Lee Mazzilli",
+                    "uniqueId": "ac616698-50c0-4b4d-a0ee-cfdb994a55a1"
                 },
                 {
                     "number": "317",
-                    "name": "John Stearns"
+                    "name": "John Stearns",
+                    "uniqueId": "91aa652e-8990-4d31-992d-6dd75e5ea714"
                 },
                 {
                     "number": "318",
-                    "name": "Alex Trevino"
+                    "name": "Alex Trevino",
+                    "uniqueId": "debfaac6-fb09-49e6-8ed7-e0bf7dd7d100"
                 },
                 {
                     "number": "319",
-                    "name": "Craig Swan"
+                    "name": "Craig Swan",
+                    "uniqueId": "f43b8677-0fdf-406c-a8c6-70b79e122a3f"
                 },
                 {
                     "number": "320",
-                    "name": "Frank Taveras"
+                    "name": "Frank Taveras",
+                    "uniqueId": "de685b4c-9747-48af-a498-8f945021ca8e"
                 },
                 {
                     "number": "321",
-                    "name": "Steve Henderson"
+                    "name": "Steve Henderson",
+                    "uniqueId": "22837345-e876-4cae-97b3-5a4fc47db173"
                 },
                 {
                     "number": "322",
-                    "name": "Neil Allen"
+                    "name": "Neil Allen",
+                    "uniqueId": "dd48e939-5808-489f-8007-e9fb1fdd062d"
                 },
                 {
                     "number": "323",
                     "name": "Mark Bomback",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "f31c9f2d-3c8f-4773-99ca-e83c40347a4a"
                 },
                 {
                     "number": "324",
-                    "name": "Mike Jorgensen"
+                    "name": "Mike Jorgensen",
+                    "uniqueId": "a37f7b58-77db-4ede-90fd-be037c44ffbe"
                 },
                 {
                     "number": "325",
                     "name": "Joe Torre",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "c6a2d3b4-719b-48c3-aa2c-1a9ff991dd71"
                 },
                 {
                     "number": "326",
-                    "name": "Elliott Maddox"
+                    "name": "Elliott Maddox",
+                    "uniqueId": "0ce5a35a-925f-41d7-a73f-6b2cdb0a264c"
                 },
                 {
                     "number": "327",
-                    "name": "Pete Falcone"
+                    "name": "Pete Falcone",
+                    "uniqueId": "8b0fef50-644e-40db-9136-42e9890ea911"
                 },
                 {
                     "number": "328",
-                    "name": "Ray Burris"
+                    "name": "Ray Burris",
+                    "uniqueId": "ed047976-cfca-4646-9073-7e4d620f57ea"
                 },
                 {
                     "number": "329",
-                    "name": "Claudell Washington"
+                    "name": "Claudell Washington",
+                    "uniqueId": "13f54749-d07d-40c3-a140-04a490644d61"
                 },
                 {
                     "number": "330",
-                    "name": "Doug Flynn"
+                    "name": "Doug Flynn",
+                    "uniqueId": "201d0e40-ab5a-4e95-b6ea-d8d826a0c398"
                 },
                 {
                     "number": "331",
-                    "name": "Joel Youngblood"
+                    "name": "Joel Youngblood",
+                    "uniqueId": "e35e23fb-f152-47fc-8b33-7e1bc59934a8"
                 },
                 {
                     "number": "332",
-                    "name": "Bill Almon"
+                    "name": "Bill Almon",
+                    "uniqueId": "6df34ad0-cfd8-42f4-93fe-bad1d6051fa1"
                 },
                 {
                     "number": "333",
-                    "name": "Tom Hausman"
+                    "name": "Tom Hausman",
+                    "uniqueId": "a5b6e9b9-93bd-437c-be04-3146a4ece1fc"
                 },
                 {
                     "number": "334",
-                    "name": "Pat Zachry"
+                    "name": "Pat Zachry",
+                    "uniqueId": "ddfb327f-c519-4753-8951-a3f3d76b1ae7"
                 },
                 {
                     "number": "335",
                     "name": "Jeff Reardon",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "247510b5-9a26-4c8f-b61a-0f84d417ff71"
                 },
                 {
                     "number": "336",
                     "name": "Wally Backman",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "044a674d-1377-408e-95ba-61b1e87c07ee"
                 },
                 {
                     "number": "337",
-                    "name": "Dan Norman"
+                    "name": "Dan Norman",
+                    "uniqueId": "42dee7a1-f642-4b6f-870b-8cc6d714f65e"
                 },
                 {
                     "number": "338",
-                    "name": "Jerry Morales"
+                    "name": "Jerry Morales",
+                    "uniqueId": "8f192e07-03a0-4c96-9489-93388146075d"
                 },
                 {
                     "number": "339",
-                    "name": "Ed Farmer"
+                    "name": "Ed Farmer",
+                    "uniqueId": "af8481d3-aad0-4427-a3fe-ddf125c03a68"
                 },
                 {
                     "number": "340",
-                    "name": "Bob Molinaro"
+                    "name": "Bob Molinaro",
+                    "uniqueId": "e3e49aaa-e598-49de-a158-7b1a131709c4"
                 },
                 {
                     "number": "341",
-                    "name": "Todd Cruz"
+                    "name": "Todd Cruz",
+                    "uniqueId": "dd16b2ee-7b8e-45c5-8039-3e8d3f605c96"
                 },
                 {
                     "number": "342",
                     "name": "Britt Burns",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "8711faf0-0ae5-4858-9462-d793bbaaf077"
                 },
                 {
                     "number": "343",
-                    "name": "Kevin Bell"
+                    "name": "Kevin Bell",
+                    "uniqueId": "ec97ec0c-cab8-439c-944a-3b65d7465bd1"
                 },
                 {
                     "number": "344",
                     "name": "Tony LaRussa",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "08dadb26-ece9-4580-9160-ad9c4ae18d1c"
                 },
                 {
                     "number": "345",
-                    "name": "Steve Trout"
+                    "name": "Steve Trout",
+                    "uniqueId": "2eb7e967-d313-4851-bea8-873b70c4a9be"
                 },
                 {
                     "number": "346",
                     "name": "Harold Baines",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "f105ce48-70a8-47ec-933d-d30df320adf1"
                 },
                 {
                     "number": "347",
-                    "name": "Richard Wortham"
+                    "name": "Richard Wortham",
+                    "uniqueId": "c7c58225-b9f6-438d-860f-314ba543ae4c"
                 },
                 {
                     "number": "348",
-                    "name": "Wayne Nordhagen"
+                    "name": "Wayne Nordhagen",
+                    "uniqueId": "96371b9c-6440-4da6-b841-38330afc195e"
                 },
                 {
                     "number": "349",
-                    "name": "Mike Squires"
+                    "name": "Mike Squires",
+                    "uniqueId": "d890ea29-7257-4cf5-9c39-12a4d12ca6ed"
                 },
                 {
                     "number": "350",
-                    "name": "Lamar Johnson"
+                    "name": "Lamar Johnson",
+                    "uniqueId": "2b8de225-4162-4008-ae2d-183d1b15a6fa"
                 },
                 {
                     "number": "351",
-                    "name": "Rickey Henderson"
+                    "name": "Rickey Henderson",
+                    "uniqueId": "fe5e00b1-1270-42ae-9d98-77be59c124d1"
                 },
                 {
                     "number": "352",
-                    "name": "Francisco Barrios"
+                    "name": "Francisco Barrios",
+                    "uniqueId": "77d5482d-3889-47b9-93f5-3cb2fffb27ba"
                 },
                 {
                     "number": "353",
-                    "name": "Thad Bosley"
+                    "name": "Thad Bosley",
+                    "uniqueId": "01d2f1e4-599b-4a98-ab5c-f5e8745f27fd"
                 },
                 {
                     "number": "354",
-                    "name": "Chet Lemon"
+                    "name": "Chet Lemon",
+                    "uniqueId": "64ecb1d5-6173-4b1d-b37b-48001c754a00"
                 },
                 {
                     "number": "355",
-                    "name": "Bruce Kimm"
+                    "name": "Bruce Kimm",
+                    "uniqueId": "b3600f75-d6e7-44ff-920f-fcb50c36a4a0"
                 },
                 {
                     "number": "356",
                     "name": "Richard Dotson",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "78f2c9ae-5e82-4f0d-a35b-8d9e2add328b"
                 },
                 {
                     "number": "357",
-                    "name": "Jim Morrison"
+                    "name": "Jim Morrison",
+                    "uniqueId": "3937f851-864e-4cd1-a58c-c65e13d20d75"
                 },
                 {
                     "number": "358",
-                    "name": "Mike Proly"
+                    "name": "Mike Proly",
+                    "uniqueId": "fed451e4-fef9-4a82-9d83-99f313d88673"
                 },
                 {
                     "number": "359",
-                    "name": "Greg Pryor"
+                    "name": "Greg Pryor",
+                    "uniqueId": "df77a431-13f0-44ed-a13c-d93f49170f96"
                 },
                 {
                     "number": "360",
-                    "name": "Dave Parker"
+                    "name": "Dave Parker",
+                    "uniqueId": "bd380261-9a91-4a92-a4f8-5314b5ba4cc7"
                 },
                 {
                     "number": "361",
-                    "name": "Omar Moreno"
+                    "name": "Omar Moreno",
+                    "uniqueId": "9c9a7e14-8fae-4f88-8d5a-74ff83316062"
                 },
                 {
                     "number": "362",
@@ -1685,89 +2046,109 @@
                             "variation": "Error",
                             "note": "1071 Waterbury, 1078 Pirates on Back"
                         }
-                    ]
+                    ],
+                    "uniqueId": "9d629ade-533f-4a21-b08f-85cf3d0595d8"
                 },
                 {
                     "number": "363",
-                    "name": "Willie Stargell"
+                    "name": "Willie Stargell",
+                    "uniqueId": "1fcff163-8630-441c-9fa7-3c2d3ab0260d"
                 },
                 {
                     "number": "364",
-                    "name": "Phil Garner"
+                    "name": "Phil Garner",
+                    "uniqueId": "c6c253ef-6aad-4889-9566-efa47004b4ee"
                 },
                 {
                     "number": "365",
-                    "name": "Ed Ott"
+                    "name": "Ed Ott",
+                    "uniqueId": "cbd84316-ecd9-4951-a569-85589fbc998f"
                 },
                 {
                     "number": "366",
-                    "name": "Don Robinson"
+                    "name": "Don Robinson",
+                    "uniqueId": "0f37fd8f-0c66-4025-ad80-de0f4486e755"
                 },
                 {
                     "number": "367",
                     "name": "Chuck Tanner",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "1f13b5ff-f7f2-4a5f-b1a4-5451e7f9406b"
                 },
                 {
                     "number": "368",
-                    "name": "Jim Rooker"
+                    "name": "Jim Rooker",
+                    "uniqueId": "36bc8ae3-9675-4d06-b2dc-31aca4edd2ce"
                 },
                 {
                     "number": "369",
-                    "name": "Dale Berra"
+                    "name": "Dale Berra",
+                    "uniqueId": "eacadf68-39e2-4cfe-afc1-dfbfa8f04262"
                 },
                 {
                     "number": "370",
-                    "name": "Jim Bibby"
+                    "name": "Jim Bibby",
+                    "uniqueId": "1753766a-d409-4179-9730-39c2d9b27155"
                 },
                 {
                     "number": "371",
-                    "name": "Steve Nicosia"
+                    "name": "Steve Nicosia",
+                    "uniqueId": "00756ed6-40f2-418c-8e89-40c66cb56b81"
                 },
                 {
                     "number": "372",
-                    "name": "Mike Easler"
+                    "name": "Mike Easler",
+                    "uniqueId": "01512af5-9a65-4dd0-b7b8-4a2220715792"
                 },
                 {
                     "number": "373",
-                    "name": "Bill Robinson"
+                    "name": "Bill Robinson",
+                    "uniqueId": "ab106e92-2014-46a7-ba61-bed813b6ef31"
                 },
                 {
                     "number": "374",
-                    "name": "Lee Lacy"
+                    "name": "Lee Lacy",
+                    "uniqueId": "ad31b537-ed8e-430b-8fef-d7fa116edfc0"
                 },
                 {
                     "number": "375",
-                    "name": "John Candelaria"
+                    "name": "John Candelaria",
+                    "uniqueId": "6ab3accf-816b-4722-aa80-fcb3a340e713"
                 },
                 {
                     "number": "376",
-                    "name": "Manny Sanguillen"
+                    "name": "Manny Sanguillen",
+                    "uniqueId": "a1b37570-531d-4e09-a1b8-8bcf8ef4fa28"
                 },
                 {
                     "number": "377",
-                    "name": "Rick Rhoden"
+                    "name": "Rick Rhoden",
+                    "uniqueId": "3eb9b306-9b17-4527-a660-9e280c0c2901"
                 },
                 {
                     "number": "378",
-                    "name": "Grant Jackson"
+                    "name": "Grant Jackson",
+                    "uniqueId": "64847c93-8397-41de-8794-6f45626e3a0f"
                 },
                 {
                     "number": "379",
-                    "name": "Tim Foli"
+                    "name": "Tim Foli",
+                    "uniqueId": "13103d7d-1130-4ed7-8e2d-ed5e5f289f3f"
                 },
                 {
                     "number": "380",
                     "name": "Rod Scurry",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "5a4d7f04-a91b-4a1c-baa1-29a97e9f8683"
                 },
                 {
                     "number": "381",
-                    "name": "Bill Madlock"
+                    "name": "Bill Madlock",
+                    "uniqueId": "819a2836-e92a-4e86-9aa2-300146b8ee6f"
                 },
                 {
                     "number": "382",
@@ -1777,172 +2158,209 @@
                             "variation": "Error",
                             "note": "Reverse Negative"
                         }
-                    ]
+                    ],
+                    "uniqueId": "b52eea65-deed-41b5-a088-2ac186c0f3b4"
                 },
                 {
                     "number": "383",
-                    "name": "Bert Blyleven"
+                    "name": "Bert Blyleven",
+                    "uniqueId": "2ff3cbb0-0073-492b-b1bb-9aca963bbe8b"
                 },
                 {
                     "number": "384",
-                    "name": "Eddie Solomon"
+                    "name": "Eddie Solomon",
+                    "uniqueId": "10f78d12-cb7d-45f0-9c72-dc117d3bf0f1"
                 },
                 {
                     "number": "385",
-                    "name": "Enrique Romo"
+                    "name": "Enrique Romo",
+                    "uniqueId": "6eeee47c-7f98-40d7-85c3-e9d02c39ae03"
                 },
                 {
                     "number": "386",
-                    "name": "John Milner"
+                    "name": "John Milner",
+                    "uniqueId": "c86b9701-b83f-48cb-a772-cff092cdd879"
                 },
                 {
                     "number": "387",
-                    "name": "Mike Hargrove"
+                    "name": "Mike Hargrove",
+                    "uniqueId": "2095afde-c415-4c4a-b287-314034e967f1"
                 },
                 {
                     "number": "388",
-                    "name": "Jorge Orta"
+                    "name": "Jorge Orta",
+                    "uniqueId": "d4a01131-340a-4bf8-a230-298a70afae05"
                 },
                 {
                     "number": "389",
-                    "name": "Toby Harrah"
+                    "name": "Toby Harrah",
+                    "uniqueId": "07ab995c-5119-41b9-8120-3a1c011004a2"
                 },
                 {
                     "number": "390",
-                    "name": "Tom Veryzer"
+                    "name": "Tom Veryzer",
+                    "uniqueId": "d6a681a6-742c-4100-af23-f7511548ab81"
                 },
                 {
                     "number": "391",
-                    "name": "Miguel Dilone"
+                    "name": "Miguel Dilone",
+                    "uniqueId": "7f9012a6-87a7-432e-a6b2-21f0be635757"
                 },
                 {
                     "number": "392",
-                    "name": "Dan Spillner"
+                    "name": "Dan Spillner",
+                    "uniqueId": "45f70eb7-1728-4f45-bfbc-f2faa03cbfed"
                 },
                 {
                     "number": "393",
-                    "name": "Jack Brohamer"
+                    "name": "Jack Brohamer",
+                    "uniqueId": "812470fd-96ea-45e0-91f1-3f7a40b76228"
                 },
                 {
                     "number": "394",
-                    "name": "Wayne Garland"
+                    "name": "Wayne Garland",
+                    "uniqueId": "358e2858-5c12-4531-becf-b581f07099f2"
                 },
                 {
                     "number": "395",
-                    "name": "Sid Monge"
+                    "name": "Sid Monge",
+                    "uniqueId": "693c8690-5902-4ef6-b0f9-fe45d83703b9"
                 },
                 {
                     "number": "396",
-                    "name": "Rick Waits"
+                    "name": "Rick Waits",
+                    "uniqueId": "9e2f9672-937e-42e0-bb49-9450a20ab5c2"
                 },
                 {
                     "number": "397",
                     "name": "Joe Charboneau",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "c168e63b-9c11-4c35-92ca-201bb821b908"
                 },
                 {
                     "number": "398",
-                    "name": "Gary Alexander"
+                    "name": "Gary Alexander",
+                    "uniqueId": "eb3ce637-f844-4440-8a10-2f6d8add122b"
                 },
                 {
                     "number": "399",
                     "name": "Jerry Dybzinski",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "c74107f4-c60b-4ac1-9488-4dac6820ddc8"
                 },
                 {
                     "number": "400",
                     "name": "Mike Stanton",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "beca00d4-7471-457d-bb18-333cd83ce3d3"
                 },
                 {
                     "number": "401",
                     "name": "Mike Paxton",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "579b430f-6f20-4fa5-b588-9b01e07c7569"
                 },
                 {
                     "number": "402",
                     "name": "Gary Gray",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "6f7eebae-590b-4c03-8aa2-ddef43186d27"
                 },
                 {
                     "number": "403",
-                    "name": "Rick Manning"
+                    "name": "Rick Manning",
+                    "uniqueId": "2b809493-e278-461f-8093-2602f939c066"
                 },
                 {
                     "number": "404",
-                    "name": "Bo Diaz"
+                    "name": "Bo Diaz",
+                    "uniqueId": "1581680d-1855-4782-955e-20fa7ebd7561"
                 },
                 {
                     "number": "405",
-                    "name": "Ron Hassey"
+                    "name": "Ron Hassey",
+                    "uniqueId": "48b6fa5b-6158-44a0-9f3e-d6f409798786"
                 },
                 {
                     "number": "406",
-                    "name": "Ross Grimsley"
+                    "name": "Ross Grimsley",
+                    "uniqueId": "5a811646-54e0-463d-a131-d96d8c096cc6"
                 },
                 {
                     "number": "407",
-                    "name": "Victor Cruz"
+                    "name": "Victor Cruz",
+                    "uniqueId": "bd0a1026-477e-4cd8-b772-0fb683b1ade7"
                 },
                 {
                     "number": "408",
-                    "name": "Len Barker"
+                    "name": "Len Barker",
+                    "uniqueId": "28a8af93-0ce5-4039-b71d-85dd59d5baf7"
                 },
                 {
                     "number": "409",
-                    "name": "Bob Bailor"
+                    "name": "Bob Bailor",
+                    "uniqueId": "93b03658-718b-47e4-aa13-6782d4984376"
                 },
                 {
                     "number": "410",
-                    "name": "Otto Velez"
+                    "name": "Otto Velez",
+                    "uniqueId": "94c52280-1e0f-4d28-b05f-89240ab15c7e"
                 },
                 {
                     "number": "411",
-                    "name": "Ernie Whitt"
+                    "name": "Ernie Whitt",
+                    "uniqueId": "a48d7090-7e36-408e-8f02-89c0c62f502d"
                 },
                 {
                     "number": "412",
-                    "name": "Jim Clancy"
+                    "name": "Jim Clancy",
+                    "uniqueId": "f47e0a95-63d1-4dbf-8b88-9469e46308ca"
                 },
                 {
                     "number": "413",
-                    "name": "Barry Bonnell"
+                    "name": "Barry Bonnell",
+                    "uniqueId": "5a4ce406-2703-4148-b0de-fc274fad3292"
                 },
                 {
                     "number": "414",
-                    "name": "Dave Stieb"
+                    "name": "Dave Stieb",
+                    "uniqueId": "061d49d5-5ea1-4d97-bc4b-0556310d866c"
                 },
                 {
                     "number": "415",
                     "name": "Damaso Garcia",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "f550e925-dd17-4e98-917e-d02160859a1d"
                 },
                 {
                     "number": "416",
-                    "name": "John Mayberry"
+                    "name": "John Mayberry",
+                    "uniqueId": "65ca5b71-141e-4df7-bf99-ecdd7bb3d4b2"
                 },
                 {
                     "number": "417",
-                    "name": "Roy Howell"
+                    "name": "Roy Howell",
+                    "uniqueId": "54b44cb8-ce60-49f7-8064-071736f3c2de"
                 },
                 {
                     "number": "418",
                     "name": "Dan Ainge",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "636a2a2b-3d3d-4a7a-8ff0-d82a647a96bb"
                 },
                 {
                     "number": "419",
@@ -1952,63 +2370,75 @@
                             "variation": "Error",
                             "note": "Incorrect Team (Pirates) on Back"
                         }
-                    ]
+                    ],
+                    "uniqueId": "55aacd76-d129-49f2-8b8f-6330f8837f41"
                 },
                 {
                     "number": "420",
-                    "name": "Joey McLaughlin"
+                    "name": "Joey McLaughlin",
+                    "uniqueId": "017b6248-670c-4c14-a30b-5960309040e0"
                 },
                 {
                     "number": "421",
                     "name": "Lloyd Moseby",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "a02c344b-7784-49e5-baa7-b9aeda1996ca"
                 },
                 {
                     "number": "422",
-                    "name": "Al Woods"
+                    "name": "Al Woods",
+                    "uniqueId": "0eca5f33-14e7-403b-a956-a8a5b96da55c"
                 },
                 {
                     "number": "423",
-                    "name": "Garth Iorg"
+                    "name": "Garth Iorg",
+                    "uniqueId": "cb979f8b-6657-44b3-8461-5a73236a4c8b"
                 },
                 {
                     "number": "424",
                     "name": "Doug Ault",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "0250a0a9-61dc-49ca-8025-ae3095823550"
                 },
                 {
                     "number": "425",
                     "name": "Ken Schrom",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "afb95800-e91d-4144-8cbd-9dca86ffa6a1"
                 },
                 {
                     "number": "426",
-                    "name": "Mike Willis"
+                    "name": "Mike Willis",
+                    "uniqueId": "d522cc97-9ff6-4e8e-b8b9-1ba82730fc08"
                 },
                 {
                     "number": "427",
-                    "name": "Steve Braun"
+                    "name": "Steve Braun",
+                    "uniqueId": "fa04ff2e-7ed9-4877-91cd-a55170968052"
                 },
                 {
                     "number": "428",
-                    "name": "Bob Davis"
+                    "name": "Bob Davis",
+                    "uniqueId": "d58c4a7e-2354-48a0-99ae-215177026ea7"
                 },
                 {
                     "number": "429",
-                    "name": "Jerry Garvin"
+                    "name": "Jerry Garvin",
+                    "uniqueId": "4429be9b-7015-45cf-9a42-a8d8e04b8afe"
                 },
                 {
                     "number": "430",
                     "name": "Alfredo Griffin",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "feb1a06a-6d3e-4c1e-8b23-8fd1df5ce0ed"
                 },
                 {
                     "number": "431",
@@ -2016,23 +2446,28 @@
                     "attributes": [
                         "MGR",
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "044b1b9c-e611-4d98-83fc-a5945a981570"
                 },
                 {
                     "number": "432",
-                    "name": "Vida Blue"
+                    "name": "Vida Blue",
+                    "uniqueId": "0d4d0122-71d0-4ec3-b839-210269d78874"
                 },
                 {
                     "number": "433",
-                    "name": "Jack Clark"
+                    "name": "Jack Clark",
+                    "uniqueId": "f4dc3c07-2bbf-442d-9da0-3714ae4f22e0"
                 },
                 {
                     "number": "434",
-                    "name": "Willie McCovey"
+                    "name": "Willie McCovey",
+                    "uniqueId": "a0d9b738-7b76-486e-8d1b-a1656cae7a3a"
                 },
                 {
                     "number": "435",
-                    "name": "Mike Ivie"
+                    "name": "Mike Ivie",
+                    "uniqueId": "98f3b002-2dcd-4b70-8690-daa0a36a24d2"
                 },
                 {
                     "number": "436",
@@ -2042,203 +2477,247 @@
                             "variation": "Error",
                             "note": "Name misspelled \"Darrel\" on Front"
                         }
-                    ]
+                    ],
+                    "uniqueId": "619f6945-93a9-4f0a-922e-610e33ebae6e"
                 },
                 {
                     "number": "437",
-                    "name": "Terry Whitfield"
+                    "name": "Terry Whitfield",
+                    "uniqueId": "778a9872-d47b-4d5d-88e7-42dec1084fbb"
                 },
                 {
                     "number": "438",
-                    "name": "Rennie Stennett"
+                    "name": "Rennie Stennett",
+                    "uniqueId": "12d982bb-6003-41c3-b6fe-4ecdb52b8fd7"
                 },
                 {
                     "number": "439",
-                    "name": "John Montefusco"
+                    "name": "John Montefusco",
+                    "uniqueId": "b18d5982-04e3-478c-a1b3-7a33ec95f3b7"
                 },
                 {
                     "number": "440",
-                    "name": "Jim Wohlford"
+                    "name": "Jim Wohlford",
+                    "uniqueId": "37ba9111-b3f8-44e0-8afe-e8ddcc6f3170"
                 },
                 {
                     "number": "441",
-                    "name": "Bill North"
+                    "name": "Bill North",
+                    "uniqueId": "c5974b1c-5f47-4045-90e7-6bad52c6c455"
                 },
                 {
                     "number": "442",
-                    "name": "Milt May"
+                    "name": "Milt May",
+                    "uniqueId": "b014ae6f-d101-4847-812f-4b0f58548cf0"
                 },
                 {
                     "number": "443",
                     "name": "Max Venable",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "618e06cc-e382-4167-aa04-7a76679bd0de"
                 },
                 {
                     "number": "444",
-                    "name": "Ed Whitson"
+                    "name": "Ed Whitson",
+                    "uniqueId": "94f47001-5d6c-431a-8dbb-e2dffb2199d3"
                 },
                 {
                     "number": "445",
                     "name": "Al Holland",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "86bdf20c-5f0f-4de7-854e-9cc9f46b541d"
                 },
                 {
                     "number": "446",
-                    "name": "Randy Moffitt"
+                    "name": "Randy Moffitt",
+                    "uniqueId": "2cd159e9-f8bc-417e-8eeb-6b530282c142"
                 },
                 {
                     "number": "447",
-                    "name": "Bob Knepper"
+                    "name": "Bob Knepper",
+                    "uniqueId": "d9be9dfb-9f73-467b-a41f-c91071938332"
                 },
                 {
                     "number": "448",
-                    "name": "Gary Lavelle"
+                    "name": "Gary Lavelle",
+                    "uniqueId": "b0d72b03-3274-4ff1-8990-ede157d4a0ec"
                 },
                 {
                     "number": "449",
-                    "name": "Greg Minton"
+                    "name": "Greg Minton",
+                    "uniqueId": "0023902d-8316-43df-907e-243db4278290"
                 },
                 {
                     "number": "450",
-                    "name": "Johnnie LeMaster"
+                    "name": "Johnnie LeMaster",
+                    "uniqueId": "869d545e-1ee7-4f2e-99c3-94f4b55d4b13"
                 },
                 {
                     "number": "451",
-                    "name": "Larry Herndon"
+                    "name": "Larry Herndon",
+                    "uniqueId": "816bdfde-27f8-4650-b1f8-00e98aec99e4"
                 },
                 {
                     "number": "452",
                     "name": "Rich Murray",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "232273cf-842d-4122-b3fa-6a6254a08561"
                 },
                 {
                     "number": "453",
                     "name": "Joe Pettini",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "389b3356-2de7-4a49-b967-a98e4a13ab57"
                 },
                 {
                     "number": "454",
-                    "name": "Allen Ripley"
+                    "name": "Allen Ripley",
+                    "uniqueId": "89e610a9-7d9a-4993-bb18-855f4a1aca6d"
                 },
                 {
                     "number": "455",
-                    "name": "Dennis Littlejohn"
+                    "name": "Dennis Littlejohn",
+                    "uniqueId": "4b5d7775-887a-4116-ada4-c3147c653b0f"
                 },
                 {
                     "number": "456",
-                    "name": "Tom Griffin"
+                    "name": "Tom Griffin",
+                    "uniqueId": "2a3ff277-9dbc-4a65-a153-5375ccf889c1"
                 },
                 {
                     "number": "457",
                     "name": "Alan Hargesheimer",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "d105d836-b6d2-4093-bac6-2595d566099d"
                 },
                 {
                     "number": "458",
-                    "name": "Joe Strain"
+                    "name": "Joe Strain",
+                    "uniqueId": "3d3292b6-4867-4251-8164-289dfa089d39"
                 },
                 {
                     "number": "459",
-                    "name": "Steve Kemp"
+                    "name": "Steve Kemp",
+                    "uniqueId": "d57b8ddc-8399-4ce9-9a85-71ecbe04c672"
                 },
                 {
                     "number": "460",
                     "name": "Sparky Anderson",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "d3e9fab3-36c8-4781-9129-33176af6eb61"
                 },
                 {
                     "number": "461",
-                    "name": "Alan Trammell"
+                    "name": "Alan Trammell",
+                    "uniqueId": "1ba4c0c4-e191-42a5-bb53-2a4079db3fbd"
                 },
                 {
                     "number": "462",
-                    "name": "Mark Fidrych"
+                    "name": "Mark Fidrych",
+                    "uniqueId": "1e570475-232a-4ffd-92fb-e491908d242d"
                 },
                 {
                     "number": "463",
-                    "name": "Lou Whitaker"
+                    "name": "Lou Whitaker",
+                    "uniqueId": "9f5852aa-0f64-4123-9684-06eedb0a8d9d"
                 },
                 {
                     "number": "464",
-                    "name": "Dave Rozema"
+                    "name": "Dave Rozema",
+                    "uniqueId": "2b4226ad-269e-4e78-95b7-d5cf1b2fab7a"
                 },
                 {
                     "number": "465",
-                    "name": "Milt Wilcox"
+                    "name": "Milt Wilcox",
+                    "uniqueId": "8e2997cc-e060-489c-97fe-512a516d40ca"
                 },
                 {
                     "number": "466",
-                    "name": "Champ Summers"
+                    "name": "Champ Summers",
+                    "uniqueId": "1a725d13-f249-4c5a-a5c4-9d8466331247"
                 },
                 {
                     "number": "467",
-                    "name": "Lance Parrish"
+                    "name": "Lance Parrish",
+                    "uniqueId": "9826d224-54e0-4b87-87dd-a7cf619bb0a2"
                 },
                 {
                     "number": "468",
-                    "name": "Dan Petry"
+                    "name": "Dan Petry",
+                    "uniqueId": "9b34dbdd-4ad0-4d65-a4e3-4b0af47b0525"
                 },
                 {
                     "number": "469",
-                    "name": "Pat Underwood"
+                    "name": "Pat Underwood",
+                    "uniqueId": "b707dbbf-c90c-40bf-9769-55b12707da6e"
                 },
                 {
                     "number": "470",
                     "name": "Rick Peters",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "f03d03ea-1a9b-498d-b87b-19c90725f5ad"
                 },
                 {
                     "number": "471",
-                    "name": "Al Cowens"
+                    "name": "Al Cowens",
+                    "uniqueId": "d641021d-d838-4c50-8278-1bf8a0ce79ed"
                 },
                 {
                     "number": "472",
-                    "name": "John Wockenfuss"
+                    "name": "John Wockenfuss",
+                    "uniqueId": "9959e256-8ce9-4c28-bf4a-7747aa65f3ec"
                 },
                 {
                     "number": "473",
-                    "name": "Tom Brookens"
+                    "name": "Tom Brookens",
+                    "uniqueId": "ba09aaa4-065a-4457-b3f9-ad82dd009bd7"
                 },
                 {
                     "number": "474",
-                    "name": "Richie Hebner"
+                    "name": "Richie Hebner",
+                    "uniqueId": "5e12fddd-b1af-4f0c-9e2a-e01a1e8ca923"
                 },
                 {
                     "number": "475",
-                    "name": "Jack Morris"
+                    "name": "Jack Morris",
+                    "uniqueId": "6be71b06-2905-4a8f-8c9e-08695a6ff277"
                 },
                 {
                     "number": "476",
                     "name": "Jim Lentine",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "c8ebd7f8-9aa4-4fb7-b830-fdebdac9c0bb"
                 },
                 {
                     "number": "477",
-                    "name": "Bruce Robbins"
+                    "name": "Bruce Robbins",
+                    "uniqueId": "5e85f1ca-8335-4213-81b4-a96de7ae44ba"
                 },
                 {
                     "number": "478",
-                    "name": "Mark Wagner"
+                    "name": "Mark Wagner",
+                    "uniqueId": "2f5a2d93-9529-4e64-85b9-96bfcbdb549e"
                 },
                 {
                     "number": "479",
-                    "name": "Tim Corcoran"
+                    "name": "Tim Corcoran",
+                    "uniqueId": "e002c30c-4548-49fb-b822-a53ce0829042"
                 },
                 {
                     "number": "480",
@@ -2248,58 +2727,71 @@
                             "variation": "Error",
                             "note": "\"Pitcher\" on Front"
                         }
-                    ]
+                    ],
+                    "uniqueId": "bbde081f-22bc-4265-91be-a8a46a6f74a3"
                 },
                 {
                     "number": "481",
                     "name": "Kirk Gibson",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "9584b132-6f38-4d17-abae-df4d8edd0e30"
                 },
                 {
                     "number": "482",
-                    "name": "Dan Schatzeder"
+                    "name": "Dan Schatzeder",
+                    "uniqueId": "93a64d50-cafc-498f-9ee4-35abc5927806"
                 },
                 {
                     "number": "483",
-                    "name": "Amos Otis"
+                    "name": "Amos Otis",
+                    "uniqueId": "3c95d530-cc3a-47ee-9371-15e1107dbc77"
                 },
                 {
                     "number": "484",
-                    "name": "Dave Winfield"
+                    "name": "Dave Winfield",
+                    "uniqueId": "699380c5-f4f3-4274-97f8-e2b3f761e87f"
                 },
                 {
                     "number": "485",
-                    "name": "Rollie Fingers"
+                    "name": "Rollie Fingers",
+                    "uniqueId": "2a5b6e7a-050f-4391-9fbe-1384834fae68"
                 },
                 {
                     "number": "486",
-                    "name": "Gene Richards"
+                    "name": "Gene Richards",
+                    "uniqueId": "090a2296-c35a-4756-821b-fbb6b52cbe23"
                 },
                 {
                     "number": "487",
-                    "name": "Randy Jones"
+                    "name": "Randy Jones",
+                    "uniqueId": "bc57256e-2e7d-4414-bf7c-e3d8e6024528"
                 },
                 {
                     "number": "488",
-                    "name": "Ozzie Smith"
+                    "name": "Ozzie Smith",
+                    "uniqueId": "83b37001-0bb6-40a6-a77f-c5538f86c9d8"
                 },
                 {
                     "number": "489",
-                    "name": "Gene Tenace"
+                    "name": "Gene Tenace",
+                    "uniqueId": "66f0ee99-618e-4e23-a361-075dcb550e1a"
                 },
                 {
                     "number": "490",
-                    "name": "Bill Fahey"
+                    "name": "Bill Fahey",
+                    "uniqueId": "7784caa9-285c-4d05-8455-1f65e4e21ccd"
                 },
                 {
                     "number": "491",
-                    "name": "John Curtis"
+                    "name": "John Curtis",
+                    "uniqueId": "9402b3c1-43ba-4091-bf7f-216e9cbdfa17"
                 },
                 {
                     "number": "492",
-                    "name": "Dave Cash"
+                    "name": "Dave Cash",
+                    "uniqueId": "ff6a95b0-2c10-437b-b73f-5568906d0c8d"
                 },
                 {
                     "number": "493",
@@ -2309,105 +2801,126 @@
                             "variation": "Error",
                             "note": "Reverse Negative"
                         }
-                    ]
+                    ],
+                    "uniqueId": "ff0b0e1c-71b5-4529-acc0-325c1aed77b9"
                 },
                 {
                     "number": "494",
-                    "name": "Jerry Mumphrey"
+                    "name": "Jerry Mumphrey",
+                    "uniqueId": "b2434c2e-7786-47c2-9e31-99e8eea1ab07"
                 },
                 {
                     "number": "495",
-                    "name": "Bob Shirley"
+                    "name": "Bob Shirley",
+                    "uniqueId": "4d6e6760-67d1-418b-9469-22d0a6466621"
                 },
                 {
                     "number": "496",
-                    "name": "Steve Mura"
+                    "name": "Steve Mura",
+                    "uniqueId": "7d54689a-4d13-4335-9b15-4499224ad0de"
                 },
                 {
                     "number": "497",
-                    "name": "Eric Rasmussen"
+                    "name": "Eric Rasmussen",
+                    "uniqueId": "f9d119a8-3be4-431a-ab7d-32c6ff6b8947"
                 },
                 {
                     "number": "498",
-                    "name": "Broderick Perkins"
+                    "name": "Broderick Perkins",
+                    "uniqueId": "1a1a4b43-998d-44ec-89ea-f78e67562fe3"
                 },
                 {
                     "number": "499",
                     "name": "Barry Evans",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "9be6eb58-3976-4f23-9173-5d103ff14ea7"
                 },
                 {
                     "number": "500",
-                    "name": "Chuck Baker"
+                    "name": "Chuck Baker",
+                    "uniqueId": "0bfdb3fc-be0d-4056-9359-3ca915a9b23e"
                 },
                 {
                     "number": "501",
                     "name": "Luis Salazar",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "5ce007af-9d06-4e71-8d4e-de86517d9a32"
                 },
                 {
                     "number": "502",
                     "name": "Gary Lucas",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "7859fcca-07d9-430a-8c76-0a9d87e580af"
                 },
                 {
                     "number": "503",
                     "name": "Mike Armstrong",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "6da6f5f5-26ae-4a85-b587-43b1f3041fd1"
                 },
                 {
                     "number": "504",
-                    "name": "Jerry Turner"
+                    "name": "Jerry Turner",
+                    "uniqueId": "6e66887c-f11e-459b-94d8-ec956ffbb48f"
                 },
                 {
                     "number": "505",
                     "name": "Dennis Kinney",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "3df929d5-c7bc-494f-a20c-07fbadffe355"
                 },
                 {
                     "number": "506",
                     "name": "Willie Montanez",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "539b3589-025d-4aa1-adb8-fc2a7c142401"
                 },
                 {
                     "number": "507",
-                    "name": "Gorman Thomas"
+                    "name": "Gorman Thomas",
+                    "uniqueId": "57b83f70-fc1f-4b7b-ba2e-f799ed626ef7"
                 },
                 {
                     "number": "508",
-                    "name": "Ben Oglivie"
+                    "name": "Ben Oglivie",
+                    "uniqueId": "e464c831-48d9-4e3f-8856-b341d87a9e49"
                 },
                 {
                     "number": "509",
-                    "name": "Larry Hisle"
+                    "name": "Larry Hisle",
+                    "uniqueId": "c4db8877-d9ef-4702-8b3b-3fbbbb8e573f"
                 },
                 {
                     "number": "510",
-                    "name": "Sal Bando"
+                    "name": "Sal Bando",
+                    "uniqueId": "9102a534-effc-4947-aa8a-16b0c97e140c"
                 },
                 {
                     "number": "511",
-                    "name": "Robin Yount"
+                    "name": "Robin Yount",
+                    "uniqueId": "ce0f736e-65e9-48e9-bb01-3d8d84e16f35"
                 },
                 {
                     "number": "512",
-                    "name": "Mike Caldwell"
+                    "name": "Mike Caldwell",
+                    "uniqueId": "3ceba6f0-c289-42b4-90a1-3fb7e6f28fab"
                 },
                 {
                     "number": "513",
-                    "name": "Sixto Lezcano"
+                    "name": "Sixto Lezcano",
+                    "uniqueId": "12c7b3c8-327b-427e-93d0-dddc4c012616"
                 },
                 {
                     "number": "514",
@@ -2417,150 +2930,183 @@
                             "variation": "Error",
                             "note": "Photo is of Bill Travers"
                         }
-                    ]
+                    ],
+                    "uniqueId": "9a949afc-4862-4c6c-8e12-1321d59fbdbc"
                 },
                 {
                     "number": "515",
-                    "name": "Paul Molitor"
+                    "name": "Paul Molitor",
+                    "uniqueId": "688d9f2a-2eb1-4c37-89b3-4baa59d32eb8"
                 },
                 {
                     "number": "516",
-                    "name": "Moose Haas"
+                    "name": "Moose Haas",
+                    "uniqueId": "7f850867-e74b-401b-8fd9-14d72fbdac8b"
                 },
                 {
                     "number": "517",
-                    "name": "Bill Castro"
+                    "name": "Bill Castro",
+                    "uniqueId": "b6187a1d-db12-48fa-88ac-0433891038dc"
                 },
                 {
                     "number": "518",
-                    "name": "Jim Slaton"
+                    "name": "Jim Slaton",
+                    "uniqueId": "63502671-7c44-4c39-a0e3-f44e34d4f8db"
                 },
                 {
                     "number": "519",
-                    "name": "Lary Sorensen"
+                    "name": "Lary Sorensen",
+                    "uniqueId": "cf182e9f-7e24-4caf-9ddb-9b4cdda753dc"
                 },
                 {
                     "number": "520",
-                    "name": "Bob McClure"
+                    "name": "Bob McClure",
+                    "uniqueId": "d0608f8e-39db-40bb-9dff-e2d8d23cf08f"
                 },
                 {
                     "number": "521",
-                    "name": "Charlie Moore"
+                    "name": "Charlie Moore",
+                    "uniqueId": "f121ab8d-4cb0-4f96-b6af-6bb4c413811e"
                 },
                 {
                     "number": "522",
-                    "name": "Jim Gantner"
+                    "name": "Jim Gantner",
+                    "uniqueId": "dedb278b-dc40-4e2e-a1ba-88bac6e17d44"
                 },
                 {
                     "number": "523",
-                    "name": "Reggie Cleveland"
+                    "name": "Reggie Cleveland",
+                    "uniqueId": "a1ca62a8-923c-4e5d-a4e5-f8b467c47052"
                 },
                 {
                     "number": "524",
-                    "name": "Don Money"
+                    "name": "Don Money",
+                    "uniqueId": "cf3a4d74-067f-4049-986a-0f3087ea21d6"
                 },
                 {
                     "number": "525",
-                    "name": "Billy Travers"
+                    "name": "Billy Travers",
+                    "uniqueId": "dcbb9a06-b1e8-4eb3-bce8-a5b4c1c45267"
                 },
                 {
                     "number": "526",
-                    "name": "Buck Martinez"
+                    "name": "Buck Martinez",
+                    "uniqueId": "7efa9c20-224c-4804-8cac-9a010c87a9ae"
                 },
                 {
                     "number": "527",
-                    "name": "Dick Davis"
+                    "name": "Dick Davis",
+                    "uniqueId": "e4276cba-f735-4515-8afa-5c25bb37b74e"
                 },
                 {
                     "number": "528",
-                    "name": "Ted Simmons"
+                    "name": "Ted Simmons",
+                    "uniqueId": "7a491c8b-b7d3-476a-b55a-bc0052759ced"
                 },
                 {
                     "number": "529",
-                    "name": "Garry Templeton"
+                    "name": "Garry Templeton",
+                    "uniqueId": "3d64fd4c-0113-41fb-bc11-aaa63c03f82d"
                 },
                 {
                     "number": "530",
-                    "name": "Ken Reitz"
+                    "name": "Ken Reitz",
+                    "uniqueId": "121d79b3-1fe5-4e8c-96cb-cf065b899c90"
                 },
                 {
                     "number": "531",
-                    "name": "Tony Scott"
+                    "name": "Tony Scott",
+                    "uniqueId": "9625d3a7-c759-4ba2-9d2f-a8c43937882f"
                 },
                 {
                     "number": "532",
-                    "name": "Ken Oberkfell"
+                    "name": "Ken Oberkfell",
+                    "uniqueId": "9f4da8e0-0799-421a-82b5-2ccfab992928"
                 },
                 {
                     "number": "533",
-                    "name": "Bob Sykes"
+                    "name": "Bob Sykes",
+                    "uniqueId": "f83fb919-4f74-481a-9f71-60bc65e82ca1"
                 },
                 {
                     "number": "534",
-                    "name": "Keith Smith"
+                    "name": "Keith Smith",
+                    "uniqueId": "24edfbcc-f2a8-4e50-a03b-6e2464eb7896"
                 },
                 {
                     "number": "535",
                     "name": "John Littlefield",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "20b0879d-675b-43e5-87d2-9ce8d90e1c2f"
                 },
                 {
                     "number": "536",
                     "name": "Jim Kaat",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "005af09d-a611-49bc-a041-62d0fb75fde3"
                 },
                 {
                     "number": "537",
-                    "name": "Bob Forsch"
+                    "name": "Bob Forsch",
+                    "uniqueId": "988ccb62-2c56-4892-8757-35970385b343"
                 },
                 {
                     "number": "538",
-                    "name": "Mike Phillips"
+                    "name": "Mike Phillips",
+                    "uniqueId": "4a098f95-2f1f-4535-aec0-0394c8dfeeb5"
                 },
                 {
                     "number": "539",
                     "name": "Terry Landrum",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "010d0ade-df88-4d69-9091-65516c08d3f6"
                 },
                 {
                     "number": "540",
                     "name": "Leon Durham",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "43420784-db15-46fe-aa56-d418c2107206"
                 },
                 {
                     "number": "541",
-                    "name": "Terry Kennedy"
+                    "name": "Terry Kennedy",
+                    "uniqueId": "a4dcc84a-95fc-464d-beb1-69bc4eda6521"
                 },
                 {
                     "number": "542",
-                    "name": "George Hendrick"
+                    "name": "George Hendrick",
+                    "uniqueId": "42a81b62-2e58-4790-8f17-8f544d96de12"
                 },
                 {
                     "number": "543",
-                    "name": "Dane Iorg"
+                    "name": "Dane Iorg",
+                    "uniqueId": "22a11ed8-0932-4f36-ab20-40db9cb34a0f"
                 },
                 {
                     "number": "544",
                     "name": "Mark Littell",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "35ed4c4e-4326-43c5-9a89-b46d7dc37c1f"
                 },
                 {
                     "number": "545",
-                    "name": "Keith Hernandez"
+                    "name": "Keith Hernandez",
+                    "uniqueId": "d5c0ad71-aee3-4c0b-b29e-ea83af26905f"
                 },
                 {
                     "number": "546",
-                    "name": "Silvio Martinez"
+                    "name": "Silvio Martinez",
+                    "uniqueId": "9e5530f8-3e57-464d-b70a-111280bee091"
                 },
                 {
                     "number": "547",
@@ -2570,418 +3116,512 @@
                             "variation": "Error",
                             "note": "Photo is of Don Hood"
                         }
-                    ]
+                    ],
+                    "uniqueId": "f2ee64a9-fb19-4612-aa49-aac7525f8ade"
                 },
                 {
                     "number": "548",
-                    "name": "Bobby Bonds"
+                    "name": "Bobby Bonds",
+                    "uniqueId": "f38370ef-0541-4d30-b0ae-d19121c2ccd0"
                 },
                 {
                     "number": "549",
                     "name": "Mike Ramsey",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "11ee524d-f84e-433b-b9e6-0232f4681b83"
                 },
                 {
                     "number": "550",
-                    "name": "Tom Herr"
+                    "name": "Tom Herr",
+                    "uniqueId": "7893667f-7abe-4a82-9835-bdbe88d47ba4"
                 },
                 {
                     "number": "551",
-                    "name": "Roy Smalley"
+                    "name": "Roy Smalley",
+                    "uniqueId": "85f5cee1-15df-4d34-9aca-f97e0abfb2b4"
                 },
                 {
                     "number": "552",
-                    "name": "Jerry Koosman"
+                    "name": "Jerry Koosman",
+                    "uniqueId": "5a1ba753-7a66-4746-b88d-df964392e4b6"
                 },
                 {
                     "number": "553",
-                    "name": "Ken Landreaux"
+                    "name": "Ken Landreaux",
+                    "uniqueId": "8a7f0255-6284-4659-8a6c-af5e72d7a036"
                 },
                 {
                     "number": "554",
-                    "name": "John Castino"
+                    "name": "John Castino",
+                    "uniqueId": "e6b8e6f6-edfb-4965-8319-b6f2e3493e18"
                 },
                 {
                     "number": "555",
                     "name": "Doug Corbett",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "828f4fe5-6b20-4e1b-a498-c1e5f67953e8"
                 },
                 {
                     "number": "556",
-                    "name": "Bombo Rivera"
+                    "name": "Bombo Rivera",
+                    "uniqueId": "e934e773-7b0b-425a-98cf-04082d6dc5bc"
                 },
                 {
                     "number": "557",
-                    "name": "Ron Jackson"
+                    "name": "Ron Jackson",
+                    "uniqueId": "104e1003-1c28-47de-bc7b-49008a5585f3"
                 },
                 {
                     "number": "558",
                     "name": "Butch Wynegar",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "cf9c9e13-333b-4350-8c5b-a0811c009d5c"
                 },
                 {
                     "number": "559",
-                    "name": "Hosken Powell"
+                    "name": "Hosken Powell",
+                    "uniqueId": "cb023444-20c6-4e50-98ac-7a2aff0e42ca"
                 },
                 {
                     "number": "560",
-                    "name": "Pete Redfern"
+                    "name": "Pete Redfern",
+                    "uniqueId": "37a4d041-9024-42a1-a6a9-f68a331afb47"
                 },
                 {
                     "number": "561",
-                    "name": "Roger Erickson"
+                    "name": "Roger Erickson",
+                    "uniqueId": "84469ee9-736b-45a9-b99d-9af2f29b0e3e"
                 },
                 {
                     "number": "562",
-                    "name": "Glenn Adams"
+                    "name": "Glenn Adams",
+                    "uniqueId": "2228623f-ad9a-47ec-9c52-41caa5b1b0d7"
                 },
                 {
                     "number": "563",
-                    "name": "Rick Sofield"
+                    "name": "Rick Sofield",
+                    "uniqueId": "dcff3869-f440-40e4-9039-904810a75fa7"
                 },
                 {
                     "number": "564",
-                    "name": "Geoff Zahn"
+                    "name": "Geoff Zahn",
+                    "uniqueId": "dd548be9-8826-43b9-83e0-b7e71bfb98db"
                 },
                 {
                     "number": "565",
-                    "name": "Pete Mackanin"
+                    "name": "Pete Mackanin",
+                    "uniqueId": "8847bc0e-20e9-4c6b-9cab-a380e0678d60"
                 },
                 {
                     "number": "566",
-                    "name": "Mike Cubbage"
+                    "name": "Mike Cubbage",
+                    "uniqueId": "b387dd46-df29-45d6-98e0-d842ef7df4d2"
                 },
                 {
                     "number": "567",
-                    "name": "Darrell Jackson"
+                    "name": "Darrell Jackson",
+                    "uniqueId": "34958918-1ad9-4be7-a006-3de67f158559"
                 },
                 {
                     "number": "568",
-                    "name": "Dave Edwards"
+                    "name": "Dave Edwards",
+                    "uniqueId": "6fd2f9d9-b150-4026-a5de-bb1a803299f1"
                 },
                 {
                     "number": "569",
-                    "name": "Rob Wilfong"
+                    "name": "Rob Wilfong",
+                    "uniqueId": "bbd676d4-6ab2-4693-b673-c69401f9239d"
                 },
                 {
                     "number": "570",
                     "name": "Sal Butera",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "9d73d1f4-c051-4081-851c-253ceae17271"
                 },
                 {
                     "number": "571",
-                    "name": "Jose Morales"
+                    "name": "Jose Morales",
+                    "uniqueId": "fca4f6b5-419f-44e5-aa13-3c03ffd57a22"
                 },
                 {
                     "number": "572",
-                    "name": "Rick Langford"
+                    "name": "Rick Langford",
+                    "uniqueId": "7b196d56-3c1d-4cc4-8d21-7f715e2f2f3a"
                 },
                 {
                     "number": "573",
-                    "name": "Mike Norris"
+                    "name": "Mike Norris",
+                    "uniqueId": "a4448ec0-be23-4a68-903c-8537d7694f2f"
                 },
                 {
                     "number": "574",
-                    "name": "Rickey Henderson"
+                    "name": "Rickey Henderson",
+                    "uniqueId": "43047b80-69ac-40a9-93d3-bb3752a3b842"
                 },
                 {
                     "number": "575",
-                    "name": "Tony Armas"
+                    "name": "Tony Armas",
+                    "uniqueId": "7fe53129-b1ba-4bd1-bce0-6824d02eb9f6"
                 },
                 {
                     "number": "576",
-                    "name": "Dave Revering"
+                    "name": "Dave Revering",
+                    "uniqueId": "e0b46c7c-35cb-41aa-8842-ee4d649e5333"
                 },
                 {
                     "number": "577",
-                    "name": "Jeff Newman"
+                    "name": "Jeff Newman",
+                    "uniqueId": "812b621b-f3b5-4660-b6a3-faae9fcec51d"
                 },
                 {
                     "number": "578",
-                    "name": "Bob Lacey"
+                    "name": "Bob Lacey",
+                    "uniqueId": "cd22d33b-7cb6-44d3-862e-003eebbeb180"
                 },
                 {
                     "number": "579",
                     "name": "Brian Kingman",
                     "attributes": [
                         "UER"
-                    ]
+                    ],
+                    "uniqueId": "a164de65-aaf3-4a8e-8b9f-d40aa4b682d6"
                 },
                 {
                     "number": "580",
-                    "name": "Mitchell Page"
+                    "name": "Mitchell Page",
+                    "uniqueId": "246616a4-5073-4592-a5a5-dd714d7ddf9b"
                 },
                 {
                     "number": "581",
                     "name": "Billy Martin",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "758fe8cb-ca54-407e-9b2e-117fc9102a06"
                 },
                 {
                     "number": "582",
-                    "name": "Rob Picciolo"
+                    "name": "Rob Picciolo",
+                    "uniqueId": "2f0da924-c026-4f07-87e5-887ec78487ea"
                 },
                 {
                     "number": "583",
-                    "name": "Mike Heath"
+                    "name": "Mike Heath",
+                    "uniqueId": "104bbd2b-457d-4627-b597-3bd5d35ff83f"
                 },
                 {
                     "number": "584",
-                    "name": "Mickey Klutts"
+                    "name": "Mickey Klutts",
+                    "uniqueId": "6aae2e70-76d7-4be2-882f-888a65db2d51"
                 },
                 {
                     "number": "585",
-                    "name": "Orlando Gonzalez"
+                    "name": "Orlando Gonzalez",
+                    "uniqueId": "9bd0a1bf-ebe3-41c4-9236-3d32413d402b"
                 },
                 {
                     "number": "586",
                     "name": "Mike Davis",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "8569a589-fb7b-411a-9e7a-89d169c0be6c"
                 },
                 {
                     "number": "587",
-                    "name": "Wayne Gross"
+                    "name": "Wayne Gross",
+                    "uniqueId": "d88607d9-c5b9-495d-bb63-c29aeacec1fa"
                 },
                 {
                     "number": "588",
-                    "name": "Matt Keough"
+                    "name": "Matt Keough",
+                    "uniqueId": "d2d69b00-e47e-4482-97d1-43db5aea56ae"
                 },
                 {
                     "number": "589",
-                    "name": "Steve McCatty"
+                    "name": "Steve McCatty",
+                    "uniqueId": "6077f4b8-3e7d-420e-a5bb-edcbbb14aca0"
                 },
                 {
                     "number": "590",
-                    "name": "Dwayne Murphy"
+                    "name": "Dwayne Murphy",
+                    "uniqueId": "91cdf03b-77d6-4093-91be-47c919ddc84d"
                 },
                 {
                     "number": "591",
-                    "name": "Mario Guerrero"
+                    "name": "Mario Guerrero",
+                    "uniqueId": "f8cd2912-a095-4131-83ea-dcf685a75755"
                 },
                 {
                     "number": "592",
-                    "name": "Dave McKay"
+                    "name": "Dave McKay",
+                    "uniqueId": "b1dd9d5e-d2e2-4119-b014-66ae8a0635ef"
                 },
                 {
                     "number": "593",
-                    "name": "Jim Essian"
+                    "name": "Jim Essian",
+                    "uniqueId": "f6adc331-7aea-48b2-9209-9416c9ff1cff"
                 },
                 {
                     "number": "594",
-                    "name": "Dave Heaverlo"
+                    "name": "Dave Heaverlo",
+                    "uniqueId": "1186c2ac-0e54-4114-952e-95a12cccbd74"
                 },
                 {
                     "number": "595",
                     "name": "Maury Wills",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "5d6911c5-6a40-4d36-abf9-ec9bcad656ef"
                 },
                 {
                     "number": "596",
-                    "name": "Juan Beniquez"
+                    "name": "Juan Beniquez",
+                    "uniqueId": "8bac0681-3e22-4c28-b60c-52788e38f6da"
                 },
                 {
                     "number": "597",
-                    "name": "Rodney Craig"
+                    "name": "Rodney Craig",
+                    "uniqueId": "9b960395-89d5-438e-aa82-4679e99e3d86"
                 },
                 {
                     "number": "598",
-                    "name": "Jim Anderson"
+                    "name": "Jim Anderson",
+                    "uniqueId": "8b9987e3-2918-4257-8276-c1e662cbf939"
                 },
                 {
                     "number": "599",
-                    "name": "Floyd Bannister"
+                    "name": "Floyd Bannister",
+                    "uniqueId": "0d1264e0-da22-47f7-8dfc-08cbf7421a82"
                 },
                 {
                     "number": "600",
-                    "name": "Bruce Bochte"
+                    "name": "Bruce Bochte",
+                    "uniqueId": "4b82f6d4-bdba-4d12-9ebc-b08493e4f93c"
                 },
                 {
                     "number": "601",
-                    "name": "Julio Cruz"
+                    "name": "Julio Cruz",
+                    "uniqueId": "6f38252f-c6f0-465e-9102-dcb4302bc0b2"
                 },
                 {
                     "number": "602",
-                    "name": "Ted Cox"
+                    "name": "Ted Cox",
+                    "uniqueId": "557fdef0-1c5c-4382-bbc8-1ec95e7e8542"
                 },
                 {
                     "number": "603",
-                    "name": "Dan Meyer"
+                    "name": "Dan Meyer",
+                    "uniqueId": "dd932e4d-3f82-4ace-a8cd-f6dc2b5b6ee2"
                 },
                 {
                     "number": "604",
-                    "name": "Larry Cox"
+                    "name": "Larry Cox",
+                    "uniqueId": "02f340cf-c21b-4215-a4dc-0fd52fbe04c2"
                 },
                 {
                     "number": "605",
-                    "name": "Bill Stein"
+                    "name": "Bill Stein",
+                    "uniqueId": "98e82d5f-9870-408a-8f1d-0cad92a729e5"
                 },
                 {
                     "number": "606",
-                    "name": "Steve Garvey"
+                    "name": "Steve Garvey",
+                    "uniqueId": "23bf6dd7-ddbb-4e0d-8cfc-b1a7244de620"
                 },
                 {
                     "number": "607",
-                    "name": "Dave Roberts"
+                    "name": "Dave Roberts",
+                    "uniqueId": "7bde9621-1e8b-4aad-8a1d-3d3cac0805d2"
                 },
                 {
                     "number": "608",
-                    "name": "Leon Roberts"
+                    "name": "Leon Roberts",
+                    "uniqueId": "4410d1ee-cbb9-438e-939e-72b6ad03c4fb"
                 },
                 {
                     "number": "609",
                     "name": "Reggie Walton",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "e78a302d-330d-4fcb-bbae-f6da325da156"
                 },
                 {
                     "number": "610",
                     "name": "Dave Edler",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "355b8905-244f-465a-a009-457688b47ae7"
                 },
                 {
                     "number": "611",
-                    "name": "Larry Milbourne"
+                    "name": "Larry Milbourne",
+                    "uniqueId": "ee89fb1d-63b9-4c33-bb8e-e3cbf7b2f64b"
                 },
                 {
                     "number": "612",
                     "name": "Kim Allen",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "fcf65c8a-5354-457c-98a2-d214a25d84dc"
                 },
                 {
                     "number": "613",
-                    "name": "Mario Mendoza"
+                    "name": "Mario Mendoza",
+                    "uniqueId": "a01cfab4-ce23-46cc-9092-ae004c21fe5f"
                 },
                 {
                     "number": "614",
-                    "name": "Tom Paciorek"
+                    "name": "Tom Paciorek",
+                    "uniqueId": "d428dc22-b802-4dbf-956d-3e1086f9be66"
                 },
                 {
                     "number": "615",
-                    "name": "Glenn Abbott"
+                    "name": "Glenn Abbott",
+                    "uniqueId": "c2b2bc3e-8899-4553-8118-13cd80e8fbcd"
                 },
                 {
                     "number": "616",
-                    "name": "Joe Simpson"
+                    "name": "Joe Simpson",
+                    "uniqueId": "9a0c6fe4-a783-4288-94f1-6c29adf81196"
                 },
                 {
                     "number": "617",
-                    "name": "Mickey Rivers"
+                    "name": "Mickey Rivers",
+                    "uniqueId": "47ef0b0d-c4fe-4eaf-aa82-f43a54e90e74"
                 },
                 {
                     "number": "618",
-                    "name": "Jim Kern"
+                    "name": "Jim Kern",
+                    "uniqueId": "0609bfe2-62bf-4715-b989-3a5c9ad850d6"
                 },
                 {
                     "number": "619",
-                    "name": "Jim Sundberg"
+                    "name": "Jim Sundberg",
+                    "uniqueId": "ae3c71c7-6123-4ec8-a090-485551bc9751"
                 },
                 {
                     "number": "620",
-                    "name": "Richie Zisk"
+                    "name": "Richie Zisk",
+                    "uniqueId": "7cc6ea8a-4aa3-46ac-805c-3b31e464db83"
                 },
                 {
                     "number": "621",
-                    "name": "Jon Matlack"
+                    "name": "Jon Matlack",
+                    "uniqueId": "d97b14dc-d769-4f55-aa29-55a472a2a486"
                 },
                 {
                     "number": "622",
-                    "name": "Ferguson Jenkins"
+                    "name": "Ferguson Jenkins",
+                    "uniqueId": "359a188b-9583-488b-becc-b72359960056"
                 },
                 {
                     "number": "623",
                     "name": "Pat Corrales",
                     "attributes": [
                         "MGR"
-                    ]
+                    ],
+                    "uniqueId": "a5d5914b-1daf-4e2f-923d-79cc41feffb2"
                 },
                 {
                     "number": "624",
-                    "name": "Ed Figueroa"
+                    "name": "Ed Figueroa",
+                    "uniqueId": "8b369ab0-7e9c-4505-b0f2-5f6e19e5d70e"
                 },
                 {
                     "number": "625",
-                    "name": "Buddy Bell"
+                    "name": "Buddy Bell",
+                    "uniqueId": "1dce0401-d07f-46f7-ae1f-af72a3c9fdf0"
                 },
                 {
                     "number": "626",
-                    "name": "Al Oliver"
+                    "name": "Al Oliver",
+                    "uniqueId": "d4b6e1e6-0d30-4290-93ac-a870f1dfa920"
                 },
                 {
                     "number": "627",
-                    "name": "Doc Medich"
+                    "name": "Doc Medich",
+                    "uniqueId": "73f1ba18-3410-4672-ba86-ab143c4cb508"
                 },
                 {
                     "number": "628",
-                    "name": "Bump Wills"
+                    "name": "Bump Wills",
+                    "uniqueId": "68af41de-e471-46a3-b416-7f2b47e8c9af"
                 },
                 {
                     "number": "629",
-                    "name": "Rusty Staub"
+                    "name": "Rusty Staub",
+                    "uniqueId": "ce05ab72-0241-44c6-adf7-58254f5a5013"
                 },
                 {
                     "number": "630",
-                    "name": "Pat Putnam"
+                    "name": "Pat Putnam",
+                    "uniqueId": "db06329a-a5f5-49cf-8302-97e1c29a9511"
                 },
                 {
                     "number": "631",
-                    "name": "John Grubb"
+                    "name": "John Grubb",
+                    "uniqueId": "1689688d-cd0f-4c59-b32c-85a43ed26766"
                 },
                 {
                     "number": "632",
-                    "name": "Danny Darwin"
+                    "name": "Danny Darwin",
+                    "uniqueId": "9e96228f-0b98-42c1-8461-d75b736bfd59"
                 },
                 {
                     "number": "633",
-                    "name": "Ken Clay"
+                    "name": "Ken Clay",
+                    "uniqueId": "e8c85fb9-ae13-4aa7-ac50-ce8b3025998b"
                 },
                 {
                     "number": "634",
-                    "name": "Jim Norris"
+                    "name": "Jim Norris",
+                    "uniqueId": "6b43212b-67f0-4650-9384-382e7ae8bb10"
                 },
                 {
                     "number": "635",
                     "name": "John Butcher",
                     "attributes": [
                         "RC"
-                    ]
+                    ],
+                    "uniqueId": "8f107250-ef91-4da7-9421-6ae38117ac4d"
                 },
                 {
                     "number": "636",
-                    "name": "Dave Roberts"
+                    "name": "Dave Roberts",
+                    "uniqueId": "1de8b433-0ec1-4c7d-95d0-9d7958f5ea48"
                 },
                 {
                     "number": "637",
-                    "name": "Billy Sample"
+                    "name": "Billy Sample",
+                    "uniqueId": "ce7623c5-6e82-4fe7-952c-c89ea02d3906"
                 },
                 {
                     "number": "638",
-                    "name": "Carl Yastrzemski"
+                    "name": "Carl Yastrzemski",
+                    "uniqueId": "671b0337-92cb-4076-b099-f516a896816b"
                 },
                 {
                     "number": "639",
-                    "name": "Cecil Cooper"
+                    "name": "Cecil Cooper",
+                    "uniqueId": "6d816835-a364-4f1a-9529-0b79412e886d"
                 },
                 {
                     "number": "640",
-                    "name": "Mike Schmidt"
+                    "name": "Mike Schmidt",
+                    "uniqueId": "565ad69b-e8c5-4df3-895a-c5183548a6db"
                 },
                 {
                     "number": "641",
@@ -2994,21 +3634,24 @@
                     ],
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "eafbebb5-d028-4070-9146-ccf3be587e24"
                 },
                 {
                     "number": "642",
                     "name": "Checklist: Astros / Yankees",
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "099e2a87-2484-48b6-99b7-a834a9c41856"
                 },
                 {
                     "number": "643",
                     "name": "Checklist: Dodgers / Expos",
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "1fda8bdd-dfa2-4f70-ac3a-4229e29bc9d0"
                 },
                 {
                     "number": "644",
@@ -3018,7 +3661,8 @@
                             "variation": "Error",
                             "note": "#202 George Hoster"
                         }
-                    ]
+                    ],
+                    "uniqueId": "4d61ed45-fa5e-4308-a222-daa739e1d652"
                 },
                 {
                     "number": "645",
@@ -3028,43 +3672,50 @@
                             "variation": "Error",
                             "note": "No Number on Back"
                         }
-                    ]
+                    ],
+                    "uniqueId": "b5eae028-b166-48b3-a5c3-063b92955f8c"
                 },
                 {
                     "number": "646",
                     "name": "Checklist: Red Sox / Braves",
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "ddf50ae1-4664-43d9-a9a7-d1902fbb23c2"
                 },
                 {
                     "number": "647",
                     "name": "Checklist: Angels / Cubs",
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "c1f19fe3-f613-484c-9657-f48c988ec682"
                 },
                 {
                     "number": "648",
                     "name": "Checklist: Mets / White Sox",
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "4c9d6292-d5e0-4f09-a9a3-43657e7a674b"
                 },
                 {
                     "number": "649",
                     "name": "Checklist: Pirates / Indians",
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "3fc9863d-5ac1-4623-80fc-76f2a17d4057"
                 },
                 {
                     "number": "650",
-                    "name": "Reggie Jackson"
+                    "name": "Reggie Jackson",
+                    "uniqueId": "550517d9-8f7a-4aff-a476-1f03bddc8420"
                 },
                 {
                     "number": "651",
-                    "name": "Checklist: Blue Jays / Giants"
+                    "name": "Checklist: Blue Jays / Giants",
+                    "uniqueId": "3c75b557-192e-478d-889d-30f4e3774363"
                 },
                 {
                     "number": "652",
@@ -3078,11 +3729,13 @@
                             "variation": "Error",
                             "note": "#483 Aurelio Lopez"
                         }
-                    ]
+                    ],
+                    "uniqueId": "9584d6ce-4a69-4841-a33f-da79e7555211"
                 },
                 {
                     "number": "653",
-                    "name": "Willie Wilson"
+                    "name": "Willie Wilson",
+                    "uniqueId": "86597cd3-347b-404e-ac88-ab5bf60c96b1"
                 },
                 {
                     "number": "654",
@@ -3092,29 +3745,34 @@
                             "variation": "Error",
                             "note": "#514 Augustine, #547 Vuckovich"
                         }
-                    ]
+                    ],
+                    "uniqueId": "47e2fb70-6719-4dbe-9126-4bc61a19ccb8"
                 },
                 {
                     "number": "655",
-                    "name": "George Brett"
+                    "name": "George Brett",
+                    "uniqueId": "2e12e007-d24e-4a6c-b3fb-9940971e25d8"
                 },
                 {
                     "number": "656",
                     "name": "Checklist: Twins / Athletics",
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "61866c0c-fa30-460f-9f91-2062e3329ed6"
                 },
                 {
                     "number": "657",
-                    "name": "Tug McGraw"
+                    "name": "Tug McGraw",
+                    "uniqueId": "2c6dabb0-9609-47f7-a00f-b07b697b54d0"
                 },
                 {
                     "number": "658",
                     "name": "Checklist: Mariners / Rangers",
                     "attributes": [
                         "CL"
-                    ]
+                    ],
+                    "uniqueId": "8e47c471-c765-4f2b-b459-38a19f3437af"
                 },
                 {
                     "number": "659",
@@ -3127,7 +3785,8 @@
                             "variation": "Error",
                             "note": "#216 and #551 included on front"
                         }
-                    ]
+                    ],
+                    "uniqueId": "36c56de5-ac21-448e-82cf-1e9ad4b34b4b"
                 },
                 {
                     "number": "660",
@@ -3137,9 +3796,11 @@
                             "variation": "Error",
                             "note": "\"1066 Cardinals\" on Back"
                         }
-                    ]
+                    ],
+                    "uniqueId": "1f8e53fa-1d6f-4a0e-aa54-1d08b3cc7a2f"
                 }
-            ]
+            ],
+            "uniqueId": "9ad44fda-e7c2-498f-9f0a-ab6b88cd7bf4"
         }
     ]
 }
