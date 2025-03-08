@@ -47,6 +47,9 @@ def flatten_card_data(category, year, release, json_data):
             for parallel in all_base_parallels:
                 parallel_record = base_record.copy()
                 parallel_record["parallel"] = parallel.get("name", "")
+                # If the parallel defines a numberedTo value, apply it.
+                if "numberedTo" in parallel:
+                    parallel_record["numberedTo"] = parallel["numberedTo"]
                 parallel_record["_is_variation"] = False
                 records.append(parallel_record)
             
