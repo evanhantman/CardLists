@@ -129,8 +129,9 @@ def main():
             if "_is_variation" in record:
                 del record["_is_variation"]
 
-        # Create a DataFrame and write to a Parquet file in <repo_root>/output.
+        # Create a DataFrame, sort by year and release (ascending), then write to a Parquet file.
         df = pd.DataFrame(all_records)
+        df = df.sort_values(by=["year", "release"], ascending=True)
         output_dir = base_dir / "output"
         output_dir.mkdir(exist_ok=True)
         parquet_path = output_dir / "dataset.parquet"
