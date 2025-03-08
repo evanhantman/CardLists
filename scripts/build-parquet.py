@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 import pandas as pd
+import sys
 
 def flatten_card_data(category, year, release, json_data):
     """
@@ -101,13 +102,12 @@ def main():
     categories_dir = base_dir / "categories"
     all_records = []
 
-    # Directory structure: <repo_root>/categories/<category>/<year>/*.json
+    # Process JSON files and flatten records.
     for category_dir in categories_dir.iterdir():
         if category_dir.is_dir():
             for year_dir in category_dir.iterdir():
                 if year_dir.is_dir():
                     for json_file in year_dir.glob("*.json"):
-                        # Extract release info from filename (e.g., "1990-Topps.json" -> "Topps")
                         parts = json_file.stem.split("-", 1)
                         release = parts[1] if len(parts) == 2 else parts[0]
                         try:
@@ -117,39 +117,53 @@ def main():
                             all_records.extend(records)
                         except Exception as e:
                             print(f"Error processing {json_file}: {e}")
+                            sys.exit(1)
 
-    if all_records:
-        # Calculate card counts for the four specified categories.
-        # Only count base card records (records where parallel is empty and _is_variation is False).
-        target_categories = ["baseball", "football", "basketball", "hockey"]
-        counts = {cat: 0 for cat in target_categories}
-        for record in all_records:
-            if record.get("parallel", "") == "" and not record.get("_is_variation", False):
-                cat_lower = record.get("category", "").lower()
-                if cat_lower in counts:
-                    counts[cat_lower] += 1
-
-        # Remove the temporary field '_is_variation' from all records.
-        for record in all_records:
-            if "_is_variation" in record:
-                del record["_is_variation"]
-
-        # Create a DataFrame, sort by year and release (ascending), then write to a Parquet file.
-        df = pd.DataFrame(all_records)
-        df = df.sort_values(by=["year", "release"], ascending=True)
-        output_dir = base_dir / "output"
-        output_dir.mkdir(exist_ok=True)
-        parquet_path = output_dir / "dataset.parquet"
-        df.to_parquet(parquet_path, index=False)
-        print(f"Dataset written to {parquet_path}")
-
-        # Write the card counts to a JSON file at the repository root.
-        card_counts_file = base_dir / "card_counts.json"
-        with open(card_counts_file, "w", encoding="utf-8") as f:
-            json.dump(counts, f)
-        print(f"Card counts written to {card_counts_file}: {counts}")
-    else:
+    if not all_records:
         print("No records found to process.")
+        sys.exit(1)
+
+    # Create a DataFrame.
+    df = pd.DataFrame(all_records)
+
+    # Perform duplicate checks using Pandas.
+    # Filter to base records: those with no parallel and not marked as variation.
+    df_base = df[(df["parallel"] == "") & (~df["_is_variation"])]
+
+    if df_base["set_unique_id"].duplicated().any():
+        dup_set_ids = df_base[df_base["set_unique_id"].duplicated(keep=False)]["set_unique_id"].unique()
+        raise ValueError(f"Duplicate set_unique_id found in base records: {dup_set_ids}")
+
+    if df_base["card_unique_id"].duplicated().any():
+        dup_card_ids = df_base[df_base["card_unique_id"].duplicated(keep=False)]["card_unique_id"].unique()
+        raise ValueError(f"Duplicate card_unique_id found in base records: {dup_card_ids}")
+
+    # Remove the temporary field '_is_variation' from all records.
+    df = df.drop(columns=["_is_variation"])
+
+    # Sort the DataFrame by year and release (ascending).
+    df = df.sort_values(by=["year", "release"], ascending=True)
+
+    # Write to a Parquet file.
+    output_dir = base_dir / "output"
+    output_dir.mkdir(exist_ok=True)
+    parquet_path = output_dir / "dataset.parquet"
+    df.to_parquet(parquet_path, index=False)
+    print(f"Dataset written to {parquet_path}")
+
+    # Compute card counts from the base records.
+    target_categories = ["baseball", "football", "basketball", "hockey"]
+    counts = {cat: 0 for cat in target_categories}
+    for _, row in df_base.iterrows():
+        cat_lower = row.get("category", "").lower()
+        if cat_lower in counts:
+            counts[cat_lower] += 1
+
+    # Write the card counts to a JSON file.
+    card_counts_file = base_dir / "card_counts.json"
+    with open(card_counts_file, "w", encoding="utf-8") as f:
+        json.dump(counts, f)
+    print(f"Card counts written to {card_counts_file}: {counts}")
 
 if __name__ == "__main__":
     main()
