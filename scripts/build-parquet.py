@@ -8,10 +8,10 @@ def flatten_card_data(category, year, release, json_data):
     For every card, a base record is always created.
     Then, additional records for parallels and variations are created.
     Variation records have a modified card_name and combined attributes.
-    Any additional properties on the variation (like insertOdds and numberedTo)
-    are carried over to the variation record.
+    For variations, the attribute list is combined from the base attributes,
+    any additional variation attributes, and the literal "VAR" is appended to denote it's a variation.
     
-    A temporary field '_is_variation' is used internally to help compute card counts,
+    A temporary field '_is_variation' is used internally for counting purposes,
     but will be removed before writing the final output.
     """
     records = []
@@ -45,7 +45,6 @@ def flatten_card_data(category, year, release, json_data):
             for parallel in all_base_parallels:
                 parallel_record = base_record.copy()
                 parallel_record["parallel"] = parallel.get("name", "")
-                # Even for parallels, the base card flag remains False.
                 parallel_record["_is_variation"] = False
                 records.append(parallel_record)
             
@@ -53,15 +52,21 @@ def flatten_card_data(category, year, release, json_data):
             for variation in card.get("variations", []):
                 variation_name = variation.get("variation", "")
                 variation_record = base_record.copy()
-                # Update card name to include the variation name.
-                variation_record["card_name"] = f"{base_card_name} {variation_name}".strip()
-                # Combine attributes: base attributes + variation name + any additional variation attributes.
-                combined_attributes = base_record["attributes"].copy() if base_record["attributes"] else []
+                # Update card_name to append the variation name in parenthesis.
                 if variation_name:
-                    combined_attributes.append(variation_name)
+                    variation_record["card_name"] = f"{base_card_name} ({variation_name})"
+                else:
+                    variation_record["card_name"] = base_card_name
+
+                # Combine attributes: start with base attributes,
+                # then add any attributes provided by the variation,
+                # and finally append the literal "VAR" to denote it's a variation.
+                combined_attributes = base_record["attributes"].copy() if base_record["attributes"] else []
                 if variation.get("attributes"):
                     combined_attributes.extend(variation.get("attributes"))
+                combined_attributes.append("VAR")
                 variation_record["attributes"] = combined_attributes
+
                 # Override note if the variation has its own.
                 if variation.get("note"):
                     variation_record["note"] = variation.get("note")
@@ -70,7 +75,7 @@ def flatten_card_data(category, year, release, json_data):
                     variation_record["insertOdds"] = variation.get("insertOdds")
                 if "numberedTo" in variation:
                     variation_record["numberedTo"] = variation.get("numberedTo")
-                # Mark as variation.
+                # Mark as a variation.
                 variation_record["_is_variation"] = True
                 variation_record["parallel"] = ""
                 records.append(variation_record)
