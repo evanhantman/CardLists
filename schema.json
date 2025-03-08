@@ -267,6 +267,13 @@
                             "name"
                           ]
                         }
+                      },
+                      "attributes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "pattern": "^\\S(.*\\S)?$"
+                        }
                       }
                     },
                     "required": [
