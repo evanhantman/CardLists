@@ -274,6 +274,10 @@
                           "type": "string",
                           "pattern": "^\\S(.*\\S)?$"
                         }
+                      },
+                      "numberedTo": {
+                        "type": "integer",
+                        "minimum": 1
                       }
                     },
                     "required": [
