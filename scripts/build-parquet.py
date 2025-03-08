@@ -130,10 +130,15 @@ def main():
     # Filter to base records: those with no parallel and not marked as variation.
     df_base = df[(df["parallel"] == "") & (~df["_is_variation"])]
 
-    if df_base["set_unique_id"].duplicated().any():
-        dup_set_ids = df_base[df_base["set_unique_id"].duplicated(keep=False)]["set_unique_id"].unique()
-        raise ValueError(f"Duplicate set_unique_id found in base records: {dup_set_ids}")
+    # For set_unique_id, drop duplicate rows (since the same set appears on multiple cards)
+    # then group by set_unique_id and check if a single set name is associated with each.
+    df_sets = df_base[['set_unique_id', 'set']].drop_duplicates()
+    dup_sets = df_sets.groupby('set_unique_id')['set'].nunique()
+    if (dup_sets > 1).any():
+        dup_ids = dup_sets[dup_sets > 1].index.tolist()
+        raise ValueError(f"Duplicate set_unique_id found for multiple sets: {dup_ids}")
 
+    # For card_unique_id, check for duplicates as we've arleady dropped parallels and variations
     if df_base["card_unique_id"].duplicated().any():
         dup_card_ids = df_base[df_base["card_unique_id"].duplicated(keep=False)]["card_unique_id"].unique()
         raise ValueError(f"Duplicate card_unique_id found in base records: {dup_card_ids}")
