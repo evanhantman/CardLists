@@ -1,349 +1,175 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "properties": {
-    "name": {
+  "definitions": {
+    "nonEmptyString": {
       "type": "string",
       "pattern": "^\\S(.*\\S)?$"
     },
-    "version": {
+    "versionString": {
       "type": "string",
       "pattern": "^[0-9]+\\.[0-9]+$"
     },
+    "uuid": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "oddsString": {
+      "type": "string",
+      "pattern": "^[0-9]+:[0-9,]+$"
+    },
+    "productOdds": {
+      "type": "object",
+      "properties": {
+        "product": { "type": "string" },
+        "odds": { "$ref": "#/definitions/oddsString" }
+      },
+      "required": [
+        "product",
+        "odds"
+      ]
+    },
+    "attributeNotePair": {
+      "type": "object",
+      "properties": {
+        "attribute": { "$ref": "#/definitions/nonEmptyString" },
+        "note": { "$ref": "#/definitions/nonEmptyString" }
+      },
+      "required": [
+        "attribute",
+        "note"
+      ]
+    },
+    "variation": {
+      "type": "object",
+      "properties": {
+        "variation": { "$ref": "#/definitions/nonEmptyString" },
+        "note": { "$ref": "#/definitions/nonEmptyString" },
+        "insertOdds": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/productOdds" }
+        },
+        "parallels": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/parallel" }
+        },
+        "attributes": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/nonEmptyString" }
+        },
+        "numberedTo": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "variation"
+      ]
+    },
+    "parallel": {
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/definitions/nonEmptyString" },
+        "numberedTo": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "notes": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/nonEmptyString" }
+        },
+        "insertOdds": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/productOdds" }
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "card": {
+      "type": "object",
+      "properties": {
+        "uniqueId": { "$ref": "#/definitions/uuid" },
+        "number": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9 .-]*$"
+        },
+        "name": { "$ref": "#/definitions/nonEmptyString" },
+        "attributes": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/nonEmptyString" }
+        },
+        "insertOdds": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/productOdds" }
+        },
+        "note": { "$ref": "#/definitions/nonEmptyString" },
+        "variations": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/variation" }
+        },
+        "parallels": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/parallel" }
+        }
+      },
+      "required": [
+        "uniqueId",
+        "name"
+      ]
+    },
+    "set": {
+      "type": "object",
+      "properties": {
+        "uniqueId": { "$ref": "#/definitions/uuid" },
+        "name": { "$ref": "#/definitions/nonEmptyString" },
+        "notes": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/nonEmptyString" }
+        },
+        "numberedTo": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "insertOdds": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/productOdds" }
+        },
+        "variations": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/variation" }
+        },
+        "parallels": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/parallel" }
+        },
+        "cards": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/card" }
+        }
+      },
+      "required": [
+        "uniqueId",
+        "name",
+        "cards"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "name": { "$ref": "#/definitions/nonEmptyString" },
+    "version": { "$ref": "#/definitions/versionString" },
     "attributes": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "attribute": {
-            "type": "string",
-            "pattern": "^\\S(.*\\S)?$"
-          },
-          "note": {
-            "type": "string",
-            "pattern": "^\\S(.*\\S)?$"
-          }
-        },
-        "required": [
-          "attribute",
-          "note"
-        ]
-      }
+      "items": { "$ref": "#/definitions/attributeNotePair" }
     },
     "notes": {
       "type": "array",
-      "items": {
-        "type": "string",
-        "pattern": "^\\S(.*\\S)?$"
-      }
+      "items": { "$ref": "#/definitions/nonEmptyString" }
     },
     "sets": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "uniqueId": {
-            "type": "string",
-            "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
-          },
-          "name": {
-            "type": "string",
-            "pattern": "^\\S(.*\\S)?$"
-          },
-          "notes": {
-            "type": "array",
-            "items": {
-              "type": "string",
-              "pattern": "^\\S(.*\\S)?$"
-            }
-          },
-          "numberedTo": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "insertOdds": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "product": {
-                  "type": "string"
-                },
-                "odds": {
-                  "type": "string",
-                  "pattern": "^[0-9]+:[0-9,]+$"
-                }
-              },
-              "required": [
-                "product",
-                "odds"
-              ]
-            }
-          },
-          "variations": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "variation": {
-                  "type": "string",
-                  "pattern": "^\\S(.*\\S)?$"
-                },
-                "note": {
-                  "type": "string",
-                  "pattern": "^\\S(.*\\S)?$"
-                }
-              },
-              "required": [
-                "variation"
-              ]
-            }
-          },
-          "parallels": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string",
-                  "pattern": "^\\S(.*\\S)?$"
-                },
-                "numberedTo": {
-                  "type": "integer",
-                  "minimum": 1
-                },
-                "notes": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "pattern": "^\\S(.*\\S)?$"
-                  }
-                },
-                "insertOdds": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "product": {
-                        "type": "string"
-                      },
-                      "odds": {
-                        "type": "string",
-                        "pattern": "^[0-9]+:[0-9,]+$"
-                      }
-                    },
-                    "required": [
-                      "product",
-                      "odds"
-                    ]
-                  }
-                }
-              },
-              "required": [
-                "name"
-              ]
-            }
-          },
-          "cards": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "uniqueId": {
-                  "type": "string",
-                  "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
-                },
-                "number": {
-                  "type": "string",
-                  "pattern": "^[a-zA-Z0-9 .-]*$"
-                },
-                "name": {
-                  "type": "string",
-                  "pattern": "^\\S(.*\\S)?$"
-                },
-                "attributes": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "pattern": "^\\S(.*\\S)?$"
-                  }
-                },
-                "insertOdds": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "product": {
-                        "type": "string"
-                      },
-                      "odds": {
-                        "type": "string",
-                        "pattern": "^[0-9]+:[0-9,]+$"
-                      }
-                    },
-                    "required": [
-                      "product",
-                      "odds"
-                    ]
-                  }
-                },
-                "note": {
-                  "type": "string",
-                  "pattern": "^\\S(.*\\S)?$"
-                },
-                "variations": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "variation": {
-                        "type": "string",
-                        "pattern": "^\\S(.*\\S)?$"
-                      },
-                      "note": {
-                        "type": "string",
-                        "pattern": "^\\S(.*\\S)?$"
-                      },
-                      "insertOdds": {
-                        "type": "array",
-                        "items": {
-                          "type": "object",
-                          "properties": {
-                            "product": {
-                              "type": "string"
-                            },
-                            "odds": {
-                              "type": "string",
-                              "pattern": "^[0-9]+:[0-9,]+$"
-                            }
-                          },
-                          "required": [
-                            "product",
-                            "odds"
-                          ]
-                        }
-                      },
-                      "parallels": {
-                        "type": "array",
-                        "items": {
-                          "type": "object",
-                          "properties": {
-                            "name": {
-                              "type": "string",
-                              "pattern": "^\\S(.*\\S)?$"
-                            },
-                            "numberedTo": {
-                              "type": "integer",
-                              "minimum": 1
-                            },
-                            "notes": {
-                              "type": "array",
-                              "items": {
-                                "type": "string",
-                                "pattern": "^\\S(.*\\S)?$"
-                              }
-                            },
-                            "insertOdds": {
-                              "type": "array",
-                              "items": {
-                                "type": "object",
-                                "properties": {
-                                  "product": {
-                                    "type": "string"
-                                  },
-                                  "odds": {
-                                    "type": "string",
-                                    "pattern": "^[0-9]+:[0-9,]+$"
-                                  }
-                                },
-                                "required": [
-                                  "product",
-                                  "odds"
-                                ]
-                              }
-                            }
-                          },
-                          "required": [
-                            "name"
-                          ]
-                        }
-                      },
-                      "attributes": {
-                        "type": "array",
-                        "items": {
-                          "type": "string",
-                          "pattern": "^\\S(.*\\S)?$"
-                        }
-                      },
-                      "numberedTo": {
-                        "type": "integer",
-                        "minimum": 1
-                      }
-                    },
-                    "required": [
-                      "variation"
-                    ]
-                  }
-                },
-                "parallels": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "name": {
-                        "type": "string",
-                        "pattern": "^\\S(.*\\S)?$"
-                      },
-                      "numberedTo": {
-                        "type": "integer",
-                        "minimum": 1
-                      },
-                      "notes": {
-                        "type": "array",
-                        "items": {
-                          "type": "string",
-                          "pattern": "^\\S(.*\\S)?$"
-                        }
-                      },
-                      "insertOdds": {
-                        "type": "array",
-                        "items": {
-                          "type": "object",
-                          "properties": {
-                            "product": {
-                              "type": "string"
-                            },
-                            "odds": {
-                              "type": "string",
-                              "pattern": "^[0-9]+:[0-9,]+$"
-                            }
-                          },
-                          "required": [
-                            "product",
-                            "odds"
-                          ]
-                        }
-                      }
-                    },
-                    "required": [
-                      "name"
-                    ]
-                  }
-                }
-              },
-              "required": [
-                "uniqueId",
-                "name"
-              ]
-            }
-          }
-        },
-        "required": [
-          "uniqueId",
-          "name",
-          "cards"
-        ]
-      }
+      "items": { "$ref": "#/definitions/set" }
     }
   },
   "required": [
