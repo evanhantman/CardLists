@@ -6,13 +6,16 @@ import sys
 def flatten_card_data(category, year, release, json_data):
     """
     Iterate over each set and each card to create flat records.
-    For every card, a base record is always created.
+    For every card, a base record is always created using the updated base_record.
     Then, additional records for parallels and variations are created.
-    Variation records have a modified card_name and combined attributes.
-    For variations, the attribute list is combined from the base attributes,
-    any additional variation attributes, and the literal "VAR" is appended to denote it's a variation.
     
-    A temporary field '_is_variation' is used internally for counting purposes,
+    Variation records have a modified card_name (appending the variation name in parenthesis)
+    and a combined attributes list (base attributes plus any variation attributes, then "VAR").
+    
+    For parallel records, if the parallel object defines a "numberedTo" value or an "insertOdds" array,
+    they are applied to the record.
+    
+    A temporary field '_is_variation' is used internally for duplicate checking,
     but will be removed before writing the final output.
     """
     records = []
@@ -24,7 +27,7 @@ def flatten_card_data(category, year, release, json_data):
         set_parallels = card_set.get("parallels", [])
         for card in card_set.get("cards", []):
             base_card_name = card.get("name", "")
-            # Base record for the card
+            # Updated base record with GUID fields.
             base_record = {
                 "category": category,
                 "year": year,
@@ -42,15 +45,18 @@ def flatten_card_data(category, year, release, json_data):
             }
             records.append(base_record)
 
-            # Add parallels for the base card: combine card-level and set-level parallels
+            # Add parallels for the base card: combine card-level and set-level parallels.
             base_parallels = card.get("parallels", [])
             all_base_parallels = base_parallels + set_parallels
             for parallel in all_base_parallels:
                 parallel_record = base_record.copy()
                 parallel_record["parallel"] = parallel.get("name", "")
-                # If the parallel defines a numberedTo value, apply it.
+                # Apply parallel's numberedTo if provided.
                 if "numberedTo" in parallel:
                     parallel_record["numberedTo"] = parallel["numberedTo"]
+                # Apply parallel's insertOdds if provided.
+                if "insertOdds" in parallel:
+                    parallel_record["insertOdds"] = parallel["insertOdds"]
                 parallel_record["_is_variation"] = False
                 records.append(parallel_record)
             
@@ -58,15 +64,13 @@ def flatten_card_data(category, year, release, json_data):
             for variation in card.get("variations", []):
                 variation_name = variation.get("variation", "")
                 variation_record = base_record.copy()
-                # Update card_name to append the variation name in parenthesis.
+                # Update card_name: append the variation name in parenthesis.
                 if variation_name:
                     variation_record["card_name"] = f"{base_card_name} ({variation_name})"
                 else:
                     variation_record["card_name"] = base_card_name
 
-                # Combine attributes: start with base attributes,
-                # then add any attributes provided by the variation,
-                # and finally append the literal "VAR" to denote it's a variation.
+                # Combine attributes: base attributes plus any variation attributes, then append "VAR".
                 combined_attributes = base_record["attributes"].copy() if base_record["attributes"] else []
                 if variation.get("attributes"):
                     combined_attributes.extend(variation.get("attributes"))
@@ -92,6 +96,12 @@ def flatten_card_data(category, year, release, json_data):
                 for v_parallel in all_variation_parallels:
                     v_par_record = variation_record.copy()
                     v_par_record["parallel"] = v_parallel.get("name", "")
+                    # Apply parallel's numberedTo if provided.
+                    if "numberedTo" in v_parallel:
+                        v_par_record["numberedTo"] = v_parallel["numberedTo"]
+                    # Apply parallel's insertOdds if provided.
+                    if "insertOdds" in v_parallel:
+                        v_par_record["insertOdds"] = v_parallel["insertOdds"]
                     v_par_record["_is_variation"] = True
                     records.append(v_par_record)
     return records
@@ -126,8 +136,7 @@ def main():
     # Create a DataFrame.
     df = pd.DataFrame(all_records)
 
-    # Perform duplicate checks using Pandas.
-    # Filter to base records: those with no parallel and not marked as variation.
+    # Filter to base records: those with no parallel and not marked as a variation.
     df_base = df[(df["parallel"] == "") & (~df["_is_variation"])]
 
     # For set_unique_id, drop duplicate rows (since the same set appears on multiple cards)
@@ -138,10 +147,11 @@ def main():
         dup_ids = dup_sets[dup_sets > 1].index.tolist()
         raise ValueError(f"Duplicate set_unique_id found for multiple sets: {dup_ids}")
 
-    # For card_unique_id, check for duplicates as we've arleady dropped parallels and variations
-    if df_base["card_unique_id"].duplicated().any():
-        dup_card_ids = df_base[df_base["card_unique_id"].duplicated(keep=False)]["card_unique_id"].unique()
-        raise ValueError(f"Duplicate card_unique_id found in base records: {dup_card_ids}")
+    # For card_unique_id, drop duplicate rows (if any) and then check for duplicates.
+    df_cards = df_base[['card_unique_id', 'card_name']].drop_duplicates()
+    if df_cards['card_unique_id'].duplicated().any():
+        dup_ids = df_cards[df_cards['card_unique_id'].duplicated(keep=False)]['card_unique_id'].unique()
+        raise ValueError(f"Duplicate card_unique_id found in base records: {dup_ids}")
 
     # Remove the temporary field '_is_variation' from all records.
     df = df.drop(columns=["_is_variation"])
