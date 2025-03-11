@@ -393,7 +393,8 @@
                     },
                     {
                         "name": "Topps",
-                        "indexed": false
+                        "indexed": true,
+                        "uniqueId": "f7c17a0b-ac9c-49c5-8279-8f71c02725f3"
                     }
                 ]
             },
@@ -406,7 +407,8 @@
                     },
                     {
                         "name": "Topps",
-                        "indexed": false
+                        "indexed": true,
+                        "uniqueId": "16c56de8-103e-44a8-a232-69144d47b366"
                     }
                 ]
             },
@@ -708,7 +710,8 @@
                 "year": "1991-92",
                 "releases": [
                     {
-                        "name": "Pro Set Super Bowl XXVI Binder"
+                        "name": "Pro Set Super Bowl XXVI Binder",
+                        "indexed": false
                     }
                 ]
             },
