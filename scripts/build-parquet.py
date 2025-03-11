@@ -30,9 +30,10 @@ def flatten_card_data(category, year, release, json_data):
             # Updated base record with GUID fields.
             base_record = {
                 "category": category,
+                "release_unique_id": json_data.get("uniqueId", ""),
                 "year": year,
                 "release": release,
-                "source": source,
+                "release-name": source,
                 "set_unique_id": card_set.get("uniqueId", ""),
                 "set": set_name,
                 "card_unique_id": card.get("uniqueId", ""),
