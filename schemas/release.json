@@ -159,6 +159,7 @@
   "properties": {
     "name": { "$ref": "#/definitions/nonEmptyString" },
     "version": { "$ref": "#/definitions/versionString" },
+    "uniqueId": { "$ref": "#/definitions/uuid" },
     "attributes": {
       "type": "array",
       "items": { "$ref": "#/definitions/attributeNotePair" }
@@ -175,6 +176,7 @@
   "required": [
     "name",
     "version",
+    "uniqueId",
     "sets"
   ]
 }
