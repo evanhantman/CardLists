@@ -1,47 +1,66 @@
 #!/usr/bin/env python3
-import json
+import os
 import sys
+import json
 import uuid
 
-def add_missing_unique_ids(data):
-    """
-    Traverse the JSON structure and add a uniqueId to any release that is indexed (indexed: true)
-    and missing a uniqueId.
-    The JSON structure is expected to be an array of objects. Each object contains a "years" array,
-    and each year contains a "releases" array.
-    """
-    for category in data:
-        years = category.get('years', [])
-        for year_item in years:
-            releases = year_item.get('releases', [])
-            for release in releases:
-                # Only add uniqueId if 'indexed' is True and uniqueId is missing
-                if release.get('indexed') is True and 'uniqueId' not in release:
-                    release['uniqueId'] = str(uuid.uuid4())
-    return data
-
-def main():
-    if len(sys.argv) != 2:
-        print(f"Usage: {sys.argv[0]} <json_file>")
-        sys.exit(1)
-
-    json_file = sys.argv[1]
+def process_file(filepath):
     try:
-        with open(json_file, 'r') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except Exception as e:
-        print(f"Error reading JSON file: {e}")
-        sys.exit(1)
+        print(f"Error reading {filepath}: {e}")
+        return
 
-    updated_data = add_missing_unique_ids(data)
+    # Expecting the file to follow the schema:
+    # {
+    #   "$schema": "http://json-schema.org/draft-07/schema#",
+    #   "category": {
+    #       "name": "Category Name",
+    #       "years": [
+    #           {
+    #               "year": "2021",
+    #               "releases": [
+    #                   {
+    #                       "name": "Release Name",
+    #                       "indexed": true,
+    #                       "version": "1.0",
+    #                       "uniqueId": "optional-guid"
+    #                   },
+    #                   ...
+    #               ]
+    #           },
+    #           ...
+    #       ]
+    #   }
+    # }
+    category = data.get("category")
+    if category is None:
+        print(f"File {filepath} does not contain a 'category' property.")
+        return
+
+    years = category.get("years", [])
+    for year_obj in years:
+        releases = year_obj.get("releases", [])
+        for release in releases:
+            if release.get("indexed") and "uniqueId" not in release:
+                release["uniqueId"] = str(uuid.uuid4())
 
     try:
-        with open(json_file, 'w') as f:
-            json.dump(updated_data, f, indent=2)
-        print(f"File '{json_file}' updated successfully.")
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4)
+        print(f"Updated: {filepath}")
     except Exception as e:
-        print(f"Error writing JSON file: {e}")
-        sys.exit(1)
+        print(f"Error writing {filepath}: {e}")
 
-if __name__ == "__main__":
-    main()
+def main(filepath):
+    if not os.path.isfile(filepath):
+        print(f"Error: {filepath} is not a valid file.")
+        return
+    process_file(filepath)
+
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        print("Usage: python update_json.py <json_file>")
+        sys.exit(1)
+    main(sys.argv[1])
