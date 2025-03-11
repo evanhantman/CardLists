@@ -1,6 +1,7 @@
-[
-    {
-        "category": "baseball",
+{
+    "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/category.json",
+    "category": {
+        "name": "baseball",
         "years": [
             {
                 "year": "1941",
@@ -1256,7 +1257,9 @@
                     },
                     {
                         "name": "Score Rookie & Traded",
-                        "indexed": false
+                        "version": "1.0",
+                        "indexed": true,
+                        "uniqueId": "1027b4dc-b4fc-479c-8069-a66972ba0518"
                     },
                     {
                         "name": "Stadium Club",
@@ -8293,4 +8296,4 @@
             }
         ]
     }
-]
+}
