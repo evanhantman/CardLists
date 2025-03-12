@@ -45,3 +45,33 @@ jobs:
         with:
           name: parquet-dataset.zip
           path: ./output/dataset.parquet
+
+      - name: Upload Baseball Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: baseball.zip
+          path: categories/baseball/**
+
+      - name: Upload Basketball Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: basketball.zip
+          path: categories/basketball/**
+
+      - name: Upload Football Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: football.zip
+          path: categories/football/**
+
+      - name: Upload Hockey Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hockey.zip
+          path: categories/hockey/**
+
+      - name: Upload All Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: all.zip
+          path: categories/**
