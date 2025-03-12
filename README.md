@@ -38,8 +38,8 @@ Sports Cards JSON Repository
 │   ├── hockey/                    # Hockey Card Releases
 │   └── baseball/                  # Baseball Card Release
 │       ├── 1990/                  # 1990 Baseball Releases
-│           ├── 1990-Topps.json    # 1990 Topps Baseball Release
-│           └── ...
+│       │   ├── 1990-Topps.json    # 1990 Topps Baseball Release
+│       │   └── ...
 │       └── ...
 ├── schemas/                       # JSON schemas for validation
 │   ├── category.json              # Schema for Category files
