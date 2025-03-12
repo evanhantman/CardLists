@@ -28,27 +28,29 @@ The repository is organized by sports categories with releases organized by year
 
 ```text
 Sports Cards JSON Repository
-├── categories/                # Sport categories
-│   ├── baseball.json         # Baseball category metadata
-│   ├── football.json         # Football category metadata 
-│   ├── basketball.json       # Basketball category metadata
-│   └── hockey.json           # Hockey category metadata
-├── data/                     # Card set data files
-│   ├── baseball/             # Baseball card releases
-│   │   ├── 1990/             # 1990 baseball releases
-│   │   └── ...
-│   ├── football/             # Football card releases
-│   ├── basketball/           # Basketball card releases
-│   └── hockey/               # Hockey card releases
-├── schemas/                  # JSON schemas for validation
-│   ├── category.json         # Schema for category files
-│   └── release.json          # Schema for card releases
-└── src/                      # Example code implementations
-    ├── csharp/               # C# examples
-    ├── python/               # Python examples
-    ├── go/                   # Go examples
-    ├── ts/                   # TypeScript examples
-    └── rust/                 # Rust examples
+├── categories/                    # Sport Categories
+│   ├── baseball.json              # Baseball Category metadata
+│   ├── football.json              # Football Category metadata 
+│   ├── basketball.json            # Basketball Category metadata
+│   ├── hockey.json                # Hockey Category metadata
+|   ├── football/                  # Football Card Releases
+│   ├── basketball/                # Basketball Card Releases
+│   ├── hockey/                    # Hockey Card Releases
+│   └── baseball/                  # Baseball Card Release
+│       ├── 1990/                  # 1990 Baseball Releases
+│           ├── 1990-Topps.json    # 1990 Topps Baseball Release
+│           └── ...
+│       └── ...
+├── schemas/                       # JSON schemas for validation
+│   ├── category.json              # Schema for Category files
+│   └── release.json               # Schema for Card Releases
+├── scripts/                       # Python Utility Scripts
+└── examples/                      # Example code implementations
+    ├── csharp/                    # C# examples
+    ├── python/                    # Python examples
+    ├── go/                        # Go examples
+    ├── ts/                        # TypeScript examples
+    └── rust/                      # Rust examples
 ```
 
 ## Data Schema Structure
@@ -83,7 +85,7 @@ Each sport has a category file (e.g., `baseball.json`) defining available years 
         "releases": [
           {
             "name": "Donruss Baseball",
-            "indexed": true
+            "indexed": false
           }
         ]
       }
@@ -98,11 +100,13 @@ Individual card set releases follow this structure:
 
 ```json
 {
-  "name": "Baseball Cards 1990",
+  "name": "Topps Baseball",
+  "version": "1.0",
+  "uniqueId": "550e8400-e29b-41d4-a716-446655440000",
   "attributes": [
     {
-      "attribute": "Rookie Card",
-      "note": "First appearance of player"
+      "attribute": "RC",
+      "note": "Rookie Card"
     }
   ],
   "sets": [
@@ -153,7 +157,7 @@ Individual card set releases follow this structure:
 
 ### Category Files
 
-* **name**: The sport category name (e.g., "Baseball Cards")
+* **name**: The sport category name (e.g., "baseball")
 * **years**: Array of year objects containing releases
   * **year**: Year in YYYY or YYYY-YY format (e.g., "1990" or "1990-91")
   * **releases**: Array of card releases for that year
@@ -174,17 +178,17 @@ Individual card set releases follow this structure:
   * **parallels**: Limited edition versions with unique numbering or designs
 * **cards**: Individual cards with their attributes, variations, and parallels
 
-## Language Examples
+## Code Examples
 
-The `src` folder contains example code for loading and processing the JSON files:
+The `examples` folder contains example code for loading and processing the JSON files:
 
 | Language       | Example File            | Use Case |
 | -------------- | ----------------------- | -------- |
-| **C#**         | `src/csharp/Program.cs` | .NET applications, desktop collectors' tools |
-| **Python**     | `src/python/main.py`    | Data analysis, web scrapers for card data |
-| **Go**         | `src/go/main.go`        | High-performance card search APIs |
-| **TypeScript** | `src/ts/index.ts`       | Web-based card collection managers |
-| **Rust**       | `src/rust/main.rs`      | Performance-critical card data processing |
+| **C#**         | `examples/csharp/Program.cs` | .NET applications, desktop collectors' tools |
+| **Python**     | `examples/python/main.py`    | Data analysis, web scrapers for card data |
+| **Go**         | `examples/go/main.go`        | High-performance card search APIs |
+| **TypeScript** | `examples/ts/index.ts`       | Web-based card collection managers |
+| **Rust**       | `examples/rust/main.rs`      | Performance-critical card data processing |
 
 These examples demonstrate how to parse JSON data and work with it effectively, making it easier to build applications or tools for collectors and developers.
 
