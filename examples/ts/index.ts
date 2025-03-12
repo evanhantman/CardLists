@@ -18,6 +18,8 @@ interface Variation {
     note?: string;
     insertOdds?: InsertOdd[];
     parallels?: Parallel[];
+    attributes?: string[];
+    numberedTo?: number;
 }
 
 interface Parallel {
@@ -28,15 +30,18 @@ interface Parallel {
 }
 
 interface Card {
+    uniqueId: string;
     number?: string;
     name: string;
     attributes?: string[];
+    insertOdds?: InsertOdd[];
     note?: string;
     variations?: Variation[];
     parallels?: Parallel[];
 }
 
 interface Set {
+    uniqueId: string;
     name: string;
     notes?: string[];
     numberedTo?: number;
@@ -48,6 +53,8 @@ interface Set {
 
 interface CardList {
     name: string;
+    version: string;
+    uniqueId: string;
     notes?: string[];
     attributes?: AttributeItem[];
     sets: Set[];

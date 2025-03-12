@@ -6,6 +6,9 @@ use std::process;
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CardList {
     pub name: String,
+    pub version: String,
+    #[serde(rename = "uniqueId")]
+    pub unique_id: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub notes: Option<Vec<String>>,
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -21,6 +24,8 @@ pub struct AttributeItem {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Set {
+    #[serde(rename = "uniqueId")]
+    pub unique_id: String,
     pub name: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub notes: Option<Vec<String>>,
@@ -50,6 +55,10 @@ pub struct Variation {
     pub insert_odds: Option<Vec<InsertOdd>>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub parallels: Option<Vec<Parallel>>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub attributes: Option<Vec<String>>,
+    #[serde(rename = "numberedTo", skip_serializing_if = "Option::is_none")]
+    pub numbered_to: Option<u32>,
 }
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -65,11 +74,15 @@ pub struct Parallel {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Card {
+    #[serde(rename = "uniqueId")]
+    pub unique_id: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub number: Option<String>,
     pub name: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub attributes: Option<Vec<String>>,
+    #[serde(rename = "insertOdds", skip_serializing_if = "Option::is_none")]
+    pub insert_odds: Option<Vec<InsertOdd>>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub note: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]

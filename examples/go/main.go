@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-// AttributeItem represents an attribute for a card.
+// AttributeItem represents an attribute-note pair for the card list.
 type AttributeItem struct {
 	Attribute string `json:"attribute"`
 	Note      string `json:"note"`
@@ -25,6 +25,8 @@ type Variation struct {
 	Note       *string     `json:"note,omitempty"`
 	InsertOdds []InsertOdd `json:"insertOdds,omitempty"`
 	Parallels  []Parallel  `json:"parallels,omitempty"`
+	Attributes []string    `json:"attributes,omitempty"`
+	NumberedTo *int        `json:"numberedTo,omitempty"`
 }
 
 // Parallel represents a parallel version of a set or card.
@@ -37,9 +39,11 @@ type Parallel struct {
 
 // Card represents an individual card.
 type Card struct {
+	UniqueId   string      `json:"uniqueId"`
 	Number     *string     `json:"number,omitempty"`
 	Name       string      `json:"name"`
 	Attributes []string    `json:"attributes,omitempty"`
+	InsertOdds []InsertOdd `json:"insertOdds,omitempty"`
 	Note       *string     `json:"note,omitempty"`
 	Variations []Variation `json:"variations,omitempty"`
 	Parallels  []Parallel  `json:"parallels,omitempty"`
@@ -47,6 +51,7 @@ type Card struct {
 
 // Set represents a set of cards.
 type Set struct {
+	UniqueId   string      `json:"uniqueId"`
 	Name       string      `json:"name"`
 	Notes      []string    `json:"notes,omitempty"`
 	NumberedTo *int        `json:"numberedTo,omitempty"`
@@ -59,6 +64,8 @@ type Set struct {
 // CardList represents the root JSON object.
 type CardList struct {
 	Name       string          `json:"name"`
+	Version    string          `json:"version"`
+	UniqueId   string          `json:"uniqueId"`
 	Notes      []string        `json:"notes,omitempty"`
 	Attributes []AttributeItem `json:"attributes,omitempty"`
 	Sets       []Set           `json:"sets"`

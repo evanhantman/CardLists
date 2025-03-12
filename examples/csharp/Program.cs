@@ -56,16 +56,28 @@ namespace Loader
         public string Name { get; set; }
 
         /// <summary>
+        /// Version string of the card list.
+        /// </summary>
+        [JsonPropertyName("version")]
+        public string Version { get; set; }
+
+        /// <summary>
+        /// Unique identifier for the card list.
+        /// </summary>
+        [JsonPropertyName("uniqueId")]
+        public string UniqueId { get; set; }
+
+        /// <summary>
+        /// Optional attributes (attribute-note pairs) that apply to the card list.
+        /// </summary>
+        [JsonPropertyName("attributes")]
+        public List<AttributeItem> Attributes { get; set; }
+
+        /// <summary>
         /// Optional notes about the card list.
         /// </summary>
         [JsonPropertyName("notes")]
         public List<string> Notes { get; set; }
-
-        /// <summary>
-        /// Optional attributes that apply to the card list.
-        /// </summary>
-        [JsonPropertyName("attributes")]
-        public List<AttributeItem> Attributes { get; set; }
 
         /// <summary>
         /// List of card sets.
@@ -75,12 +87,12 @@ namespace Loader
     }
 
     /// <summary>
-    /// Defines an attribute that can be used on a card.
+    /// Defines an attribute and its note.
     /// </summary>
     public class AttributeItem
     {
         /// <summary>
-        /// The attribute (e.g., "RC" for Rookie Card).
+        /// The attribute.
         /// </summary>
         [JsonPropertyName("attribute")]
         public string Attribute { get; set; }
@@ -97,6 +109,12 @@ namespace Loader
     /// </summary>
     public class Set
     {
+        /// <summary>
+        /// Unique identifier for the set.
+        /// </summary>
+        [JsonPropertyName("uniqueId")]
+        public string UniqueId { get; set; }
+
         /// <summary>
         /// Name of the set.
         /// </summary>
@@ -149,7 +167,7 @@ namespace Loader
         /// Name/title of the variation.
         /// </summary>
         [JsonPropertyName("variation")]
-        public string Variation { get; set; }
+        public string VariationName { get; set; }
 
         /// <summary>
         /// Optional note about the variation.
@@ -168,6 +186,18 @@ namespace Loader
         /// </summary>
         [JsonPropertyName("parallels")]
         public List<Parallel> Parallels { get; set; }
+
+        /// <summary>
+        /// Optional list of attributes for the variation.
+        /// </summary>
+        [JsonPropertyName("attributes")]
+        public List<string> Attributes { get; set; }
+
+        /// <summary>
+        /// Optional number that the variation is numbered to.
+        /// </summary>
+        [JsonPropertyName("numberedTo")]
+        public int? NumberedTo { get; set; }
     }
 
     /// <summary>
@@ -224,6 +254,12 @@ namespace Loader
     public class Card
     {
         /// <summary>
+        /// Unique identifier for the card.
+        /// </summary>
+        [JsonPropertyName("uniqueId")]
+        public string UniqueId { get; set; }
+
+        /// <summary>
         /// Optional card number.
         /// </summary>
         [JsonPropertyName("number")]
@@ -240,6 +276,12 @@ namespace Loader
         /// </summary>
         [JsonPropertyName("attributes")]
         public List<string> Attributes { get; set; }
+
+        /// <summary>
+        /// Optional list of insert odds for the card.
+        /// </summary>
+        [JsonPropertyName("insertOdds")]
+        public List<InsertOdd> InsertOdds { get; set; }
 
         /// <summary>
         /// Optional note about the card.

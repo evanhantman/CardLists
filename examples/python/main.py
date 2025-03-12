@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Optional
 from pydantic import BaseModel, ValidationError
 
-# Model definitions based on the new JSON schema
+# Model definitions based on the updated JSON schema
 
 class AttributeItem(BaseModel):
     attribute: str
@@ -13,27 +13,32 @@ class InsertOdd(BaseModel):
     product: str
     odds: str
 
+class Parallel(BaseModel):
+    name: str
+    numberedTo: Optional[int] = None
+    notes: Optional[List[str]] = None
+    insertOdds: Optional[List[InsertOdd]] = None
+
 class Variation(BaseModel):
     variation: str
     note: Optional[str] = None
     insertOdds: Optional[List[InsertOdd]] = None
-    parallels: Optional[List["Parallel"]] = None  # Forward reference
-
-class Parallel(BaseModel):
-    name: str
-    numberedTo: Optional[int] = None  # Renamed from "of" to "numberedTo"
-    notes: Optional[List[str]] = None
-    insertOdds: Optional[List[InsertOdd]] = None
+    parallels: Optional[List[Parallel]] = None  # Forward reference handled below
+    attributes: Optional[List[str]] = None
+    numberedTo: Optional[int] = None
 
 class Card(BaseModel):
+    uniqueId: str
     number: Optional[str] = None
     name: str
     attributes: Optional[List[str]] = None
+    insertOdds: Optional[List[InsertOdd]] = None
     note: Optional[str] = None
     variations: Optional[List[Variation]] = None
     parallels: Optional[List[Parallel]] = None
 
 class Set(BaseModel):
+    uniqueId: str
     name: str
     notes: Optional[List[str]] = None
     numberedTo: Optional[int] = None
@@ -44,6 +49,8 @@ class Set(BaseModel):
 
 class CardList(BaseModel):
     name: str
+    version: str
+    uniqueId: str
     notes: Optional[List[str]] = None
     attributes: Optional[List[AttributeItem]] = None
     sets: List[Set]
