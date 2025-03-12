@@ -112,14 +112,9 @@ Individual card set releases follow this structure:
   "sets": [
     {
       "name": "Factory Set",
+      "uniqueId": "ff789858-390c-4cb4-bbae-29bb501d91b3",
       "notes": ["Complete set included"],
       "numberedTo": 1000,
-      "variations": [
-        {
-          "variation": "Reverse Back",
-          "note": "Reverse back facing right"
-        }
-      ],
       "parallels": [
         {
           "name": "Gold Edition",
@@ -130,6 +125,7 @@ Individual card set releases follow this structure:
       "cards": [
         {
           "number": "97",
+          "uniqueId": "958bd99d-a01f-49d6-979f-154d7675142b",
           "name": "Jose Canseco",
           "attributes": ["RC"],
           "note": "Star player",
