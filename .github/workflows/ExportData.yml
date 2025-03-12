@@ -50,27 +50,35 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: baseball.zip
-          path: categories/baseball/**
+          path: |
+            categories/baseball.json
+            categories/baseball/**
 
       - name: Upload Basketball Artifact
         uses: actions/upload-artifact@v4
         with:
           name: basketball.zip
-          path: categories/basketball/**
+          path: |
+            categories/basketball.json
+            categories/basketball/**
 
       - name: Upload Football Artifact
         uses: actions/upload-artifact@v4
         with:
           name: football.zip
-          path: categories/football/**
+          path: |
+            categories/football.json
+            categories/football/**
 
       - name: Upload Hockey Artifact
         uses: actions/upload-artifact@v4
         with:
           name: hockey.zip
-          path: categories/hockey/**
+          path: |
+            categories/hockey.json
+            categories/hockey/**
 
-      - name: Upload All Artifact
+      - name: Upload All Categories Artifact
         uses: actions/upload-artifact@v4
         with:
           name: all.zip
