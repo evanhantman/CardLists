@@ -52,8 +52,8 @@ for sport in target_sports:
     all_years = list(range(min_year, max_year + 1))
     percentages = [indexed_percentages.get(year, 0.0) for year in all_years]
 
-    # Create the bar graph with dimensions 120×600 pixels (1.2 inches wide x 6 inches tall at 100 DPI)
-    fig, ax = plt.subplots(figsize=(1.2, 6), dpi=100)
+    # Create the bar graph with dimensions 600x120 pixels (6 inches wide x 1.2 inches tall at 100 DPI)
+    fig, ax = plt.subplots(figsize=(6, 1.2), dpi=100)
     ax.bar(all_years, percentages, width=0.8, align='center', color='green')
     ax.set_ylim(0, 100)
     ax.set_xlabel("Year")
