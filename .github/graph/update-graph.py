@@ -3,6 +3,13 @@ import os
 import json
 import matplotlib.pyplot as plt
 
+# Read dimensions from environment variables (in pixels), with defaults if not provided.
+GRAPH_WIDTH = int(os.environ.get("GRAPH_WIDTH", "800"))
+GRAPH_HEIGHT = int(os.environ.get("GRAPH_HEIGHT", "200"))
+dpi = 100  # We use 100 DPI; convert pixels to inches.
+width_in = GRAPH_WIDTH / dpi
+height_in = GRAPH_HEIGHT / dpi
+
 # List of sports for which graphs will be generated
 target_sports = ["baseball", "football", "basketball", "hockey"]
 
@@ -20,10 +27,10 @@ for sport in target_sports:
         print(f"Error loading category file for {sport}: {e}")
         continue
 
-    # Extract the years array from the JSON structure
+    # Extract the years array from the JSON structure.
     years_data = category_data.get("category", {}).get("years", [])
     
-    # Calculate the percentage of indexed releases per year
+    # Calculate the percentage of indexed releases per year.
     indexed_percentages = {}
     for entry in years_data:
         try:
@@ -42,7 +49,7 @@ for sport in target_sports:
             percent = (indexed_count / total) * 100
         indexed_percentages[year] = percent
 
-    # Determine the bounds based on years with at least one indexed release (> 0%).
+    # Determine the bounds based only on years where at least one release is indexed.
     valid_years = [year for year, percent in indexed_percentages.items() if percent > 0]
     if valid_years:
         min_year = min(valid_years)
@@ -51,23 +58,22 @@ for sport in target_sports:
         print(f"No indexed releases found for {sport}. Skipping graph generation.")
         continue
 
-    # Create a continuous range from min_year to max_year
+    # Create a continuous range from min_year to max_year.
     all_years = list(range(min_year, max_year + 1))
     percentages = [indexed_percentages.get(year, 0.0) for year in all_years]
 
-    # Create the bar graph with dimensions 600×150 pixels (6 inches wide x 1.5 inches tall at 100 DPI)
-    fig, ax = plt.subplots(figsize=(6, 1.5), dpi=100)
+    # Create the bar graph using the dimensions from the environment variables.
+    fig, ax = plt.subplots(figsize=(width_in, height_in), dpi=dpi)
     ax.bar(all_years, percentages, width=0.8, align='center', color='green')
     ax.set_ylim(0, 100)
-    ax.set_xlabel("Year")
-    ax.set_ylabel("% Indexed")
-    ax.set_title(f"{sport.capitalize()} Sets Indexed")
+    ax.set_xlabel("Year", fontsize=10)
+    ax.set_ylabel("% Indexed", fontsize=10)
+    ax.set_title(f"{sport.capitalize()} Sets Indexed", fontsize=12)
     ax.set_xticks(all_years)
     
-    # Rotate the x-tick labels for readability
-    plt.xticks(rotation=45)
+    # Rotate the x-tick labels and use a smaller font for legibility.
+    plt.xticks(rotation=45, fontsize=8)
 
-    # Save the bar graph image
     plt.tight_layout()
     bar_graph_path = os.path.join(badge_dir, f"{sport}_bar.png")
     plt.savefig(bar_graph_path)
