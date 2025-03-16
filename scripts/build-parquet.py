@@ -167,19 +167,5 @@ def main():
     df.to_parquet(parquet_path, index=False)
     print(f"Dataset written to {parquet_path}")
 
-    # Compute card counts from the base records.
-    target_categories = ["baseball", "football", "basketball", "hockey"]
-    counts = {cat: 0 for cat in target_categories}
-    for _, row in df_base.iterrows():
-        cat_lower = row.get("category", "").lower()
-        if cat_lower in counts:
-            counts[cat_lower] += 1
-
-    # Write the card counts to a JSON file.
-    card_counts_file = base_dir / "card_counts.json"
-    with open(card_counts_file, "w", encoding="utf-8") as f:
-        json.dump(counts, f)
-    print(f"Card counts written to {card_counts_file}: {counts}")
-
 if __name__ == "__main__":
     main()
