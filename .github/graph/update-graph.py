@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Read dimensions from environment variables (in pixels), with defaults if not provided.
 GRAPH_WIDTH = int(os.environ.get("GRAPH_WIDTH", "800"))
-GRAPH_HEIGHT = int(os.environ.get("GRAPH_HEIGHT", "200"))
+GRAPH_HEIGHT = int(os.environ.get("GRAPH_HEIGHT", "175"))
 dpi = 100  # We use 100 DPI; convert pixels to inches.
 width_in = GRAPH_WIDTH / dpi
 height_in = GRAPH_HEIGHT / dpi
@@ -68,11 +68,15 @@ for sport in target_sports:
     ax.set_ylim(0, 100)
     ax.set_xlabel("Year", fontsize=10)
     ax.set_ylabel("% Indexed", fontsize=10)
-    ax.set_title(f"{sport.capitalize()} Sets Indexed", fontsize=12)
-    ax.set_xticks(all_years)
+    ax.set_title(f"{sport.capitalize()} Releases Indexed", fontsize=12)
     
-    # Rotate the x-tick labels and use a smaller font for legibility.
+    # Set x-ticks to each year and reduce font size for legibility.
+    ax.set_xticks(all_years)
     plt.xticks(rotation=45, fontsize=8)
+    
+    # Remove extra padding by setting x-limits.
+    ax.set_xlim(all_years[0] - 0.5, all_years[-1] + 0.5)
+    # Alternatively, you could use: ax.margins(x=0)
 
     plt.tight_layout()
     bar_graph_path = os.path.join(badge_dir, f"{sport}_bar.png")
