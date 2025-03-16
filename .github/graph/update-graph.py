@@ -14,8 +14,8 @@ height_in = GRAPH_HEIGHT / dpi
 target_sports = ["baseball", "football", "basketball", "hockey"]
 
 # Ensure the output directory for badges exists
-badge_dir = os.path.join(".github", "badge")
-os.makedirs(badge_dir, exist_ok=True)
+graph_dir = os.path.join(".github", "graph")
+os.makedirs(graph_dir, exist_ok=True)
 
 # Process each sport's category JSON file to generate a bar graph
 for sport in target_sports:
@@ -79,7 +79,7 @@ for sport in target_sports:
     # Alternatively, you could use: ax.margins(x=0)
 
     plt.tight_layout()
-    bar_graph_path = os.path.join(badge_dir, f"{sport}_bar.png")
+    bar_graph_path = os.path.join(graph_dir, f"{sport}_bar.png")
     plt.savefig(bar_graph_path)
     plt.close(fig)
     print(f"Bar graph for {sport} generated at {bar_graph_path}")
