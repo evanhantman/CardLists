@@ -52,8 +52,8 @@ for sport in target_sports:
     all_years = list(range(min_year, max_year + 1))
     percentages = [indexed_percentages.get(year, 0.0) for year in all_years]
 
-    # Create the bar graph with dimensions 600x120 pixels (6 inches wide x 1.2 inches tall at 100 DPI)
-    fig, ax = plt.subplots(figsize=(6, 1.2), dpi=100)
+    # Create the bar graph with dimensions 600×150 pixels (6 inches wide x 1.5 inches tall at 100 DPI)
+    fig, ax = plt.subplots(figsize=(6, 1.5), dpi=100)
     ax.bar(all_years, percentages, width=0.8, align='center', color='green')
     ax.set_ylim(0, 100)
     ax.set_xlabel("Year")
@@ -61,8 +61,8 @@ for sport in target_sports:
     ax.set_title(f"{sport.capitalize()} Sets Indexed")
     ax.set_xticks(all_years)
     
-    # Rotate the x-tick labels 90 degrees for readability in the narrow layout
-    plt.xticks(rotation=90)
+    # Rotate the x-tick labels for readability in the narrower layout
+    plt.xticks(rotation=45)
 
     # Save the bar graph image
     plt.tight_layout()
