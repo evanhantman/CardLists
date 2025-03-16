@@ -1,0 +1,4783 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
+    "name": "2024 Bowman Draft Baseball",
+    "version": "1.0",
+    "uniqueId": "40498dfb-37ac-44df-9d3f-2316b32a133b",
+    "attributes": [
+        {
+            "attribute": "AU",
+            "note": "Autograph"
+        }
+    ],
+    "sets": [
+        {
+            "name": "Base Set",
+            "parallels": [
+                {
+                    "name": "Sky Blue",
+                    "numberedTo": 499,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:15"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue",
+                    "numberedTo": 150,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:48"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:13"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:72"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:19"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:143"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:37"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange",
+                    "numberedTo": 25,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:208"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1427"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:369"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:7194"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:1828"
+                        }
+                    ]
+                },
+                {
+                    "name": "Printing Plates",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1780"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:462"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome",
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Refractor",
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Sky Blue Refractor",
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:8"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Lunar Glow Refractor",
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:12"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:5"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Purple Refractor",
+                    "numberedTo": 250,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:29"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:8"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Sparkles Refractor",
+                    "numberedTo": 199,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:36"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:10"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Fuchsia Lunar Refractor",
+                    "numberedTo": 199,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:36"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:10"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Blue Refractor",
+                    "numberedTo": 150,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:48"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:13"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Aqua Wave Refractor",
+                    "numberedTo": 125,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:57"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:15"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Aqua Lunar Crater Refractor",
+                    "numberedTo": 125,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:57"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:15"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Green Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:72"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:19"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Green Grass Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:72"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:19"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Steel Metal Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:72"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:19"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Yellow Refractor",
+                    "numberedTo": 75,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:95"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:25"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Yellow Lunar Crater Refractor",
+                    "numberedTo": 75,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:95"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:25"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Gold Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:143"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:37"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Orange Refractor",
+                    "numberedTo": 25,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:206"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Black Refractor",
+                    "numberedTo": 10,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:520"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Rose Gold Refractor",
+                    "numberedTo": 10,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:520"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Rose Gold Lava Refractor",
+                    "numberedTo": 10,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:520"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:47,515"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1427"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:369"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Red Lava Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1427"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:369"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:7194"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:1828"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Printing Plates",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1780"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:462"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "BD-1",
+                    "name": "Travis Bazzana",
+                    "uniqueId": "4ae07a4f-c513-4b2a-8044-a9d8cbc627bd"
+                },
+                {
+                    "number": "BD-2",
+                    "name": "Hagen Smith",
+                    "uniqueId": "198ddf71-f264-4282-88d6-7668b733fc8e"
+                },
+                {
+                    "number": "BD-3",
+                    "name": "Josh Hartle",
+                    "uniqueId": "d4684664-3f50-440a-a866-df55d255c300"
+                },
+                {
+                    "number": "BD-4",
+                    "name": "Thayron Liranzo",
+                    "uniqueId": "3579a0c2-4790-4a0e-8844-958eacfc301d"
+                },
+                {
+                    "number": "BD-5",
+                    "name": "Luis Guanipa",
+                    "uniqueId": "26a820ab-ec1c-476e-bc09-f6dcdcd4c362"
+                },
+                {
+                    "number": "BD-6",
+                    "name": "Jaron DeBerry",
+                    "uniqueId": "0279ec88-48a8-4bc7-badb-6f5f72cb10df"
+                },
+                {
+                    "number": "BD-7",
+                    "name": "Ethan Schiefelbein",
+                    "uniqueId": "78016af3-09f6-4687-ae14-d126887f6922"
+                },
+                {
+                    "number": "BD-8",
+                    "name": "Jac Caglianone",
+                    "uniqueId": "c524ac79-c958-4c0d-b321-6cfb1df9310e"
+                },
+                {
+                    "number": "BD-9",
+                    "name": "Cole Messina",
+                    "uniqueId": "fb2b5783-c7f0-454a-82ea-c6caace9e347"
+                },
+                {
+                    "number": "BD-10",
+                    "name": "Gage Ziehl",
+                    "uniqueId": "e6a27617-4e0e-446b-b6a1-fd9c327f43e7"
+                },
+                {
+                    "number": "BD-11",
+                    "name": "Jared Thomas",
+                    "uniqueId": "794ecab5-b2ec-4574-861e-4ae8425c4118"
+                },
+                {
+                    "number": "BD-12",
+                    "name": "Carter Johnson",
+                    "uniqueId": "e24c48f7-f5f3-47f6-a913-9a18fcba1205"
+                },
+                {
+                    "number": "BD-13",
+                    "name": "Christian Moore",
+                    "uniqueId": "be1d9655-a838-4833-ba65-c2dcb72d438c"
+                },
+                {
+                    "number": "BD-14",
+                    "name": "Nick McLain",
+                    "uniqueId": "a9d43be5-6b4d-4d6e-9218-050cac56a802"
+                },
+                {
+                    "number": "BD-15",
+                    "name": "Colt Emerson",
+                    "uniqueId": "213d1b24-804a-4769-a2a7-e3d728fd28bf"
+                },
+                {
+                    "number": "BD-16",
+                    "name": "Dante Nori",
+                    "uniqueId": "ba25befd-3397-497b-bd92-8f637a2ab1af"
+                },
+                {
+                    "number": "BD-17",
+                    "name": "Woody Hadeen",
+                    "uniqueId": "ad2dc2d9-50b0-4daf-add2-1845ec53ab6e"
+                },
+                {
+                    "number": "BD-18",
+                    "name": "Ryan Waldschmidt",
+                    "uniqueId": "8870a27c-db91-4297-a323-f598d1ffe420"
+                },
+                {
+                    "number": "BD-19",
+                    "name": "Roman Anthony",
+                    "uniqueId": "b6d9972d-9c35-402e-9ae5-a6e1f2e2f3b1"
+                },
+                {
+                    "number": "BD-20",
+                    "name": "Cam Caminiti",
+                    "uniqueId": "a68e7910-fda9-4cf8-94e8-65a137b54286"
+                },
+                {
+                    "number": "BD-21",
+                    "name": "Griff O'Ferrall",
+                    "uniqueId": "d322770e-36ac-446f-892d-79784b69938a"
+                },
+                {
+                    "number": "BD-22",
+                    "name": "Konnor Griffin",
+                    "uniqueId": "df9ddcd2-4bea-4b1b-b415-c075dc417c92"
+                },
+                {
+                    "number": "BD-23",
+                    "name": "Rhett Lowder",
+                    "uniqueId": "8a708f45-42d5-4aee-831a-8882cbfc5a86"
+                },
+                {
+                    "number": "BD-24",
+                    "name": "Kellon Lindsey",
+                    "uniqueId": "cf62d83b-cb9b-4291-b524-8c623ab051b0"
+                },
+                {
+                    "number": "BD-25",
+                    "name": "Harry Ford",
+                    "uniqueId": "69cebce8-e8fc-4cb4-9df3-86ed7620b671"
+                },
+                {
+                    "number": "BD-26",
+                    "name": "Matt Shaw",
+                    "uniqueId": "0f5c6c69-aaaa-4351-81c1-2c394677f8e2"
+                },
+                {
+                    "number": "BD-27",
+                    "name": "Blake Wright",
+                    "uniqueId": "79c63f80-bd60-4964-ab5b-ca30d41b7d2c"
+                },
+                {
+                    "number": "BD-28",
+                    "name": "Carson Benge",
+                    "uniqueId": "7ffd713e-9dbc-4acb-8f0a-575927b8b830"
+                },
+                {
+                    "number": "BD-29",
+                    "name": "Ivan Luciano",
+                    "uniqueId": "de1847dc-60c3-4054-930c-a1cfa799fda6"
+                },
+                {
+                    "number": "BD-30",
+                    "name": "Jacob Cozart",
+                    "uniqueId": "c287879c-75b3-49f2-b735-7d21374911c9"
+                },
+                {
+                    "number": "BD-31",
+                    "name": "Caleb Bonemer",
+                    "uniqueId": "626bebd0-3274-4f11-8ae0-812925c02b22"
+                },
+                {
+                    "number": "BD-32",
+                    "name": "Mike Sirota",
+                    "uniqueId": "2677562c-f79b-4307-a89d-a527fc4919d8"
+                },
+                {
+                    "number": "BD-33",
+                    "name": "Casey Saucke",
+                    "uniqueId": "2ad3fd48-e82e-4e33-82d9-65695ae764cd"
+                },
+                {
+                    "number": "BD-34",
+                    "name": "Boston Bateman",
+                    "uniqueId": "e2ebee59-4842-48e9-a893-5304c5f37169"
+                },
+                {
+                    "number": "BD-35",
+                    "name": "JD Dix",
+                    "uniqueId": "77d15f74-6593-4e9b-9511-5e15a76f3468"
+                },
+                {
+                    "number": "BD-36",
+                    "name": "Johnny King",
+                    "uniqueId": "c78ce61f-dc36-49e4-9b62-77c471135686"
+                },
+                {
+                    "number": "BD-37",
+                    "name": "Braylon Doughty",
+                    "uniqueId": "968b2cef-305c-4865-a0fa-fb2f345db9cc"
+                },
+                {
+                    "number": "BD-38",
+                    "name": "Noble Meyer",
+                    "uniqueId": "0e784363-825c-41e8-aaa5-484fcd70522c"
+                },
+                {
+                    "number": "BD-39",
+                    "name": "Brody Brecht",
+                    "uniqueId": "62f0511c-2068-4c70-9930-3877e7c0c07a"
+                },
+                {
+                    "number": "BD-40",
+                    "name": "James Tibbs III",
+                    "uniqueId": "b91e7c41-2bd3-41e2-99b5-306bd0c31a65"
+                },
+                {
+                    "number": "BD-41",
+                    "name": "Ryan Johnson",
+                    "uniqueId": "1155bc53-9abf-4904-b718-b95f7be419f5"
+                },
+                {
+                    "number": "BD-42",
+                    "name": "Dylan Dreiling",
+                    "uniqueId": "bc3efd12-773c-47e4-8818-9b930438fc1c"
+                },
+                {
+                    "number": "BD-43",
+                    "name": "Tink Hence",
+                    "uniqueId": "4b525f7a-1450-4971-a320-585d70de4e66"
+                },
+                {
+                    "number": "BD-44",
+                    "name": "Tyson Lewis",
+                    "uniqueId": "48b89617-2be4-4df2-92ba-f408a2105ea0"
+                },
+                {
+                    "number": "BD-45",
+                    "name": "Ty Southisene",
+                    "uniqueId": "98618753-bd64-40c7-8127-3a2b8f8082de"
+                },
+                {
+                    "number": "BD-46",
+                    "name": "Dalton Rushing",
+                    "uniqueId": "03e57c8f-269d-4cf2-800d-34ca6006b053"
+                },
+                {
+                    "number": "BD-47",
+                    "name": "Josue De Paula",
+                    "uniqueId": "ff99bdb1-8583-494c-8949-d13c9e46bc17"
+                },
+                {
+                    "number": "BD-48",
+                    "name": "Bryce Eldridge",
+                    "uniqueId": "28b6c5b3-d6ca-4db3-80df-a8dbaf174a45"
+                },
+                {
+                    "number": "BD-49",
+                    "name": "John Spikerman",
+                    "uniqueId": "79e92053-488f-4087-b646-7ca9c1ee8b78"
+                },
+                {
+                    "number": "BD-50",
+                    "name": "Connor Foley",
+                    "uniqueId": "a8e97a1d-0739-4fab-9e74-784c3cd10bff"
+                },
+                {
+                    "number": "BD-51",
+                    "name": "Tyson Neighbors",
+                    "uniqueId": "b26701cd-f9c5-43ab-9ff2-05466affbce9"
+                },
+                {
+                    "number": "BD-52",
+                    "name": "Ryan Clifford",
+                    "uniqueId": "b758ad65-17a2-4c00-8e0e-4da10dade73e"
+                },
+                {
+                    "number": "BD-53",
+                    "name": "Daniel Eagen",
+                    "uniqueId": "b5e42ad7-6863-4077-9286-bc839ce7dce2"
+                },
+                {
+                    "number": "BD-54",
+                    "name": "Josh Kuroda-Grauer",
+                    "uniqueId": "6655e7d3-c29f-4f14-a78c-d2be0de11470"
+                },
+                {
+                    "number": "BD-55",
+                    "name": "Chase Burns",
+                    "uniqueId": "a0c88501-3f13-4c2b-84f9-b5da3978372b"
+                },
+                {
+                    "number": "BD-56",
+                    "name": "Nick Kurtz",
+                    "uniqueId": "abcc0012-dc05-44a8-bb9b-381db0ad1f30"
+                },
+                {
+                    "number": "BD-57",
+                    "name": "Kavares Tears",
+                    "uniqueId": "05d6a743-7895-4091-b829-03522edecea9"
+                },
+                {
+                    "number": "BD-58",
+                    "name": "Braden Montgomery",
+                    "uniqueId": "ce4c62af-210d-4ca2-b31f-bfe2ad654a8c"
+                },
+                {
+                    "number": "BD-59",
+                    "name": "Khal Stephen",
+                    "uniqueId": "8a79363a-e970-4aff-932b-9fc02eb8e704"
+                },
+                {
+                    "number": "BD-60",
+                    "name": "Griffin Burkholder",
+                    "uniqueId": "918b8cd1-834c-4d53-924d-117cbbaeb1fc"
+                },
+                {
+                    "number": "BD-61",
+                    "name": "Zac Veen",
+                    "uniqueId": "47840db0-52f0-40b5-8871-3407acf0dfb8"
+                },
+                {
+                    "number": "BD-62",
+                    "name": "Seaver King",
+                    "uniqueId": "154478d8-e5b4-438e-a1ab-13afb4480a6f"
+                },
+                {
+                    "number": "BD-63",
+                    "name": "Payton Tolle",
+                    "uniqueId": "230af82d-1189-4d05-944d-6cfed2aee166"
+                },
+                {
+                    "number": "BD-64",
+                    "name": "Gage Miller",
+                    "uniqueId": "10b1d768-e608-41f1-8136-f2ce49d92152"
+                },
+                {
+                    "number": "BD-65",
+                    "name": "Jonathan Santucci",
+                    "uniqueId": "1e6e1d18-6d2c-424d-a3b3-76b92837c88a"
+                },
+                {
+                    "number": "BD-66",
+                    "name": "Casey Cook",
+                    "uniqueId": "8d7c9387-a384-47f6-a64e-c87657d2b67e"
+                },
+                {
+                    "number": "BD-67",
+                    "name": "Cam Smith",
+                    "uniqueId": "d0079f5b-a061-4763-8d56-399344b26eea"
+                },
+                {
+                    "number": "BD-68",
+                    "name": "Billy Amick",
+                    "uniqueId": "e2d90118-bce0-474f-bcb0-387a8e7b572f"
+                },
+                {
+                    "number": "BD-69",
+                    "name": "Caden Dana",
+                    "uniqueId": "ae0c1ad5-c28c-463d-9e56-90dad42f8d27"
+                },
+                {
+                    "number": "BD-70",
+                    "name": "Kash Mayfield",
+                    "uniqueId": "f6b5821b-dcd2-47bb-b15f-721a99dd9e9c"
+                },
+                {
+                    "number": "BD-71",
+                    "name": "Dakota Jordan",
+                    "uniqueId": "63ad6942-05ec-49ea-8319-e99aea71cc3d"
+                },
+                {
+                    "number": "BD-72",
+                    "name": "Braylon Payne",
+                    "uniqueId": "e3dae696-1a04-4e09-9c79-5e1bcd08887f"
+                },
+                {
+                    "number": "BD-73",
+                    "name": "Theo Gillen",
+                    "uniqueId": "29253835-a8cf-4649-b80a-325a19d2ce9c"
+                },
+                {
+                    "number": "BD-74",
+                    "name": "Carter Holton",
+                    "uniqueId": "ec138919-5dec-43b6-aa1f-91bd13901a2f"
+                },
+                {
+                    "number": "BD-75",
+                    "name": "Drew Beam",
+                    "uniqueId": "8fbe851c-a386-4d4d-9e70-2f0e0550230c"
+                },
+                {
+                    "number": "BD-76",
+                    "name": "Felnin Celesten",
+                    "uniqueId": "7e91d421-089c-4a30-aaad-bdbde5449901"
+                },
+                {
+                    "number": "BD-77",
+                    "name": "Chris Cortez",
+                    "uniqueId": "48473c3e-dda9-4681-985c-786ab33b8a5a"
+                },
+                {
+                    "number": "BD-78",
+                    "name": "Mick Abel",
+                    "uniqueId": "93e0940f-7cf3-4cfc-9420-6f8e4dab9878"
+                },
+                {
+                    "number": "BD-79",
+                    "name": "Ethan Anderson",
+                    "uniqueId": "89af506f-64c2-4d4d-9092-0eadd11ac2a6"
+                },
+                {
+                    "number": "BD-80",
+                    "name": "Michael Massey",
+                    "uniqueId": "4d6151b6-5299-48a4-ac0c-b2242b524be9"
+                },
+                {
+                    "number": "BD-81",
+                    "name": "Cole Mathis",
+                    "uniqueId": "fdb1abda-2d2d-4bf3-a292-5344354813e1"
+                },
+                {
+                    "number": "BD-82",
+                    "name": "Luke Keaschall",
+                    "uniqueId": "c2ae5154-5f49-4b5a-8a24-a1ab09e985d5"
+                },
+                {
+                    "number": "BD-83",
+                    "name": "Levi Sterling",
+                    "uniqueId": "7b6992bc-0c39-4ab9-8bfd-a71a24e2809a"
+                },
+                {
+                    "number": "BD-84",
+                    "name": "Cooper Pratt",
+                    "uniqueId": "9aa96987-cac3-4445-acd4-f29962242fe6"
+                },
+                {
+                    "number": "BD-85",
+                    "name": "Blake Larson",
+                    "uniqueId": "0605c3fa-e463-4af8-8dbd-f9fdd522f315"
+                },
+                {
+                    "number": "BD-86",
+                    "name": "Bryce Rainer",
+                    "uniqueId": "5d1029c4-40e6-40ed-abfd-2472247da681"
+                },
+                {
+                    "number": "BD-87",
+                    "name": "Ben Hess",
+                    "uniqueId": "45e2439b-092a-4d08-9cb8-038d3c902227"
+                },
+                {
+                    "number": "BD-88",
+                    "name": "Nathan Flewelling",
+                    "uniqueId": "5fbaf39e-48bb-452b-a39b-957491424812"
+                },
+                {
+                    "number": "BD-89",
+                    "name": "Carson DeMartini",
+                    "uniqueId": "46129c56-a3d1-4eec-9542-3cb6345b0530"
+                },
+                {
+                    "number": "BD-90",
+                    "name": "Brandon Sproat",
+                    "uniqueId": "ce44646a-3b23-483d-add1-7726f341ebc4"
+                },
+                {
+                    "number": "BD-91",
+                    "name": "Aiden May",
+                    "uniqueId": "cd55a8a7-d028-40da-ab38-d4725580ccb9"
+                },
+                {
+                    "number": "BD-92",
+                    "name": "Trey Yesavage",
+                    "uniqueId": "866a7e48-dcca-4d2a-9b05-e9e3e1d72399"
+                },
+                {
+                    "number": "BD-93",
+                    "name": "Joswa Lugo",
+                    "uniqueId": "00a7d4ab-5a93-4ac1-8eac-de6f127bc515"
+                },
+                {
+                    "number": "BD-94",
+                    "name": "Bryce Meccage",
+                    "uniqueId": "b9203b6a-d0ee-47ec-8969-7c8e099382b3"
+                },
+                {
+                    "number": "BD-95",
+                    "name": "Blake Burke",
+                    "uniqueId": "53c34b89-3765-4ae6-bf98-77158fd88009"
+                },
+                {
+                    "number": "BD-96",
+                    "name": "Chase Harlan",
+                    "uniqueId": "c6656077-0318-4442-aaea-f480e69b0013"
+                },
+                {
+                    "number": "BD-97",
+                    "name": "Bryce Cunningham",
+                    "uniqueId": "08280b5a-0f0c-4102-a950-9251fc832fe8"
+                },
+                {
+                    "number": "BD-98",
+                    "name": "Kaelen Culpepper",
+                    "uniqueId": "bdcaef09-e3c8-4963-a5bc-933f4f5c88ad"
+                },
+                {
+                    "number": "BD-99",
+                    "name": "Ryan Sloan",
+                    "uniqueId": "7b3bb499-971b-4172-9545-2dac2ade3d2f"
+                },
+                {
+                    "number": "BD-100",
+                    "name": "Luke Holman",
+                    "uniqueId": "7fe47539-4d2c-4f48-8809-2d5346914402"
+                },
+                {
+                    "number": "BD-101",
+                    "name": "Nate Dohm",
+                    "uniqueId": "4664267c-6829-473b-92c3-06235ed5c9e4"
+                },
+                {
+                    "number": "BD-102",
+                    "name": "Arjun Nimmala",
+                    "uniqueId": "8ffde1b0-b24b-4727-b11a-4de057fa00ad"
+                },
+                {
+                    "number": "BD-103",
+                    "name": "Chandler Welch",
+                    "uniqueId": "d14299ef-bf10-4323-9f2e-7eb3b806ea2c"
+                },
+                {
+                    "number": "BD-104",
+                    "name": "Max Clark",
+                    "uniqueId": "14bb3871-fb67-4f3d-bb6b-3e0764a89ec1"
+                },
+                {
+                    "number": "BD-105",
+                    "name": "Daiber De Los Santos",
+                    "uniqueId": "cb568e9c-59c4-4f37-803e-12ef3d0974db"
+                },
+                {
+                    "number": "BD-106",
+                    "name": "Yoeilin Cespedes",
+                    "uniqueId": "c5dbd8ca-21c4-42ab-a92c-bd9afba924b8"
+                },
+                {
+                    "number": "BD-107",
+                    "name": "Francisco Vilorio",
+                    "uniqueId": "5a9ccd72-586d-489e-be2c-d4424c0ef36a"
+                },
+                {
+                    "number": "BD-108",
+                    "name": "Kodey Shojinaga",
+                    "uniqueId": "5af7462e-dbee-484b-8575-d5fd101e992f"
+                },
+                {
+                    "number": "BD-109",
+                    "name": "Ariel Armas",
+                    "uniqueId": "ff94207f-5084-4bcc-8cab-ef21e34f79c4"
+                },
+                {
+                    "number": "BD-110",
+                    "name": "Luis Baez",
+                    "uniqueId": "331f26ea-d60e-4209-a225-d5cf6e0019ea"
+                },
+                {
+                    "number": "BD-111",
+                    "name": "Tommy Troy",
+                    "uniqueId": "4c067920-f109-43e3-bc07-04f57b0d49da"
+                },
+                {
+                    "number": "BD-112",
+                    "name": "Sebastian Walcott",
+                    "uniqueId": "28310ea2-79a0-43d8-a60b-27d463807841"
+                },
+                {
+                    "number": "BD-113",
+                    "name": "Emil Morales",
+                    "uniqueId": "101a2d75-e94c-4949-90d6-b5e30df90a59"
+                },
+                {
+                    "number": "BD-114",
+                    "name": "Nick Mitchell",
+                    "uniqueId": "044d671a-54e5-4b1b-affc-7986346a01d4"
+                },
+                {
+                    "number": "BD-115",
+                    "name": "Aidan Miller",
+                    "uniqueId": "8607b383-dc2e-4e47-aa91-464b9de23418"
+                },
+                {
+                    "number": "BD-116",
+                    "name": "Leo De Vries",
+                    "uniqueId": "6f663582-07e6-4206-b7f8-b495a1fd4f79"
+                },
+                {
+                    "number": "BD-117",
+                    "name": "Brock Wilken",
+                    "uniqueId": "446d96dd-2258-4cd5-9a02-d8b126097c70"
+                },
+                {
+                    "number": "BD-118",
+                    "name": "George Lombard Jr.",
+                    "uniqueId": "115be41b-0fb7-4cda-ba0c-ec6bf7ee868a"
+                },
+                {
+                    "number": "BD-119",
+                    "name": "Adolfo Sanchez",
+                    "uniqueId": "d998cd3d-20f7-4188-b29b-bc91cca7a748"
+                },
+                {
+                    "number": "BD-120",
+                    "name": "Yohandy Morales",
+                    "uniqueId": "9bfb19a8-ecc8-49d5-9dda-a176d4992ef0"
+                },
+                {
+                    "number": "BD-121",
+                    "name": "Fenwick Trimble",
+                    "uniqueId": "2cc0dcc3-d10e-4058-abf8-b5569caebae1"
+                },
+                {
+                    "number": "BD-122",
+                    "name": "Brandon Neely",
+                    "uniqueId": "d9c0aed6-774c-487a-9fd8-60b5cb882c14"
+                },
+                {
+                    "number": "BD-123",
+                    "name": "Chase Allsup",
+                    "uniqueId": "bad02db2-5763-41eb-a909-9aba5c7a7f68"
+                },
+                {
+                    "number": "BD-124",
+                    "name": "Bralyn Brazoban",
+                    "uniqueId": "ac1348a5-36ae-4eb7-ac91-ca672b26743b"
+                },
+                {
+                    "number": "BD-125",
+                    "name": "Dylan Crews",
+                    "uniqueId": "8628d161-aa6b-42df-8b87-95b180ea8093"
+                },
+                {
+                    "number": "BD-126",
+                    "name": "Paulino Santana",
+                    "uniqueId": "d62fc448-d779-4075-a03a-daa0868f53d6"
+                },
+                {
+                    "number": "BD-127",
+                    "name": "Carter Mathison",
+                    "uniqueId": "f96f7edb-3d24-4ee5-8842-48b2e788046c"
+                },
+                {
+                    "number": "BD-128",
+                    "name": "Samuel Basallo",
+                    "uniqueId": "a6a6b6f8-65e8-4b66-9c93-16af5e163286"
+                },
+                {
+                    "number": "BD-129",
+                    "name": "Nick Montgomery",
+                    "uniqueId": "a7cb7a81-df35-4665-b029-f991f4c61e28"
+                },
+                {
+                    "number": "BD-130",
+                    "name": "Grant Shepardson",
+                    "uniqueId": "26ef8d92-84c3-4474-946d-bc535b53d34d"
+                },
+                {
+                    "number": "BD-131",
+                    "name": "Aidan Smith",
+                    "uniqueId": "97dd1492-5cac-46e2-b23e-7323008deb20"
+                },
+                {
+                    "number": "BD-132",
+                    "name": "Charlie Beilenson",
+                    "uniqueId": "3df3ca44-cad0-413d-984a-9ee1703aadaa"
+                },
+                {
+                    "number": "BD-133",
+                    "name": "Agustin Ramirez",
+                    "uniqueId": "33395b6b-f1c8-4531-9da7-e0b7352ca4e6"
+                },
+                {
+                    "number": "BD-134",
+                    "name": "Deyvison De Los Sant",
+                    "uniqueId": "d4a4ae59-4cb8-4ce4-98b6-5fb60162f504"
+                },
+                {
+                    "number": "BD-135",
+                    "name": "Enrique Bradfield Jr",
+                    "uniqueId": "61e5c310-4997-4e72-ad55-9e2ced67282a"
+                },
+                {
+                    "number": "BD-136",
+                    "name": "Adriel Radney",
+                    "uniqueId": "017a3a22-1c24-4214-8d27-374439af4105"
+                },
+                {
+                    "number": "BD-137",
+                    "name": "Brian Holiday",
+                    "uniqueId": "c374e01c-3ec7-4297-8711-33b110030ea7"
+                },
+                {
+                    "number": "BD-138",
+                    "name": "Trey Snyder",
+                    "uniqueId": "cbae3343-9a7d-4d23-a1d8-24e8a1f1a93e"
+                },
+                {
+                    "number": "BD-139",
+                    "name": "Zyhir Hope",
+                    "uniqueId": "da2a9b28-ca57-4bd5-944c-e8e88f067d17"
+                },
+                {
+                    "number": "BD-140",
+                    "name": "Ethan Salas",
+                    "uniqueId": "29d203e8-cf10-4194-9401-8d0ba6d90d59"
+                },
+                {
+                    "number": "BD-141",
+                    "name": "Myles Naylor",
+                    "uniqueId": "21230512-9888-4880-a37d-c6846b69ff6c"
+                },
+                {
+                    "number": "BD-142",
+                    "name": "Echedry Vargas",
+                    "uniqueId": "109a2e2b-f3ed-4ccf-8728-2cc44629b956"
+                },
+                {
+                    "number": "BD-143",
+                    "name": "Rafe Schlesinger",
+                    "uniqueId": "ad50726b-fa01-4a88-82e3-795ac4af65e7"
+                },
+                {
+                    "number": "BD-144",
+                    "name": "Hunter Cranton",
+                    "uniqueId": "1d14ef74-5b1c-4a21-b109-5f1be3cacb75"
+                },
+                {
+                    "number": "BD-145",
+                    "name": "Herick Hernandez",
+                    "uniqueId": "788f08c6-a6fe-45a0-ac29-c0b7fb208cde"
+                },
+                {
+                    "number": "BD-146",
+                    "name": "Zach Ehrhard",
+                    "uniqueId": "d89c1f50-f4c3-4c48-b945-3a212f4757b5"
+                },
+                {
+                    "number": "BD-147",
+                    "name": "Sheng-En Lin",
+                    "uniqueId": "da644215-124b-47c6-aad3-e9c9738ff652"
+                },
+                {
+                    "number": "BD-148",
+                    "name": "Fernando Cruz",
+                    "uniqueId": "d67d5b3f-8349-4e16-b8a7-ec3f6546bc83"
+                },
+                {
+                    "number": "BD-149",
+                    "name": "Vladimir Asencio",
+                    "uniqueId": "6936c47f-cede-4817-808f-2007f3c67483"
+                },
+                {
+                    "number": "BD-150",
+                    "name": "Juan Baez",
+                    "uniqueId": "d423e274-20d9-4d62-9ebe-7d15d46ba308"
+                },
+                {
+                    "number": "BD-151",
+                    "name": "Clark Candiotti",
+                    "uniqueId": "bc43a742-0a58-417a-b0a9-9ae2707f3c36"
+                },
+                {
+                    "number": "BD-152",
+                    "name": "Walker Martin",
+                    "uniqueId": "6b5520fa-923c-475b-a584-203628727976"
+                },
+                {
+                    "number": "BD-153",
+                    "name": "Nate Knowles",
+                    "uniqueId": "f8d87707-e82e-4e7a-940b-6954b923a684"
+                },
+                {
+                    "number": "BD-154",
+                    "name": "Jeral Perez",
+                    "uniqueId": "9cb740db-aeab-4a86-a910-ede1d0fcfc8e"
+                },
+                {
+                    "number": "BD-155",
+                    "name": "Josh Caron",
+                    "uniqueId": "fded56e2-be42-4725-a373-b58f4a57cf0a"
+                },
+                {
+                    "number": "BD-156",
+                    "name": "Ryan Campos",
+                    "uniqueId": "bc82ad44-096d-49c3-ad67-37428e7e32b0"
+                },
+                {
+                    "number": "BD-157",
+                    "name": "Tytus Cissell",
+                    "uniqueId": "da1a22c2-bfc0-4342-b34d-617f5a37c277"
+                },
+                {
+                    "number": "BD-158",
+                    "name": "Sam Antonacci",
+                    "uniqueId": "39d2f615-780c-4342-b61f-3551a1215ed8"
+                },
+                {
+                    "number": "BD-159",
+                    "name": "A.J. Causey",
+                    "uniqueId": "97b53679-19b1-4269-ae1b-f1dac7df9348"
+                },
+                {
+                    "number": "BD-160",
+                    "name": "Aaron Parker",
+                    "uniqueId": "69cf9e85-e230-4944-b1e6-61b1e8724115"
+                },
+                {
+                    "number": "BD-161",
+                    "name": "Jared Serna",
+                    "uniqueId": "6fceeaf2-b961-4ec3-8228-23e527af71ba"
+                },
+                {
+                    "number": "BD-162",
+                    "name": "Kyle Teel",
+                    "uniqueId": "668336a1-b833-4962-a05c-25aa01aa5069"
+                },
+                {
+                    "number": "BD-163",
+                    "name": "Eli Serrano",
+                    "uniqueId": "c4277cae-d325-4109-ac13-e41579036638"
+                },
+                {
+                    "number": "BD-164",
+                    "name": "Alexander Albertus",
+                    "uniqueId": "4b3e26d3-09bb-41f1-93c4-716f44167f8d"
+                },
+                {
+                    "number": "BD-165",
+                    "name": "Curley Martha",
+                    "uniqueId": "54fc7072-b602-4f23-aa4d-a5cd726e66cf"
+                },
+                {
+                    "number": "BD-166",
+                    "name": "Walker Jenkins",
+                    "uniqueId": "b01b87ab-a0d7-45ed-89e6-5dcdef6451f5"
+                },
+                {
+                    "number": "BD-167",
+                    "name": "Jaime Ferrer",
+                    "uniqueId": "5832ef83-7950-4264-b59c-af639e520224"
+                },
+                {
+                    "number": "BD-168",
+                    "name": "Victor Hurtado",
+                    "uniqueId": "a33835e1-4450-43db-832a-3d5807701d24"
+                },
+                {
+                    "number": "BD-169",
+                    "name": "Braylin Morel",
+                    "uniqueId": "4af413cf-618f-4a45-abe9-95cba5508026"
+                },
+                {
+                    "number": "BD-170",
+                    "name": "Dawel Joseph",
+                    "uniqueId": "d9a914d7-fa4d-49a8-b75f-e67cc94a0365"
+                },
+                {
+                    "number": "BD-171",
+                    "name": "Jeremy Rodriguez",
+                    "uniqueId": "2c125725-b96f-4f82-a639-8f05eae131c3"
+                },
+                {
+                    "number": "BD-172",
+                    "name": "Brock Porter",
+                    "uniqueId": "5dc03290-ea3a-4dc0-b099-b3c4dd60455e"
+                },
+                {
+                    "number": "BD-173",
+                    "name": "Griffin Herring",
+                    "uniqueId": "0f24b740-d327-45ee-96ef-aa2c885f5a9f"
+                },
+                {
+                    "number": "BD-174",
+                    "name": "Jackson Kent",
+                    "uniqueId": "72e8517f-ff82-42c9-bfdd-01718a11eda9"
+                },
+                {
+                    "number": "BD-175",
+                    "name": "Yovanny Rodriguez",
+                    "uniqueId": "19ec39b0-2846-4c8f-a0eb-2ef0a5a98930"
+                },
+                {
+                    "number": "BD-176",
+                    "name": "Camilo Diaz",
+                    "uniqueId": "1f3c6b43-bfd5-4737-9272-8e3dbe629f50"
+                },
+                {
+                    "number": "BD-177",
+                    "name": "Joendry Vargas",
+                    "uniqueId": "9fe22ace-aa26-4491-8bfd-7e26126401f5"
+                },
+                {
+                    "number": "BD-178",
+                    "name": "Pablo Guerrero",
+                    "uniqueId": "6724a0d3-0f17-4fb1-9aa0-957478149404"
+                },
+                {
+                    "number": "BD-179",
+                    "name": "Eduardo Herrera",
+                    "uniqueId": "554a9fb0-6ab6-405c-a242-aca7e6917ac1"
+                },
+                {
+                    "number": "BD-180",
+                    "name": "Eddie Rynders",
+                    "uniqueId": "4e357efe-781f-42ec-85f1-7c51e06b7e02"
+                },
+                {
+                    "number": "BD-181",
+                    "name": "Ethan Bagwell",
+                    "uniqueId": "5edda297-b566-437a-a8e9-81c7afa92e1e"
+                },
+                {
+                    "number": "BD-182",
+                    "name": "Brayden Taylor",
+                    "uniqueId": "09815b03-8085-488c-b310-50e1107804cd"
+                },
+                {
+                    "number": "BD-183",
+                    "name": "L.P. Langevin",
+                    "uniqueId": "251c923f-ad38-4b75-addf-ed4f5da07a52"
+                },
+                {
+                    "number": "BD-184",
+                    "name": "Josiah Romeo",
+                    "uniqueId": "3d1402fe-d5cb-452a-a8d3-83a995d16f73"
+                },
+                {
+                    "number": "BD-185",
+                    "name": "Jackson Wentworth",
+                    "uniqueId": "fc23f51b-d9a8-4bc9-9b05-011e430276c1"
+                },
+                {
+                    "number": "BD-186",
+                    "name": "Parker Smith",
+                    "uniqueId": "ab1afd22-a2b4-4271-b000-8fb665b7d689"
+                },
+                {
+                    "number": "BD-187",
+                    "name": "Rodney Green",
+                    "uniqueId": "e45b0ccf-41e4-4e8d-8d84-7410cb1fcefe"
+                },
+                {
+                    "number": "BD-188",
+                    "name": "Derniche Valdez",
+                    "uniqueId": "abe5ef47-94e7-43b3-b772-6df5655b97a1"
+                },
+                {
+                    "number": "BD-189",
+                    "name": "Rayner Arias",
+                    "uniqueId": "9d8c8cc3-94ec-444d-9e9b-1d5898d0e930"
+                },
+                {
+                    "number": "BD-190",
+                    "name": "Vladi Guerrero",
+                    "uniqueId": "dbdf35bb-a894-4731-bb6d-70ece3aeb6b1"
+                },
+                {
+                    "number": "BD-191",
+                    "name": "Byron Chourio",
+                    "uniqueId": "392c292f-2c8d-48d6-9bf6-8ef8aff37b57"
+                },
+                {
+                    "number": "BD-192",
+                    "name": "Brooks Auger",
+                    "uniqueId": "71867a1d-aa1e-443e-a10f-f91a1672ae97"
+                },
+                {
+                    "number": "BD-193",
+                    "name": "Jonny Farmelo",
+                    "uniqueId": "7f59ec62-580e-4a4c-9b2d-64bf274d6304"
+                },
+                {
+                    "number": "BD-194",
+                    "name": "Tai Peete",
+                    "uniqueId": "c64fdd41-03ad-42b9-bff7-ad276bd99b65"
+                },
+                {
+                    "number": "BD-195",
+                    "name": "Tanner Jones",
+                    "uniqueId": "756b0bc7-2d44-46c2-b434-e08a70bcff01"
+                },
+                {
+                    "number": "BD-196",
+                    "name": "Aidan Major",
+                    "uniqueId": "f38ea477-dc23-4606-8f0d-0127ab882703"
+                },
+                {
+                    "number": "BD-197",
+                    "name": "Tre' Morgan",
+                    "uniqueId": "1deaf965-4bcb-4e6a-94af-ae3c2578e1fc"
+                },
+                {
+                    "number": "BD-198",
+                    "name": "Ryan Harvey",
+                    "uniqueId": "253cd6f7-5e86-4e2e-bf93-da9e8d19a5fa"
+                },
+                {
+                    "number": "BD-199",
+                    "name": "Randal Diaz",
+                    "uniqueId": "2acf84c0-4c7b-430f-bdb8-6b37def6367c"
+                },
+                {
+                    "number": "BD-200",
+                    "name": "Jose Perdom",
+                    "uniqueId": "f18b6d3e-88b6-4707-a1d6-3b5973636127"
+                }
+            ],
+            "uniqueId": "3a5dce98-babf-4dea-b322-0ee1caacd3be"
+        },
+        {
+            "name": "Bowman Draft Night",
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:6"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:2"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Refractor",
+                    "numberedTo": 250,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:570"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:148"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1439"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:373"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:2853"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:737"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:29,199"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:7310"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:141,823"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:31,677"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "BDN-1",
+                    "name": "Travis Bazzana",
+                    "uniqueId": "d4476244-9ee3-4612-8680-1d7a25e9fc9f"
+                },
+                {
+                    "number": "BDN-2",
+                    "name": "Konnor Griffin",
+                    "uniqueId": "f526dc5e-040c-4437-a596-f10eade7d92a"
+                },
+                {
+                    "number": "BDN-3",
+                    "name": "Nick Kurtz",
+                    "uniqueId": "09d666ec-07ea-48f4-8e77-1dbe5b518d2a"
+                },
+                {
+                    "number": "BDN-4",
+                    "name": "Hagen Smith",
+                    "uniqueId": "437c1393-0ad3-4ec4-8416-c4c4f2ff1f4f"
+                },
+                {
+                    "number": "BDN-5",
+                    "name": "Jac Caglianone",
+                    "uniqueId": "648e0c8e-c9fe-41a6-9fff-8da11fc826d0"
+                },
+                {
+                    "number": "BDN-6",
+                    "name": "Christian Moore",
+                    "uniqueId": "4d5fc190-5949-4ab1-aa98-cb4d5f2c06e7"
+                },
+                {
+                    "number": "BDN-7",
+                    "name": "Braden Montgomery",
+                    "uniqueId": "b52150e0-8012-4c2b-93fa-e895706a2851"
+                },
+                {
+                    "number": "BDN-8",
+                    "name": "Chase Burns",
+                    "uniqueId": "d9ba6d34-c2f7-46e3-ab59-bb9a4c9385e5"
+                },
+                {
+                    "number": "BDN-9",
+                    "name": "Kaelen Culpepper",
+                    "uniqueId": "bd57cdb8-997e-470a-b5d0-8f61409a308c"
+                },
+                {
+                    "number": "BDN-10",
+                    "name": "Cam Caminiti",
+                    "uniqueId": "4d3c18cc-e676-4f9c-b2ed-2bab1c71bb18"
+                }
+            ],
+            "uniqueId": "8d78fad5-080a-4ca8-bd38-42fff4287262"
+        },
+        {
+            "name": "Bowman Draft Night Autographs",
+            "numberedTo": 99,
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:4172"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:941"
+                },
+                {
+                    "product": "Breaker's Delight",
+                    "odds": "1:707"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Gold Mini-Diamond Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:8274"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:1864"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:1441"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange Refractor",
+                    "numberedTo": 25,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:10,029"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:82,736"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:19,008"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:12,008"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:496,416"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:95,040"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:36,024"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "BDNA-HS",
+                    "name": "Hagen Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6c640e22-543c-4942-9de0-759c90ce86d9"
+                },
+                {
+                    "number": "BDNA-JC",
+                    "name": "Jac Caglianone",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "9b7a32b8-a25b-460e-bd0e-3826859eb54d"
+                },
+                {
+                    "number": "BDNA-NK",
+                    "name": "Nick Kurtz",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2dbe0cd1-b38e-47bc-8ce8-174305390c35"
+                },
+                {
+                    "number": "BDNA-TB",
+                    "name": "Travis Bazzana",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "bab9d370-cf6f-46f6-a501-a3c10d9f1c38"
+                }
+            ],
+            "uniqueId": "5a87c628-ddd2-4ddb-9305-b4e852f7581c"
+        },
+        {
+            "name": "Bowman In Action",
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:12"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:3"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Mini-Diamond Refractor",
+                    "numberedTo": 150,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:380"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:99"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:576"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:149"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1140"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:296"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange Refractor",
+                    "numberedTo": 25,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1644"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:11,412"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:2970"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:55,154"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:15,839"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "BIA-1",
+                    "name": "Travis Bazzana",
+                    "uniqueId": "ad0fa980-d039-4dc5-b18c-ce18b7157400"
+                },
+                {
+                    "number": "BIA-2",
+                    "name": "Chase Burns",
+                    "uniqueId": "36f08bbb-bd9c-48c9-b6f7-7492e8ec8b7e"
+                },
+                {
+                    "number": "BIA-3",
+                    "name": "Nick Kurtz",
+                    "uniqueId": "926c30ac-4647-41e5-9c7d-3bcec2a6dc69"
+                },
+                {
+                    "number": "BIA-4",
+                    "name": "Hagen Smith",
+                    "uniqueId": "8f66c681-292e-44f4-9099-e0640c729b1b"
+                },
+                {
+                    "number": "BIA-5",
+                    "name": "Jac Caglianone",
+                    "uniqueId": "b993cadf-0600-44ec-89c1-e2202908c7ec"
+                },
+                {
+                    "number": "BIA-6",
+                    "name": "Christian Moore",
+                    "uniqueId": "be3adb6e-38ea-41da-a4ad-66711ab4361e"
+                },
+                {
+                    "number": "BIA-7",
+                    "name": "Konnor Griffin",
+                    "uniqueId": "411171d1-8ed4-4dcb-9234-38770b134580"
+                },
+                {
+                    "number": "BIA-8",
+                    "name": "Seaver King",
+                    "uniqueId": "9fbf85e0-eb76-49aa-9e61-46adf3780069"
+                },
+                {
+                    "number": "BIA-9",
+                    "name": "Bryce Rainer",
+                    "uniqueId": "f6c0c4c9-f0ee-48c4-98ba-fd15903719a3"
+                },
+                {
+                    "number": "BIA-10",
+                    "name": "Braden Montgomery",
+                    "uniqueId": "0278d63c-062d-4eff-af58-38cec4de1024"
+                },
+                {
+                    "number": "BIA-11",
+                    "name": "James Tibbs III",
+                    "uniqueId": "11eecb7e-70dc-42cd-acc2-a72700da8771"
+                },
+                {
+                    "number": "BIA-12",
+                    "name": "Cam Smith",
+                    "uniqueId": "5dcdbb91-7754-4cda-85c9-8d6571a803f8"
+                },
+                {
+                    "number": "BIA-13",
+                    "name": "Kristian Campbell",
+                    "uniqueId": "1dff79b1-a9e2-4e67-83e6-fe46fabec7c6"
+                },
+                {
+                    "number": "BIA-14",
+                    "name": "Kaelen Culpepper",
+                    "uniqueId": "4f361a27-8bd8-4e12-9601-cccaf5cf589c"
+                },
+                {
+                    "number": "BIA-15",
+                    "name": "Kellon Lindsey",
+                    "uniqueId": "e569df57-6e48-42fb-97ad-fc4e42e1dcc6"
+                },
+                {
+                    "number": "BIA-16",
+                    "name": "Cam Caminiti",
+                    "uniqueId": "2916da74-62a3-463a-b09c-3ed471ce507d"
+                },
+                {
+                    "number": "BIA-17",
+                    "name": "Dylan Crews",
+                    "uniqueId": "1d1cf587-1088-48d3-89fb-76e59cfaaf8d"
+                },
+                {
+                    "number": "BIA-18",
+                    "name": "Walker Jenkins",
+                    "uniqueId": "912f6ad1-154a-45f6-9a77-d8e71f742338"
+                },
+                {
+                    "number": "BIA-19",
+                    "name": "Max Clark",
+                    "uniqueId": "69519652-c322-4dfd-941a-c09de61edabd"
+                },
+                {
+                    "number": "BIA-20",
+                    "name": "Arjun Nimmala",
+                    "uniqueId": "4e632a5a-a8cd-4ef9-9363-64a3fa391263"
+                },
+                {
+                    "number": "BIA-21",
+                    "name": "Ethan Salas",
+                    "uniqueId": "d8e8a7a1-937a-45ad-88bb-31056c599bde"
+                },
+                {
+                    "number": "BIA-22",
+                    "name": "Felnin Celesten",
+                    "uniqueId": "eeb47a35-c5a0-4af9-ab30-e02911c5bd90"
+                },
+                {
+                    "number": "BIA-23",
+                    "name": "Sebastian Walcott",
+                    "uniqueId": "02cf6bf9-3311-4ef2-bcce-96bc78b77a84"
+                },
+                {
+                    "number": "BIA-24",
+                    "name": "Leo De Vries",
+                    "uniqueId": "e9418560-245a-4858-86cd-6afbce4e43f1"
+                },
+                {
+                    "number": "BIA-25",
+                    "name": "Joendry Vargas",
+                    "uniqueId": "aed9896e-80ec-4d1d-b3f8-60115c03fce9"
+                }
+            ],
+            "uniqueId": "edcc2e72-e603-4602-a640-15949017ca7d"
+        },
+        {
+            "name": "Bowman In Action Autographs",
+            "numberedTo": 99,
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:1114"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:251"
+                },
+                {
+                    "product": "Breaker's Delight",
+                    "odds": "1:190"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Lava Refractor",
+                    "numberedTo": 75,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1469"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:331"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:252"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Mini-Diamond Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:2207"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:496"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:376"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange Refractor",
+                    "numberedTo": 25,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:2691"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:22,063"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:5003"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:3603"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:110,315"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:23,760"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:18,012"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "BIA-CB",
+                    "name": "Chase Burns",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "b0bb98f3-fdc5-4637-8180-1d6b59d28706"
+                },
+                {
+                    "number": "BIA-CC",
+                    "name": "Cam Caminiti",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "20c88bd4-8173-4746-95a9-09a64fb94664"
+                },
+                {
+                    "number": "BIA-CM",
+                    "name": "Christian Moore",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "86c8080a-081d-4ecd-99dd-59cd2dab94b5"
+                },
+                {
+                    "number": "BIA-CS",
+                    "name": "Cam Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "683f9796-38b4-46da-8dbe-14baf97c16f8"
+                },
+                {
+                    "number": "BIA-DC",
+                    "name": "Dylan Crews",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "4f0f21a1-edd9-4815-9a9c-0b76a78d9768"
+                },
+                {
+                    "number": "BIA-FC",
+                    "name": "Felnin Celesten",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "c386a4c3-5e49-4153-a593-ab75de13fd7c"
+                },
+                {
+                    "number": "BIA-HS",
+                    "name": "Hagen Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "17e13a60-03fa-42b0-af4b-e17d4fea0ac1"
+                },
+                {
+                    "number": "BIA-JC",
+                    "name": "Jac Caglianone",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "568f4c50-1d4d-4fa3-bee8-6bbd7c95ab49"
+                },
+                {
+                    "number": "BIA-JT",
+                    "name": "James Tibbs III",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "290d2857-af6b-425d-9305-d83604831681"
+                },
+                {
+                    "number": "BIA-JV",
+                    "name": "Joendry Vargas",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "a9d06bf8-1135-4ec5-abfd-b9519473539d"
+                },
+                {
+                    "number": "BIA-KG",
+                    "name": "Konnor Griffin",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "7e3235f1-c2b2-49a3-8436-77c6a9e3dbe9"
+                },
+                {
+                    "number": "BIA-LD",
+                    "name": "Leo De Vries",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "4cc8f285-d3ad-40c8-8950-a3051882a6c5"
+                },
+                {
+                    "number": "BIA-NK",
+                    "name": "Nick Kurtz",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2abcf9d8-c85c-4ef8-a1ac-6005af8ae1e0"
+                },
+                {
+                    "number": "BIA-TB",
+                    "name": "Travis Bazzana",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6ed625b4-5fe5-4f2d-8cce-fe386775dfd1"
+                },
+                {
+                    "number": "BIA-WJ",
+                    "name": "Walker Jenkins",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "e6fcc7c8-2ca6-47b0-832b-975cddd5838b"
+                }
+            ],
+            "uniqueId": "1dc78bf1-6513-4395-8fda-9156f7e358ec"
+        },
+        {
+            "name": "Bowman Spotlights",
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:1441"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:18,732"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:5002"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:90,251"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:23,758"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "BS-1",
+                    "name": "Travis Bazzana",
+                    "uniqueId": "800b1889-427b-4ad9-a29d-601f1d4ee578"
+                },
+                {
+                    "number": "BS-2",
+                    "name": "Chase Burns",
+                    "uniqueId": "bdd63e08-88b9-48c4-9a35-dbdf2f050880"
+                },
+                {
+                    "number": "BS-3",
+                    "name": "Nick Kurtz",
+                    "uniqueId": "ad859784-2f95-4323-847f-5d74a40907d9"
+                },
+                {
+                    "number": "BS-4",
+                    "name": "Hagen Smith",
+                    "uniqueId": "1ea942f9-7d7d-4201-ae75-8662c887e54e"
+                },
+                {
+                    "number": "BS-5",
+                    "name": "Jac Caglianone",
+                    "uniqueId": "bb80c365-7f75-4dbe-8e1c-a5e32719130a"
+                },
+                {
+                    "number": "BS-6",
+                    "name": "Christian Moore",
+                    "uniqueId": "d3c28586-3579-472d-a0e7-ec05e56254b2"
+                },
+                {
+                    "number": "BS-7",
+                    "name": "Seaver King",
+                    "uniqueId": "3c5f01ca-575f-4314-8e8b-1e3edc4fc07c"
+                },
+                {
+                    "number": "BS-8",
+                    "name": "Braden Montgomery",
+                    "uniqueId": "78866a1e-1605-4896-a7e4-3fcb446e51dc"
+                },
+                {
+                    "number": "BS-9",
+                    "name": "Carson Benge",
+                    "uniqueId": "147b519d-c369-47ae-941c-d35f8fd95f56"
+                },
+                {
+                    "number": "BS-10",
+                    "name": "Ryan Waldschmidt",
+                    "uniqueId": "65efc537-f06e-4806-b65f-5d14550a8be1"
+                },
+                {
+                    "number": "BS-11",
+                    "name": "Roman Anthony",
+                    "uniqueId": "5cd93ef3-6944-4737-9d8d-f1b58115da65"
+                },
+                {
+                    "number": "BS-12",
+                    "name": "Bryce Eldridge",
+                    "uniqueId": "66b3eb37-df14-4c99-b391-0ccdb35b310f"
+                },
+                {
+                    "number": "BS-13",
+                    "name": "Aidan Miller",
+                    "uniqueId": "228b9401-c1f6-4991-a810-d022fd879f04"
+                },
+                {
+                    "number": "BS-14",
+                    "name": "Colt Emerson",
+                    "uniqueId": "6f10b4e0-041c-47fc-900a-2c48c04921f5"
+                },
+                {
+                    "number": "BS-15",
+                    "name": "Emil Morales",
+                    "uniqueId": "e00b9384-72c2-41ec-acba-9044afeaa581"
+                }
+            ],
+            "uniqueId": "d5d13b83-8343-473a-ab14-796e72d4046d"
+        },
+        {
+            "name": "Chrome Prospect Autographs",
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:8"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:2"
+                },
+                {
+                    "product": "Breaker's Delight",
+                    "odds": "1:1"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Refractor",
+                    "numberedTo": 499,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:35"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:8"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:6"
+                        }
+                    ]
+                },
+                {
+                    "name": "Purple Refractor",
+                    "numberedTo": 250,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:69"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:16"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:12"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aqua Lava Refractor",
+                    "numberedTo": 199,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:87"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:20"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:15"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Refractor",
+                    "numberedTo": 150,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:114"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:26"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:20"
+                        }
+                    ]
+                },
+                {
+                    "name": "Blue Wave Refractor",
+                    "numberedTo": 150,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:114"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:26"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:20"
+                        }
+                    ]
+                },
+                {
+                    "name": "HTA Choice Refractor",
+                    "numberedTo": 150,
+                    "insertOdds": [
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:172"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:39"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:30"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Lava Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Yellow Refractor",
+                    "numberedTo": 75,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:138"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sparkles Refractor",
+                    "numberedTo": 71,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:242"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:55"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:42"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:343"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:77"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:59"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Wave Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:343"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:78"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:59"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Shimmer Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:8"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange Refractor",
+                    "numberedTo": 25,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:421"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange Wave Refractor",
+                    "numberedTo": 25,
+                    "insertOdds": [
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:15"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Refractor",
+                    "numberedTo": 10,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1698"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:382"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:289"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black X-Fractor",
+                    "numberedTo": 10,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1683"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:378"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:286"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Lava Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:3355"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:755"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:572"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:3412"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:767"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:582"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red X-Fractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:74"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:16,548"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:3802"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:2772"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chrome Prospect Autograph Printing Plates",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:4172"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:941"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:707"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "CPA-AA",
+                    "name": "Ariel Armas",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "aaafac8d-8231-4b29-842d-5a2738984f98"
+                },
+                {
+                    "number": "CPA-AM",
+                    "name": "Aiden May",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "819bbace-7e69-4c12-874c-9fc60ec8ba40"
+                },
+                {
+                    "number": "CPA-AP",
+                    "name": "Aaron Parker",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "1d12c2f8-55cf-4e7e-9f99-588c2c62816c"
+                },
+                {
+                    "number": "CPA-BA",
+                    "name": "Billy Amick",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "1f8461dd-8baa-47a6-8b82-a11e4d5f64d7"
+                },
+                {
+                    "number": "CPA-BB",
+                    "name": "Blake Burke",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "29e1dc3c-0394-4e04-a6fd-692ab54f0122"
+                },
+                {
+                    "number": "CPA-BBA",
+                    "name": "Boston Bateman",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "83022128-9026-4256-bec2-b359be20cd63"
+                },
+                {
+                    "number": "CPA-BBR",
+                    "name": "Brody Brecht",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "65e32068-7a29-468b-849b-1b01f45f639c"
+                },
+                {
+                    "number": "CPA-BC",
+                    "name": "Bryce Cunningham",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3319ab88-0126-4624-852e-930bc7f16dd0"
+                },
+                {
+                    "number": "CPA-BD",
+                    "name": "Braylon Doughty",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6ffc023a-a69d-4b23-9879-424371495443"
+                },
+                {
+                    "number": "CPA-BH",
+                    "name": "Ben Hess",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "897eae00-283f-452e-b63b-c1e4c172e392"
+                },
+                {
+                    "number": "CPA-BHO",
+                    "name": "Brian Holiday",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "d3c7504d-56d3-4f14-9d20-346120f535f3"
+                },
+                {
+                    "number": "CPA-BL",
+                    "name": "Blake Larson",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "4e9be9ee-3457-429c-ab3d-efc62b253730"
+                },
+                {
+                    "number": "CPA-BM",
+                    "name": "Braden Montgomery",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "63f326ee-985c-41fe-80b9-23bca53007be"
+                },
+                {
+                    "number": "CPA-BME",
+                    "name": "Bryce Meccage",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2c6ff2f6-37e1-482b-8093-a6d1c615c1ed"
+                },
+                {
+                    "number": "CPA-BN",
+                    "name": "Brandon Neely",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2cf5d3f5-0990-49a0-8f7d-c796ca38b7f3"
+                },
+                {
+                    "number": "CPA-BP",
+                    "name": "Braylon Payne",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "099ebb6d-9b28-4146-9cb9-cf2b62b0c201"
+                },
+                {
+                    "number": "CPA-BR",
+                    "name": "Bryce Rainer",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "69ada7fd-7589-422a-ad57-7141a53b3b36"
+                },
+                {
+                    "number": "CPA-BW",
+                    "name": "Blake Wright",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "16551e7e-e99b-4420-bb38-26742ffb4a8b"
+                },
+                {
+                    "number": "CPA-CB",
+                    "name": "Chase Burns",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Image Variation",
+                            "numberedTo": 99,
+                            "insertOdds": [
+                                {
+                                    "product": "Jumbo",
+                                    "odds": "1:3332"
+                                },
+                                {
+                                    "product": "Super Jumbo",
+                                    "odds": "1:749"
+                                },
+                                {
+                                    "product": "Breaker's Delight",
+                                    "odds": "1:572"
+                                }
+                            ]
+                        }
+                    ],
+                    "uniqueId": "bd21570a-7bc3-4bf5-8159-6846b513285b"
+                },
+                {
+                    "number": "CPA-CBG",
+                    "name": "Carson Benge",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6f8121dc-e18e-4fc6-98d3-b9900c183344"
+                },
+                {
+                    "number": "CPA-CBO",
+                    "name": "Caleb Bonemer",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "496a7e19-b26d-4f48-9fae-e66d6961c27a"
+                },
+                {
+                    "number": "CPA-CC",
+                    "name": "Cam Caminiti",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2e417f75-d22f-4808-a62e-ff3667c1772c"
+                },
+                {
+                    "number": "CPA-CCY",
+                    "name": "Casey Cook",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "a8aa61bf-138c-419a-9401-16f27320aea3"
+                },
+                {
+                    "number": "CPA-CCZ",
+                    "name": "Chris Cortez",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "982801ab-661a-422c-96d1-7e98374c13ff"
+                },
+                {
+                    "number": "CPA-CD",
+                    "name": "Carson DeMartini",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "028a45ba-e0e5-4609-b1f9-d82a7232df7f"
+                },
+                {
+                    "number": "CPA-CF",
+                    "name": "Connor Foley",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2a964d37-7317-410b-83d8-d86f594faad6"
+                },
+                {
+                    "number": "CPA-CH",
+                    "name": "Carter Holton",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "ef6f1b10-67d2-4eeb-a188-047ef841a492"
+                },
+                {
+                    "number": "CPA-CHA",
+                    "name": "Chase Harlan",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "0950ecc1-dd94-434d-93de-814e913c405d"
+                },
+                {
+                    "number": "CPA-CJ",
+                    "name": "Carter Johnson",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "78744030-8118-4e40-a14c-bb43faee88df"
+                },
+                {
+                    "number": "CPA-CM",
+                    "name": "Christian Moore",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Image Variation",
+                            "numberedTo": 99,
+                            "insertOdds": [
+                                {
+                                    "product": "Jumbo",
+                                    "odds": "1:3332"
+                                },
+                                {
+                                    "product": "Super Jumbo",
+                                    "odds": "1:749"
+                                },
+                                {
+                                    "product": "Breaker's Delight",
+                                    "odds": "1:572"
+                                }
+                            ]
+                        }
+                    ],
+                    "uniqueId": "fbf4df40-1db2-4b21-950b-4cde4dded6f1"
+                },
+                {
+                    "number": "CPA-CMA",
+                    "name": "Carter Mathison",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "e374bf9f-505c-4364-bc79-cedab301c6a8"
+                },
+                {
+                    "number": "CPA-CME",
+                    "name": "Cole Messina",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "e94c2c81-5444-4258-9e2c-3a2719cce925"
+                },
+                {
+                    "number": "CPA-CMS",
+                    "name": "Cole Mathis",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6047494f-4a02-4714-9aea-7388ad2297d3"
+                },
+                {
+                    "number": "CPA-CS",
+                    "name": "Cam Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2f620228-935f-48e7-afc0-55ef9af10cb5"
+                },
+                {
+                    "number": "CPA-CSA",
+                    "name": "Casey Saucke",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "8de1226d-23e7-4ee4-abdd-86822ec6e413"
+                },
+                {
+                    "number": "CPA-DB",
+                    "name": "Drew Beam",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "46d8ae14-faa7-4a25-be7b-0048f9a45796"
+                },
+                {
+                    "number": "CPA-DD",
+                    "name": "Dylan Dreiling",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "003f12e7-f5e6-4063-be0c-3dae70a6bbd2"
+                },
+                {
+                    "number": "CPA-DE",
+                    "name": "Daniel Eagen",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3177774d-aedd-4d39-bf35-be22679a087b"
+                },
+                {
+                    "number": "CPA-DJ",
+                    "name": "Dakota Jordan",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2361e982-c13c-4b9e-85e3-d1ca0d658c66"
+                },
+                {
+                    "number": "CPA-DN",
+                    "name": "Dante Nori",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "cc384ec0-65d7-43ae-9eb1-ae204b390f96"
+                },
+                {
+                    "number": "CPA-ER",
+                    "name": "Eddie Rynders",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3f89897f-9b98-475d-8885-32776461f1db"
+                },
+                {
+                    "number": "CPA-ES",
+                    "name": "Ethan Schiefelbein",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "89dbd8b9-5225-499a-9dad-d3f02614a357"
+                },
+                {
+                    "number": "CPA-ESE",
+                    "name": "Eli Serrano",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "f31ed7de-6a72-457b-b8e7-ba8aa30d1850"
+                },
+                {
+                    "number": "CPA-FT",
+                    "name": "Fenwick Trimble",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "edabeea7-25e8-441d-9cee-45257fa0b360"
+                },
+                {
+                    "number": "CPA-GB",
+                    "name": "Griffin Burkholder",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "e827ac2b-bde5-47ce-8e3b-35b4732fa6ef"
+                },
+                {
+                    "number": "CPA-GM",
+                    "name": "Gage Miller",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "9c2751c5-62a8-4765-9d81-9470a6a9deaa"
+                },
+                {
+                    "number": "CPA-GO",
+                    "name": "Griff O'Ferrall",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "f2211549-76a3-4c55-aa2c-70e0927176aa"
+                },
+                {
+                    "number": "CPA-GZ",
+                    "name": "Gage Ziehl",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2fcee4ad-68c1-4a53-8361-3fc3f367b3f4"
+                },
+                {
+                    "number": "CPA-HH",
+                    "name": "Herick Hernandez",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "37f4ebb1-dfb0-4b99-b4e4-ad27618ba913"
+                },
+                {
+                    "number": "CPA-HS",
+                    "name": "Hagen Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Image Variation",
+                            "numberedTo": 99,
+                            "insertOdds": [
+                                {
+                                    "product": "Jumbo",
+                                    "odds": "1:3332"
+                                },
+                                {
+                                    "product": "Super Jumbo",
+                                    "odds": "1:749"
+                                },
+                                {
+                                    "product": "Breaker's Delight",
+                                    "odds": "1:572"
+                                }
+                            ]
+                        }
+                    ],
+                    "uniqueId": "5dd1214f-87a8-4945-9df4-47ab6c4bd0b5"
+                },
+                {
+                    "number": "CPA-IL",
+                    "name": "Ivan Luciano",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "48cbbbcf-7dc7-44a6-9035-8ac204f88f3d"
+                },
+                {
+                    "number": "CPA-JC",
+                    "name": "Jac Caglianone",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Image Variation",
+                            "numberedTo": 99,
+                            "insertOdds": [
+                                {
+                                    "product": "Jumbo",
+                                    "odds": "1:3332"
+                                },
+                                {
+                                    "product": "Super Jumbo",
+                                    "odds": "1:749"
+                                },
+                                {
+                                    "product": "Breaker's Delight",
+                                    "odds": "1:572"
+                                }
+                            ]
+                        }
+                    ],
+                    "uniqueId": "89eed76f-7973-48b3-95b0-960b0b527403"
+                },
+                {
+                    "number": "CPA-JCA",
+                    "name": "Josh Caron",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "45ab5036-977d-400e-a52e-767b69b80e61"
+                },
+                {
+                    "number": "CPA-JCO",
+                    "name": "Jacob Cozart",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "5e998d13-d3cf-42b3-8a74-49a11c049829"
+                },
+                {
+                    "number": "CPA-JD",
+                    "name": "JD Dix",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "9ae7ddfa-976e-4a20-b6c8-35598df6bce5"
+                },
+                {
+                    "number": "CPA-JDE",
+                    "name": "Jaron DeBerry",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "a745c820-ff5b-4f33-9155-9348e1d38e26"
+                },
+                {
+                    "number": "CPA-JF",
+                    "name": "Jaime Ferrer",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "a23fac70-62e2-4be2-bc40-9a8faf4a5aaa"
+                },
+                {
+                    "number": "CPA-JK",
+                    "name": "Josh Kuroda-Grauer",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "d4607e73-e9f3-4260-b0ff-5867b646e667"
+                },
+                {
+                    "number": "CPA-JKI",
+                    "name": "Johnny King",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "e0d5d271-e7dd-43b5-b6bc-d1be5d80affb"
+                },
+                {
+                    "number": "CPA-JS",
+                    "name": "Jonathan Santucci",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "4a57f5df-4ab9-423a-b36c-8e54d7f26f47"
+                },
+                {
+                    "number": "CPA-JSP",
+                    "name": "John Spikerman",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "62aab6e5-cac2-49fe-8dd8-080d33fdd7fa"
+                },
+                {
+                    "number": "CPA-JT",
+                    "name": "James Tibbs III",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "ac207f28-6b68-4f5d-a1b4-72381e7959fd"
+                },
+                {
+                    "number": "CPA-JTH",
+                    "name": "Jared Thomas",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "f9f5ecb9-d991-4be8-ab03-342b987cadf3"
+                },
+                {
+                    "number": "CPA-KC",
+                    "name": "Kaelen Culpepper",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "74c1d0aa-26e7-4cd6-9d82-185410c963b3"
+                },
+                {
+                    "number": "CPA-KG",
+                    "name": "Konnor Griffin",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3330f6b1-9ae1-4768-91c8-a5430b603529"
+                },
+                {
+                    "number": "CPA-KL",
+                    "name": "Kellon Lindsey",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "c7995430-0cef-4893-9150-fee411c965c5"
+                },
+                {
+                    "number": "CPA-KM",
+                    "name": "Kash Mayfield",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "785217eb-196e-490e-aa3c-7babdfbc582c"
+                },
+                {
+                    "number": "CPA-KS",
+                    "name": "Khal Stephen",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "826bae9e-cefd-4222-839d-febbc8c0b3a8"
+                },
+                {
+                    "number": "CPA-KSH",
+                    "name": "Kodey Shojinaga",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3069556c-858f-4151-9079-20491050956d"
+                },
+                {
+                    "number": "CPA-KT",
+                    "name": "Kavares Tears",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "8bd9fadd-a03b-428a-bca8-ba680ce8cddb"
+                },
+                {
+                    "number": "CPA-LH",
+                    "name": "Luke Holman",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "5c61c527-36a9-42bc-a225-6af2d9f4387a"
+                },
+                {
+                    "number": "CPA-LS",
+                    "name": "Levi Sterling",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "25379d25-b09d-4f7b-9e0d-d1a04a945536"
+                },
+                {
+                    "number": "CPA-MMY",
+                    "name": "Michael Massey",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "25b75760-1d2d-4d2b-8e40-b8a0927c02cf"
+                },
+                {
+                    "number": "CPA-MS",
+                    "name": "Mike Sirota",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "32c7dc4e-db16-4edb-9e4b-a3a49ddce0c5"
+                },
+                {
+                    "number": "CPA-ND",
+                    "name": "Nate Dohm",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "90dc01b9-c795-4722-a547-c4421991ed57"
+                },
+                {
+                    "number": "CPA-NF",
+                    "name": "Nathan Flewelling",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6b692eca-77ba-4819-bfb7-7a1585214f7a"
+                },
+                {
+                    "number": "CPA-NK",
+                    "name": "Nick Kurtz",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "209916d5-9dbe-4523-9002-b95552df037d"
+                },
+                {
+                    "number": "CPA-NM",
+                    "name": "Nick McLain",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "8f591124-98f1-44d8-a976-d734194cd828"
+                },
+                {
+                    "number": "CPA-NMI",
+                    "name": "Nick Mitchell",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "4b6726b1-3837-4dae-84fa-e013a4a9283d"
+                },
+                {
+                    "number": "CPA-NMO",
+                    "name": "Nick Montgomery",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3ed7e43c-4bc5-4389-b52c-5afff043e03b"
+                },
+                {
+                    "number": "CPA-PSM",
+                    "name": "Parker Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "27e1f177-ce1a-4f94-a809-219afbe0762d"
+                },
+                {
+                    "number": "CPA-PT",
+                    "name": "Payton Tolle",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "1f3c11b1-c1ec-4ba2-97b6-c504eec066d5"
+                },
+                {
+                    "number": "CPA-RCA",
+                    "name": "Ryan Campos",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "f761b99b-c848-461a-8c2c-82ffc9dbac95"
+                },
+                {
+                    "number": "CPA-RD",
+                    "name": "Randal Diaz",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "1b8b62d7-4350-409c-9178-71e573ebedc8"
+                },
+                {
+                    "number": "CPA-RG",
+                    "name": "Rodney Green",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "f99d0f6b-a19c-466e-9b15-31b41b11cdb0"
+                },
+                {
+                    "number": "CPA-RJ",
+                    "name": "Ryan Johnson",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "ab953f78-db6b-49cc-a4e3-888956a39f59"
+                },
+                {
+                    "number": "CPA-RS",
+                    "name": "Ryan Sloan",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "df13aeaa-c2cb-4e74-94eb-88aa09a4e0a4"
+                },
+                {
+                    "number": "CPA-RSC",
+                    "name": "Rafe Schlesinger",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3f49c891-cd1c-4fe3-9601-a3a3b5d8c79b"
+                },
+                {
+                    "number": "CPA-RW",
+                    "name": "Ryan Waldschmidt",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "239dd865-0489-49c9-94bb-12422c7a96a0"
+                },
+                {
+                    "number": "CPA-SA",
+                    "name": "Sam Antonacci",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "98422913-858a-4d95-9ae0-b3a635c0c895"
+                },
+                {
+                    "number": "CPA-SK",
+                    "name": "Seaver King",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "e84bdffd-7f0e-4af9-a692-d1aa689222c5"
+                },
+                {
+                    "number": "CPA-TB",
+                    "name": "Travis Bazzana",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "variations": [
+                        {
+                            "variation": "Image Variation",
+                            "numberedTo": 99,
+                            "insertOdds": [
+                                {
+                                    "product": "Jumbo",
+                                    "odds": "1:3332"
+                                },
+                                {
+                                    "product": "Super Jumbo",
+                                    "odds": "1:749"
+                                },
+                                {
+                                    "product": "Breaker's Delight",
+                                    "odds": "1:572"
+                                }
+                            ]
+                        }
+                    ],
+                    "uniqueId": "652900cd-6853-4576-bec9-10d372049ff9"
+                },
+                {
+                    "number": "CPA-TC",
+                    "name": "Tytus Cissell",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "b9af2d31-77b1-45bb-bbf0-f56fdb328d26"
+                },
+                {
+                    "number": "CPA-TG",
+                    "name": "Theo Gillen",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "8f08f9e6-ed13-4d23-b4e5-88d6ff9dd0c6"
+                },
+                {
+                    "number": "CPA-TL",
+                    "name": "Tyson Lewis",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2b01533f-bb37-43b3-8c81-b5e931bb2392"
+                },
+                {
+                    "number": "CPA-TN",
+                    "name": "Tyson Neighbors",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6c562c48-90df-40f9-b9cf-860678fd9026"
+                },
+                {
+                    "number": "CPA-TS",
+                    "name": "Ty Southisene",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "98966029-1181-4d01-a62d-4a0237860ec9"
+                },
+                {
+                    "number": "CPA-TSN",
+                    "name": "Trey Snyder",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "0ad01d64-e4c8-4fcd-8f8c-1b081c526bb3"
+                },
+                {
+                    "number": "CPA-TY",
+                    "name": "Trey Yesavage",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "343274ad-fc08-409d-beb7-a565d1351fa0"
+                }
+            ],
+            "uniqueId": "3bbb9e30-7cd3-4610-83ba-a4195e1ba6fc"
+        },
+        {
+            "name": "Class of 2024 Autographs",
+            "numberedTo": 250,
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:207"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:81"
+                },
+                {
+                    "product": "Breaker's Delight",
+                    "odds": "1:228"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Green Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:667"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:150"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:114"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1323"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:297"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:225"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:13,064"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:2970"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:2252"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:66,189"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:13,578"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:12,008"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "C24-BP",
+                    "name": "Braylon Payne",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3e7b3cc6-fb16-474e-a8d4-49750601a6ff"
+                },
+                {
+                    "number": "C24-CBO",
+                    "name": "Caleb Bonemer",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "26ab7f4e-5e86-46b3-a6f1-acb8cf4eed67"
+                },
+                {
+                    "number": "C24-CJ",
+                    "name": "Carter Johnson",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "57fa3f45-3ff1-4c24-98a1-775d5247aae2"
+                },
+                {
+                    "number": "C24-CM",
+                    "name": "Christian Moore",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "bec43d98-72ae-480a-a64d-da90edd772d7"
+                },
+                {
+                    "number": "C24-CMA",
+                    "name": "Cole Mathis",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "52e1024d-c5b1-499e-a777-89175aa8b59c"
+                },
+                {
+                    "number": "C24-CS",
+                    "name": "Cam Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "06e9082c-069f-4367-9b24-71307e530cbb"
+                },
+                {
+                    "number": "C24-DD",
+                    "name": "Dylan Dreiling",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "5d660166-da76-4279-9f7e-4acdb5b6352c"
+                },
+                {
+                    "number": "C24-DN",
+                    "name": "Dante Nori",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "9fe7a5f1-9ee8-4bd2-9e88-e9baedd83d52"
+                },
+                {
+                    "number": "C24-GB",
+                    "name": "Griffin Burkholder",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2b67004a-3ecb-4fe1-816d-6a2d3bd70b32"
+                },
+                {
+                    "number": "C24-GM",
+                    "name": "Gage Miller",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "07e91a53-cc78-4b3c-9f48-e90c4615700a"
+                },
+                {
+                    "number": "C24-GO",
+                    "name": "Griff O'Ferrall",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "d23fc598-ede6-4c31-8700-87262b375c7d"
+                },
+                {
+                    "number": "C24-JC",
+                    "name": "Jac Caglianone",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "1c13745b-aeba-4298-938d-e19a942458ac"
+                },
+                {
+                    "number": "C24-JCO",
+                    "name": "Jacob Cozart",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "0d58a61e-b810-4f26-9ed3-365407b07876"
+                },
+                {
+                    "number": "C24-JD",
+                    "name": "JD Dix",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "a669b6e0-1a87-4461-81a2-5b7842655168"
+                },
+                {
+                    "number": "C24-JK",
+                    "name": "Josh Kuroda-Grauer",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "d9612150-0458-495c-86e7-b5134eed0e8e"
+                },
+                {
+                    "number": "C24-JT",
+                    "name": "James Tibbs III",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "1dc50e38-e7b5-4920-87cf-64d3af3c4fdf"
+                },
+                {
+                    "number": "C24-JTH",
+                    "name": "Jared Thomas",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6d1d64d6-76ea-4e39-8c14-d19130118541"
+                },
+                {
+                    "number": "C24-KC",
+                    "name": "Kaelen Culpepper",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6bd6bd31-685a-4257-9b9f-eab56b850cb5"
+                },
+                {
+                    "number": "C24-KG",
+                    "name": "Konnor Griffin",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6cebb3fc-522a-4148-8fba-8c45285b24fe"
+                },
+                {
+                    "number": "C24-KL",
+                    "name": "Kellon Lindsey",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2944bc73-b71b-4db1-942e-5d8cdf8f4be5"
+                },
+                {
+                    "number": "C24-NK",
+                    "name": "Nick Kurtz",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "82c9b76f-43e7-463a-9ee4-df066672f2b1"
+                },
+                {
+                    "number": "C24-RW",
+                    "name": "Ryan Waldschmidt",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "2a7e9eb5-ad58-47b8-b564-a0c5945b1a58"
+                },
+                {
+                    "number": "C24-SK",
+                    "name": "Seaver King",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "a925081b-4d08-4257-880a-4ac8a17de4c2"
+                },
+                {
+                    "number": "C24-TB",
+                    "name": "Travis Bazzana",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "b3c33107-4fa2-43c0-ab10-5dc738112305"
+                },
+                {
+                    "number": "C24-TL",
+                    "name": "Tyson Lewis",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "ed47c1e4-0f0c-4c7f-b0a6-946652f3b45d"
+                }
+            ],
+            "uniqueId": "98ad68b9-e23a-4a2a-88d9-ff196f9b0694"
+        },
+        {
+            "name": "Final Draft",
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:768"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:9929"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:49,642"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "FD-1",
+                    "name": "Arjun Nimmala",
+                    "uniqueId": "9c28c171-22f8-4304-82a0-0cd379a685e9"
+                },
+                {
+                    "number": "FD-2",
+                    "name": "Jose Perdomo",
+                    "uniqueId": "eb8f7370-c6e4-4c3a-8fe1-137008f1b829"
+                },
+                {
+                    "number": "FD-3",
+                    "name": "Fernando Cruz",
+                    "uniqueId": "c6915e5e-a0c3-4333-b762-352065636ca5"
+                },
+                {
+                    "number": "FD-4",
+                    "name": "Max Clark",
+                    "uniqueId": "6fa7e550-8a0a-4143-b5ba-5594d987a59a"
+                },
+                {
+                    "number": "FD-5",
+                    "name": "Walker Jenkins",
+                    "uniqueId": "c9ae725e-f816-4a3d-b9c3-8c7bd1d73595"
+                },
+                {
+                    "number": "FD-6",
+                    "name": "Francisco Vilorio",
+                    "uniqueId": "0571b811-3b00-4b4b-b1db-e08487009076"
+                },
+                {
+                    "number": "FD-7",
+                    "name": "George Lombard Jr.",
+                    "uniqueId": "b751b2d5-ac49-402f-b2c8-ed5e98d440a6"
+                },
+                {
+                    "number": "FD-8",
+                    "name": "Aidan Miller",
+                    "uniqueId": "cdf9c03e-7e0d-4a63-9bd8-7426e53636f4"
+                },
+                {
+                    "number": "FD-9",
+                    "name": "Leo De Vries",
+                    "uniqueId": "a5d7ee89-5c9d-4cfa-bf73-1714f46b7a93"
+                },
+                {
+                    "number": "FD-10",
+                    "name": "Paulino Santana",
+                    "uniqueId": "aeef2bad-8b83-4463-b2bd-aa934dba7686"
+                },
+                {
+                    "number": "FD-11",
+                    "name": "Travis Bazzana",
+                    "uniqueId": "00b95b7d-1590-4e1b-94c1-6a2834b7e93f"
+                },
+                {
+                    "number": "FD-12",
+                    "name": "Chase Burns",
+                    "uniqueId": "eeb77515-9d25-485b-a5ab-8c7bcec06c48"
+                },
+                {
+                    "number": "FD-13",
+                    "name": "Nick Kurtz",
+                    "uniqueId": "e1725e69-2fc1-4e91-b118-61a28a611edc"
+                },
+                {
+                    "number": "FD-14",
+                    "name": "Jac Caglianone",
+                    "uniqueId": "2e84fa2b-0bdb-4493-bf48-eb34d86a30e8"
+                },
+                {
+                    "number": "FD-15",
+                    "name": "Christian Moore",
+                    "uniqueId": "4de94320-bdb5-4fd4-83b8-a15489da270b"
+                },
+                {
+                    "number": "FD-16",
+                    "name": "Konnor Griffin",
+                    "uniqueId": "ae68d1cd-105d-42d4-b191-43dd97b81dc9"
+                },
+                {
+                    "number": "FD-17",
+                    "name": "Seaver King",
+                    "uniqueId": "491c0d9d-23e5-4116-b9d1-b06848ab6f0c"
+                },
+                {
+                    "number": "FD-18",
+                    "name": "Bryce Rainer",
+                    "uniqueId": "b690e654-7716-4fee-8f5c-e3b3c217c9e3"
+                },
+                {
+                    "number": "FD-19",
+                    "name": "Braden Montgomery",
+                    "uniqueId": "577e7fa4-4300-4081-967b-32df77af5868"
+                },
+                {
+                    "number": "FD-20",
+                    "name": "James Tibbs III",
+                    "uniqueId": "58024670-5186-49fe-9336-c560dbc7c282"
+                }
+            ],
+            "uniqueId": "05324fc2-9fde-411e-946d-fbce62c12843"
+        },
+        {
+            "name": "In Tune",
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:3"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:1"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Refractor",
+                    "numberedTo": 250,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:285"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:74"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:720"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:186"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1425"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:369"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:14,388"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:3655"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:70,912"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:19,006"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "IT-1",
+                    "name": "Travis Bazzana",
+                    "uniqueId": "f62466a5-1cc5-45fc-848c-c3e22cc5f7a3"
+                },
+                {
+                    "number": "IT-2",
+                    "name": "Chase Burns",
+                    "uniqueId": "93ccece6-96b1-4d13-bb3d-36ad64c8cc2f"
+                },
+                {
+                    "number": "IT-3",
+                    "name": "Nick Kurtz",
+                    "uniqueId": "994f92de-da50-4ab7-826c-633217d2af7f"
+                },
+                {
+                    "number": "IT-4",
+                    "name": "Hagen Smith",
+                    "uniqueId": "f89621c2-d966-4f5f-b3fd-7257cb5966ad"
+                },
+                {
+                    "number": "IT-5",
+                    "name": "Jac Caglianone",
+                    "uniqueId": "6400964b-c1e7-48db-9ab4-61cfa08b6e58"
+                },
+                {
+                    "number": "IT-6",
+                    "name": "Christian Moore",
+                    "uniqueId": "8e55f091-7756-4fd4-9160-983557bdd695"
+                },
+                {
+                    "number": "IT-7",
+                    "name": "Seaver King",
+                    "uniqueId": "7678fba1-2733-422a-8961-bf30f86b8178"
+                },
+                {
+                    "number": "IT-8",
+                    "name": "Braden Montgomery",
+                    "uniqueId": "f165a319-2b67-42cf-9f90-616f94d855c8"
+                },
+                {
+                    "number": "IT-9",
+                    "name": "James Tibbs III",
+                    "uniqueId": "456a8743-53b8-4969-b336-86ff29c3a058"
+                },
+                {
+                    "number": "IT-10",
+                    "name": "Carson Benge",
+                    "uniqueId": "4a842d18-3d72-4b19-b915-3341ef82c962"
+                },
+                {
+                    "number": "IT-11",
+                    "name": "Leo De Vries",
+                    "uniqueId": "d12db8e2-7423-4e71-9e2a-b74002bb7a91"
+                },
+                {
+                    "number": "IT-12",
+                    "name": "Paulino Santana",
+                    "uniqueId": "960aabc3-01d9-496d-a96d-79c9f75f85fe"
+                },
+                {
+                    "number": "IT-13",
+                    "name": "Jose Perdomo",
+                    "uniqueId": "3966cf7d-fc1a-4134-860c-267781246880"
+                },
+                {
+                    "number": "IT-14",
+                    "name": "Emil Morales",
+                    "uniqueId": "23b9c9f6-7efd-45d9-a83e-6850de4957e5"
+                },
+                {
+                    "number": "IT-15",
+                    "name": "Adriel Radney",
+                    "uniqueId": "68eb4a96-c1fa-460a-8a8b-a93190bb1484"
+                },
+                {
+                    "number": "IT-16",
+                    "name": "Walker Jenkins",
+                    "uniqueId": "a6d84239-bdaf-4f45-aca3-6b5d87c49576"
+                },
+                {
+                    "number": "IT-17",
+                    "name": "Max Clark",
+                    "uniqueId": "667cb000-63e2-4387-9fa7-b71e27372751"
+                },
+                {
+                    "number": "IT-18",
+                    "name": "Dylan Crews",
+                    "uniqueId": "f2d0062a-968e-4f04-97f3-f4041c7ac303"
+                },
+                {
+                    "number": "IT-19",
+                    "name": "Aidan Miller",
+                    "uniqueId": "4f780f72-a0f1-4ddf-a9c1-9315f7f89f1b"
+                },
+                {
+                    "number": "IT-20",
+                    "name": "Sebastian Walcott",
+                    "uniqueId": "d4ffac48-bc34-4122-9a6a-c40adfe5ab35"
+                }
+            ],
+            "uniqueId": "68a233f4-3aa9-4398-9d73-abbaccfe7ff6"
+        },
+        {
+            "name": "Plasma Power",
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:3"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:1"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Refractor",
+                    "numberedTo": 250,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:285"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:74"
+                        }
+                    ]
+                },
+                {
+                    "name": "Green Refractor",
+                    "numberedTo": 99,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:720"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:186"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gold Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:1425"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:369"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:14,388"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:3655"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:70,912"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:19,006"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "PP-1",
+                    "name": "Travis Bazzana",
+                    "uniqueId": "0f5b9dde-6145-472b-88b0-dd6995df8970"
+                },
+                {
+                    "number": "PP-2",
+                    "name": "Nick Kurtz",
+                    "uniqueId": "325026dc-0beb-47c6-b5dc-667350baa9f0"
+                },
+                {
+                    "number": "PP-3",
+                    "name": "Jac Caglianone",
+                    "uniqueId": "09185ef9-d7b2-46fe-ac1e-66d846ae83c8"
+                },
+                {
+                    "number": "PP-4",
+                    "name": "Christian Moore",
+                    "uniqueId": "b5799962-2a42-49f4-b211-b3cb21cb77a2"
+                },
+                {
+                    "number": "PP-5",
+                    "name": "Braden Montgomery",
+                    "uniqueId": "e6d3cea7-b643-43ba-856b-f885ab2c2333"
+                },
+                {
+                    "number": "PP-6",
+                    "name": "James Tibbs III",
+                    "uniqueId": "9f9ff594-446f-45ba-9ca3-31daa47e0a2b"
+                },
+                {
+                    "number": "PP-7",
+                    "name": "Cam Smith",
+                    "uniqueId": "d1a10855-c35b-468b-8173-aaa6f4de681d"
+                },
+                {
+                    "number": "PP-8",
+                    "name": "Carson Benge",
+                    "uniqueId": "a89d88d7-9230-45ee-b93c-d83ae1d0531a"
+                },
+                {
+                    "number": "PP-9",
+                    "name": "Seaver King",
+                    "uniqueId": "5285cff1-45bd-4cbd-90dc-b05f1a408186"
+                },
+                {
+                    "number": "PP-10",
+                    "name": "Konnor Griffin",
+                    "uniqueId": "c7f9aee7-f2fc-4d60-a003-0b23f18c9708"
+                },
+                {
+                    "number": "PP-11",
+                    "name": "Bryce Rainer",
+                    "uniqueId": "6ab2cadc-e75c-48b1-99ea-8dab22a05f7d"
+                },
+                {
+                    "number": "PP-12",
+                    "name": "Brock Wilken",
+                    "uniqueId": "1d07d0cc-81ab-439c-9037-8a4626aa3dea"
+                },
+                {
+                    "number": "PP-13",
+                    "name": "Ryan Waldschmidt",
+                    "uniqueId": "d8554dee-c5e0-4db8-97db-b8795c20eb2c"
+                },
+                {
+                    "number": "PP-14",
+                    "name": "Walker Jenkins",
+                    "uniqueId": "501622e4-0e10-4b09-bfff-53052c9f03da"
+                },
+                {
+                    "number": "PP-15",
+                    "name": "Bryce Eldridge",
+                    "uniqueId": "2c81b43e-be61-4996-b4ff-f558850e2590"
+                },
+                {
+                    "number": "PP-16",
+                    "name": "Matt Shaw",
+                    "uniqueId": "a8b9b27d-98d0-4c3a-b716-ddf1d9971f9d"
+                },
+                {
+                    "number": "PP-17",
+                    "name": "Kyle Teel",
+                    "uniqueId": "239e9404-98bc-4a32-8fa3-a9d252f6fbc9"
+                },
+                {
+                    "number": "PP-18",
+                    "name": "Roman Anthony",
+                    "uniqueId": "b2dae0e3-475b-42d3-8d75-3e6ef2a4561a"
+                },
+                {
+                    "number": "PP-19",
+                    "name": "Leo De Vries",
+                    "uniqueId": "d40fb9a4-3772-42ab-83d1-eb282fb6a945"
+                },
+                {
+                    "number": "PP-20",
+                    "name": "Paulino Santana",
+                    "uniqueId": "92efd273-7b8e-4cc7-b0e6-6f8866c05cff"
+                }
+            ],
+            "uniqueId": "88ac3c2a-bd07-4802-ac06-ee71c71823ec"
+        },
+        {
+            "name": "Plasma Power Autographs",
+            "numberedTo": 99,
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:2086"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:469"
+                },
+                {
+                    "product": "Breaker's Delight",
+                    "odds": "1:357"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:41,368"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:9504"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:7205"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:198,567"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:47,520"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:36,024"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "PPA-BW",
+                    "name": "Brock Wilken",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "3f5d7396-71c3-4d96-b1b5-e02ae78404ab"
+                },
+                {
+                    "number": "PPA-CM",
+                    "name": "Christian Moore",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "22f56ddf-2b1f-4422-ab40-81dbf2a14727"
+                },
+                {
+                    "number": "PPA-CS",
+                    "name": "Cam Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "01def7ce-2303-4e9b-b60d-c4825ae13879"
+                },
+                {
+                    "number": "PPA-JC",
+                    "name": "Jac Caglianone",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "0a0a46c3-17ca-4e26-abd7-a3a8a5d49414"
+                },
+                {
+                    "number": "PPA-JT",
+                    "name": "James Tibbs III",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "348bc859-47b0-4fab-9eee-be09148cd82b"
+                },
+                {
+                    "number": "PPA-KG",
+                    "name": "Konnor Griffin",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "30948a1b-0b4b-4c9c-afea-7b9ea5ca1f6c"
+                },
+                {
+                    "number": "PPA-LD",
+                    "name": "Leo De Vries",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "77de93a4-1e1f-47f3-86fa-e7c64cda45c0"
+                },
+                {
+                    "number": "PPA-WJ",
+                    "name": "Walker Jenkins",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "00b18b98-2fcc-44be-816f-b27a932bd0e4"
+                }
+            ],
+            "uniqueId": "40330012-ca2f-408a-b1e6-515b324f973b"
+        },
+        {
+            "name": "Prospect Dual Autographs",
+            "numberedTo": 99,
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:1669"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:375"
+                },
+                {
+                    "product": "Breaker's Delight",
+                    "odds": "1:284"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Gold Refractor",
+                    "numberedTo": 50,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:3065"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:689"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:523"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange Refractor",
+                    "numberedTo": 25,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:3678"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Refractor",
+                    "numberedTo": 10,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:15,275"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:3395"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:2574"
+                        }
+                    ]
+                },
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:30,086"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:6789"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:5147"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:141,834"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:31,681"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:36,024"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "PDA-BB",
+                    "name": "Travis Bazzana / Chase Burns",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "18b423d1-050b-4b3a-8ee6-6600ca431a0e"
+                },
+                {
+                    "number": "PDA-BC",
+                    "name": "Travis Bazzana / Jac Caglianone",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "ec0a7ec9-591b-4389-b798-46435f08f6eb"
+                },
+                {
+                    "number": "PDA-BK",
+                    "name": "Chase Burns / Nick Kurtz",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "715e9334-02b1-426f-bbf4-9d85de9059a0"
+                },
+                {
+                    "number": "PDA-BL",
+                    "name": "Rhett Lowder / Chase Burns",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "939ecb4a-38e4-4563-940f-75a726edddbd"
+                },
+                {
+                    "number": "PDA-BS",
+                    "name": "Chase Burns / Hagen Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6beb8254-394e-45b3-9fbd-fd35ea60c4d7"
+                },
+                {
+                    "number": "PDA-CM",
+                    "name": "Jac Caglianone / Blake Mitchell",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "faa47165-98d1-476b-807d-6258df8655e4"
+                },
+                {
+                    "number": "PDA-GJ",
+                    "name": "Konnor Griffin / Termarr Johnson",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "b97a7d27-4b9f-4506-923f-5e037f4d3f61"
+                },
+                {
+                    "number": "PDA-KG",
+                    "name": "Seaver King / Elijah Green",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "6b81e09c-3b1c-4e5b-bbdd-d64604acb716"
+                },
+                {
+                    "number": "PDA-SG",
+                    "name": "Jacob Gonzalez / Hagen Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "7fbc7b40-a5ed-4752-b0f2-21ea905f03a7"
+                },
+                {
+                    "number": "PDA-TS",
+                    "name": "James Tibbs III / Cam Smith",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "4b79c57e-62e1-478f-9f72-32c35b99f466"
+                },
+                {
+                    "number": "PDA-WD",
+                    "name": "Ryan Waldschmidt / JD Dix",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "a115b194-e11f-4f93-b5e3-76d2b99c4561"
+                }
+            ],
+            "uniqueId": "8c4b05c9-0678-42bd-9252-cbad5b60ea88"
+        },
+        {
+            "name": "Positioned for Excellence Autograph Booklet",
+            "numberedTo": 10,
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:33,094"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:7311"
+                },
+                {
+                    "product": "Breaker's Delight",
+                    "odds": "1:6004"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "Red Refractor",
+                    "numberedTo": 5,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:66,189"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:13,578"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:12,008"
+                        }
+                    ]
+                },
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:330,944"
+                        },
+                        {
+                            "product": "Super Jumbo",
+                            "odds": "1:95,040"
+                        },
+                        {
+                            "product": "Breaker's Delight",
+                            "odds": "1:36,024"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "PEA-BSMHDS",
+                    "name": "Chase Burns / Levi Sterling / Braylon Doughty / Kash Mayfield / Hagen Smith / Ben Hess",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "8dfa4e3c-d2fd-445b-8111-252405d7d03c"
+                },
+                {
+                    "number": "PEA-GKRCLO",
+                    "name": "Griff O'Ferrall / Bryce Rainer / Kaelen Culpepper / Kellon Lindsey / Konnor Griffin / Seaver King",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "50f6f262-2227-4b43-9b4d-eaab300d809c"
+                },
+                {
+                    "number": "PEA-KCBGKR",
+                    "name": "Konnor Griffin / Nick Kurtz / Bryce Rainer / Seaver King / Blake Burke / Jac Caglianone",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "5dc5e49f-66c2-4d77-83f5-f5cb3c77db7d"
+                },
+                {
+                    "number": "PEA-MTPGBN",
+                    "name": "Theo Gillen / Carson Benge / Braylon Payne / James Tibbs III / Braden Montgomery / Dante Nori",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "58d452bf-4db2-4ca4-9633-5eaca463ded2"
+                },
+                {
+                    "number": "PEA-WTBDMS",
+                    "name": "Ryan Waldschmidt / Jared Thomas / Griffin Burkholder / Dylan Dreiling / Nick McLain / Mike Sirota",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "c2647aef-30ee-49ad-bfeb-579da545af42"
+                }
+            ],
+            "uniqueId": "7408bbd4-7200-448e-baae-dd30d66579a1"
+        },
+        {
+            "name": "Picked for Excellence Autograph Booklet",
+            "numberedTo": 5,
+            "insertOdds": [
+                {
+                    "product": "Jumbo",
+                    "odds": "1:330,944"
+                },
+                {
+                    "product": "Super Jumbo",
+                    "odds": "1:95,040"
+                },
+                {
+                    "product": "Breaker's Delight",
+                    "odds": "1:35,024"
+                }
+            ],
+            "parallels": [
+                {
+                    "name": "SuperFractor",
+                    "numberedTo": 1,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:992,832"
+                        }
+                    ]
+                }
+            ],
+            "cards": [
+                {
+                    "number": "PICK-EAB2",
+                    "name": "Cam Smith / James Tibbs III / Braylon Payne / Theo Gillen / Ryan Waldschmidt / Carson Benge / Bryce Rainer / Seaver King / Nick Kurtz / Chase Burns / Hagen Smith / Jac Caglianone / Konnor Griffin / Christian Moore / Travis Bazzana",
+                    "attributes": [
+                        "AU"
+                    ],
+                    "uniqueId": "ab0ad5cb-b39b-4533-8a82-7b9c3e29ff85"
+                }
+            ],
+            "uniqueId": "3d13f19a-6367-4e6f-90bb-107325193069"
+        }
+    ]
+}
