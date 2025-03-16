@@ -42,13 +42,16 @@ for sport in target_sports:
             percent = (indexed_count / total) * 100
         indexed_percentages[year] = percent
 
-    if not indexed_percentages:
-        print(f"No valid year data found for {sport}. Skipping graph generation.")
+    # Determine the bounds based on years with at least one indexed release (> 0%).
+    valid_years = [year for year, percent in indexed_percentages.items() if percent > 0]
+    if valid_years:
+        min_year = min(valid_years)
+        max_year = max(valid_years)
+    else:
+        print(f"No indexed releases found for {sport}. Skipping graph generation.")
         continue
 
-    # Determine the full range of years to be represented on the graph
-    min_year = min(indexed_percentages.keys())
-    max_year = max(indexed_percentages.keys())
+    # Create a continuous range from min_year to max_year
     all_years = list(range(min_year, max_year + 1))
     percentages = [indexed_percentages.get(year, 0.0) for year in all_years]
 
@@ -61,7 +64,7 @@ for sport in target_sports:
     ax.set_title(f"{sport.capitalize()} Sets Indexed")
     ax.set_xticks(all_years)
     
-    # Rotate the x-tick labels for readability in the narrower layout
+    # Rotate the x-tick labels for readability
     plt.xticks(rotation=45)
 
     # Save the bar graph image
