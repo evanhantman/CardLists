@@ -75,7 +75,7 @@ for sport in target_sports:
     plt.xticks(rotation=45, fontsize=8)
     
     # Remove extra padding by setting x-limits.
-    ax.set_xlim(all_years[0] - 0.5, all_years[-1] + 0.5)
+    ax.set_xlim(all_years[0] - 1, all_years[-1] + 1)
     # Alternatively, you could use: ax.margins(x=0)
 
     plt.tight_layout()
