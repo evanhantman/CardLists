@@ -115,7 +115,7 @@
         "numberedTo": {
           "type": "integer",
           "minimum": 1
-        },
+        }
       },
       "required": [
         "uniqueId",
