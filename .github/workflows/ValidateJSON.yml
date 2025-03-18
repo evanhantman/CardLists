@@ -31,8 +31,7 @@ jobs:
             --verbose
 
       - name: Validation Baseball Attribute Tags
-        run: python scripts/validate-json-data.py \
-          "../categories/baseball/**/*.json"
+        run: python scripts/validate-json-data.py "../categories/baseball/**/*.json"
 
       - name: Validate Football JSON files
         run: |
@@ -43,8 +42,7 @@ jobs:
             --all-errors \
             --verbose
       - name: Validation Football Attribute Tags
-        run: python scripts/validate-json-data.py \
-          "../categories/football/**/*.json"
+        run: python scripts/validate-json-data.py "../categories/football/**/*.json"
 
       - name: Validate Basketball JSON files
         run: |
@@ -56,8 +54,7 @@ jobs:
             --verbose
 
       - name: Validation Basketball Attribute Tags
-        run: python scripts/validate-json-data.py \
-          "../categories/basketball/**/*.json"
+        run: python scripts/validate-json-data.py "../categories/basketball/**/*.json"
 
       - name: Validate Hockey JSON files
         run: |
@@ -69,6 +66,5 @@ jobs:
             --verbose
 
       - name: Validation Hockey Attribute Tags
-        run: python scripts/validate-json-data.py \
-          "../categories/hockey/**/*.json"
+        run: python scripts/validate-json-data.py "../categories/hockey/**/*.json"
 
