@@ -26,7 +26,8 @@
       "required": [
         "product",
         "odds"
-      ]
+      ],
+      "additionalProperties": false
     },
     "attributeNotePair": {
       "type": "object",
@@ -37,7 +38,8 @@
       "required": [
         "attribute",
         "note"
-      ]
+      ],
+      "additionalProperties": false
     },
     "variation": {
       "type": "object",
@@ -63,7 +65,8 @@
       },
       "required": [
         "variation"
-      ]
+      ],
+      "additionalProperties": false
     },
     "parallel": {
       "type": "object",
@@ -84,7 +87,8 @@
       },
       "required": [
         "name"
-      ]
+      ],
+      "additionalProperties": false
     },
     "card": {
       "type": "object",
@@ -120,7 +124,8 @@
       "required": [
         "uniqueId",
         "name"
-      ]
+      ],
+      "additionalProperties": false
     },
     "set": {
       "type": "object",
@@ -156,7 +161,8 @@
         "uniqueId",
         "name",
         "cards"
-      ]
+      ],
+      "additionalProperties": false
     }
   },
   "type": "object",
@@ -182,5 +188,6 @@
     "version",
     "uniqueId",
     "sets"
-  ]
+  ],
+  "additionalProperties": false
 }
