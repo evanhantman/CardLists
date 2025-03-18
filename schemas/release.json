@@ -167,6 +167,10 @@
   },
   "type": "object",
   "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri"
+    },
     "name": { "$ref": "#/definitions/nonEmptyString" },
     "version": { "$ref": "#/definitions/versionString" },
     "uniqueId": { "$ref": "#/definitions/uuid" },
@@ -184,6 +188,7 @@
     }
   },
   "required": [
+    "$schema",
     "name",
     "version",
     "uniqueId",
