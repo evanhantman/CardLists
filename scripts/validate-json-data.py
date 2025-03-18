@@ -130,7 +130,8 @@ def main():
 
     files = find_json_files(args.path)
     if not files:
-        print(f"No JSON files found for pattern: {args.path}", file=sys.stderr)
+        full_path = pathlib.Path(args.path).resolve()
+        print(f"No JSON files found for pattern: {args.path} (full path searched: {full_path})", file=sys.stderr)
         sys.exit(1)
 
     overall_errors = {}
