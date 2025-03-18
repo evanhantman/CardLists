@@ -16,6 +16,11 @@ jobs:
       - name: Install ajv-cli
         run: npm install -g ajv-cli ajv-formats
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
       - name: Validate Baseball JSON files
         run: |
           ajv validate \
@@ -25,6 +30,10 @@ jobs:
             --all-errors \
             --verbose
 
+      - name: Validation Baseball Attribute Tags
+        run: python scripts/validate-json-data.py \
+          "categories/baseball/"
+
       - name: Validate Football JSON files
         run: |
           ajv validate \
@@ -33,6 +42,9 @@ jobs:
             -d "categories/football/**/*.json" \
             --all-errors \
             --verbose
+      - name: Validation Football Attribute Tags
+        run: python scripts/validate-json-data.py \
+          "categories/football/"
 
       - name: Validate Basketball JSON files
         run: |
@@ -43,6 +55,10 @@ jobs:
             --all-errors \
             --verbose
 
+      - name: Validation Basketball Attribute Tags
+        run: python scripts/validate-json-data.py \
+          "categories/basketball/"
+
       - name: Validate Hockey JSON files
         run: |
           ajv validate \
@@ -51,3 +67,8 @@ jobs:
             -d "categories/hockey/**/*.json" \
             --all-errors \
             --verbose
+
+      - name: Validation Hockey Attribute Tags
+        run: python scripts/validate-json-data.py \
+          "categories/hockey/"
+
