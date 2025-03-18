@@ -14,12 +14,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install ajv-cli
-        run: npm install -g ajv-cli
+        run: npm install -g ajv-cli ajv-formats
 
       - name: Validate Baseball JSON files
         run: |
           ajv validate \
-            -c ajv-format \
+            -c ajv-formats \
             -s ./schemas/release.json \
             -d "categories/baseball/**/*.json" \
             --all-errors \
