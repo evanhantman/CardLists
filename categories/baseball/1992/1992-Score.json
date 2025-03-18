@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1992 Score Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "5662f730-29a2-4126-9fb1-16941c47686c",
     "attributes": [
         {
@@ -18,7 +18,7 @@
         },
         {
             "attribute": "FRDP",
-            "note": "Final Regular Draft Pick"
+            "note": "First Round Draft Pick"
         },
         {
             "attribute": "RC",
@@ -58,7 +58,11 @@
         },
         {
             "attribute": "AU",
-            "note": "Autographed Card"
+            "note": "Autograph"
+        },
+        {
+            "attribute": "RP",
+            "note": "Rookie Prospect"
         }
     ],
     "sets": [

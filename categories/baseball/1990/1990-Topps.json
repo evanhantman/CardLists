@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1990 Topps Baseball",
-    "version": "1.1",
+    "version": "1.2",
     "uniqueId": "4f37199f-d1b2-4615-89ff-8a93cc2b55a4",
     "attributes": [
         {
@@ -55,6 +55,14 @@
         {
             "attribute": "CAPT",
             "note": "Captain"
+        },
+        {
+            "attribute": "TBC",
+            "note": "Turn Back the Clock"
+        },
+        {
+            "attribute": "IM",
+            "note": "In Memoriam"
         }
     ],
     "sets": [
@@ -2337,7 +2345,7 @@
                 },
                 {
                     "number": "396",
-                    "name": "A. Bartlett Giamatti IM",
+                    "name": "A. Bartlett Giamatti",
                     "attributes": [
                         "IM"
                     ],

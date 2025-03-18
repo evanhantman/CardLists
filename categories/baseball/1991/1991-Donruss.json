@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1991 Donruss Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "72082ec2-77a9-4672-86fe-664b76eba774",
     "attributes": [
         {
@@ -43,6 +43,11 @@
         {
             "attribute": "ROY",
             "note": "Rookie of the Year"
+        }
+        ,
+        {
+            "attribute": "PUZ",
+            "note": "Puzzle"
         }
     ],
     "sets": [

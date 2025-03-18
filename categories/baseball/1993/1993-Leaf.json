@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1993 Leaf Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "928e7254-edbb-412c-8044-d517bd246181",
     "attributes": [
         {
@@ -10,11 +10,15 @@
         },
         {
             "attribute": "AU",
-            "note": "Autographed Card"
+            "note": "Autograph"
         },
         {
             "attribute": "CL",
             "note": "Checklist"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
         }
     ],
     "sets": [

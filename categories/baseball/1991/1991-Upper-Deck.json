@@ -1,28 +1,28 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1991 Upper Deck Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "5abfb225-a428-4f7c-86ec-a77b7e9184b1",
     "attributes": [
         {
-            "attribute": "Star Rookie",
-            "note": "SR"
+            "attribute": "SR",
+            "note": "Star Rookie"
         },
         {
-            "attribute": "Rookie Card",
-            "note": "RC"
+            "attribute": "RC",
+            "note": "Rookie Card"
         },
         {
-            "attribute": "Top Prospect",
-            "note": "TP"
+            "attribute": "TP",
+            "note": "Top Prospect"
         },
         {
-            "attribute": "Checklist",
-            "note": "CL"
+            "attribute": "CL",
+            "note": "Checklist"
         },
         {
-            "attribute": "Uncorrected Error",
-            "note": "UER"
+            "attribute": "UER",
+            "note": "Uncorrected Error"
         },
         {
             "attribute": "SP",
@@ -31,6 +31,10 @@
         {
             "attribute": "H",
             "note": "Hologram"
+        },
+        {
+            "attribute": "TC",
+            "note": "Team Checklist"
         }
     ],
     "sets": [

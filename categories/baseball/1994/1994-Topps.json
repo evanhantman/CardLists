@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1994 Topps Baseball",
-    "version": "1.1",
+    "version": "1.2",
     "uniqueId": "7223ecf9-3ea7-4504-a31d-66c8aa8e23b5",
     "attributes": [
         {
@@ -10,7 +10,7 @@
         },
         {
             "attribute": "FS",
-            "note": "Future Star"
+            "note": "Future Stars"
         },
         {
             "attribute": "RC",
@@ -43,6 +43,10 @@
         {
             "attribute": "TRIB",
             "note": "Tribute Card"
+        },
+        {
+            "attribute": "AS",
+            "note": "All-Star"
         }
     ],
     "sets": [

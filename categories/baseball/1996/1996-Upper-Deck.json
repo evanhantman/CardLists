@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1996 Upper Deck Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "4298ad7d-31f8-4cc4-89cb-d6d766b65f7c",
     "attributes": [
         {
@@ -22,7 +22,7 @@
         },
         {
             "attribute": "DD",
-            "note": "Diamond Destiny"
+            "note": "Diamond Debuts"
         },
         {
             "attribute": "HL",
@@ -30,7 +30,7 @@
         },
         {
             "attribute": "MLD",
-            "note": "Minor League Debut"
+            "note": "Major League Debut"
         },
         {
             "attribute": "MGR",
@@ -67,6 +67,10 @@
         {
             "attribute": "UPD",
             "note": "Update Set"
+        },
+        {
+            "attribute": "YH",
+            "note": "Young at Heart"
         }
     ],
     "sets": [

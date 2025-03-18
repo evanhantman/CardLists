@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1988 Topps Baseball",
-    "version": "1.1",
+    "version": "1.2",
     "uniqueId": "f1c432fb-fb6f-4c88-9826-65060c54030a",
     "attributes": [
         {
@@ -47,6 +47,14 @@
         {
             "attribute": "CAPT",
             "note": "Captain"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "TBC",
+            "note": "Turn Back the Clock"
         }
     ],
     "sets": [

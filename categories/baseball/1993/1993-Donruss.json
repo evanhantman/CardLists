@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1993 Donruss Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "c7c2c96b-fd2c-42ed-a6b6-50bf42495a27",
     "attributes": [
         {
@@ -42,7 +42,7 @@
         },
         {
             "attribute": "AU",
-            "note": "Autographed Card"
+            "note": "Autograph"
         }
     ],
     "sets": [
@@ -5241,167 +5241,96 @@
                 "#28 through #36 issued in Series Two Foil Packs",
                 "Continuation of the 1992 Elite Series"
             ],
+            "numberedTo": 10000,
             "cards": [
                 {
                     "number": "19",
                     "name": "Fred McGriff",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "4f135037-866e-4766-9c01-3c0a2b9a1038"
                 },
                 {
                     "number": "20",
                     "name": "Ryne Sandberg",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "87af21a5-9059-46ea-96f2-556440b3733d"
                 },
                 {
                     "number": "21",
                     "name": "Eddie Murray",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "c7b57113-a413-4e10-b3be-37f3ef77d64a"
                 },
                 {
                     "number": "22",
                     "name": "Paul Molitor",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "48a82602-1fcf-446e-b7cf-72c570adb129"
                 },
                 {
                     "number": "23",
                     "name": "Barry Larkin",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "9c3f4db5-6119-4baa-ab5d-ccd45cca43fb"
                 },
                 {
                     "number": "24",
                     "name": "Don Mattingly",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "6c3b878f-ab76-4de9-b096-0645240d1912"
                 },
                 {
                     "number": "25",
                     "name": "Dennis Eckersley",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "e6e06c9a-1f42-4d04-aaef-eb5d582ce3f7"
                 },
                 {
                     "number": "26",
                     "name": "Roberto Alomar",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "e0340af1-fa66-466f-b6a5-cb320ff0cff2"
                 },
                 {
                     "number": "27",
                     "name": "Edgar Martinez",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "2ce35acc-3eda-40d6-a247-c72388fbc6ad"
                 },
                 {
                     "number": "28",
                     "name": "Gary Sheffield",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "9dc17548-8133-4953-a675-67534603295d"
                 },
                 {
                     "number": "29",
                     "name": "Darren Daulton",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "65f03923-88d8-4ed0-ac8b-442e768b85cf"
                 },
                 {
                     "number": "30",
                     "name": "Larry Walker",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "20ba5804-4cf2-488b-8de6-8b99b5c4b081"
                 },
                 {
                     "number": "31",
                     "name": "Barry Bonds",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "63ac0bfe-efd2-4e9e-958e-58fc20617ab1"
                 },
                 {
                     "number": "32",
                     "name": "Andy Van Slyke",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "618a1486-d9a0-4aa5-bffa-c663669e4c53"
                 },
                 {
                     "number": "33",
                     "name": "Mark McGwire",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "af792620-ca51-4380-aa06-c7edba77a793"
                 },
                 {
                     "number": "34",
                     "name": "Cecil Fielder",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "534f5ad5-14fc-4f56-b015-922f4c6cb782"
                 },
                 {
                     "number": "35",
                     "name": "Dave Winfield",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "9af73872-9480-4a17-a59d-02fdfb0f19a4"
                 },
                 {
                     "number": "36",
                     "name": "Juan Gonzalez",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Elite"
-                    ],
                     "uniqueId": "385d84d4-cd9c-4dcb-ac9a-aea5897848dd"
                 }
             ],
@@ -5412,13 +5341,10 @@
             "notes": [
                 "Issued in Foil Packs"
             ],
+            "numberedTo": 10000,
             "cards": [
                 {
                     "name": "Robin Yount",
-                    "numberedTo": 10000,
-                    "attributes": [
-                        "Legends Series"
-                    ],
                     "uniqueId": "b4fbc75a-cde0-4f76-b4a8-55e8989549e2"
                 }
             ],
@@ -5429,10 +5355,10 @@
             "notes": [
                 "Issued in Foil Packs"
             ],
+            "numberedTo": 5000,
             "cards": [
                 {
                     "name": "Will Clark",
-                    "numberedTo": 5000,
                     "attributes": [
                         "AU"
                     ],

@@ -1,12 +1,16 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1992 Score Rookie & Traded Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "1027b4dc-b4fc-479c-8069-a66972ba0518",
     "attributes": [
         {
             "attribute": "RC",
             "note": "Rookie Card"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
         }
     ],
     "sets": [

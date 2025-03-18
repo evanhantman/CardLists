@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1985 Topps Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "84f9c4d0-f5e7-4b5f-b7ff-1ad57c738f85",
     "attributes": [
         {
@@ -30,7 +30,7 @@
         },
         {
             "attribute": "OLY",
-            "note": "1984 United States Olympic Baseball Team"
+            "note": "Olympic Team Member"
         },
         {
             "attribute": "HC",
@@ -51,6 +51,10 @@
         {
             "attribute": "CAPT",
             "note": "Captain"
+        },
+        {
+            "attribute": "RB",
+            "note": "Record Breaker"
         }
     ],
     "sets": [
@@ -413,7 +417,8 @@
                     "number": "61",
                     "name": "Curt Kaufman",
                     "attributes": [
-                        "RC, UER"
+                        "RC",
+                        "UER"
                     ],
                     "uniqueId": "d2031df8-c9bd-4136-973f-8367216d190f"
                 },

@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1993 Upper Deck Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "e2f8d4a4-b3c9-4aab-955f-04cd8bf7fce3",
     "attributes": [
         {
@@ -31,6 +31,30 @@
         {
             "attribute": "HDR",
             "note": "Header Card"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "TS",
+            "note": "Team Stars"
+        },
+        {
+            "attribute": "DD",
+            "note": "Diamond Debuts"
+        },
+        {
+            "attribute": "AW",
+            "note": "Award Winner"
+        },
+        {
+            "attribute": "TP",
+            "note": "Top Prospect"
+        },
+        {
+            "attribute": "IN",
+            "note": "Inside the Numbers"
         }
     ],
     "sets": [

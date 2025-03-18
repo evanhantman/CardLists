@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1995 Collectors Choice Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "03ceb12d-cc90-41bc-9685-18b6c1345cef",
     "attributes": [
         {
@@ -17,7 +17,7 @@
             "note": "Future Foundations"
         },
         {
-            "attribute": "IN",
+            "attribute": "IND",
             "note": "Inductee"
         },
         {
@@ -30,7 +30,7 @@
         },
         {
             "attribute": "LL",
-            "note": "League Leader"
+            "note": "League Leaders"
         },
         {
             "attribute": "AS",
@@ -38,7 +38,7 @@
         },
         {
             "attribute": "MS",
-            "note": "Milestone"
+            "note": "Milestones"
         },
         {
             "attribute": "WTC",
@@ -62,7 +62,7 @@
         },
         {
             "attribute": "RDM",
-            "note": "Redeemable"
+            "note": "Redemption Card"
         }
     ],
     "sets": [
@@ -479,7 +479,7 @@
                     "number": "50",
                     "name": "Mike Schmidt",
                     "attributes": [
-                        "IN"
+                        "IND"
                     ],
                     "uniqueId": "01fd2690-aef9-481d-a4ac-ec1b5007b4cd"
                 },

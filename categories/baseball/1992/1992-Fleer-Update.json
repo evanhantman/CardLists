@@ -1,12 +1,20 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1992 Fleer Update Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "8830b078-d5fd-4f88-a0c0-30d9f11c9c42",
     "attributes": [
         {
             "attribute": "RC",
             "note": "Rookie Card"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "CL",
+            "note": "Checklist"
         }
     ],
     "sets": [

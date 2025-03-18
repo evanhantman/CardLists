@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1987 Donruss Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "65c02058-fb41-43cb-9b77-6884278a2122",
     "attributes": [
         {
@@ -23,6 +23,18 @@
         {
             "attribute": "UER",
             "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "PUZ",
+            "note": "Puzzle"
+        },
+        {
+            "attribute": "P",
+            "note": "Player"
+        },
+        {
+            "attribute": "MGR",
+            "note": "Manager"
         }
     ],
     "sets": [

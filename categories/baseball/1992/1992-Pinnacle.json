@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1992 Pinnacle Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "697e85a9-c51b-4b1a-b35a-c59968f95354",
     "attributes": [
         {
@@ -29,12 +29,16 @@
             "note": "Sidelines"
         },
         {
-            "attribute": "SH",
+            "attribute": "SHADE",
             "note": "Shades"
         },
         {
             "attribute": "TECH",
             "note": "Technology"
+        },
+        {
+            "attribute": "GRIP",
+            "note": "Grips"
         }
     ],
     "sets": [
@@ -1754,7 +1758,7 @@
                     "number": "305",
                     "name": "Jay Buhner",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "7269dc69-220d-4145-bf94-1e70bf9611a7"
                 },
@@ -1762,7 +1766,7 @@
                     "number": "306",
                     "name": "Roberto Alomar",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "07bdcf9c-e5ff-4726-994b-d33d73b02a23"
                 },
@@ -1770,7 +1774,7 @@
                     "number": "307",
                     "name": "Chuck Knoblauch",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "d1980a96-454b-40a1-a55f-6af81e759146"
                 },
@@ -1778,7 +1782,7 @@
                     "number": "308",
                     "name": "Darryl Strawberry",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "1176747f-8f4a-4e7c-946e-e55ff9ccdc87"
                 },
@@ -1786,7 +1790,7 @@
                     "number": "309",
                     "name": "Danny Tartabull",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "f6e0fd16-bddf-4488-bc98-ef2a62b9a63e"
                 },
@@ -1794,7 +1798,7 @@
                     "number": "310",
                     "name": "Bobby Bonilla",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "b8c01a28-6da6-46fa-a12f-2838d8f21478"
                 }
@@ -3531,7 +3535,7 @@
                     "number": "601",
                     "name": "Benito Santiago",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "13b148fe-1929-4dd5-835b-48dfe441df67"
                 },
@@ -3539,7 +3543,7 @@
                     "number": "602",
                     "name": "Eric Davis",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "30e8d168-67ca-4628-b8b8-87af418c475f"
                 },
@@ -3547,7 +3551,7 @@
                     "number": "603",
                     "name": "Jose Lind",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "95df5a2b-6643-4b6c-8ece-b762286956af"
                 },
@@ -3555,7 +3559,7 @@
                     "number": "604",
                     "name": "Dave Justice",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "e18c3cdb-3072-4f2a-a436-a6f43515587b"
                 },
@@ -3563,7 +3567,7 @@
                     "number": "605",
                     "name": "Tim Raines",
                     "attributes": [
-                        "SH"
+                        "SHADE"
                     ],
                     "uniqueId": "0857be24-5416-48a1-98ea-1d080d26ad30"
                 },

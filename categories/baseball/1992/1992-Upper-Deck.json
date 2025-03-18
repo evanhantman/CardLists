@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1992 Upper Deck Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "34544090-b46a-4e59-9230-e7aee90fee65",
     "attributes": [
         {
@@ -47,6 +47,10 @@
         {
             "attribute": "HOLO",
             "note": "Hologram"
+        },
+        {
+            "attribute": "DD",
+            "note": "Diamond Debuts"
         }
     ],
     "sets": [
@@ -4727,7 +4731,6 @@
                 {
                     "name": "Header Card",
                     "attributes": [
-                        "HDR",
                         "SP"
                     ],
                     "uniqueId": "8f7b5432-7a6c-43b3-a85a-0c5058a28db0"

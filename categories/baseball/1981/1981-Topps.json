@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "1991 Topps Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "782c3070-61be-49a5-8fb8-64f6847e45e8",
     "attributes": [
         {
@@ -35,6 +35,14 @@
         {
             "attribute": "TCL",
             "note": "Team Checklist"
+        },
+        {
+            "attribute": "TC",
+            "note": "Team Checklist"
+        },
+        {
+            "attribute": "MGR",
+            "note": "Manager"
         }
     ],
     "sets": [

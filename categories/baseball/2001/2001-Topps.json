@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "2001 Topps Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "08d7780c-b59a-4f32-a3a6-6394b0085044",
     "attributes": [
         {
@@ -41,10 +41,6 @@
             "note": "Relic Card"
         },
         {
-            "attribute": "CL",
-            "note": "Checklist"
-        },
-        {
             "attribute": "TC",
             "note": "Team Checklist"
         },
@@ -75,6 +71,26 @@
         {
             "attribute": "HL",
             "note": "Highlight"
+        },
+        {
+            "attribute": "P/CO",
+            "note": "Player/Coach"
+        },
+        {
+            "attribute": "FRDP",
+            "note": "First Round Draft Pick"
+        },
+        {
+            "attribute": "FS",
+            "note": "Future Stars"
+        },
+        {
+            "attribute": "GM",
+            "note": "Golden Moments"
+        },
+        {
+            "attribute": "AS",
+            "note": "All-Star"
         }
     ],
     "sets": [
@@ -7164,7 +7180,7 @@
                     "number": "18",
                     "name": "Whitey Ford",
                     "attributes": [
-                        "PCO"
+                        "P/CO"
                     ],
                     "note": "1964 Topps, #380",
                     "uniqueId": "97d45a7b-490d-4139-83f3-84141ad9153d"

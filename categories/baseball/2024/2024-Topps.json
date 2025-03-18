@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "2024 Topps Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "a77e19c1-4b49-49dc-844d-543a058bf9a1",
     "attributes": [
         {
@@ -43,6 +43,18 @@
         {
             "attribute": "FS",
             "note": "Future Stars"
+        },
+        {
+            "attribute": "UER",
+            "note": "Uncorrected Error"
+        },
+        {
+            "attribute": "CUT",
+            "note": "Die Cut"
+        },
+        {
+            "attribute": "EXCH",
+            "note": "Exchange Card"
         }
     ],
     "sets": [
@@ -22156,9 +22168,9 @@
                 {
                     "number": "ITN-CB",
                     "name": "Corbin Burnes",
+                    "numberedTo": 1,
                     "attributes": [
-                        "RELIC",
-                        "SN1"
+                        "RELIC"
                     ],
                     "uniqueId": "252163fa-5b94-47d8-b31d-28d459d62363"
                 },
@@ -24312,8 +24324,7 @@
                     "number": "MLM-FLb",
                     "name": "Francisco Lindor",
                     "attributes": [
-                        "RELIC",
-                        "VAR: Bat"
+                        "RELIC"
                     ],
                     "uniqueId": "aad1d807-a781-4784-ae03-dae69aa8a607"
                 },

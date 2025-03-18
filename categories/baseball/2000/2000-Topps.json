@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
     "name": "2000 Topps Baseball",
-    "version": "1.0",
+    "version": "1.1",
     "uniqueId": "210466d8-3df6-46ea-8ae7-dab4108066d0",
     "attributes": [
         {
@@ -68,6 +68,18 @@
         {
             "attribute": "WS",
             "note": "World Series"
+        },
+        {
+            "attribute": "OLY",
+            "note": "Olympic Team Member"
+        },
+        {
+            "attribute": "MM",
+            "note": "Magic Moment"
+        },
+        {
+            "attribute": "20CB",
+            "note": "20th Century Best"
         }
     ],
     "sets": [
