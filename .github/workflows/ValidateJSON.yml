@@ -28,6 +28,7 @@ jobs:
       - name: Validate Football JSON files
         run: |
           ajv validate \
+            -c ajv-formats \
             -s ./schemas/release.json \
             -d "categories/football/**/*.json" \
             --all-errors \
@@ -36,6 +37,7 @@ jobs:
       - name: Validate Basketball JSON files
         run: |
           ajv validate \
+            -c ajv-formats \
             -s ./schemas/release.json \
             -d "categories/basketball/**/*.json" \
             --all-errors \
@@ -44,6 +46,7 @@ jobs:
       - name: Validate Hockey JSON files\
         run: |
           ajv validate \
+            -c ajv-formats \
             -s ./schemas/release.json \
             -d "categories/hockey/**/*.json" \
             --all-errors \
