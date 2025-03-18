@@ -19,7 +19,7 @@ jobs:
       - name: Validate Baseball JSON files
         run: |
           ajv validate \
-            -c ajv-formats \
+            -c ajv-format \
             -s ./schemas/release.json \
             -d "categories/baseball/**/*.json" \
             --all-errors \
