@@ -31,6 +31,7 @@ def collect_global_attributes(files):
     """
     Collect global attribute definitions from the root-level "attributes" arrays
     of all files.
+    
     Returns two dictionaries:
       - global_attr_defs: mapping attribute -> dict of note -> count.
       - canonical_global_attr_defs: mapping attribute -> canonical JSON definition,
@@ -65,21 +66,24 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
           - Each attribute used on cards (or nested variations) is defined
             in the root-level "attributes" array.
           - Every attribute defined in the root appears on at least one card.
-      (b) Extract the file's root attribute definitions (mapping attribute -> note)
+      (b) Also, extract the file's root attribute definitions (mapping attribute -> note)
           for later cross-file consistency validation.
-    If an attribute used on a card is missing from the root attributes,
-    the error message includes a suggested JSON definition based on the global data.
-    Returns a tuple: (list_of_errors, root_attribute_map)
+    
+    For any attribute used on a card but missing in the file's root attributes,
+    an error is recorded and a suggestion JSON record is collected.
+    
+    Returns a tuple: (list_of_errors, root_attribute_map, missing_suggestions)
     """
     errors = []
     warnings = []
+    missing_suggestions = []  # List of JSON objects for missing attributes
     root_attr_map = {}  # mapping: attribute -> note from this file
     try:
         with open(file_path, "r") as f:
             data = json.load(f)
     except Exception as e:
         errors.append(f"Failed to read JSON file: {e}")
-        return errors, root_attr_map
+        return errors, root_attr_map, missing_suggestions
 
     # Extract root-level attributes from this file.
     if "attributes" in data:
@@ -100,7 +104,7 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
     card_attrs = set()
     if "sets" not in data:
         errors.append("Missing 'sets' property in JSON data.")
-        return errors, root_attr_map
+        return errors, root_attr_map, missing_suggestions
 
     for s in data["sets"]:
         if "cards" not in s:
@@ -113,23 +117,22 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
     # 1. Every attribute on a card must be defined in the root-level attributes.
     for attr in card_attrs:
         if attr not in root_attr_map:
-            suggestion = ""
+            suggestion = None
             if attr in global_attr_defs:
                 if attr in canonical_global_attr_defs:
-                    suggestion = f" Suggested definition: {json.dumps(canonical_global_attr_defs[attr])}."
+                    suggestion = canonical_global_attr_defs[attr]
                 else:
-                    # Inconsistent definitions: list all candidates with counts.
-                    notes_counts = global_attr_defs[attr]
-                    defs_list = [
-                        f"{{'attribute': '{attr}', 'note': '{note}'}} (count: {count})"
-                        for note, count in notes_counts.items()
-                    ]
-                    suggestion = " Inconsistent definitions in other files: " + ", ".join(defs_list) + "."
+                    # Inconsistent definitions: choose candidate with highest count.
+                    candidates = global_attr_defs[attr]
+                    best_note = max(candidates, key=lambda k: candidates[k])
+                    suggestion = {"attribute": attr, "note": best_note}
             else:
-                suggestion = " No known definition found in other files."
+                # New attribute: provide a template suggestion.
+                suggestion = {"attribute": attr, "note": "NEW ATTRIBUTE - please define"}
             errors.append(
-                f"Attribute '{attr}' found on a card but not defined in root attributes.{suggestion}"
+                f"Attribute '{attr}' found on a card but not defined in root attributes. (A suggested definition is provided below.)"
             )
+            missing_suggestions.append(suggestion)
     # 2. Every attribute defined in the root must appear on at least one card.
     for attr in root_attr_map:
         if attr not in card_attrs:
@@ -141,7 +144,7 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
     for warn in warnings:
         print(warn, file=sys.stderr)
 
-    return errors, root_attr_map
+    return errors, root_attr_map, missing_suggestions
 
 def find_json_files(path_pattern):
     """
@@ -163,7 +166,8 @@ def main():
         description="Validate JSON files by checking that each attribute used on a card "
                     "is defined in the root-level attributes array and vice versa, "
                     "and then ensuring that attributes have consistent notes across files. "
-                    "For any missing attribute in a file, a suggested definition (from other files) is provided."
+                    "For any missing attribute in a file, a suggested definition is provided "
+                    "as a single JSON array block at the end of the report."
     )
     parser.add_argument("path", help="Path, directory, or glob pattern for JSON files to validate")
     args = parser.parse_args()
@@ -178,14 +182,15 @@ def main():
     global_attr_defs, canonical_global_attr_defs = collect_global_attributes(files)
 
     overall_errors = {}
-    per_file_attr_maps = {}  # in case further processing is needed
+    file_missing_suggestions = {}  # mapping filename -> list of suggestion JSON objects
 
     # Validate each file individually.
     for file in files:
-        file_errors, file_attr_map = validate_file(file, global_attr_defs, canonical_global_attr_defs)
+        file_errors, file_attr_map, missing_suggestions = validate_file(file, global_attr_defs, canonical_global_attr_defs)
         if file_errors:
             overall_errors[str(file)] = file_errors
-        per_file_attr_maps[str(file)] = file_attr_map
+        if missing_suggestions:
+            file_missing_suggestions[str(file)] = missing_suggestions
 
     # Cross-file validation: check for inconsistent attribute definitions.
     cross_file_errors = []
@@ -202,6 +207,11 @@ def main():
             print(f"\nErrors in file: {file}", file=sys.stderr)
             for error in errors:
                 print("  Error:", error, file=sys.stderr)
+            # If there are missing attribute suggestions, output them as one JSON block.
+            if file in file_missing_suggestions:
+                print("\nSuggested JSON definitions for missing attributes for this file:", file=sys.stderr)
+                # Print as one JSON array for easier copy/paste.
+                print(json.dumps(file_missing_suggestions[file], indent=2), file=sys.stderr)
     # Report cross-file consistency errors.
     if cross_file_errors:
         print("\nCross-file consistency errors:", file=sys.stderr)
