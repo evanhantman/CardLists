@@ -27,20 +27,53 @@ def traverse_card_obj(obj, collected, warnings):
             else:
                 warnings.append(f"Warning: 'variations' is not a list in object: {obj}")
 
-def validate_file(file_path):
+def collect_global_attributes(files):
+    """
+    Collect global attribute definitions from the root-level "attributes" arrays
+    of all files.
+    Returns two dictionaries:
+      - global_attr_defs: mapping attribute -> dict of note -> count.
+      - canonical_global_attr_defs: mapping attribute -> canonical JSON definition,
+        if the attribute is defined consistently (only one note).
+    """
+    global_attr_defs = {}
+    for file in files:
+        try:
+            with open(file, "r") as f:
+                data = json.load(f)
+        except Exception:
+            continue  # Skip files that cannot be read
+        if "attributes" in data and isinstance(data["attributes"], list):
+            for attr_pair in data["attributes"]:
+                if isinstance(attr_pair, dict) and "attribute" in attr_pair and "note" in attr_pair:
+                    attr = attr_pair["attribute"]
+                    note = attr_pair["note"]
+                    if attr not in global_attr_defs:
+                        global_attr_defs[attr] = {}
+                    global_attr_defs[attr][note] = global_attr_defs[attr].get(note, 0) + 1
+    canonical_global_attr_defs = {}
+    for attr, notes_counts in global_attr_defs.items():
+        if len(notes_counts) == 1:
+            note = list(notes_counts.keys())[0]
+            canonical_global_attr_defs[attr] = {"attribute": attr, "note": note}
+    return global_attr_defs, canonical_global_attr_defs
+
+def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
     """
     Validate a single JSON file with two checks:
       (a) Internal consistency:
           - Each attribute used on cards (or nested variations) is defined
             in the root-level "attributes" array.
           - Every attribute defined in the root appears on at least one card.
-      (b) Also, extract the root attribute definitions (mapping attribute -> note)
+      (b) Extract the file's root attribute definitions (mapping attribute -> note)
           for later cross-file consistency validation.
+    If an attribute used on a card is missing from the root attributes,
+    the error message includes a suggested JSON definition based on the global data.
     Returns a tuple: (list_of_errors, root_attribute_map)
     """
     errors = []
     warnings = []
-    root_attr_map = {}  # Mapping: attribute -> note
+    root_attr_map = {}  # mapping: attribute -> note from this file
     try:
         with open(file_path, "r") as f:
             data = json.load(f)
@@ -48,17 +81,12 @@ def validate_file(file_path):
         errors.append(f"Failed to read JSON file: {e}")
         return errors, root_attr_map
 
-    # Extract root-level attributes.
+    # Extract root-level attributes from this file.
     if "attributes" in data:
         for attr_pair in data["attributes"]:
-            if (
-                isinstance(attr_pair, dict)
-                and "attribute" in attr_pair
-                and "note" in attr_pair
-            ):
+            if isinstance(attr_pair, dict) and "attribute" in attr_pair and "note" in attr_pair:
                 attr_name = attr_pair["attribute"]
                 note = attr_pair["note"]
-                # Check for conflicting definitions within the same file.
                 if attr_name in root_attr_map and root_attr_map[attr_name] != note:
                     errors.append(
                         f"In file, attribute '{attr_name}' defined with conflicting notes: '{root_attr_map[attr_name]}' and '{note}'."
@@ -85,8 +113,22 @@ def validate_file(file_path):
     # 1. Every attribute on a card must be defined in the root-level attributes.
     for attr in card_attrs:
         if attr not in root_attr_map:
+            suggestion = ""
+            if attr in global_attr_defs:
+                if attr in canonical_global_attr_defs:
+                    suggestion = f" Suggested definition: {json.dumps(canonical_global_attr_defs[attr])}."
+                else:
+                    # Inconsistent definitions: list all candidates with counts.
+                    notes_counts = global_attr_defs[attr]
+                    defs_list = [
+                        f"{{'attribute': '{attr}', 'note': '{note}'}} (count: {count})"
+                        for note, count in notes_counts.items()
+                    ]
+                    suggestion = " Inconsistent definitions in other files: " + ", ".join(defs_list) + "."
+            else:
+                suggestion = " No known definition found in other files."
             errors.append(
-                f"Attribute '{attr}' found on a card but not defined in root attributes."
+                f"Attribute '{attr}' found on a card but not defined in root attributes.{suggestion}"
             )
     # 2. Every attribute defined in the root must appear on at least one card.
     for attr in root_attr_map:
@@ -95,7 +137,7 @@ def validate_file(file_path):
                 f"Attribute '{attr}' defined in root attributes but not found on any card."
             )
 
-    # Report any warnings to stderr.
+    # Report any warnings.
     for warn in warnings:
         print(warn, file=sys.stderr)
 
@@ -108,13 +150,10 @@ def find_json_files(path_pattern):
     """
     p = pathlib.Path(path_pattern)
     files = []
-    # If the argument is an existing directory, search recursively.
     if p.is_dir():
         files = list(p.rglob("*.json"))
-    # If it is an existing file, return that file.
     elif p.is_file():
         files = [p]
-    # Otherwise, assume it is a glob pattern.
     else:
         files = [pathlib.Path(fp) for fp in glob.glob(path_pattern, recursive=True)]
     return files
@@ -123,7 +162,8 @@ def main():
     parser = argparse.ArgumentParser(
         description="Validate JSON files by checking that each attribute used on a card "
                     "is defined in the root-level attributes array and vice versa, "
-                    "and then ensuring that attributes have consistent notes across files."
+                    "and then ensuring that attributes have consistent notes across files. "
+                    "For any missing attribute in a file, a suggested definition (from other files) is provided."
     )
     parser.add_argument("path", help="Path, directory, or glob pattern for JSON files to validate")
     args = parser.parse_args()
@@ -134,25 +174,22 @@ def main():
         print(f"No JSON files found for pattern: {args.path} (full path searched: {full_path})", file=sys.stderr)
         sys.exit(1)
 
+    # First pass: collect global attribute definitions.
+    global_attr_defs, canonical_global_attr_defs = collect_global_attributes(files)
+
     overall_errors = {}
-    global_attr_notes = {}  # Mapping: attribute -> dict of note -> count
+    per_file_attr_maps = {}  # in case further processing is needed
 
     # Validate each file individually.
     for file in files:
-        file_errors, file_attr_map = validate_file(file)
+        file_errors, file_attr_map = validate_file(file, global_attr_defs, canonical_global_attr_defs)
         if file_errors:
             overall_errors[str(file)] = file_errors
+        per_file_attr_maps[str(file)] = file_attr_map
 
-        # Accumulate cross-file attribute definitions with counts.
-        for attr, note in file_attr_map.items():
-            if attr in global_attr_notes:
-                global_attr_notes[attr][note] = global_attr_notes[attr].get(note, 0) + 1
-            else:
-                global_attr_notes[attr] = {note: 1}
-
-    # Cross-file validation: check that each attribute's note is consistent.
+    # Cross-file validation: check for inconsistent attribute definitions.
     cross_file_errors = []
-    for attr, notes_counts in global_attr_notes.items():
+    for attr, notes_counts in global_attr_defs.items():
         if len(notes_counts) > 1:
             counts_str = ", ".join(f"'{note}': {count}" for note, count in notes_counts.items())
             cross_file_errors.append(
