@@ -76,6 +76,32 @@
     "sets": [
         {
             "name": "Series 1",
+            "parallels": [
+                {
+                    "name": "Gold",
+                    "numberedTo": 2003,
+                    "insertOdds": [
+                        {
+                            "product": "Hobby",
+                            "odds": "1:16"
+                        },
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:5"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "numberedTo": 52,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:16"
+                        }
+                    ]
+                }
+            ],
             "cards": [
                 {
                     "number": "1",
@@ -2651,6 +2677,36 @@
         },
         {
             "name": "Series 2",
+            "parallels": [
+                {
+                    "name": "Gold",
+                    "numberedTo": 2003,
+                    "insertOdds": [
+                        {
+                            "product": "Hobby",
+                            "odds": "1:7"
+                        },
+                        {
+                            "product": "Retail",
+                            "odds": "1:5"
+                        },
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black",
+                    "numberedTo": 52,
+                    "insertOdds": [
+                        {
+                            "product": "Jumbo",
+                            "odds": "1:10"
+                        }
+                    ]
+                }
+            ],
             "cards": [
                 {
                     "number": "368",
