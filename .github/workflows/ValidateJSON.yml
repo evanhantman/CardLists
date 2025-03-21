@@ -10,7 +10,8 @@ on:
     branches:
       - main
     paths:
-      - '**/*.json'
+      - 'categories/**/*.json'
+      - 'schemas/**/*.json'
 
 jobs:
   validate-json:
