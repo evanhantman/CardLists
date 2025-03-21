@@ -209,6 +209,7 @@ Before:
             "name": "Bowman",
             "indexed": false
         }
+    ]
 }
 ```
 
@@ -224,6 +225,7 @@ After:
             "uniqueId": "ffbd7ba9-d34d-4eae-98e4-0634586ec922",
             "indexed": true
         }
+    ]
 }
 ```
 
