@@ -190,6 +190,45 @@ This means if you define `RC` to mean "Rookie Card" in the `baseball` category, 
 
 The reason we persist attributes in each JSON file is to ensure every JSON release file can be used consistently by itself, without having to rely on additional JSON files through relationship entities.
 
+## Step 5 - Update the Category JSON File
+
+For each Category in this repository, we define a JSON file for each one that tracks Releases and if they're indexed (included) in this repostiory. This has two main benefits:
+
+1. Gives an exhaustive list of all _potentially_ available Releases in a given category
+2. Informs the consumer if a Release is available without having first to check to see if a file exists
+
+For your release, if there's an existing Release defined in the Category JSON file, please update that record:
+
+Before:
+
+```json
+{
+    "year": "1998",
+    "releases": [
+        {
+            "name": "Bowman",
+            "indexed": false
+        }
+}
+```
+
+After:
+
+```json
+{
+    "year": "1998",
+    "releases": [
+        {
+            "name": "Bowman",
+            "version": "1.0",
+            "uniqueId": "ffbd7ba9-d34d-4eae-98e4-0634586ec922",
+            "indexed": true
+        }
+}
+```
+
+As you can see, we've added a `uniqueId` to the release. We can now manually add that `uniqueId` to our release, _or_ if we've created many new releases and we'd like this to be done automatically, we can use the script `add-category-uid.py` which will generate the `uniqueId` on any Release in a Category JSON file marked `true`, and propagate that `uniqueId` down to the JSON file for that Release as well.
+
 ## Step 5 - Open a Pull Request
 
 After you've created your JSON file and you're ready to add it to the collection, Fork this Repository, add your code and open a full request! Automated checks will run on your PR to ensure the JSON is valid, passes Schema Validation, and also passes the same checks you can run via `validate-json-data.py`
