@@ -108,7 +108,7 @@ def flatten_card_data(category, year, release, json_data):
     return records
 
 def main():
-    # Since this script is in the 'export' folder, the repository root is one level up.
+    # Since this script is in the 'scripts' folder, the repository root is one level up.
     base_dir = Path(__file__).parent.parent
     categories_dir = base_dir / "categories"
     all_records = []
