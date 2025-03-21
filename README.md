@@ -195,12 +195,15 @@ All JSON files in this repository are licensed under the MIT License. This ensur
 
 ## How to Contribute
 
-We welcome contributions to expand and enhance this repository. To contribute:
+We welcome contributions to expand and enhance this repository. 
 
-1. Fork this repository
-2. Add or update a card set in JSON format
-3. Ensure your JSON complies with the provided JSON schemas
-4. Submit a pull request with a description of your changes
+To contribute:
+
+1. Read our handy [HOWTO](HOWTO.md) on creating your own JSON Releases
+2. Fork this repository
+3. Add or update a card set in JSON format
+4. Ensure your JSON complies with the provided JSON schemas
+5. Submit a pull request with a description of your changes
 
 All pull requests are validated against our JSON schemas to ensure data consistency. Validation must pass for the request to be merged.
 
