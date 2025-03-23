@@ -31,6 +31,8 @@ def get_attributes_for_set(set_name):
         attrs.append("AU")
     if "relic" in lower_set:
         attrs.append("RELIC")
+    if lower_set.endswith("autos"):
+        attrs.append("AU")
     return attrs
 
 def process_csv_with_pandas(file_path):
