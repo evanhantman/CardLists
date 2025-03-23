@@ -6,19 +6,30 @@ import uuid
 def generate_uuid():
     return str(uuid.uuid4())
 
+def normalize_text(s):
+    """Trim leading/trailing whitespace from a string."""
+    return s.strip() if isinstance(s, str) else ""
+
+def normalize_card_number(num_str):
+    """Trim and, if numeric, convert to a canonical integer string."""
+    num_str = normalize_text(num_str)
+    if num_str.isdigit():
+        return str(int(num_str))
+    return num_str
+
 def process_csv_with_pandas(file_path):
     # Load CSV into a pandas DataFrame. Fill missing values with an empty string.
     df = pd.read_csv(file_path, dtype=str).fillna("")
     
     # Top-level metadata (assumed consistent across the CSV)
-    top_year    = df.loc[0, "YEAR"].strip()
-    top_brand   = df.loc[0, "BRAND"].strip()
-    top_program = df.loc[0, "PROGRAM"].strip()
-    top_sport   = df.loc[0, "SPORT"].strip()
+    top_year    = normalize_text(df.loc[0, "YEAR"])
+    top_brand   = normalize_text(df.loc[0, "BRAND"])
+    top_program = normalize_text(df.loc[0, "PROGRAM"])
+    top_sport   = normalize_text(df.loc[0, "SPORT"])
     
     # Build groups sequentially.
     # Each group is a dict with:
-    #  - "base_set": the base set name (first occurrence)
+    #  - "base_set": the base set name (first occurrence, trimmed)
     #  - "base_rows": list of rows (as Series) whose CARD SET exactly equals the base set
     #  - "parallel_rows": list of tuples (row, parallel_name) for rows where CARD SET starts with base_set + " "
     groups = []
@@ -26,9 +37,8 @@ def process_csv_with_pandas(file_path):
     current_base = None
     
     for _, row in df.iterrows():
-        card_set = row["CARD SET"].strip()
+        card_set = normalize_text(row["CARD SET"])
         if current_group is None:
-            # Start first group.
             current_group = {
                 "base_set": card_set,
                 "base_rows": [row],
@@ -36,17 +46,15 @@ def process_csv_with_pandas(file_path):
             }
             current_base = card_set
         else:
-            # Updated logic: Only treat as parallel if card_set equals current_base
-            # or starts with current_base followed by a space.
+            # Only treat as parallel if card_set equals current_base or starts with current_base + " "
             if card_set == current_base or card_set.startswith(current_base + " "):
                 if card_set == current_base:
                     current_group["base_rows"].append(row)
                 else:
-                    # Derive parallel name: remove current_base and the following space, then strip hyphens/spaces.
-                    parallel_name = card_set[len(current_base)+1:].strip(" -")
+                    # Derive parallel name: remove current_base and the following space, then trim hyphens/spaces.
+                    parallel_name = normalize_text(card_set[len(current_base) + 1:]).strip(" -")
                     current_group["parallel_rows"].append((row, parallel_name))
             else:
-                # This row does not belong to the current group.
                 groups.append(current_group)
                 current_group = {
                     "base_set": card_set,
@@ -69,9 +77,9 @@ def process_csv_with_pandas(file_path):
         base_card_numbers = set()
         base_sequences = set()
         for row in base_rows:
-            card_number = row["CARD NUMBER"].strip()
-            athlete = row["ATHLETE"].strip()
-            seq_str = row["SEQUENCE"].strip()
+            card_number = normalize_card_number(row["CARD NUMBER"])
+            athlete = normalize_text(row["ATHLETE"])
+            seq_str = normalize_text(row["SEQUENCE"])
             seq_value = int(seq_str) if seq_str.isdigit() else None
             
             base_card_numbers.add(card_number)
@@ -116,15 +124,15 @@ def process_csv_with_pandas(file_path):
         
         # For set-level parallels.
         set_level_parallels = []
-        # For card-level parallels, we’ll attach them to the matching base card.
+        # For card-level parallels, attach them to the matching base card.
         for parallel_name, rows_list in parallels_by_name.items():
             # Determine the card numbers in this parallel group and gather sequence values.
             parallel_card_numbers = set()
             parallel_sequences = set()
             for row in rows_list:
-                card_number = row["CARD NUMBER"].strip()
+                card_number = normalize_card_number(row["CARD NUMBER"])
                 parallel_card_numbers.add(card_number)
-                seq_str = row["SEQUENCE"].strip()
+                seq_str = normalize_text(row["SEQUENCE"])
                 seq_value = int(seq_str) if seq_str.isdigit() else None
                 if seq_value is not None:
                     parallel_sequences.add(seq_value)
@@ -139,19 +147,35 @@ def process_csv_with_pandas(file_path):
             else:
                 # Incomplete parallel: attach each parallel row to the matching base card.
                 for row in rows_list:
-                    card_number = row["CARD NUMBER"].strip()
-                    seq_str = row["SEQUENCE"].strip()
+                    card_number = normalize_card_number(row["CARD NUMBER"])
+                    seq_str = normalize_text(row["SEQUENCE"])
                     seq_value = int(seq_str) if seq_str.isdigit() else None
                     parallel_obj = {"name": parallel_name}
                     if seq_value is not None:
                         parallel_obj["numberedTo"] = seq_value
-                    # Find the matching base card and add this parallel.
+                    # Look for a matching base card.
+                    found = False
                     for card_obj in base_cards:
                         if card_obj["number"] == card_number:
                             if "parallels" not in card_obj:
                                 card_obj["parallels"] = []
                             card_obj["parallels"].append(parallel_obj)
+                            found = True
                             break
+                    if not found:
+                        # Create a new card record for this card number with note "No Base Set Version"
+                        athlete = normalize_text(row["ATHLETE"])
+                        new_card = {
+                            "uniqueId": generate_uuid(),
+                            "number": card_number,
+                            "name": athlete,
+                            "note": "No Base Set Version"
+                        }
+                        if seq_value is not None:
+                            new_card["numberedTo"] = seq_value
+                        new_card["parallels"] = [parallel_obj]
+                        base_cards.append(new_card)
+                        base_card_numbers.add(card_number)
         
         # Build the set object.
         set_obj = {
@@ -167,12 +191,10 @@ def process_csv_with_pandas(file_path):
     
     # Build the top-level JSON object.
     top_obj = {
-        "$schema": "http://json-schema.org/draft-07/schema#",
+        "$schema": "https://raw.githubusercontent.com/JunkWaxData/CardLists/refs/heads/main/schemas/release.json",
         "name": f"{top_year} {top_brand} {top_program} {top_sport}",
         "version": "1.0",
         "uniqueId": generate_uuid(),
-        "attributes": [],
-        "notes": [],
         "sets": sets
     }
     
