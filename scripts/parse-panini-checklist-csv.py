@@ -7,7 +7,7 @@ def generate_uuid():
     return str(uuid.uuid4())
 
 def process_csv_with_pandas(file_path):
-    # Load CSV into a pandas DataFrame.
+    # Load CSV into a pandas DataFrame. Fill missing values with an empty string.
     df = pd.read_csv(file_path, dtype=str).fillna("")
     
     # Top-level metadata (assumed consistent across the CSV)
@@ -20,7 +20,7 @@ def process_csv_with_pandas(file_path):
     # Each group is a dict with:
     #  - "base_set": the base set name (first occurrence)
     #  - "base_rows": list of rows (as Series) whose CARD SET exactly equals the base set
-    #  - "parallel_rows": list of tuples (row, parallel_name) for rows where CARD SET starts with base_set but isn’t equal.
+    #  - "parallel_rows": list of tuples (row, parallel_name) for rows where CARD SET starts with base_set + " "
     groups = []
     current_group = None
     current_base = None
@@ -36,16 +36,17 @@ def process_csv_with_pandas(file_path):
             }
             current_base = card_set
         else:
-            # If this row's CARD SET starts with the current base set name...
-            if card_set.startswith(current_base):
+            # Updated logic: Only treat as parallel if card_set equals current_base
+            # or starts with current_base followed by a space.
+            if card_set == current_base or card_set.startswith(current_base + " "):
                 if card_set == current_base:
                     current_group["base_rows"].append(row)
                 else:
-                    # Derive parallel name: remove the current base from the start and strip hyphens/spaces.
-                    parallel_name = card_set[len(current_base):].strip(" -")
+                    # Derive parallel name: remove current_base and the following space, then strip hyphens/spaces.
+                    parallel_name = card_set[len(current_base)+1:].strip(" -")
                     current_group["parallel_rows"].append((row, parallel_name))
             else:
-                # This row does not belong to the current group; save current group and start a new one.
+                # This row does not belong to the current group.
                 groups.append(current_group)
                 current_group = {
                     "base_set": card_set,
@@ -84,7 +85,7 @@ def process_csv_with_pandas(file_path):
             }
             # Temporarily store sequence to decide later if we can set it at the set level.
             card_obj["_sequence"] = seq_value
-            # Also prepare a placeholder for card-level parallels (if needed).
+            # Prepare a placeholder for card-level parallels.
             card_obj["parallels"] = []
             base_cards.append(card_obj)
         
@@ -103,7 +104,7 @@ def process_csv_with_pandas(file_path):
                 if card_obj.get("_sequence") is not None:
                     card_obj["numberedTo"] = card_obj["_sequence"]
                 card_obj.pop("_sequence", None)
-            # If no parallels were added, we can remove the card-level "parallels" if empty.
+            # Remove empty parallels placeholder.
             if not card_obj["parallels"]:
                 del card_obj["parallels"]
         
@@ -115,7 +116,7 @@ def process_csv_with_pandas(file_path):
         
         # For set-level parallels.
         set_level_parallels = []
-        # For card-level parallels, we’ll modify the corresponding base card.
+        # For card-level parallels, we’ll attach them to the matching base card.
         for parallel_name, rows_list in parallels_by_name.items():
             # Determine the card numbers in this parallel group and gather sequence values.
             parallel_card_numbers = set()
