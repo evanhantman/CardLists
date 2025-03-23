@@ -17,6 +17,22 @@ def normalize_card_number(num_str):
         return str(int(num_str))
     return num_str
 
+def get_attributes_for_set(set_name):
+    """
+    Return a list of attribute codes to apply to cards based on the set name.
+    
+    Rules:
+      - If the set name contains "autograph" (case-insensitive), add "AU"
+      - If the set name contains "relic" (case-insensitive), add "RELIC"
+    """
+    attrs = []
+    lower_set = set_name.lower()
+    if "autograph" in lower_set:
+        attrs.append("AU")
+    if "relic" in lower_set:
+        attrs.append("RELIC")
+    return attrs
+
 def process_csv_with_pandas(file_path):
     # Load CSV into a pandas DataFrame. Fill missing values with an empty string.
     df = pd.read_csv(file_path, dtype=str).fillna("")
@@ -72,6 +88,9 @@ def process_csv_with_pandas(file_path):
         base_rows = group["base_rows"]
         parallel_rows = group["parallel_rows"]
         
+        # Get attributes based on the set name.
+        set_attributes = get_attributes_for_set(base_set)
+        
         # Process base rows into card objects.
         base_cards = []
         base_card_numbers = set()
@@ -95,6 +114,9 @@ def process_csv_with_pandas(file_path):
             card_obj["_sequence"] = seq_value
             # Prepare a placeholder for card-level parallels.
             card_obj["parallels"] = []
+            # Attach set-level attributes to this card.
+            if set_attributes:
+                card_obj["attributes"] = set_attributes.copy()
             base_cards.append(card_obj)
         
         # Determine if the base cards share a uniform (non-None) sequence.
@@ -113,7 +135,7 @@ def process_csv_with_pandas(file_path):
                     card_obj["numberedTo"] = card_obj["_sequence"]
                 card_obj.pop("_sequence", None)
             # Remove empty parallels placeholder.
-            if not card_obj["parallels"]:
+            if "parallels" in card_obj and not card_obj["parallels"]:
                 del card_obj["parallels"]
         
         # Process parallel rows.
@@ -163,7 +185,7 @@ def process_csv_with_pandas(file_path):
                             found = True
                             break
                     if not found:
-                        # Create a new card record for this card number with note "No Base Set Version"
+                        # Create a new card record for this card number.
                         athlete = normalize_text(row["ATHLETE"])
                         new_card = {
                             "uniqueId": generate_uuid(),
@@ -174,6 +196,9 @@ def process_csv_with_pandas(file_path):
                         if seq_value is not None:
                             new_card["numberedTo"] = seq_value
                         new_card["parallels"] = [parallel_obj]
+                        # Also apply the set-level attributes.
+                        if set_attributes:
+                            new_card["attributes"] = set_attributes.copy()
                         base_cards.append(new_card)
                         base_card_numbers.add(card_number)
         
