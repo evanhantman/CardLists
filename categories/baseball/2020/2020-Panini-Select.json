@@ -3,7 +3,20 @@
   "name": "2020 Panini Select Baseball",
   "version": "1.0",
   "uniqueId": "2fc2714c-4b63-4ed9-910f-2776823c5588",
-  "attributes": [],
+  "attributes": [
+    {
+      "attribute": "RELIC",
+      "note": "Relic Card"
+    },
+    {
+      "attribute": "RC",
+      "note": "Rookie Card"
+    },
+    {
+      "attribute": "AU",
+      "note": "Autograph"
+    }
+  ],
   "sets": [
     {
       "uniqueId": "5c2bd72b-d1f2-49bd-bcda-81ac9b682757",
