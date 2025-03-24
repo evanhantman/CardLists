@@ -7281,7 +7281,7 @@
                     {
                         "name": "Donruss",
                         "version": "1.0",
-  "uniqueId": "b6d8cf54-8c31-4eb1-9b29-e3f196a2a2f0",
+                        "uniqueId": "b6d8cf54-8c31-4eb1-9b29-e3f196a2a2f0",
                         "indexed": true
                     },
                     {
@@ -7330,7 +7330,9 @@
                     },
                     {
                         "name": "Panini Prizm",
-                        "indexed": false
+                        "version": "1.0",
+                        "uniqueId": "03b6ade1-7ef4-46d5-9691-bf43ff397ec0",
+                        "indexed": true
                     },
                     {
                         "name": "Panini Select",
