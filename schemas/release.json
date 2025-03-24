@@ -152,6 +152,10 @@
           "type": "array",
           "items": { "$ref": "#/definitions/parallel" }
         },
+        "attributes": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/nonEmptyString" }
+        },
         "cards": {
           "type": "array",
           "items": { "$ref": "#/definitions/card" }
