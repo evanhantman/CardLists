@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Panini Card Checklist Visualizer</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- PapaParse for CSV parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <style>
+      body {
+        padding: 20px;
+      }
+      /* Flex container for side-by-side layout */
+      .side-by-side-container {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .tile-area {
+        flex: 0.8;
+      }
+      .tree-area {
+        flex: 0.2;
+        border-left: 1px solid #ccc;
+        padding-left: 10px;
+      }
+      /* Use Materialize card structure for sets */
+      .card-set {
+        cursor: move;
+        margin: 10px;
+      }
+      .card-set .card {
+        transition: box-shadow 0.3s, background-color 0.3s;
+      }
+      .card-set .card:hover {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        background-color: #f5f5f5;
+      }
+      /* Highlight drop targets */
+      .drop-target {
+        border: 2px dashed #1976d2;
+      }
+      .draggable-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .parallel-badge {
+        display: inline-flex;
+        align-items: center;
+        background-color: #e0e0e0;
+        color: #424242;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 12px;
+        margin: 2px;
+      }
+      .parallel-badge i {
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 4px;
+      }
+      .header-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .header-actions .action-buttons {
+        display: flex;
+        gap: 10px;
+      }
+      /* Instruction text styling */
+      .instructions, .important-instructions {
+        font-size: 14px;
+        color: #616161;
+        margin-bottom: 10px;
+      }
+      .important-instructions {
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f9f9f9;
+      }
+      /* Tree styling */
+      #tree-container ul {
+        list-style-type: none;
+        padding-left: 20px;
+      }
+      #tree-container li {
+        margin: 5px 0;
+      }
+      #tree-container li::before {
+        content: "• ";
+        color: #1976d2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-actions">
+        <h4>Panini Card Checklist Visualizer</h4>
+        <div class="action-buttons">
+          <button id="reset-btn" class="waves-effect waves-light btn grey lighten-1">Reset</button>
+          <button id="export-btn" class="waves-effect waves-light btn">EXPORT</button>
+        </div>
+      </div>
+
+      <!-- New Instruction Block -->
+      <div class="important-instructions">
+        Panini Checklists provided by their website do not use consistent naming for their Parallel Sets in relation to their base sets. Because of this, while the Python Script can get us 95% of the way there most of the time, there are instances where we need to manually intervene and help by associating what is a parallel and what is a set.
+      </div>
+
+      <div class="row">
+        <!-- Release Name and CSV File Input -->
+        <div class="input-field col s6">
+          <input id="release-name" type="text" placeholder="e.g., 2022 Panini Prizm">
+          <label for="release-name">Release Name</label>
+        </div>
+        <div class="input-field col s6">
+          <div class="file-field input-field">
+            <div class="btn">
+              <span>CSV File</span>
+              <input type="file" id="csv-file" accept=".csv">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text" placeholder="Upload Panini CSV">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Instructions -->
+      <div class="instructions">
+        Drag one card set onto another to assign it as a parallel. Drop targets will be highlighted.
+      </div>
+
+      <!-- Side-by-side container for tile area and tree -->
+      <div class="side-by-side-container">
+        <!-- Tile Area -->
+        <div class="tile-area">
+          <h5>Available Card Sets</h5>
+          <div id="card-sets" class="draggable-container">
+            <!-- Draggable card sets will be displayed here -->
+          </div>
+        </div>
+        <!-- Tree Area -->
+        <div class="tree-area">
+          <h5>Tree</h5>
+          <div id="tree-container">
+            <!-- The tree will be dynamically built here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      // State object for easier management.
+      const state = {
+        csvData: [],
+        parallelRelationships: {},
+        // Store the original order of card sets from the CSV.
+        availableOrder: [],
+      };
+
+      let draggedSet = null;
+
+      document.addEventListener("DOMContentLoaded", () => {
+        M.AutoInit();
+
+        // Update tree whenever the release name changes.
+        document.getElementById("release-name").addEventListener("input", updateTree);
+
+        // CSV file input listener.
+        document.getElementById("csv-file").addEventListener("change", (event) => {
+          const file = event.target.files[0];
+          if (file) {
+            Papa.parse(file, {
+              header: true,
+              skipEmptyLines: true,
+              complete: (results) => {
+                state.csvData = results.data;
+                buildAvailableCardSets();
+                updateTree();
+              },
+            });
+          }
+        });
+
+        // Export button listener.
+        document.getElementById("export-btn").addEventListener("click", () => {
+          if (!state.csvData.length) return;
+          const reverseMapping = {};
+          Object.keys(state.parallelRelationships).forEach((target) => {
+            state.parallelRelationships[target].forEach((parallel) => (reverseMapping[parallel] = target));
+          });
+          const exportData = state.csvData.map((row) => ({
+            ...row,
+            "PARALLEL OF": reverseMapping[row["CARD SET"]] || "",
+          }));
+          const csvOutput = Papa.unparse(exportData);
+          downloadCSV(csvOutput, "exported_panini_data.csv");
+        });
+
+        // Reset button listener.
+        document.getElementById("reset-btn").addEventListener("click", () => {
+          resetAll();
+        });
+      });
+
+      // Build available card sets and record their original order.
+      const buildAvailableCardSets = () => {
+        state.parallelRelationships = {};
+        const availableContainer = document.getElementById("card-sets");
+        availableContainer.innerHTML = "";
+        const order = [];
+        state.csvData.forEach((row) => {
+          const setName = row["CARD SET"];
+          if (setName && !order.includes(setName)) order.push(setName);
+        });
+        state.availableOrder = order; // Save the original order.
+        order.forEach((setName) => {
+          const cardElement = createCardSetElement(setName);
+          availableContainer.appendChild(cardElement);
+        });
+      };
+
+      const resetAll = () => {
+        buildAvailableCardSets();
+        updateTree();
+      };
+
+      // Create a draggable card set element.
+      const createCardSetElement = (setName) => {
+        const container = document.createElement("div");
+        container.className = "card-set";
+        container.dataset.setName = setName;
+
+        const cardDiv = document.createElement("div");
+        cardDiv.className = "card hoverable";
+
+        const cardContent = document.createElement("div");
+        cardContent.className = "card-content";
+        cardContent.textContent = setName;
+
+        const badgeContainer = document.createElement("div");
+        badgeContainer.className = "badge-container";
+        cardContent.appendChild(badgeContainer);
+
+        cardDiv.appendChild(cardContent);
+        container.appendChild(cardDiv);
+
+        container.setAttribute("draggable", "true");
+        container.addEventListener("dragstart", (e) => {
+          draggedSet = setName;
+          e.dataTransfer.setData("text/plain", setName);
+          container.style.opacity = "0.5";
+        });
+        container.addEventListener("dragend", (e) => {
+          container.style.opacity = "1";
+          container.classList.remove("drop-target");
+        });
+        container.addEventListener("dragover", (e) => {
+          e.preventDefault();
+          container.classList.add("drop-target");
+        });
+        container.addEventListener("dragleave", (e) =>
+          container.classList.remove("drop-target")
+        );
+        container.addEventListener("drop", (e) => {
+          e.preventDefault();
+          container.classList.remove("drop-target");
+          const targetSet = setName;
+          if (draggedSet === targetSet) return;
+          assignParallel(draggedSet, targetSet);
+        });
+
+        return container;
+      };
+
+      const assignParallel = (source, target) => {
+        if (!state.parallelRelationships[target]) {
+          state.parallelRelationships[target] = [];
+        }
+        if (!state.parallelRelationships[target].includes(source)) {
+          state.parallelRelationships[target].push(source);
+          const sourceCard = document.querySelector(`[data-set-name="${source}"]`);
+          if (sourceCard) sourceCard.remove();
+          updateCardSetElement(target);
+          updateTree();
+        }
+      };
+
+      const updateCardSetElement = (targetSet) => {
+        const container = document.querySelector(`[data-set-name="${targetSet}"]`);
+        if (!container) return;
+        const badgeContainer = container.querySelector(".badge-container");
+        badgeContainer.innerHTML = "";
+        if (state.parallelRelationships[targetSet]) {
+          state.parallelRelationships[targetSet].forEach((parallel) => {
+            let displayName = parallel;
+            if (parallel.startsWith(`${targetSet} `)) {
+              displayName = parallel.substring(targetSet.length).trim();
+            }
+            const badge = document.createElement("div");
+            badge.className = "parallel-badge";
+            badge.textContent = displayName;
+
+            const removeIcon = document.createElement("i");
+            removeIcon.className = "material-icons";
+            removeIcon.textContent = "close";
+            removeIcon.addEventListener("click", (e) => {
+              e.stopPropagation();
+              const index = state.parallelRelationships[targetSet].indexOf(parallel);
+              if (index !== -1) {
+                state.parallelRelationships[targetSet].splice(index, 1);
+              }
+              reAddAvailableCardSet(parallel);
+              updateCardSetElement(targetSet);
+              updateTree();
+            });
+            badge.appendChild(removeIcon);
+            badgeContainer.appendChild(badge);
+          });
+        }
+      };
+
+      // Re-add a card set element back into the available container at its original position.
+      const reAddAvailableCardSet = (setName) => {
+        const availableContainer = document.getElementById("card-sets");
+        if (!document.querySelector(`[data-set-name="${setName}"]`)) {
+          const newCard = createCardSetElement(setName);
+          const orderIndex = state.availableOrder.indexOf(setName);
+          let inserted = false;
+          for (let child of availableContainer.children) {
+            const childName = child.dataset.setName;
+            if (state.availableOrder.indexOf(childName) > orderIndex) {
+              availableContainer.insertBefore(newCard, child);
+              inserted = true;
+              break;
+            }
+          }
+          if (!inserted) {
+            availableContainer.appendChild(newCard);
+          }
+        }
+      };
+
+      const updateTree = () => {
+        const treeContainer = document.getElementById("tree-container");
+        treeContainer.innerHTML = "";
+        let releaseName = document.getElementById("release-name").value.trim();
+        if (!releaseName) releaseName = "Release";
+
+        const rootUl = document.createElement("ul");
+        const rootLi = document.createElement("li");
+        rootLi.textContent = releaseName;
+
+        const reverseMapping = {};
+        Object.keys(state.parallelRelationships).forEach((target) => {
+          state.parallelRelationships[target].forEach((parallel) => (reverseMapping[parallel] = target));
+        });
+
+        const allSets = new Set();
+        state.csvData.forEach((row) => {
+          if (row["CARD SET"]) allSets.add(row["CARD SET"]);
+        });
+
+        const baseSets = [];
+        allSets.forEach((setName) => {
+          if (!(setName in reverseMapping)) baseSets.push(setName);
+        });
+        baseSets.sort();
+
+        const baseUl = document.createElement("ul");
+        baseSets.forEach((base) => {
+          const baseLi = document.createElement("li");
+          baseLi.textContent = base;
+          if (state.parallelRelationships[base] && state.parallelRelationships[base].length > 0) {
+            const parallelsUl = document.createElement("ul");
+            state.parallelRelationships[base].forEach((parallel) => {
+              let displayName = parallel;
+              if (parallel.startsWith(`${base} `)) {
+                displayName = parallel.substring(base.length).trim();
+              }
+              const parallelLi = document.createElement("li");
+              parallelLi.textContent = displayName;
+              parallelsUl.appendChild(parallelLi);
+            });
+            baseLi.appendChild(parallelsUl);
+          }
+          baseUl.appendChild(baseLi);
+        });
+        rootLi.appendChild(baseUl);
+        rootUl.appendChild(rootLi);
+        treeContainer.appendChild(rootUl);
+      };
+
+      const downloadCSV = (csvString, filename) => {
+        const blob = new Blob([csvString], { type: "text/csv;charset=utf-8;" });
+        const link = document.createElement("a");
+        if (link.download !== undefined) {
+          const url = URL.createObjectURL(blob);
+          link.setAttribute("href", url);
+          link.setAttribute("download", filename);
+          link.style.visibility = "hidden";
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }
+      };
+    </script>
+  </body>
+</html>
