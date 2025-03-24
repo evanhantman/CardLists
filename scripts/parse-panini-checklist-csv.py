@@ -19,7 +19,7 @@ def normalize_card_number(num_str):
 
 def get_attributes_for_set(set_name):
     """
-    Return a list of attribute codes to apply to cards based on the set name.
+    Return a list of attribute codes to apply to the set based on the set name.
     
     Rules:
       - If the set name contains "autograph" (case-insensitive), add "AU"
@@ -73,11 +73,10 @@ def process_csv_with_pandas(file_path):
                     "base_rows": [],
                     "parallel_rows": []
                 }
-            # If PARALLEL OF is non-empty and CARD SET differs from effective_base,
-            # treat the row as a parallel.
+            # If PARALLEL OF is non-empty and CARD SET differs from effective_base, treat the row as a parallel.
             if parallel_of != "" and card_set != effective_base:
                 # Apply parallel name logic: if card_set starts with effective_base + " ",
-                # trim it.
+                # trim that prefix.
                 if card_set.startswith(effective_base + " "):
                     parallel_name = normalize_text(card_set[len(effective_base) + 1:]).strip(" -")
                 else:
@@ -117,7 +116,7 @@ def process_csv_with_pandas(file_path):
         if current_group is not None:
             groups.append(current_group)
         
-        # Merge adjacent groups using matching logic.
+        # Merge adjacent groups using existing matching logic.
         merged_groups = []
         for group in groups:
             merged = False
@@ -162,10 +161,10 @@ def process_csv_with_pandas(file_path):
                 "number": card_number,
                 "name": athlete,
             }
-            card_obj["_sequence"] = seq_value  # temporary field
+            # Temporarily store sequence for later decision.
+            card_obj["_sequence"] = seq_value
+            # Prepare placeholder for card-level parallels.
             card_obj["parallels"] = []
-            if set_attributes:
-                card_obj["attributes"] = set_attributes.copy()
             base_cards.append(card_obj)
         
         # Determine if the base cards share a uniform (non-None) sequence.
@@ -186,7 +185,6 @@ def process_csv_with_pandas(file_path):
                 del card_obj["parallels"]
         
         # Process parallel rows.
-        # Group parallel rows by parallel name.
         parallels_by_name = {}
         for row, parallel_name in parallel_rows:
             parallels_by_name.setdefault(parallel_name, []).append(row)
@@ -234,8 +232,6 @@ def process_csv_with_pandas(file_path):
                         if seq_value is not None:
                             new_card["numberedTo"] = seq_value
                         new_card["parallels"] = [parallel_obj]
-                        if set_attributes:
-                            new_card["attributes"] = set_attributes.copy()
                         base_cards.append(new_card)
                         base_card_numbers.add(card_number)
         
@@ -254,15 +250,27 @@ def process_csv_with_pandas(file_path):
             print(f"Warning: Duplicate records found in set '{base_set}'. Please manually verify the accuracy.")
         base_cards = unique_cards
         
+        # Build the set object.
         set_obj = {
             "uniqueId": generate_uuid(),
-            "name": base_set,
-            "cards": base_cards,
-            "parallels": set_level_parallels,
-            "variations": []
+            "name": base_set
         }
+
+        # Add attributes if any were found for the set.
+        if set_attributes:
+            set_obj["attributes"] = set_attributes
+
+        # Add numberedTo if the base cards share a uniform sequence.
         if uniform_base_seq:
             set_obj["numberedTo"] = set_numberedTo
+
+        # Add Parallels if any were found for the set.
+        if set_level_parallels:
+            set_obj["parallels"] = set_level_parallels
+        
+        #Append Cards Last
+        set_obj["cards"] = base_cards
+        
         sets.append(set_obj)
     
     top_obj = {
@@ -270,7 +278,7 @@ def process_csv_with_pandas(file_path):
         "name": f"{top_year} {top_brand} {top_program} {top_sport}",
         "version": "1.0",
         "uniqueId": generate_uuid(),
-        "attributes": [],
+        "attributes": [],  # Top-level attributes (if any) can be added here.
         "sets": sets
     }
     
