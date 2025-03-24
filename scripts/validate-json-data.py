@@ -16,7 +16,10 @@ def traverse_card_obj(obj, collected, warnings):
             attrs = obj["attributes"]
             if isinstance(attrs, list):
                 for attr in attrs:
-                    collected.add(attr)
+                    if isinstance(attr, str):
+                        collected.add(attr)
+                    else:
+                        warnings.append(f"Non-string attribute found in card-level attributes: {attr}")
             else:
                 warnings.append(f"Warning: 'attributes' is not a list in object: {obj}")
         if "variations" in obj:
@@ -63,13 +66,13 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
     """
     Validate a single JSON file with two checks:
       (a) Internal consistency:
-          - Each attribute used on cards (or nested variations) is defined
-            in the root-level "attributes" array.
-          - Every attribute defined in the root appears on at least one card.
+          - Each attribute used on cards (or nested variations), either defined at the card level
+            or at the set level, is defined in the root-level "attributes" array.
+          - Every attribute defined in the root appears on at least one card (or set).
       (b) Also, extract the file's root attribute definitions (mapping attribute -> note)
           for later cross-file consistency validation.
     
-    For any attribute used on a card but missing in the file's root attributes,
+    For any attribute used on a card (or inherited from a set) but missing in the file's root attributes,
     an error is recorded and a suggestion JSON record is collected.
     
     Returns a tuple: (list_of_errors, root_attribute_map, missing_suggestions)
@@ -78,6 +81,7 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
     warnings = []
     missing_suggestions = []  # List of JSON objects for missing attributes
     root_attr_map = {}  # mapping: attribute -> note from this file
+
     try:
         with open(file_path, "r") as f:
             data = json.load(f)
@@ -100,13 +104,25 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
             else:
                 errors.append(f"Invalid attribute pair in root 'attributes' array: {attr_pair}")
 
-    # Collect all attributes used in cards and nested variations.
+    # Collect all attributes used on cards and at the set level.
     card_attrs = set()
     if "sets" not in data:
         errors.append("Missing 'sets' property in JSON data.")
         return errors, root_attr_map, missing_suggestions
 
     for s in data["sets"]:
+        # Include set-level attributes if present.
+        if "attributes" in s:
+            set_attrs = s["attributes"]
+            if isinstance(set_attrs, list):
+                for attr in set_attrs:
+                    if isinstance(attr, str):
+                        card_attrs.add(attr)
+                    else:
+                        errors.append(f"Non-string attribute found in set-level attributes: {attr}")
+            else:
+                errors.append(f"Set-level 'attributes' is not a list in set: {s}")
+        # Process card-level attributes.
         if "cards" not in s:
             errors.append(f"A set is missing the 'cards' property: {s}")
             continue
@@ -114,7 +130,7 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
             traverse_card_obj(card, card_attrs, warnings)
 
     # Two-way per-file validation:
-    # 1. Every attribute on a card must be defined in the root-level attributes.
+    # 1. Every attribute on a card (or inherited via the set) must be defined in the root-level attributes.
     for attr in card_attrs:
         if attr not in root_attr_map:
             suggestion = None
@@ -130,14 +146,14 @@ def validate_file(file_path, global_attr_defs, canonical_global_attr_defs):
                 # New attribute: provide a template suggestion.
                 suggestion = {"attribute": attr, "note": "NEW ATTRIBUTE - please define"}
             errors.append(
-                f"Attribute '{attr}' found on a card but not defined in root attributes. (A suggested definition is provided below.)"
+                f"Attribute '{attr}' found on a card (or via set) but not defined in root attributes. (A suggested definition is provided below.)"
             )
             missing_suggestions.append(suggestion)
-    # 2. Every attribute defined in the root must appear on at least one card.
+    # 2. Every attribute defined in the root must appear on at least one card (or set).
     for attr in root_attr_map:
         if attr not in card_attrs:
             errors.append(
-                f"Attribute '{attr}' defined in root attributes but not found on any card."
+                f"Attribute '{attr}' defined in root attributes but not found on any card (or set)."
             )
 
     # Report any warnings.
@@ -163,11 +179,10 @@ def find_json_files(path_pattern):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Validate JSON files by checking that each attribute used on a card "
-                    "is defined in the root-level attributes array and vice versa, "
-                    "and then ensuring that attributes have consistent notes across files. "
-                    "For any missing attribute in a file, a suggested definition is provided "
-                    "as a single JSON array block at the end of the report."
+        description="Validate JSON files by checking that each attribute used on a card (or inherited via set) "
+                    "is defined in the root-level attributes array and vice versa, and then ensuring that attributes "
+                    "have consistent notes across files. For any missing attribute in a file, a suggested definition is "
+                    "provided as a single JSON array block at the end of the report."
     )
     parser.add_argument("path", help="Path, directory, or glob pattern for JSON files to validate")
     args = parser.parse_args()
@@ -210,7 +225,6 @@ def main():
             # If there are missing attribute suggestions, output them as one JSON block.
             if file in file_missing_suggestions:
                 print("\nSuggested JSON definitions for missing attributes for this file:", file=sys.stderr)
-                # Print as one JSON array for easier copy/paste.
                 print(json.dumps(file_missing_suggestions[file], indent=2), file=sys.stderr)
     # Report cross-file consistency errors.
     if cross_file_errors:
