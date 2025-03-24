@@ -39,7 +39,7 @@ def flatten_card_data(category, year, release, json_data):
                 "card_unique_id": card.get("uniqueId", ""),
                 "card_number": card.get("number", ""),
                 "card_name": base_card_name,
-                "attributes": card.get("attributes", []),
+                "attributes": card_set.get("attributes", []) + card.get("attributes", []),
                 "note": card.get("note", ""),
                 "parallel": "",
                 "_is_variation": False
