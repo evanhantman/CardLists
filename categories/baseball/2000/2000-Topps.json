@@ -49,7 +49,6 @@
             "note": "Exchange Card"
         },
         {
-        
             "attribute": "ALDS",
             "note": "American League Division Series"
         },
@@ -3178,85 +3177,58 @@
                 {
                     "number": "RT1",
                     "name": "Mark McGwire",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "9cb5d6ef-1fca-4362-9745-d86841772c3a"
                 },
                 {
                     "number": "RT2",
                     "name": "Chuck Knoblauch",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "e4530e3d-ed36-4bc5-9849-c3198956aff4"
                 },
                 {
                     "number": "RT3",
                     "name": "Chipper Jones",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "f9384976-29f2-4b99-9bd9-166f61c42329"
                 },
                 {
                     "number": "RT4",
                     "name": "Cal Ripken",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "048c0492-506e-49fb-ad42-d0e67e878d0f"
                 },
                 {
                     "number": "RT5",
                     "name": "Manny Ramirez",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "981c2839-b092-41c1-801a-d867191a841d"
                 },
                 {
                     "number": "RT6",
                     "name": "Jose Canseco",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "9f8d6c5b-6290-4641-88f8-70e8f501554b"
                 },
                 {
                     "number": "RT7",
                     "name": "Ken Griffey Jr.",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "b108afbf-8dd4-4c7f-971c-08111559685b"
                 },
                 {
                     "number": "RT8",
                     "name": "Mike Piazza",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "990037c5-12ed-45e3-a1fd-9237e4083709"
                 },
                 {
                     "number": "RT9",
                     "name": "Dwight Gooden",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "1cfe399c-167a-48ba-a525-d69adab02c7d"
                 },
                 {
                     "number": "RT10",
                     "name": "Billy Wagner",
-                    "attributes": [
-                        "ASR"
-                    ],
                     "uniqueId": "4d9929bc-bcf2-4e00-b9d6-0f9a6c8783c4"
                 }
             ],
-            "uniqueId": "5062bb8f-cc9b-4d13-ba8a-4e52d2808472"
+            "uniqueId": "5062bb8f-cc9b-4d13-ba8a-4e52d2808472",
+            "attributes": [
+                "ASR"
+            ]
         },
         {
             "name": "All-Topps Team",
@@ -3653,7 +3625,6 @@
                     "number": "1",
                     "name": "Henry Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1954 Topps #128",
@@ -3662,9 +3633,6 @@
                 {
                     "number": "2",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1955 Topps #47",
                     "uniqueId": "980af03e-278a-448c-b295-293ae0bc2f22"
                 },
@@ -3672,7 +3640,6 @@
                     "number": "3",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1956 Topps #31",
@@ -3682,7 +3649,6 @@
                     "number": "4",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "UER"
                     ],
                     "note": "1957 Topps #20; UER: Reversed image",
@@ -3692,7 +3658,6 @@
                     "number": "5",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1958 Topps #30",
@@ -3701,9 +3666,6 @@
                 {
                     "number": "6",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1959 Topps #380",
                     "uniqueId": "28a1f979-4e24-402c-8e5e-fe6c90fecd9c"
                 },
@@ -3711,7 +3673,6 @@
                     "number": "7",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1960 Topps #300",
@@ -3720,9 +3681,6 @@
                 {
                     "number": "8",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1961 Topps #415",
                     "uniqueId": "dcd9faa7-6719-48bc-bca1-505c71aa1d48"
                 },
@@ -3730,7 +3688,6 @@
                     "number": "9",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1962 Topps #320",
@@ -3739,9 +3696,6 @@
                 {
                     "number": "10",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1963 Topps #390",
                     "uniqueId": "f0b36479-7e30-4d0f-be4b-48c2422cec85"
                 },
@@ -3749,7 +3703,6 @@
                     "number": "11",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1964 Topps #300",
@@ -3758,9 +3711,6 @@
                 {
                     "number": "12",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1965 Topps #170",
                     "uniqueId": "88d44896-fdac-463e-89b6-f1568b3d5cbe"
                 },
@@ -3768,7 +3718,6 @@
                     "number": "13",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1966 Topps #500",
@@ -3777,9 +3726,6 @@
                 {
                     "number": "14",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1967 Topps #250",
                     "uniqueId": "40af80c4-d2fd-4fd8-84c2-26542784c725"
                 },
@@ -3787,7 +3733,6 @@
                     "number": "15",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1968 Topps #110",
@@ -3796,9 +3741,6 @@
                 {
                     "number": "16",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1969 Topps #100",
                     "uniqueId": "871291a7-9553-493c-95fb-f2dc1a199dc2"
                 },
@@ -3806,7 +3748,6 @@
                     "number": "17",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1970 Topps #500",
@@ -3815,9 +3756,6 @@
                 {
                     "number": "18",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1971 Topps #400",
                     "uniqueId": "054b6871-1c61-47ea-97aa-d52ce72429ed"
                 },
@@ -3825,7 +3763,6 @@
                     "number": "19",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1972 Topps #299",
@@ -3834,9 +3771,6 @@
                 {
                     "number": "20",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1973 Topps #100",
                     "uniqueId": "645ae81c-cde6-4708-b61d-ab2469f9d21e"
                 },
@@ -3844,7 +3778,6 @@
                     "number": "21",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1974 Topps #1",
@@ -3853,9 +3786,6 @@
                 {
                     "number": "22",
                     "name": "Hank Aaron",
-                    "attributes": [
-                        "AU"
-                    ],
                     "note": "1975 Topps #660",
                     "uniqueId": "4904546a-b953-4002-b021-b7f624c8a221"
                 },
@@ -3863,14 +3793,16 @@
                     "number": "23",
                     "name": "Hank Aaron",
                     "attributes": [
-                        "AU",
                         "EXCH"
                     ],
                     "note": "1976 Topps #550",
                     "uniqueId": "271538b8-c4e2-4ad5-a2ee-acb73b85f794"
                 }
             ],
-            "uniqueId": "6904ec30-f729-484f-9a50-6fc3d66aebd9"
+            "uniqueId": "6904ec30-f729-484f-9a50-6fc3d66aebd9",
+            "attributes": [
+                "AU"
+            ]
         },
         {
             "name": "Mark McGwire Commemorative Reprint",
@@ -3892,13 +3824,13 @@
                 {
                     "number": "401",
                     "name": "Mark McGwire",
-                    "attributes": [
-                        "OLY"
-                    ],
                     "uniqueId": "41292bac-0652-4fa0-9f70-c5fe908e8a5e"
                 }
             ],
-            "uniqueId": "b2a81fc7-78fa-4620-b520-34bbf2877932"
+            "uniqueId": "b2a81fc7-78fa-4620-b520-34bbf2877932",
+            "attributes": [
+                "OLY"
+            ]
         },
         {
             "name": "Own the Game",
@@ -4300,95 +4232,59 @@
                 {
                     "number": "SR1",
                     "name": "Don Mattingly",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "442f4afd-fab3-4029-92b9-5f7f50c215f9"
                 },
                 {
                     "number": "SR2",
                     "name": "Carl Yastrzemski",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "dca4e437-c12a-4161-aff9-033ca8ebd958"
                 },
                 {
                     "number": "SR3",
                     "name": "Ernie Banks",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "e9d3025c-7684-4b99-a7c8-f0a48cfa9613"
                 },
                 {
                     "number": "SR4",
                     "name": "Johnny Bench",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "15d77072-1967-4038-9e8f-e8876b7d20e3"
                 },
                 {
                     "number": "SR5",
                     "name": "Willie Mays",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "abff4e50-6f58-4cfa-aad3-3da1ba01ffe6"
                 },
                 {
                     "number": "SR6",
                     "name": "Mike Schmidt",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "bce9a418-347c-4073-b893-c45149a61dfb"
                 },
                 {
                     "number": "SR7",
                     "name": "Lou Brock",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "212245ce-705d-43ad-81ef-b58bc043ad04"
                 },
                 {
                     "number": "SR8",
                     "name": "Al Kaline",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "b4672c1b-4390-4a5d-bb01-d2aa219f892d"
                 },
                 {
                     "number": "SR9",
                     "name": "Paul Molitor",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "d729a3ad-b5b8-48a1-8c73-5f4b84fab517"
                 },
                 {
                     "number": "SR10",
                     "name": "Eddie Mathews",
-                    "attributes": [
-                        "AU",
-                        "RELIC"
-                    ],
                     "uniqueId": "7f47d599-a0c8-4f2d-906e-f7c5667bab8d"
                 }
             ],
-            "uniqueId": "35a5cf6f-2568-4163-82e9-2250770c217e"
+            "uniqueId": "35a5cf6f-2568-4163-82e9-2250770c217e",
+            "attributes": [
+                "AU",
+                "RELIC"
+            ]
         },
         {
             "name": "Topps Combos",
@@ -4474,245 +4370,158 @@
                 {
                     "number": "TA1",
                     "name": "Alex Rodriguez",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "da8fe1c7-63a6-42c6-b025-0e0a059eb893"
                 },
                 {
                     "number": "TA2",
                     "name": "Tony Gwynn",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "2394a58d-a533-4ea3-a911-128d43b6d250"
                 },
                 {
                     "number": "TA3",
                     "name": "Vinny Castilla",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "e7b57f06-e59e-44b5-8221-5d7c16d640a7"
                 },
                 {
                     "number": "TA4",
                     "name": "Sean Casey",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "2850e6d0-beb3-4495-b585-8d876a152e77"
                 },
                 {
                     "number": "TA5",
                     "name": "Shawn Green",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "6ee8428e-b872-4f86-8ca1-9e8eba71cdec"
                 },
                 {
                     "number": "TA6",
                     "name": "Rey Ordonez",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "b0b30477-704c-4f6d-bd90-8b07881bc2a3"
                 },
                 {
                     "number": "TA7",
                     "name": "Matt Lawton",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "281adf88-f441-4031-a468-1a215f732661"
                 },
                 {
                     "number": "TA8",
                     "name": "Tony Womack",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "a222cbfe-34eb-4b2b-bbe5-21e33e92e72b"
                 },
                 {
                     "number": "TA9",
                     "name": "Gabe Kapler",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "30247677-5141-4992-bfc9-bd3b9b2a3966"
                 },
                 {
                     "number": "TA10",
                     "name": "Pat Burrell",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "bb5ebaf5-169c-482a-aa31-facc2fa99c6f"
                 },
                 {
                     "number": "TA11",
                     "name": "Preston Wilson",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "036d82ec-680d-420b-96b3-828f11d0b9c2"
                 },
                 {
                     "number": "TA12",
                     "name": "Troy Glaus",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "13b21590-d8ff-4742-b46d-4a4be2f46d18"
                 },
                 {
                     "number": "TA13",
                     "name": "Carlos Beltran",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "59d12ac5-0184-4fea-9a50-78945f78d444"
                 },
                 {
                     "number": "TA14",
                     "name": "Josh Girdley",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "0b1da749-c0cc-4177-ac1d-54c0ff46d890"
                 },
                 {
                     "number": "TA15",
                     "name": "B.J. Garbe",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "e24bf0db-fb66-45a6-9f74-8da9279786f5"
                 },
                 {
                     "number": "TA16",
                     "name": "Derek Jeter",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "02bc762b-ae07-4804-ba65-44bfedc59946"
                 },
                 {
                     "number": "TA17",
                     "name": "Cal Ripken",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "cd80f6a3-23b4-4d97-8a5c-6939503ddce8"
                 },
                 {
                     "number": "TA18",
                     "name": "Ivan Rodriguez",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "c76bdea7-0659-482b-8d92-e7fb0efb73ef"
                 },
                 {
                     "number": "TA19",
                     "name": "Rafael Palmeiro",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "7a8d517d-37fd-4f20-a6b6-91b0b484158b"
                 },
                 {
                     "number": "TA20",
                     "name": "Vladimir Guerrero",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "d67b24a6-7652-4632-a3d2-e357dafa38f4"
                 },
                 {
                     "number": "TA21",
                     "name": "Raul Mondesi",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "0d3a0517-fd9d-45f9-826b-6c59496d5fac"
                 },
                 {
                     "number": "TA22",
                     "name": "Scott Rolen",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "3e3f46d2-89f3-4c50-aacb-b203adaf5659"
                 },
                 {
                     "number": "TA23",
                     "name": "Billy Wagner",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "90781a57-74c5-4a76-8cd7-705109f37a06"
                 },
                 {
                     "number": "TA24",
                     "name": "Fernando Tatis",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "7c94a796-c4ab-425f-8829-f740d9619b2d"
                 },
                 {
                     "number": "TA25",
                     "name": "Ruben Mateo",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "5408be11-6cee-41f1-b4ef-254e249c1607"
                 },
                 {
                     "number": "TA26",
                     "name": "Carlos Febles",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "18b34c82-286d-480b-9d82-861c5d8f9d21"
                 },
                 {
                     "number": "TA27",
                     "name": "Mike Sweeney",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "7243828b-b2fa-4c50-8128-1a111bf1ca38"
                 },
                 {
                     "number": "TA28",
                     "name": "Alex Gonzalez",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "d9fc73a5-742c-4536-8adb-dbe6d3f7cc9b"
                 },
                 {
                     "number": "TA29",
                     "name": "Miguel Tejada",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "5477c454-879e-44ee-bc27-5f41fd8868c5"
                 },
                 {
                     "number": "TA30",
                     "name": "Josh Hamilton",
-                    "attributes": [
-                        "AU"
-                    ],
                     "uniqueId": "a91988aa-6d15-4dff-98a2-dceeaf7eb10c"
                 }
             ],
-            "uniqueId": "3b0a5570-8444-416c-b3ac-df75c50973ad"
+            "uniqueId": "3b0a5570-8444-416c-b3ac-df75c50973ad",
+            "attributes": [
+                "AU"
+            ]
         }
     ]
 }

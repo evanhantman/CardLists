@@ -2143,7 +2143,6 @@
                     "number": "1",
                     "name": "Bob Hamelin",
                     "attributes": [
-                        "CL",
                         "UER"
                     ],
                     "note": "Checklist: 1-67",
@@ -2152,45 +2151,30 @@
                 {
                     "number": "2",
                     "name": "David Cone",
-                    "attributes": [
-                        "CL"
-                    ],
                     "note": "Checklist: 68-134",
                     "uniqueId": "d9f1fbfe-3669-4f88-a5f1-409fa8cb6ea5"
                 },
                 {
                     "number": "3",
                     "name": "Frank Thomas",
-                    "attributes": [
-                        "CL"
-                    ],
                     "note": "Checklist: 135-200",
                     "uniqueId": "06a8fe41-3373-42e4-9615-ce216f90e36b"
                 },
                 {
                     "number": "4",
                     "name": "Paul O'Neill",
-                    "attributes": [
-                        "CL"
-                    ],
                     "note": "Checklist: Inserts",
                     "uniqueId": "0d1cad67-d508-41f8-a2e0-9d44f1e058b7"
                 },
                 {
                     "number": "5",
                     "name": "Raul Mondesi",
-                    "attributes": [
-                        "CL"
-                    ],
                     "note": "Checklist: 201-267",
                     "uniqueId": "b3ae3272-d00f-4864-bc50-280e8eed2658"
                 },
                 {
                     "number": "6",
                     "name": "Greg Maddux",
-                    "attributes": [
-                        "CL"
-                    ],
                     "note": "Checklist: 268-334",
                     "uniqueId": "3042b395-2cda-4e01-a4df-00e5213ba71c"
                 },
@@ -2198,7 +2182,6 @@
                     "number": "7",
                     "name": "Tony Gwynn",
                     "attributes": [
-                        "CL",
                         "UER"
                     ],
                     "note": "Checklist: Inserts and 351-400",
@@ -2208,14 +2191,16 @@
                     "number": "8",
                     "name": "Jeff Bagwell",
                     "attributes": [
-                        "CL",
                         "UER"
                     ],
                     "note": "Checklist: 335-350 and Inserts",
                     "uniqueId": "5d444f5f-5621-457b-85f8-458a2c0dae7b"
                 }
             ],
-            "uniqueId": "def81702-bb14-43f0-9cb2-48b18a32386d"
+            "uniqueId": "def81702-bb14-43f0-9cb2-48b18a32386d",
+            "attributes": [
+                "CL"
+            ]
         },
         {
             "name": "Cornerstones",
