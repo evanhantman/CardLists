@@ -8395,10 +8395,26 @@
                 "year": "2025",
                 "releases": [
                     {
+                        "name": "Bowman",
+                        "indexed": false
+                    },
+                    {
+                        "name": "Donruss",
+                        "indexed": false
+                    },
+                    {
                         "name": "Topps",
                         "version": "1.3",
                         "indexed": true,
                         "uniqueId": "c74dd94b-c46e-4eea-bd7b-86618a63f4bc"
+                    },
+                    {
+                        "name": "Topps Chrome Black",
+                        "indexed": false
+                    },
+                    {
+                        "name": "Topps Herritage",
+                        "indexed": false
                     },
                     {
                         "name": "Topps Tribute",
