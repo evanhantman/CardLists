@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import pandas as pd
 import sys
+import uuid  # Add this import to generate new unique IDs
 
 def flatten_card_data(category, year, release, json_data):
     """
@@ -15,6 +16,8 @@ def flatten_card_data(category, year, release, json_data):
     For parallel records, if the parallel object defines a "numberedTo" value or an "insertOdds" array,
     they are applied to the record.
     
+    Parallel cards get their own unique ID and maintain a reference to their parent card.
+    
     A temporary field '_is_variation' is used internally for duplicate checking,
     but will be removed before writing the final output.
     """
@@ -27,6 +30,11 @@ def flatten_card_data(category, year, release, json_data):
         set_parallels = card_set.get("parallels", [])
         for card in card_set.get("cards", []):
             base_card_name = card.get("name", "")
+            # Get or generate base card unique ID
+            base_card_unique_id = card.get("uniqueId", "")
+            if not base_card_unique_id:
+                base_card_unique_id = str(uuid.uuid4())
+                
             # Updated base record with GUID fields.
             base_record = {
                 "category": category,
@@ -36,7 +44,8 @@ def flatten_card_data(category, year, release, json_data):
                 "release_name": source,
                 "set_unique_id": card_set.get("uniqueId", ""),
                 "set": set_name,
-                "card_unique_id": card.get("uniqueId", ""),
+                "card_unique_id": base_card_unique_id,
+                "card_parent_unique_id": "",  # Base cards don't have a parent
                 "card_number": card.get("number", ""),
                 "card_name": base_card_name,
                 "attributes": card_set.get("attributes", []) + card.get("attributes", []),
@@ -51,6 +60,10 @@ def flatten_card_data(category, year, release, json_data):
             all_base_parallels = base_parallels + set_parallels
             for parallel in all_base_parallels:
                 parallel_record = base_record.copy()
+                # Generate a new unique ID for the parallel
+                parallel_record["card_unique_id"] = str(uuid.uuid4())
+                # Link back to the parent card
+                parallel_record["card_parent_unique_id"] = base_card_unique_id
                 parallel_record["parallel"] = parallel.get("name", "")
                 # Apply parallel's numberedTo if provided.
                 if "numberedTo" in parallel:
@@ -64,7 +77,13 @@ def flatten_card_data(category, year, release, json_data):
             # Process variations for the card.
             for variation in card.get("variations", []):
                 variation_name = variation.get("variation", "")
+                # Generate a unique ID for the variation
+                variation_unique_id = str(uuid.uuid4())
+                
                 variation_record = base_record.copy()
+                variation_record["card_unique_id"] = variation_unique_id
+                variation_record["card_parent_unique_id"] = base_card_unique_id
+                
                 # Update card_name: append the variation name in parenthesis.
                 if variation_name:
                     variation_record["card_name"] = f"{base_card_name} ({variation_name})"
@@ -96,6 +115,11 @@ def flatten_card_data(category, year, release, json_data):
                 all_variation_parallels = variation_parallels + set_parallels
                 for v_parallel in all_variation_parallels:
                     v_par_record = variation_record.copy()
+                    # Generate a new unique ID for the variation's parallel
+                    v_par_record["card_unique_id"] = str(uuid.uuid4())
+                    # Link back to the variation as the parent
+                    v_par_record["card_parent_unique_id"] = variation_unique_id
+                    
                     v_par_record["parallel"] = v_parallel.get("name", "")
                     # Apply parallel's numberedTo if provided.
                     if "numberedTo" in v_parallel:
